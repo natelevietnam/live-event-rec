@@ -1,5 +1,7 @@
 # Worth It
 
+**Live: https://natelevietnam.github.io/live-event-rec/**
+
 You give it the artists you would actually go see. It returns a short ranked list of Bay Area shows
 worth your money in the next 90 days — each with a reason — plus a visible list of what it rejected
 and why.
@@ -143,9 +145,23 @@ filtered.
 
 ## Deploy
 
-Vercel, static output, `public/` as the output directory. `vercel.json` is checked in. There is no
-build command on Vercel: `data.json` is generated locally by `npm run build:data` and committed, so
-the deployed site is a pure static artifact and the API key never touches the host.
+**GitHub Pages**, served from the `gh-pages` branch, which holds the contents of `public/`:
+
+```bash
+npm run build:data     # regenerate against live Ticketmaster data
+git commit -am "refresh data"
+npm run deploy         # git subtree push --prefix public origin gh-pages
+```
+
+There is no build step on the host. `data.json` is generated locally and committed, so the deployed
+site is a pure static artifact and **the API key never touches the host**.
+
+**Single file.** `npm run bundle` writes `dist/worth-it.html` — stylesheet, script, and data inlined
+into one self-contained file. Opens by double-click, works offline, needs no host at all. Useful for
+sending to someone directly.
+
+`vercel.json` is also checked in if you'd rather host there; set the project's root directory to
+`worth-it` and the output directory to `public`.
 
 ---
 

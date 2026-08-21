@@ -156,9 +156,17 @@ hero, no emoji, no stock imagery. Dark, committed to.
 
 ## 8. Deploy
 
-Vercel, static output from `public/`. No build command on the host — `data.json` is generated locally
-and committed, so the key never touches Vercel. Confirm the link opens clean in incognito before
-sending.
+**Live: https://natelevietnam.github.io/live-event-rec/**
+
+GitHub Pages, served from the `gh-pages` branch which holds the contents of `public/`. Refresh with
+`npm run build:data`, commit, then `npm run deploy`. No build command on the host — `data.json` is
+generated locally and committed, so the key never touches the host.
+
+Verified in a clean incognito profile against the live URL: renders correctly, and no horizontal
+overflow at 360, 400, 480, or desktop widths.
+
+`npm run bundle` also writes `dist/worth-it.html`, one self-contained file that opens by
+double-click and works offline — a shareable artifact that needs no host or account.
 
 ---
 
@@ -169,7 +177,7 @@ sending.
 | 10:00–10:30 | API key in `.env`, artist list finalized, `npm run verify` passes |
 | 10:30–11:00 | `npm run build:data`, read the real output, sanity-check matches and cut reasons |
 | 11:00–12:00 | Tune: adjacent-artist map, weights if the ranking looks wrong, copy |
-| 12:00–13:00 | Deploy to Vercel, incognito check |
+| 12:00–13:00 | Redeploy (npm run deploy), incognito check |
 | 13:00–14:00 | Buffer |
 | **14:00** | **FREEZE.** |
 | 14:00–15:30 | Press release and roadmap |
@@ -201,7 +209,7 @@ sending.
 - [x] Real `public/data.json` generated — 1000 events read, 6 shortlisted, 994 cut
 - [x] Page verified rendering in headless Chrome
 - [x] Single-file build (`npm run bundle` → `dist/worth-it.html`), verified under `file://`
-- [x] Hosting — GitHub Pages
+- [x] Deployed — https://natelevietnam.github.io/live-event-rec/
 - [ ] Confirm price ceiling (200) and weeknight tolerance (low)
 - [ ] Press release, roadmap write-up, demo video
 

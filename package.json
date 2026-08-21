@@ -8,9 +8,11 @@
     "verify": "node scripts/verify.mjs",
     "build:data": "node scripts/build-data.mjs",
     "serve": "npx --yes serve public",
-    "bundle": "node scripts/bundle.mjs"
+    "bundle": "node scripts/bundle.mjs",
+    "deploy": "git subtree push --prefix public origin gh-pages"
   },
   "engines": {
     "node": ">=20"
-  }
+  },
+  "homepage": "https://natelevietnam.github.io/live-event-rec/"
 }
