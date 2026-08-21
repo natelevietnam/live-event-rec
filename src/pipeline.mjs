@@ -13,13 +13,10 @@ import {
   extractEvent,
   windowParams,
 } from './ticketmaster.mjs';
-import { buildIndex, matchEventWithIndex, looksLikeTribute } from './match.mjs';
-import { normalizeName } from './normalize.mjs';
-import { scoreEvent, WEIGHTS, distanceMiles, MAX_MILES } from './score.mjs';
-import { buildReason, formatShowDate } from './reason.mjs';
+import { rank, TOP_N } from './rank.mjs';
+import { WEIGHTS } from './score.mjs';
 
-export const TOP_N = 6;
-const SKIPPED_STATUSES = new Set(['cancelled', 'postponed']);
+export { TOP_N };
 
 class PipelineError extends Error {}
 
@@ -39,6 +36,8 @@ export async function buildPayload({
   artists,
   similar,
   now = new Date(),
+  genres = [],
+  travel = 'all',
   locality,
   log = () => {},
 }) {
@@ -86,106 +85,21 @@ export async function buildPayload({
 
   // --- match + score ---------------------------------------------------------
 
-  const index = buildIndex(artists, similar);
-  const scored = [];
-  const cut = [];
-  const drop = (event, reason) =>
-    cut.push({
-      id: event.id,
-      artist: event.attractions[0] ?? event.name,
-      date: formatShowDate(event),
-      localDate: event.localDate,
-      reason,
-    });
+  const events = fetched.events.map(extractEvent);
+  const { shows, cut } = rank(events, { artists, similar, genres, travel, prefs, now });
 
-  for (const rawEvent of fetched.events) {
-    const event = extractEvent(rawEvent);
-
-    if (event.statusCode && SKIPPED_STATUSES.has(event.statusCode)) {
-      drop(event, event.statusCode);
-      continue;
+  // Genres the pool actually contains, so the UI offers only options that can
+  // return something. Ordered by how many events carry them.
+  // "Undefined" is a literal Ticketmaster label, not a genre anyone would pick.
+  const genreCounts = new Map();
+  for (const e of events) {
+    if (e.genre && e.genre !== 'Undefined') {
+      genreCounts.set(e.genre, (genreCounts.get(e.genre) ?? 0) + 1);
     }
-
-    const match = matchEventWithIndex(event, index);
-    if (!match) {
-      drop(event, 'no taste match');
-      continue;
-    }
-
-    const miles = distanceMiles(event.venue?.latitude, event.venue?.longitude);
-    if (miles !== null && miles > MAX_MILES) {
-      drop(event, `${event.venue?.city ?? 'venue'} is ${Math.round(miles)} miles out`);
-      continue;
-    }
-
-    if (looksLikeTribute(event)) {
-      drop(event, 'tribute or covers act, not the artist');
-      continue;
-    }
-
-    const { total, raw: rawScore, scoredOutOf, breakdown } = scoreEvent(event, match, prefs, now);
-    scored.push({
-      id: event.id,
-      // The act actually playing, as the API names it. On an adjacent match this is
-      // NOT the seed artist — saying otherwise would put a show on the page under a
-      // name that is not performing.
-      artist: match.matchedOn,
-      seed: match.seed,
-      seeds: match.seeds ?? [match.seed],
-      tier: match.tier,
-      eventName: event.name,
-      url: event.url,
-      date: formatShowDate(event),
-      localDate: event.localDate,
-      localTime: event.localTime,
-      weekday: breakdown.effort.weekday,
-      venue: event.venue?.name ?? null,
-      city: event.venue?.city ?? null,
-      score: total,
-      raw: rawScore,
-      scoredOutOf,
-      reason: buildReason(breakdown),
-      urgent: breakdown.urgency.imminent,
-      breakdown,
-    });
   }
-
-  // One card per artist per run: the same act playing three nights is one decision,
-  // not three. The extra nights are cut with a stated reason rather than dropped.
-  const byScoreThenDate = (a, b) =>
-    b.score - a.score || (a.localDate ?? '').localeCompare(b.localDate ?? '');
-  scored.sort(byScoreThenDate);
-
-  const bestPerArtist = new Map();
-  const duplicates = [];
-  for (const s of scored) {
-    const key = normalizeName(s.artist) || s.artist;
-    if (bestPerArtist.has(key)) duplicates.push(s);
-    else bestPerArtist.set(key, s);
-  }
-  for (const d of duplicates) {
-    cut.push({
-      id: d.id,
-      artist: d.artist,
-      date: d.date,
-      localDate: d.localDate,
-      reason: `later date for ${d.artist}, higher-scoring night already listed`,
-    });
-  }
-
-  const ranked = [...bestPerArtist.values()].sort(byScoreThenDate);
-  const shortlist = ranked.slice(0, TOP_N);
-  for (const s of ranked.slice(TOP_N)) {
-    cut.push({
-      id: s.id,
-      artist: s.artist,
-      date: s.date,
-      localDate: s.localDate,
-      reason: `scored ${s.score}, below the top ${TOP_N}`,
-    });
-  }
-
-  cut.sort((a, b) => (a.localDate ?? '').localeCompare(b.localDate ?? ''));
+  const availableGenres = [...genreCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([name, count]) => ({ name, count }));
 
   return {
     built: true,
@@ -203,8 +117,13 @@ export async function buildPayload({
       eventsReported: fetched.total,
       truncated: fetched.truncated,
     },
-    shows: shortlist,
+    genres: availableGenres,
+    defaults: { artists, genres, travel },
+    shows,
     cut,
+    // The candidate pool, so the browser can re-rank against the same events
+    // the build used when someone changes the inputs.
+    events,
   };
 }
 

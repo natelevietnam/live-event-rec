@@ -1,5 +1,11 @@
-// Renders public/data.json. All judgement already happened at build time —
-// this file only formats numbers and strings that are already in the payload.
+// Renders the verdict, and recomputes it when you change the inputs.
+//
+// The scoring never needed the API key — only the fetching did. So the candidate
+// events ship to the browser and lib/rank.mjs, the same module the build ran in
+// Node, re-ranks locally. Typing an artist rebuilds the list with no server round
+// trip, and still with no model in the request path.
+
+import { rank, TRAVEL } from './lib/rank.mjs';
 
 // Price is not here: the source publishes none for the events this list matches,
 // so it was removed as a scoring component rather than shown as a permanently
@@ -33,6 +39,9 @@ function formatTimestamp(iso) {
 
 function componentNote(key, part) {
   if (key === 'taste') {
+    if (part.tier === 'genre') {
+      return `Tagged ${part.seed}. Scored below a named artist, because a genre is a much weaker claim.`;
+    }
     const confidence = part.exact ? '' : ' Matched inside a longer billing, so scored lower.';
     return part.tier === 'direct'
       ? `Direct match on ${part.matchedOn}.${confidence}`
@@ -109,6 +118,8 @@ function renderCard(show) {
   }
   if (show.tier === 'adjacent') {
     title.append(el('span', 'adjacent-tag', `Adjacent to ${show.seed}`));
+  } else if (show.tier === 'genre') {
+    title.append(el('span', 'adjacent-tag', `${show.seed} — genre match, not an artist you named`));
   }
   head.append(title);
 
@@ -280,6 +291,196 @@ async function setupRefresh(initial) {
   });
 }
 
+// --- live inputs -----------------------------------------------------------
+
+const state = { artists: [], genres: [], travel: 'all' };
+let pool = null; // candidate events, loaded lazily
+let baseline = null; // the payload as built, for Reset and for chrome
+let similar = {};
+
+function readStateFromUrl(defaults) {
+  const q = new URLSearchParams(location.search);
+  const list = (k) =>
+    (q.get(k) ?? '')
+      .split(',')
+      .map((s) => s.trim())
+      .filter(Boolean);
+  const artists = q.has('artists') ? list('artists') : [...defaults.artists];
+  const genres = q.has('genres') ? list('genres') : [...(defaults.genres ?? [])];
+  const travel = q.get('travel') && TRAVEL[q.get('travel')] ? q.get('travel') : defaults.travel ?? 'all';
+  return { artists, genres, travel };
+}
+
+function writeStateToUrl() {
+  const q = new URLSearchParams();
+  // Only record what differs from the build's defaults, so the plain URL stays
+  // clean until someone actually changes something.
+  const same =
+    state.artists.join('|') === baseline.defaults.artists.join('|') &&
+    state.genres.join('|') === (baseline.defaults.genres ?? []).join('|') &&
+    state.travel === (baseline.defaults.travel ?? 'all');
+  if (!same) {
+    q.set('artists', state.artists.join(','));
+    if (state.genres.length) q.set('genres', state.genres.join(','));
+    if (state.travel !== 'all') q.set('travel', state.travel);
+  }
+  const url = q.toString() ? `${location.pathname}?${q}` : location.pathname;
+  history.replaceState(null, '', url);
+}
+
+async function ensurePool() {
+  if (pool) return pool;
+  const inlined = document.getElementById('bundled-events');
+  if (inlined) {
+    pool = JSON.parse(inlined.textContent);
+    return pool;
+  }
+  const res = await fetch('./events.json', { cache: 'no-store' });
+  if (!res.ok) throw new Error(`events.json ${res.status}`);
+  pool = await res.json();
+  return pool;
+}
+
+function rerank() {
+  const { shows, cut, notPlaying } = rank(pool, {
+    artists: state.artists,
+    similar,
+    genres: state.genres,
+    travel: state.travel,
+    prefs: { horizonDays: baseline.horizonDays },
+    now: new Date(),
+  });
+  render({ ...baseline, shows, cut });
+
+  const note = document.getElementById('notPlaying');
+  if (notPlaying.length === 0) {
+    note.hidden = true;
+  } else {
+    note.hidden = false;
+    const shown = notPlaying.slice(0, 6).join(', ');
+    const more = notPlaying.length > 6 ? ` and ${notPlaying.length - 6} more` : '';
+    note.textContent = `No Bay Area dates in this window: ${shown}${more}.`;
+  }
+
+  writeStateToUrl();
+}
+
+function renderChips() {
+  const box = document.getElementById('artistChips');
+  box.replaceChildren();
+  if (state.artists.length === 0) {
+    box.append(el('span', 'chips-empty', 'No artists — genre alone will rank the list.'));
+  }
+  for (const name of state.artists) {
+    const chip = el('span', 'chip', name);
+    const x = el('button', 'chip-x', '×');
+    x.type = 'button';
+    x.setAttribute('aria-label', `Remove ${name}`);
+    x.addEventListener('click', () => {
+      state.artists = state.artists.filter((a) => a !== name);
+      renderChips();
+      rerank();
+    });
+    chip.append(x);
+    box.append(chip);
+  }
+  document.getElementById('artistCount')?.remove();
+}
+
+function addArtist(raw) {
+  const name = raw.trim();
+  if (!name) return;
+  const seen = new Set(state.artists.map((a) => a.toLowerCase()));
+  if (seen.has(name.toLowerCase())) return;
+  state.artists = [...state.artists, name];
+  renderChips();
+  rerank();
+}
+
+function setupControls() {
+  const controls = document.getElementById('controls');
+  controls.hidden = false;
+
+  // Artists
+  renderChips();
+  const input = document.getElementById('artistInput');
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ',') {
+      e.preventDefault();
+      addArtist(input.value);
+      input.value = '';
+    }
+  });
+  input.addEventListener('blur', () => {
+    if (input.value.trim()) {
+      addArtist(input.value);
+      input.value = '';
+    }
+  });
+
+  // Suggestions come from the acts actually on sale in the window, so a typo
+  // does not silently return nothing.
+  const dl = document.getElementById('artistSuggestions');
+  const names = new Set();
+  for (const e of pool) for (const a of e.attractions ?? []) names.add(a);
+  for (const n of [...names].sort().slice(0, 900)) {
+    const o = document.createElement('option');
+    o.value = n;
+    dl.append(o);
+  }
+
+  document.getElementById('clearArtists').addEventListener('click', () => {
+    state.artists = [];
+    renderChips();
+    rerank();
+  });
+
+  // Genres
+  const grid = document.getElementById('genreGrid');
+  for (const { name, count } of baseline.genres ?? []) {
+    const id = `genre-${name.replace(/\W+/g, '-')}`;
+    const wrap = el('label', 'genre-pill');
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.id = id;
+    cb.checked = state.genres.includes(name);
+    cb.addEventListener('change', () => {
+      state.genres = cb.checked
+        ? [...state.genres, name]
+        : state.genres.filter((g) => g !== name);
+      rerank();
+    });
+    wrap.append(cb, el('span', null, name), el('span', 'genre-count', String(count)));
+    grid.append(wrap);
+  }
+
+  // Travel
+  const sel = document.getElementById('travelSelect');
+  for (const [key, { label }] of Object.entries(TRAVEL)) {
+    const o = document.createElement('option');
+    o.value = key;
+    o.textContent = label;
+    o.selected = key === state.travel;
+    sel.append(o);
+  }
+  sel.addEventListener('change', () => {
+    state.travel = sel.value;
+    rerank();
+  });
+
+  document.getElementById('resetAll').addEventListener('click', () => {
+    state.artists = [...baseline.defaults.artists];
+    state.genres = [...(baseline.defaults.genres ?? [])];
+    state.travel = baseline.defaults.travel ?? 'all';
+    renderChips();
+    grid.querySelectorAll('input[type=checkbox]').forEach((cb) => {
+      cb.checked = state.genres.includes(cb.nextSibling.textContent);
+    });
+    sel.value = state.travel;
+    rerank();
+  });
+}
+
 async function main() {
   const headline = document.getElementById('headline');
   let data;
@@ -312,7 +513,31 @@ async function main() {
   }
 
   render(data);
+  baseline = data;
   if (!isBundled) await setupRefresh(data);
+
+  // Interactivity is additive: the verdict above is already on screen and stays
+  // correct if any of this fails.
+  try {
+    similar = await loadSimilar();
+    await ensurePool();
+    Object.assign(state, readStateFromUrl(data.defaults ?? { artists: [], genres: [], travel: 'all' }));
+    setupControls();
+    // Always recompute, even on the default inputs. It populates the "not
+    // playing" note, and it is a standing check that the browser and the build
+    // agree: if this produced a different list from the one already painted,
+    // the two would visibly disagree on load.
+    rerank();
+  } catch (err) {
+    console.warn('Live inputs unavailable:', err);
+  }
+}
+
+async function loadSimilar() {
+  const inlined = document.getElementById('bundled-similar');
+  if (inlined) return JSON.parse(inlined.textContent);
+  const res = await fetch('./similar-artists.json', { cache: 'no-store' });
+  return res.ok ? res.json() : {};
 }
 
 main();

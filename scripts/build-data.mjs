@@ -2,10 +2,9 @@
 // The pipeline itself lives in src/pipeline.mjs so the dev server's refresh
 // endpoint runs the identical logic.
 
-import { writeFileSync } from 'node:fs';
-import { join } from 'node:path';
-import { ROOT, requireApiKey, readJson } from './env.mjs';
+import { requireApiKey, readJson } from './env.mjs';
 import { buildPayload } from '../src/pipeline.mjs';
+import { writePayload } from './emit.mjs';
 
 const apiKey = requireApiKey();
 
@@ -24,11 +23,10 @@ try {
   process.exit(1);
 }
 
-const target = join(ROOT, 'public/data.json');
-writeFileSync(target, `${JSON.stringify(out, null, 2)}\n`);
+const written = writePayload(out);
 
 console.log(
-  `\n${out.shows.length} shows shortlisted, ${out.cut.length} cut. Wrote ${target.replace(ROOT, '.')}`,
+  `\n${written.shows} shows shortlisted, ${written.cut} cut. Wrote public/data.json, public/events.json (${written.events} candidates) and public/lib/.`,
 );
 if (out.source.truncated) {
   console.log(

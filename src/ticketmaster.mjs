@@ -137,5 +137,6 @@ export function extractEvent(ev) {
     attractions: (ev?._embedded?.attractions ?? [])
       .map((a) => a?.name)
       .filter((n) => typeof n === 'string' && n.length > 0),
+    genre: ev?.classifications?.[0]?.genre?.name ?? null,
   };
 }

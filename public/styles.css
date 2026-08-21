@@ -114,6 +114,192 @@ body {
   max-width: 34rem;
 }
 
+/* Controls ---------------------------------------------------------------- */
+
+.controls {
+  margin: 0 0 2.75rem;
+  padding: 1.4rem 1.5rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.controls-head h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.controls-head p {
+  margin: 0 0 1.3rem;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: var(--text-dim);
+  max-width: 40rem;
+}
+
+.field {
+  margin-bottom: 1.25rem;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field > label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.field-row > label {
+  margin-bottom: 0;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+  max-height: 8.5rem;
+  overflow-y: auto;
+}
+
+.chips-empty {
+  font-size: 0.83rem;
+  color: var(--text-faint);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.3rem 0.2rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface-raised);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.chip-x {
+  border: 0;
+  background: transparent;
+  color: var(--text-faint);
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0 0.2rem;
+  cursor: pointer;
+}
+
+.chip-x:hover,
+.chip-x:focus-visible {
+  color: var(--accent);
+}
+
+.chip-entry {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.chip-entry input[type='text'],
+select {
+  padding: 0.42rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.87rem;
+}
+
+.chip-entry input[type='text'] {
+  flex: 1 1 16rem;
+  min-width: 0;
+}
+
+.chip-entry input:focus-visible,
+select:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.link-btn {
+  border: 0;
+  background: transparent;
+  color: var(--text-faint);
+  font: inherit;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.link-btn:hover,
+.link-btn:focus-visible {
+  color: var(--accent);
+}
+
+.field-note {
+  margin: 0.6rem 0 0;
+  font-size: 0.79rem;
+  line-height: 1.5;
+  color: var(--text-faint);
+}
+
+.genre-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.genre-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.28rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.genre-pill:hover {
+  border-color: var(--text-faint);
+}
+
+.genre-pill:has(input:checked) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.genre-pill input {
+  accent-color: var(--accent);
+  margin: 0;
+}
+
+.genre-count {
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.72rem;
+}
+
 /* Show cards -------------------------------------------------------------- */
 
 .show-list {

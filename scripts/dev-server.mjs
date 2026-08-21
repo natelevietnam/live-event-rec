@@ -7,10 +7,11 @@
 // must never hold the key — see the note in public/app.js and the README.
 
 import { createServer } from 'node:http';
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { join, extname, normalize } from 'node:path';
 import { ROOT, requireApiKey, readJson } from './env.mjs';
 import { buildPayload } from '../src/pipeline.mjs';
+import { writePayload } from './emit.mjs';
 
 const PORT = Number(process.env.PORT ?? 4173);
 const PUBLIC = join(ROOT, 'public');
@@ -36,10 +37,11 @@ async function refresh() {
     similar: readJson('config/similar-artists.json'),
     log: (m) => console.log(`  ${m}`),
   });
-  await writeFile(join(PUBLIC, 'data.json'), `${JSON.stringify(out, null, 2)}\n`);
+  const written = writePayload(out);
   console.log(
-    `  refreshed in ${((Date.now() - started) / 1000).toFixed(1)}s — ${out.shows.length} shows, ${out.cut.length} cut`,
+    `  refreshed in ${((Date.now() - started) / 1000).toFixed(1)}s — ${written.shows} shows, ${written.cut} cut, ${written.events} candidates`,
   );
+  // The browser re-ranks locally, so it needs the pool back with the verdict.
   return out;
 }
 
