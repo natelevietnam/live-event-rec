@@ -24,6 +24,45 @@
         <p class="refresh-note" id="refreshNote" hidden></p>
       </header>
 
+      <section class="controls" id="controls" aria-labelledby="controls-heading" hidden>
+        <div class="controls-head">
+          <h2 id="controls-heading">Try your own</h2>
+          <p>
+            This is loaded with someone else's taste. Change it and the ranking rebuilds
+            instantly — the scoring runs here in your browser, not on a server.
+          </p>
+        </div>
+
+        <div class="field">
+          <label for="artistInput">Artists you would actually go see</label>
+          <div class="chips" id="artistChips"></div>
+          <div class="chip-entry">
+            <input
+              type="text"
+              id="artistInput"
+              list="artistSuggestions"
+              placeholder="Type a name and press Enter"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <datalist id="artistSuggestions"></datalist>
+            <button type="button" id="clearArtists" class="link-btn">Clear all</button>
+          </div>
+          <p class="field-note" id="notPlaying" hidden></p>
+        </div>
+
+        <div class="field">
+          <label id="genreLabel">Or pick a genre</label>
+          <div class="genre-grid" id="genreGrid" role="group" aria-labelledby="genreLabel"></div>
+        </div>
+
+        <div class="field field-row">
+          <label for="travelSelect">How far will you go?</label>
+          <select id="travelSelect"></select>
+          <button type="button" id="resetAll" class="link-btn">Reset</button>
+        </div>
+      </section>
+
       <section class="shows" aria-labelledby="shows-heading">
         <h2 id="shows-heading" class="visually-hidden">The list</h2>
         <ol id="showList" class="show-list"></ol>

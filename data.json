@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-21T13:46:06.512Z",
+  "generatedAt": "2026-08-21T20:10:22.505Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -8,7 +8,8 @@
       "direct": 45,
       "directLoose": 40,
       "adjacent": 20,
-      "adjacentLoose": 17
+      "adjacentLoose": 17,
+      "genre": 12
     },
     "urgency": {
       "max": 20,
@@ -35,12 +36,157 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T13:46:06Z",
-      "endDateTime": "2026-11-19T13:46:06Z"
+      "startDateTime": "2026-08-21T20:10:22Z",
+      "endDateTime": "2026-11-19T20:10:22Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1015,
+    "eventsReported": 1016,
     "truncated": true
+  },
+  "genres": [
+    {
+      "name": "Rock",
+      "count": 231
+    },
+    {
+      "name": "Other",
+      "count": 188
+    },
+    {
+      "name": "Alternative",
+      "count": 110
+    },
+    {
+      "name": "Pop",
+      "count": 108
+    },
+    {
+      "name": "Hip-Hop/Rap",
+      "count": 70
+    },
+    {
+      "name": "R&B",
+      "count": 59
+    },
+    {
+      "name": "Dance/Electronic",
+      "count": 39
+    },
+    {
+      "name": "Country",
+      "count": 35
+    },
+    {
+      "name": "Latin",
+      "count": 29
+    },
+    {
+      "name": "Metal",
+      "count": 25
+    },
+    {
+      "name": "Blues",
+      "count": 21
+    },
+    {
+      "name": "Folk",
+      "count": 20
+    },
+    {
+      "name": "World",
+      "count": 19
+    },
+    {
+      "name": "Jazz",
+      "count": 13
+    },
+    {
+      "name": "Classical",
+      "count": 4
+    },
+    {
+      "name": "Reggae",
+      "count": 4
+    },
+    {
+      "name": "Religious",
+      "count": 2
+    },
+    {
+      "name": "Theatre",
+      "count": 2
+    },
+    {
+      "name": "Music",
+      "count": 1
+    },
+    {
+      "name": "New Age",
+      "count": 1
+    }
+  ],
+  "defaults": {
+    "artists": [
+      "Chris Brown",
+      "YOASOBI",
+      "Pop Smoke",
+      "Ella Mai",
+      "Pitbull",
+      "Waka Flocka Flame",
+      "MEOVV",
+      "XG",
+      "J. Cole",
+      "Kendrick Lamar",
+      "BLACKPINK",
+      "Usher",
+      "Ne-Yo",
+      "Akon",
+      "Nelly",
+      "Soulja Boy",
+      "Migos",
+      "Future",
+      "The Weeknd",
+      "T-Pain",
+      "Drake",
+      "JAY-Z",
+      "Rihanna",
+      "Beyoncé",
+      "T.I.",
+      "SZA",
+      "Red Velvet",
+      "Alicia Keys",
+      "Don Toliver",
+      "Linkin Park",
+      "Snoop Dogg",
+      "Kanye West",
+      "Doechii",
+      "Doja Cat",
+      "NewJeans",
+      "Tyla",
+      "J. Tajor",
+      "MIN",
+      "Jay Sean",
+      "Sean Kingston",
+      "Lloyd",
+      "KISS OF LIFE",
+      "Fetty Wap",
+      "Metro Boomin",
+      "TLC",
+      "Michael Jackson",
+      "Tori Kelly",
+      "JID",
+      "Big Sean",
+      "Cordae",
+      "Tinashe",
+      "Gunna",
+      "Lil Uzi Vert",
+      "Khalid",
+      "Busta Rhymes",
+      "Jeremih",
+      "Wale"
+    ],
+    "genres": [],
+    "travel": "all"
   },
   "shows": [
     {
@@ -53,6 +199,7 @@
       "tier": "direct",
       "eventName": "J. Cole: The Fall-Off Tour",
       "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-oakland-california-08-29-2026/event/1C00644AAE23B39E",
+      "genre": "Hip-Hop/Rap",
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
       "localTime": "20:00:00",
@@ -62,7 +209,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 9 days out. Oakland venue, Saturday.",
+      "reason": "Direct match. 8 days out. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -85,7 +232,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": "VIP Packages",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 9,
+          "daysUntilShow": 8,
           "imminent": true
         },
         "effort": {
@@ -109,6 +256,7 @@
       "tier": "direct",
       "eventName": "MOUNT WESTMORE - SNOOP DOGG - ICE CUBE - E-40 - TOO SHORT - & More!",
       "url": "https://www.ticketmaster.com/mount-westmore-snoop-dogg-ice-cube-san-jose-california-08-21-2026/event/1C0064D22131F8C2",
+      "genre": "Hip-Hop/Rap",
       "date": "Fri Aug 21",
       "localDate": "2026-08-21",
       "localTime": "20:00:00",
@@ -118,7 +266,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. Tomorrow. San Jose venue, Friday.",
+      "reason": "Direct match. Tonight. San Jose venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -141,7 +289,7 @@
           "at": "2026-06-26T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -166,6 +314,7 @@
       "tier": "direct",
       "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
       "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-08-28-2026/event/1C006481EF81D3AD",
+      "genre": "R&B",
       "date": "Fri Aug 28",
       "localDate": "2026-08-28",
       "localTime": "19:00:00",
@@ -175,7 +324,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. 7 days out. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -199,7 +348,7 @@
           "at": "2026-04-27T19:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 8,
+          "daysUntilShow": 7,
           "imminent": true
         },
         "effort": {
@@ -223,6 +372,7 @@
       "tier": "direct",
       "eventName": "TYLA - THE A*POP WORLD TOUR",
       "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
+      "genre": "Pop",
       "date": "Fri Nov 13",
       "localDate": "2026-11-13",
       "localTime": "20:00:00",
@@ -255,7 +405,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 85,
+          "daysUntilShow": 84,
           "imminent": false
         },
         "effort": {
@@ -279,6 +429,7 @@
       "tier": "direct",
       "eventName": "Doja Cat - Tour Ma Vie World Tour",
       "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
+      "genre": "Hip-Hop/Rap",
       "date": "Mon Oct 19",
       "localDate": "2026-10-19",
       "localTime": "19:30:00",
@@ -311,7 +462,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 60,
+          "daysUntilShow": 59,
           "imminent": false
         },
         "effort": {
@@ -335,6 +486,7 @@
       "tier": "direct",
       "eventName": "TLC & Salt-N-Pepa with En Vogue - IT'S ICONIC",
       "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-concord-california-10-11-2026/event/1C006470BA63BF58",
+      "genre": "Hip-Hop/Rap",
       "date": "Sun Oct 11",
       "localDate": "2026-10-11",
       "localTime": "19:30:00",
@@ -367,7 +519,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 52,
+          "daysUntilShow": 51,
           "imminent": false
         },
         "effort": {
@@ -1420,6 +1572,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4vFbK",
+      "artist": "Connor Morrison, Honey Disposition, Ben Thuesen, Libba",
+      "date": "Fri Sep 4",
+      "localDate": "2026-09-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70o-J",
       "artist": "Nitzer Ebb",
       "date": "Fri Sep 4",
@@ -2087,6 +2246,13 @@
     {
       "id": "rZ7HnEZ1AfPwQK",
       "artist": "BL3SS - 360 Set - North American Tour 2026",
+      "date": "Sat Sep 12",
+      "localDate": "2026-09-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z-ON",
+      "artist": "Konstancy, Sammy Shiblaq, Hakvm, Katana",
       "date": "Sat Sep 12",
       "localDate": "2026-09-12",
       "reason": "no taste match"
@@ -5480,13 +5646,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_GmcEYwW",
-      "artist": "Hazlett",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_aKhZ-q-",
       "artist": "Geese",
       "date": "Tue Oct 20",
@@ -6464,7 +6623,7 @@
       "artist": "Denzel Curry",
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
-      "reason": "scored 56, below the top 6"
+      "reason": "scored 38, below the top 6"
     },
     {
       "id": "Z7r9jZ1A70OaE",
@@ -7333,13 +7492,7 @@
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
       "reason": "scored 52, below the top 6"
-    },
-    {
-      "id": "G5vYZ_2H97zto",
-      "artist": "Jorja Smith",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "scored 45, below the top 6"
     }
-  ]
+  ],
+  "eventCount": 1000
 }
