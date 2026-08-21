@@ -15,9 +15,13 @@
       <header class="masthead">
         <p class="wordmark">Worth It</p>
         <h1 id="headline">Loading…</h1>
-        <p class="refreshed">
-          Last refreshed <time id="generatedAt">—</time>
-        </p>
+        <div class="refresh-row">
+          <p class="refreshed">
+            Last refreshed <time id="generatedAt">—</time>
+          </p>
+          <button type="button" id="refreshBtn" class="refresh-btn" hidden>Refresh</button>
+        </div>
+        <p class="refresh-note" id="refreshNote" hidden></p>
       </header>
 
       <section class="shows" aria-labelledby="shows-heading">
