@@ -1,0 +1,15 @@
+{
+  "name": "worth-it",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A verdict on which Bay Area shows are worth your money in the next 90 days.",
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "serve": "npx --yes serve public"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

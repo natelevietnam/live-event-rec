@@ -1,0 +1,360 @@
+:root {
+  --bg: #0d0e10;
+  --surface: #16181c;
+  --surface-raised: #1c1f24;
+  --line: #2a2e35;
+  --text: #f2f3f5;
+  --text-dim: #9aa1ac;
+  --text-faint: #6b727d;
+  --accent: #ff5a3c;
+  --radius: 10px;
+  --measure: 46rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 4rem 1.25rem 6rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Masthead ---------------------------------------------------------------- */
+
+.masthead {
+  margin-bottom: 3.5rem;
+}
+
+.wordmark {
+  margin: 0 0 1.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.masthead h1 {
+  margin: 0 0 0.85rem;
+  font-size: clamp(1.9rem, 5.2vw, 2.7rem);
+  line-height: 1.15;
+  letter-spacing: -0.021em;
+  font-weight: 600;
+}
+
+.refreshed {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-faint);
+}
+
+/* Show cards -------------------------------------------------------------- */
+
+.show-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.4rem 1.5rem;
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.card-artist {
+  margin: 0;
+  font-size: 1.28rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+.card-artist a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.card-artist a:hover,
+.card-artist a:focus-visible {
+  border-bottom-color: var(--accent);
+}
+
+.adjacent-tag {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-faint);
+}
+
+.score {
+  flex: none;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.28rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  line-height: 1.35;
+}
+
+.score span {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-faint);
+}
+
+.card-meta {
+  margin: 0.55rem 0 0;
+  font-size: 0.92rem;
+  color: var(--text-dim);
+}
+
+.card-meta .sep {
+  color: var(--text-faint);
+  padding: 0 0.45rem;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 0.9rem;
+  padding: 0.16rem 0.5rem;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.card-reason {
+  margin: 0.95rem 0 0;
+  font-size: 0.98rem;
+  color: var(--text);
+}
+
+/* Breakdown --------------------------------------------------------------- */
+
+.breakdown {
+  margin-top: 1rem;
+  border-top: 1px solid var(--line);
+  padding-top: 0.8rem;
+}
+
+.breakdown summary {
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: var(--text-faint);
+  list-style: none;
+}
+
+.breakdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.breakdown summary::before {
+  content: "+ ";
+  color: var(--accent);
+}
+
+.breakdown[open] summary::before {
+  content: "− ";
+}
+
+.breakdown summary:hover {
+  color: var(--text-dim);
+}
+
+.bars {
+  margin: 0.9rem 0 0;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr 3.2rem;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.bar-track {
+  height: 5px;
+  border-radius: 3px;
+  background: var(--surface-raised);
+  overflow: hidden;
+}
+
+.bar-fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+.bar-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-faint);
+}
+
+.bar-note {
+  grid-column: 1 / -1;
+  margin: -0.15rem 0 0;
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
+/* Cut list ---------------------------------------------------------------- */
+
+.cut {
+  margin-top: 3rem;
+}
+
+.cut summary {
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  list-style: none;
+}
+
+.cut summary::-webkit-details-marker {
+  display: none;
+}
+
+.cut summary::before {
+  content: "+";
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.cut details[open] summary::before,
+.cut[data-open="true"] summary::before {
+  content: "−";
+}
+
+.cut-count {
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+.cut-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 0;
+  max-height: 26rem;
+  overflow-y: auto;
+}
+
+.cut-list li {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.4rem 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.86rem;
+  color: var(--text-dim);
+}
+
+.cut-list li:last-child {
+  border-bottom: 0;
+}
+
+.cut-artist {
+  color: var(--text);
+}
+
+.cut-date {
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.cut-reason {
+  grid-column: 1 / -1;
+  color: var(--text-faint);
+}
+
+.empty {
+  color: var(--text-dim);
+}
+
+/* Footer ------------------------------------------------------------------ */
+
+.colophon {
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.83rem;
+  line-height: 1.6;
+  color: var(--text-faint);
+}
+
+.colophon p {
+  margin: 0 0 0.7rem;
+  max-width: 38rem;
+}
+
+.colophon p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 30rem) {
+  .page {
+    padding-top: 2.75rem;
+  }
+
+  .card {
+    padding: 1.2rem 1.15rem;
+  }
+
+  .bar-row {
+    grid-template-columns: 4.6rem 1fr 3rem;
+  }
+}

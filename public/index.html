@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Worth It — Bay Area shows worth your money</title>
+    <meta
+      name="description"
+      content="A ranked verdict on which Bay Area shows are worth your money in the next 90 days, with the rejected ones shown."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <p class="wordmark">Worth It</p>
+        <h1 id="headline">Loading…</h1>
+        <p class="refreshed">
+          Last refreshed <time id="generatedAt">—</time>
+        </p>
+      </header>
+
+      <section class="shows" aria-labelledby="shows-heading">
+        <h2 id="shows-heading" class="visually-hidden">The list</h2>
+        <ol id="showList" class="show-list"></ol>
+        <p id="emptyState" class="empty" hidden>
+          Nothing cleared the bar in this window. The cut list below shows what was considered.
+        </p>
+      </section>
+
+      <section class="cut" aria-labelledby="cut-heading">
+        <details id="cutDetails">
+          <summary id="cut-heading">
+            <span>Filtered out</span>
+            <span class="cut-count" id="cutCount"></span>
+          </summary>
+          <ul id="cutList" class="cut-list"></ul>
+        </details>
+      </section>
+
+      <footer class="colophon">
+        <p id="sourceLine">Source: Ticketmaster Discovery API v2.</p>
+        <p>
+          Coverage gap, stated plainly: big rooms are covered. Indie venues that sell on DICE and
+          Eventbrite are not, so this is not yet a complete picture of going out in SF.
+        </p>
+        <p>
+          Every reason on this page is assembled from the scoring inputs. No language model runs at
+          request time, so a reason cannot be invented.
+        </p>
+      </footer>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

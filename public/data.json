@@ -1,0 +1,15 @@
+{
+  "built": false,
+  "generatedAt": null,
+  "horizonDays": 90,
+  "priceCeiling": 200,
+  "source": {
+    "name": "Ticketmaster Discovery API v2",
+    "locality": null,
+    "eventsConsidered": 0,
+    "eventsReported": 0,
+    "truncated": false
+  },
+  "shows": [],
+  "cut": []
+}
