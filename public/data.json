@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-08-21T13:18:24.864Z",
+  "built": true,
+  "generatedAt": "2026-08-21T13:26:48.441Z",
   "horizonDays": 90,
   "priceCeiling": 300,
   "weights": {
@@ -42,8 +43,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T13:18:24Z",
-      "endDateTime": "2026-11-19T13:18:24Z"
+      "startDateTime": "2026-08-21T13:26:48Z",
+      "endDateTime": "2026-11-19T13:26:48Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1015,

@@ -69,10 +69,49 @@ body {
   font-weight: 600;
 }
 
+.refresh-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .refreshed {
   margin: 0;
   font-size: 0.85rem;
   color: var(--text-faint);
+}
+
+.refresh-btn {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: transparent;
+  color: var(--text-dim);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.refresh-btn:hover:not(:disabled),
+.refresh-btn:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.refresh-btn:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+.refresh-note {
+  margin: 0.5rem 0 0;
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--text-faint);
+  max-width: 34rem;
 }
 
 /* Show cards -------------------------------------------------------------- */

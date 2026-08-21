@@ -192,19 +192,113 @@ function renderSource(source, horizonDays) {
   return bits.join(' ');
 }
 
+// --- rendering the whole payload ------------------------------------------
+
+function render(data) {
+  const headline = document.getElementById('headline');
+  const n = data.shows.length;
+  headline.textContent =
+    n === 0
+      ? `Nothing worth your time in the next ${data.horizonDays} days.`
+      : `${n} show${n === 1 ? '' : 's'} worth your time in the next ${data.horizonDays} days.`;
+
+  const stamp = document.getElementById('generatedAt');
+  stamp.textContent = formatTimestamp(data.generatedAt);
+  stamp.setAttribute('datetime', data.generatedAt);
+
+  const list = document.getElementById('showList');
+  list.replaceChildren();
+  const empty = document.getElementById('emptyState');
+  empty.hidden = n !== 0;
+  for (const show of data.shows) list.append(renderCard(show));
+
+  const cutList = document.getElementById('cutList');
+  cutList.replaceChildren();
+  for (const row of data.cut) cutList.append(renderCutRow(row));
+  document.getElementById('cutCount').textContent = `(${data.cut.length})`;
+
+  document.getElementById('sourceLine').textContent = renderSource(data.source, data.horizonDays);
+}
+
+async function fetchData(bustCache) {
+  const url = bustCache ? `./data.json?t=${Date.now()}` : './data.json';
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) throw new Error(String(res.status));
+  return res.json();
+}
+
+// --- refresh ---------------------------------------------------------------
+//
+// Two modes, because the API key must never reach the browser.
+//
+// Running locally under `npm run dev`, the server holds the key and exposes
+// POST /api/refresh, which re-queries Ticketmaster and re-ranks for real.
+//
+// On the deployed static page there is no server and therefore no key, so the
+// button re-fetches data.json instead. That file is rebuilt by a scheduled
+// GitHub Action which does hold the key. The button says which one it is doing
+// rather than implying a live query it cannot perform.
+
+async function setupRefresh(initial) {
+  const btn = document.getElementById('refreshBtn');
+  const note = document.getElementById('refreshNote');
+
+  let live = false;
+  try {
+    const res = await fetch('./api/capabilities', { cache: 'no-store' });
+    live = res.ok && (await res.json()).liveRefresh === true;
+  } catch {
+    live = false;
+  }
+
+  btn.hidden = false;
+  note.hidden = false;
+  note.textContent = live
+    ? 'Refresh queries Ticketmaster live and re-ranks.'
+    : 'Refresh re-reads the published listing. The data itself is rebuilt on a schedule, because a static page holds no API key.';
+
+  let lastStamp = initial.generatedAt;
+
+  btn.addEventListener('click', async () => {
+    btn.disabled = true;
+    btn.textContent = live ? 'Querying Ticketmaster…' : 'Refreshing…';
+    try {
+      const data = live
+        ? await fetch('./api/refresh', { method: 'POST' }).then(async (r) => {
+            if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error ?? `HTTP ${r.status}`);
+            return r.json();
+          })
+        : await fetchData(true);
+
+      render(data);
+      const changed = data.generatedAt !== lastStamp;
+      lastStamp = data.generatedAt;
+      btn.textContent = changed ? 'Updated' : 'No change yet';
+    } catch (err) {
+      btn.textContent = 'Refresh failed';
+      note.textContent = `Refresh failed: ${err.message}`;
+    } finally {
+      btn.disabled = false;
+      setTimeout(() => {
+        btn.textContent = 'Refresh';
+      }, 2500);
+    }
+  });
+}
+
 async function main() {
   const headline = document.getElementById('headline');
   let data;
   // The single-file build inlines the payload, because fetch() is blocked under
-  // file:// and that build exists precisely to be opened by double-click.
+  // file:// and that build exists precisely to be opened by double-click. That
+  // build is a frozen snapshot, so it gets no refresh button.
   const inlined = document.getElementById('bundled-data');
-  if (inlined) {
+  const isBundled = Boolean(inlined);
+  if (isBundled) {
     data = JSON.parse(inlined.textContent);
   } else {
     try {
-      const res = await fetch('./data.json', { cache: 'no-store' });
-      if (!res.ok) throw new Error(String(res.status));
-      data = await res.json();
+      data = await fetchData(false);
     } catch {
       headline.textContent = 'Could not load the results.';
       return;
@@ -223,28 +317,8 @@ async function main() {
     return;
   }
 
-  const n = data.shows.length;
-  headline.textContent =
-    n === 0
-      ? `Nothing worth your time in the next ${data.horizonDays} days.`
-      : `${n} show${n === 1 ? '' : 's'} worth your time in the next ${data.horizonDays} days.`;
-
-  const stamp = document.getElementById('generatedAt');
-  stamp.textContent = formatTimestamp(data.generatedAt);
-  stamp.setAttribute('datetime', data.generatedAt);
-
-  const list = document.getElementById('showList');
-  if (n === 0) {
-    document.getElementById('emptyState').hidden = false;
-  } else {
-    for (const show of data.shows) list.append(renderCard(show));
-  }
-
-  const cutList = document.getElementById('cutList');
-  for (const row of data.cut) cutList.append(renderCutRow(row));
-  document.getElementById('cutCount').textContent = `(${data.cut.length})`;
-
-  document.getElementById('sourceLine').textContent = renderSource(data.source, data.horizonDays);
+  render(data);
+  if (!isBundled) await setupRefresh(data);
 }
 
 main();
