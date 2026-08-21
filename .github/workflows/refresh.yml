@@ -45,19 +45,30 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # generatedAt always differs, so compare everything else. A no-op run
-          # should not produce a commit or a redeploy.
-          if git diff --quiet -- public/data.json; then
+
+          # Compare what a reader actually sees — the shortlist and the cut list.
+          # A textual diff is useless here: generatedAt and source.window both move
+          # on every single run, so it would commit and redeploy twice a day forever
+          # even when nothing about the ranking changed.
+          if node -e '
+            const { execSync } = require("child_process");
+            const fs = require("fs");
+            const visible = (o) => JSON.stringify({ shows: o.shows, cut: o.cut });
+            const now = visible(JSON.parse(fs.readFileSync("public/data.json", "utf8")));
+            let before;
+            try {
+              before = visible(JSON.parse(execSync("git show HEAD:public/data.json").toString()));
+            } catch {
+              process.exit(1); // no previous version — treat as changed
+            }
+            process.exit(now === before ? 0 : 1);
+          '; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No change."
-            exit 0
-          fi
-          if [ -z "$(git diff -- public/data.json | grep -E '^[+-]' | grep -vE '^[+-]{3}' | grep -v generatedAt)" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "Only the timestamp moved. Skipping."
+            echo "Shortlist and cut list are identical. Nothing to publish."
             git checkout -- public/data.json
             exit 0
           fi
+
           git add public/data.json
           git commit -m "Refresh listings ($(date -u +%Y-%m-%dT%H:%MZ))"
           git push
