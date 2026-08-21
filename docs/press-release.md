@@ -36,6 +36,11 @@ Every one of those 994 is listed, with why. These are real rows from the current
 **Showing the cut is the product.** A ranking you cannot audit is just a feed with confidence. If
 the tool drops a show you wanted, you can see the reason and disagree with it.
 
+**And it is yours to change.** Type your own artists, pick a genre, set how far you will travel, and
+the list rebuilds instantly — in the browser, with no server round trip, because scoring never needed
+the API key. Two people get two different answers from the same 1,000 events, and a configured list
+is shareable as a URL.
+
 Each show is scored 0–100 across three components — taste, urgency, effort — and the breakdown is one
 click away, rendered from the same numbers the ranking used. The reason sentence is assembled from
 the components that actually fired:

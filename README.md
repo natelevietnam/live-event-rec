@@ -143,6 +143,37 @@ not fire contributes no clause, and only the urgency axis that actually set the 
 "On sale now" earns no clause. It was true of every event in the window, so it says nothing about
 whether to go.
 
+### Changing the inputs
+
+The page is not read-only. Artists, genres and travel range are all editable, and the ranking
+rebuilds instantly on every change.
+
+That works because **scoring never needed the API key — only fetching did.** So the candidate pool
+ships to the browser (1,000 events, ~95 KB gzipped) and `public/lib/rank.mjs` re-ranks locally. No
+server round trip, no key exposure, and still no model in the request path.
+
+| Input | Effect |
+|---|---|
+| **Artists** (free text, chips) | Drives the taste component. Suggestions are drawn from acts actually on sale in the window, so a typo does not silently return nothing. |
+| **Genres** (multi-select) | A third taste tier at 12 points, below adjacent at 20. Cards label it "genre match, not an artist you named" — a genre is a far weaker claim than a name and the UI never lets them be confused. |
+| **Travel range** | SF only / SF + East Bay / anywhere in the Bay Area. Maps onto the same area buckets the effort component scores, so the control and the score cannot disagree. |
+
+`src/rank.mjs` is the single implementation: the Node build runs it, and the page imports a copy of
+it from `public/lib/`, refreshed on every build so the two cannot drift. The page **re-ranks on load
+even with default inputs** — a standing check that browser and build agree, since a disagreement
+would be visible immediately.
+
+Two behaviours worth knowing:
+
+- **Adjacency follows your seeds.** Remove an artist and their adjacent acts stop matching too.
+  "Adjacent to Khalid" is not a reason to show anything once Khalid is off the list.
+- **Named artists with no dates are reported.** Typing someone who is not touring here would
+  otherwise look identical to a typo, so the input says which names have no Bay Area date in the
+  window. Same principle as the cut list, applied to input.
+
+State is mirrored into the URL, so a configured list is shareable:
+`?artists=Tyla,Doechii,Kehlani&travel=sf`
+
 ### Refreshing
 
 The refresh button runs in two modes, because **the API key must never reach the browser** — the
