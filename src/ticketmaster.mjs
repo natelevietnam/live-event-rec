@@ -29,10 +29,16 @@ function buildUrl({ apiKey, page, size, startDateTime, endDateTime, locality }) 
   return url;
 }
 
-// Primary locality strategy plus the fallbacks named in the spec, in order.
+// Locality strategies, tried in order until one returns events.
+//
+// geoPoint leads, not dmaId. Step 0 showed dmaId=382 returns Sacramento venues
+// (Ace of Spades, Crest Theater) — roughly 90 miles out and not a night you drive
+// to from SoMa, but they would land in the same effort bucket as Mountain View.
+// The 50-mile geoPoint constrains this server-side. dmaId is kept as a fallback,
+// and the client-side distance guard in score.mjs covers it if it is ever used.
 export const LOCALITY_STRATEGIES = [
-  { label: 'dmaId=382', params: { dmaId: 382 } },
   { label: 'geoPoint=9q8y r=50mi', params: { geoPoint: '9q8y', radius: 50, unit: 'miles' } },
+  { label: 'dmaId=382', params: { dmaId: 382 } },
   { label: 'city=San Francisco', params: { city: 'San Francisco' } },
 ];
 

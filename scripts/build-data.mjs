@@ -12,7 +12,7 @@ import {
 } from '../src/ticketmaster.mjs';
 import { buildIndex, matchEventWithIndex, looksLikeTribute } from '../src/match.mjs';
 import { normalizeName } from '../src/normalize.mjs';
-import { scoreEvent, WEIGHTS } from '../src/score.mjs';
+import { scoreEvent, WEIGHTS, distanceMiles, MAX_MILES } from '../src/score.mjs';
 import { buildReason, formatShowDate } from '../src/reason.mjs';
 
 const TOP_N = 6;
@@ -97,6 +97,18 @@ for (const raw of fetched.events) {
       date: formatShowDate(event),
       localDate: event.localDate,
       reason: 'no taste match',
+    });
+    continue;
+  }
+
+  const miles = distanceMiles(event.venue?.latitude, event.venue?.longitude);
+  if (miles !== null && miles > MAX_MILES) {
+    cut.push({
+      id: event.id,
+      artist: event.attractions[0] ?? event.name,
+      date: formatShowDate(event),
+      localDate: event.localDate,
+      reason: `${event.venue?.city ?? 'venue'} is ${Math.round(miles)} miles out`,
     });
     continue;
   }

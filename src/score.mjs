@@ -17,8 +17,41 @@ export const WEIGHTS = {
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
+// SoMa, San Francisco — the "home" in config/prefs.json. Used only to measure
+// how far a venue is, never to guess anything about an event.
+export const HOME = { latitude: 37.7785, longitude: -122.4056 };
+
+// Beyond this, it is not a night out from SoMa, it is a road trip. Events past
+// the limit are cut with the distance stated, not scored as if they were local.
+export const MAX_MILES = 60;
+
+export function distanceMiles(lat, lon) {
+  const a = Number(lat);
+  const b = Number(lon);
+  if (!Number.isFinite(a) || !Number.isFinite(b)) return null;
+  const toRad = (d) => (d * Math.PI) / 180;
+  const dLat = toRad(a - HOME.latitude);
+  const dLon = toRad(b - HOME.longitude);
+  const h =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(HOME.latitude)) * Math.cos(toRad(a)) * Math.sin(dLon / 2) ** 2;
+  return 2 * 3958.8 * Math.asin(Math.sqrt(h));
+}
+
 const SF = new Set(['san francisco']);
-const EAST_BAY = new Set(['oakland', 'berkeley']);
+// Near East Bay reachable on a weeknight. Far East Bay (Livermore, Antioch,
+// Fairfield) deliberately falls through to the 8-point bucket.
+const EAST_BAY = new Set([
+  'oakland',
+  'berkeley',
+  'emeryville',
+  'alameda',
+  'orinda',
+  'richmond',
+  'albany',
+  'piedmont',
+  'el cerrito',
+]);
 const PENINSULA_SOUTH_BAY = new Set([
   'mountain view',
   'san jose',
