@@ -1,4 +1,4 @@
-# Worth It
+# Live Event Rec
 
 **Live: https://natelevietnam.github.io/live-event-rec/**
 
