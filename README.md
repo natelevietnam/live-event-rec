@@ -9,8 +9,8 @@ and why.
 Bandsintown tells you an artist you follow is playing. It cannot tell you whether to go. This decides.
 
 **The insight:** the thing that flips a maybe into a yes is rarely the artist. It is scarcity and
-friction. Onsale closes Thursday. It is a Wednesday in Mountain View and you have a 9am. No existing
-tool weighs those together, so you decide from a flat feed of forty equally-weighted rows.
+friction. The show is in nine days. It is a Wednesday in Mountain View and you have a 9am. No
+existing tool weighs those together, so you decide from a flat feed of forty equally-weighted rows.
 
 ---
 
