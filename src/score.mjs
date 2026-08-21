@@ -41,14 +41,22 @@ export const WEIGHTS = {
     weeknightPenalty: 6,
   },
 
-  // No "missing price" score. The original flat 7 was awarded to roughly 70% of
-  // events — big rooms are the worst offenders — which made price another
-  // constant. Instead, an event with no published price is scored out of 85 on
-  // the three components that do have data, and the card says so. Guessing a
-  // price would break the no-invented-facts rule; averaging one in as a flat
-  // score quietly does the same thing to the ranking.
-  price: { max: 15, deep: 15, underCeiling: 10, overCeiling: 0, deepFraction: 0.4 },
+  // Price is deliberately absent as a scoring component.
+  //
+  // Ticketmaster publishes no price for 0 of the 31 events that match this
+  // artist list — stadiums and arenas carry a priceRanges block roughly 1 time
+  // in 58, and arena acts are what the list is made of. A component that is
+  // never populated cannot rank anything; it can only add a row to the UI that
+  // always reads "not scored" and a clause to every reason that says nothing.
+  //
+  // So the ceiling in config/prefs.json is currently inert. That is a statement
+  // about the source, not about whether price matters, and it is recorded in
+  // the roadmap rather than faked with an estimate or a flat default. If a
+  // priced source is ever wired in, this is where the component comes back.
 };
+
+// Every event is scored out of the same 85 points and reported as a percentage.
+export const MAX_POINTS = WEIGHTS.taste.max + WEIGHTS.urgency.max + WEIGHTS.effort.max;
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -223,18 +231,6 @@ function proximityPoints(days) {
   return w.showBeyond60;
 }
 
-function pricePoints(priceMin, ceiling) {
-  const w = WEIGHTS.price;
-  // No published price: the component is not scored at all, and the event's
-  // total is taken out of a smaller denominator. See WEIGHTS.price.
-  if (typeof priceMin !== 'number') return { points: 0, band: 'unknown', applicable: false };
-  if (priceMin <= ceiling * w.deepFraction) {
-    return { points: w.deep, band: 'deep', applicable: true };
-  }
-  if (priceMin < ceiling) return { points: w.underCeiling, band: 'under', applicable: true };
-  return { points: w.overCeiling, band: 'over', applicable: true };
-}
-
 /**
  * Score one matched event. Returns the total plus a per-component breakdown
  * carrying everything the reason sentence and the UI need.
@@ -289,26 +285,12 @@ export function scoreEvent(event, match, prefs, now = new Date()) {
     weeknightPenalty: weeknight ? WEIGHTS.effort.weeknightPenalty : 0,
   };
 
-  const p = pricePoints(event.priceMin, prefs.priceCeiling);
-  const price = {
-    points: p.points,
-    // A component with no data has no maximum either — that is what keeps it out
-    // of the denominator instead of silently averaging in.
-    max: p.applicable ? WEIGHTS.price.max : 0,
-    applicable: p.applicable,
-    band: p.band,
-    min: event.priceMin,
-    currency: event.priceCurrency,
-    ceiling: prefs.priceCeiling,
-  };
+  const raw = taste.points + urgency.points + effort.points;
 
-  const raw = taste.points + urgency.points + effort.points + price.points;
-  const scoredOutOf = taste.max + urgency.max + effort.max + price.max;
+  // Reported as a percentage of the points on offer, so the headline number
+  // reads on the familiar 0-100 scale while the breakdown still shows the raw
+  // component totals it was computed from.
+  const total = Math.round((raw / MAX_POINTS) * 100);
 
-  // Normalized so a show scored out of 85 stays comparable to one scored out of
-  // 100. Both answer the same question: what fraction of the points this event
-  // could have earned did it earn.
-  const total = Math.round((raw / scoredOutOf) * 100);
-
-  return { total, raw, scoredOutOf, breakdown: { taste, urgency, effort, price } };
+  return { total, raw, scoredOutOf: MAX_POINTS, breakdown: { taste, urgency, effort } };
 }

@@ -74,21 +74,17 @@ function effortClause(effort) {
   return null;
 }
 
-function priceClause(price) {
-  if (!price.applicable || typeof price.min !== 'number') return 'No price published.';
-  const amount = Number.isInteger(price.min) ? price.min : price.min.toFixed(2);
-  return `From $${amount}.`;
-}
-
 /**
- * "Direct match. Presale opens Tue Aug 25. SF venue, Saturday. From $68."
+ * "Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday."
+ *
+ * No price clause: price is not a scoring component, because the source
+ * publishes none for the events this list matches. See WEIGHTS in score.mjs.
  */
 export function buildReason(breakdown) {
   return [
     tasteClause(breakdown.taste),
     urgencyClause(breakdown.urgency),
     effortClause(breakdown.effort),
-    priceClause(breakdown.price),
   ]
     .filter(Boolean)
     .join(' ');

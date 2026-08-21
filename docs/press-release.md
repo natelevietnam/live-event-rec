@@ -36,11 +36,11 @@ Every one of those 994 is listed, with why. These are real rows from the current
 **Showing the cut is the product.** A ranking you cannot audit is just a feed with confidence. If
 the tool drops a show you wanted, you can see the reason and disagree with it.
 
-Each show is scored 0–100 across four components — taste, urgency, effort, price — and the breakdown
-is one click away, rendered from the same numbers the ranking used. The reason sentence is assembled
-from the components that actually fired:
+Each show is scored 0–100 across three components — taste, urgency, effort — and the breakdown is one
+click away, rendered from the same numbers the ranking used. The reason sentence is assembled from
+the components that actually fired:
 
-> **Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.**
+> **Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday.**
 
 ## Why the reasons can be trusted
 
@@ -48,10 +48,10 @@ from the components that actually fired:
 scoring inputs. The product cannot hallucinate a reason for a show, because there is nothing in the
 request path capable of inventing one.
 
-The same rule governs missing data. Roughly 70% of events publish no price at all — so those shows
-read *"No price published"*, are never estimated, and are scored out of 85 on the three components
-that do have data rather than being handed an invented average. **If a signal is not in the source,
-it does not appear in the UI. It goes in the roadmap instead.**
+The same rule governs missing data. Ticketmaster publishes no price for **any** of the events this
+list matches — arenas carry one roughly 1 time in 58 — so price was removed as a scoring component
+outright rather than shown as a permanently empty row or filled with an estimate. **If a signal is
+not in the source, it does not appear in the UI. It goes in the roadmap instead.**
 
 That discipline caught a real flaw during the build. The original scoring ranked urgency by when
 tickets go on sale — but measured against the live API, **0 of 200 sampled events had a future

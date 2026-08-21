@@ -1,8 +1,7 @@
 {
   "built": true,
-  "generatedAt": "2026-08-21T13:40:00.429Z",
+  "generatedAt": "2026-08-21T13:46:06.512Z",
   "horizonDays": 90,
-  "priceCeiling": 300,
   "weights": {
     "taste": {
       "max": 45,
@@ -30,21 +29,14 @@
       "peninsulaSouthBay": 8,
       "unknownArea": 8,
       "weeknightPenalty": 6
-    },
-    "price": {
-      "max": 15,
-      "deep": 15,
-      "underCeiling": 10,
-      "overCeiling": 0,
-      "deepFraction": 0.4
     }
   },
   "source": {
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T13:40:00Z",
-      "endDateTime": "2026-11-19T13:40:00Z"
+      "startDateTime": "2026-08-21T13:46:06Z",
+      "endDateTime": "2026-11-19T13:46:06Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1015,
@@ -67,12 +59,10 @@
       "weekday": "Saturday",
       "venue": "Oakland Arena",
       "city": "Oakland",
-      "priceMin": null,
-      "priceCurrency": null,
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 9 days out. Oakland venue, Saturday. No price published.",
+      "reason": "Direct match. 9 days out. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -106,15 +96,6 @@
           "weeknight": false,
           "weekday": "Saturday",
           "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 0,
-          "max": 0,
-          "applicable": false,
-          "band": "unknown",
-          "min": null,
-          "currency": null,
-          "ceiling": 300
         }
       }
     },
@@ -134,12 +115,10 @@
       "weekday": "Friday",
       "venue": "SAP Center at San Jose",
       "city": "San Jose",
-      "priceMin": null,
-      "priceCurrency": null,
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. Tomorrow. San Jose venue, Friday. No price published.",
+      "reason": "Direct match. Tomorrow. San Jose venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -173,15 +152,6 @@
           "weeknight": false,
           "weekday": "Friday",
           "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 0,
-          "max": 0,
-          "applicable": false,
-          "band": "unknown",
-          "min": null,
-          "currency": null,
-          "ceiling": 300
         }
       }
     },
@@ -202,12 +172,10 @@
       "weekday": "Friday",
       "venue": "Levi's® Stadium",
       "city": "Santa Clara",
-      "priceMin": null,
-      "priceCurrency": null,
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.",
+      "reason": "Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -242,15 +210,6 @@
           "weeknight": false,
           "weekday": "Friday",
           "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 0,
-          "max": 0,
-          "applicable": false,
-          "band": "unknown",
-          "min": null,
-          "currency": null,
-          "ceiling": 300
         }
       }
     },
@@ -270,12 +229,10 @@
       "weekday": "Friday",
       "venue": "Bill Graham Civic Auditorium",
       "city": "San Francisco",
-      "priceMin": null,
-      "priceCurrency": null,
       "score": 81,
       "raw": 69,
       "scoredOutOf": 85,
-      "reason": "Direct match. SF venue, Friday. No price published.",
+      "reason": "Direct match. SF venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -309,15 +266,6 @@
           "weeknight": false,
           "weekday": "Friday",
           "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 0,
-          "max": 0,
-          "applicable": false,
-          "band": "unknown",
-          "min": null,
-          "currency": null,
-          "ceiling": 300
         }
       }
     },
@@ -337,12 +285,10 @@
       "weekday": "Monday",
       "venue": "Chase Center",
       "city": "San Francisco",
-      "priceMin": null,
-      "priceCurrency": null,
       "score": 78,
       "raw": 66,
       "scoredOutOf": 85,
-      "reason": "Direct match. SF venue, Monday. No price published.",
+      "reason": "Direct match. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -376,15 +322,6 @@
           "weeknight": true,
           "weekday": "Monday",
           "weeknightPenalty": 6
-        },
-        "price": {
-          "points": 0,
-          "max": 0,
-          "applicable": false,
-          "band": "unknown",
-          "min": null,
-          "currency": null,
-          "ceiling": 300
         }
       }
     },
@@ -404,12 +341,10 @@
       "weekday": "Sunday",
       "venue": "Toyota Pavilion at Concord",
       "city": "Concord",
-      "priceMin": null,
-      "priceCurrency": null,
       "score": 71,
       "raw": 60,
       "scoredOutOf": 85,
-      "reason": "Direct match. Concord venue, Sunday. No price published.",
+      "reason": "Direct match. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -443,15 +378,6 @@
           "weeknight": false,
           "weekday": "Sunday",
           "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 0,
-          "max": 0,
-          "applicable": false,
-          "band": "unknown",
-          "min": null,
-          "currency": null,
-          "ceiling": 300
         }
       }
     }

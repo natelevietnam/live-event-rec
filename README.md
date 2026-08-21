@@ -23,7 +23,7 @@ These are load-bearing, not decoration.
 2. **Show the cut.** Rejected shows are listed with their reasons. Showing your work on what was
    filtered out is the credibility of a ranking product.
 3. **No invented facts.** If a signal is not in the source data it does not appear in the UI. Missing
-   prices read "No price published", are never estimated, and are not scored at all.
+   price is not shown or scored at all, because the source publishes none for these events.
 4. **No accounts, no auth, no login, no database.** Static build output.
 5. **Ship the loop, not the breadth.** One clean end-to-end pass beats three half-features.
 
@@ -105,7 +105,6 @@ renders the breakdown from the same numbers the ranking used.
 | Taste | 45 | Direct match 45, or 40 if matched inside a longer billing. Adjacent match 20, or 17 the same way. |
 | Urgency | 20 | The higher of two axes. **Onsale:** opens within 7 days 20, within 30 days 12, later 5, already on sale 4, unknown 4. **Proximity:** show within 14 days 18, within 30 days 12, within 60 days 7, beyond 3. |
 | Effort | 20 | SF venue 20. Near East Bay 14. Peninsula or South Bay 8. Then subtract 6 if the show is Mon–Thu. Floor at 0. |
-| Price | 15 | `priceRanges[0].min` at or under 40% of your ceiling: 15. Under ceiling: 10. Over ceiling: 0. **Not published: not scored** — see below. |
 
 ### Why urgency has two axes
 
@@ -119,24 +118,27 @@ the axis the data actually carries: how soon the show is. A show in nine days is
 decision you make now; one in eighty is not. The onsale rule remains as an override for
 the case it was written for, a newly announced tour, and still wins outright when it fires.
 
-### Why a missing price is not scored
+### Why price is not a component
 
-Roughly **70% of events carry no `priceRanges` at all** (141 of 200 sampled), and big rooms
-are the worst offenders. The original flat "7 out of 15" for missing data therefore went to
-most of the list and flattened it. Instead, an event with no published price is scored out
-of **85** on the three components that do have data, and both the card and the breakdown say
-so. The final score is normalized to 0–100 so an 85-denominator show stays comparable to a
-100-denominator one: both answer "what fraction of the points this event could have earned
-did it earn."
+**Ticketmaster publishes no price for any of the 31 events that match this artist list.** Stadiums
+and arenas carry a `priceRanges` block roughly 1 time in 58, and arena acts are what the list is made
+of. Confirmed not to be a fetch bug: the single-event detail endpoint returns no `priceRanges`
+either, and only `standard` price types ever appear — never resale.
 
-Guessing a price would break principle 3. Averaging one in as a flat score quietly does the
-same thing to the ranking. Until a priced source exists, "No price published" is the honest
-output — see **Roadmap → Real prices** for what closing that gap would take.
+A component that is never populated cannot rank anything. It can only add a row to the UI that always
+reads "not scored" and a clause to every reason that says nothing. Earlier versions scored it out of
+85 with the price excluded per-event; since the exclusion fired every single time, the component was
+removed outright.
+
+`priceCeiling` stays in `config/prefs.json` and is currently **inert** — it is deliberately not
+published in `data.json`, because shipping it would imply the ranking honoured a ceiling it never
+consulted. Removing the component changed no score and no ordering, which is the proof it was
+carrying nothing. See **Roadmap → Real prices**.
 
 Reason strings are assembled from the components that actually fired, in order. A component that did
 not fire contributes no clause, and only the urgency axis that actually set the score speaks:
 
-> Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.
+> Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday.
 
 "On sale now" earns no clause. It was true of every event in the window, so it says nothing about
 whether to go.

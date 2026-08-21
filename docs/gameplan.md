@@ -23,12 +23,11 @@ Hard freeze Friday Aug 21, 14:00 PT.
 | 6 | **Paging ceiling disclosed (new).** | Discovery refuses paging past 1000 items. If the window has more, the footer says how many of how many were read. Silent truncation would read as "we looked at everything." |
 | 7 | **`geoPoint` leads instead of `dmaId=382`.** | Step 0 against the live API showed `dmaId=382` returns Sacramento venues — roughly 90 miles from SoMa, scored identically to Mountain View by the city buckets. The 50-mile `geoPoint` constrains this server-side. A client-side distance guard covers the fallback path. |
 | 8 | **Urgency rebuilt on two axes.** | Measured on live data, the spec's onsale rule was a constant: 0 of 200 sampled events had a future public onsale. Every show scored 8, so urgency contributed nothing and five shows tied at 68 for three slots. Proximity to the show date carries the same scarcity insight on a signal the data actually has. The onsale rule survives as an override. |
-| 9 | **A missing price is no longer scored.** | 70% of events publish no price, so the flat 7/15 went to most of the list and flattened it. Those events are now scored out of 85 and the card says so. Normalizing to 0–100 keeps the two denominators comparable. |
+| 9 | **Price removed as a scoring component.** | Ticketmaster publishes no price for **0 of the 31 events that match the artist list** — arenas carry one roughly 1 time in 58. First it was excluded per-event and scored out of 85; since that fired every time, the component was dropped outright. Removing it changed no score and no ordering, which is the proof it carried nothing. `priceCeiling` stays in prefs but is inert. |
 | 10 | **Taste is weighted by match confidence.** | A seed matched exactly is a more certain read than one matched inside a longer billing, and now scores 45 against 40. Co-headliners hitting several seeds are named in the reason rather than one being picked arbitrarily. |
 | 11 | **Tribute and covers acts are cut.** | They carry the real artist's name and match cleanly, so a tribute band would have been presented as the artist — the exact invented fact principle 3 forbids. Two seeds on Nate's list (Pop Smoke, Michael Jackson) are deceased, so tributes are the only thing they can surface. |
-
 | 12 | **"Get tickets" link on every card.** | The Discovery payload already carries the official Ticketmaster listing URL, present on 6 of 6 shortlisted shows. No reseller scrape is involved and the destination is the primary seller. |
-| 13 | **Price ceiling raised to $300.** | Nate's call. It changed nothing in the current output, which is itself the finding — see the price coverage note below. |
+| 13 | **Price ceiling raised to $300, then made inert.** | Nate's call. It changed nothing, because no matched event carries a price at all — which is what led to change 9 removing the component. The ceiling stays in prefs for when a priced source lands. |
 | 14 | **Refresh button, two modes.** | A static public page cannot hold an API key, so the browser can never query Ticketmaster directly. Live refresh runs locally via a dev server that holds the key; the deployed page refreshes against data rebuilt twice daily by a scheduled GitHub Action. Both modes state which one they are performing. |
 
 Everything else follows the original spec literally.
@@ -71,7 +70,8 @@ the show is. Same insight, measured signal. See change 8.
 - `config/artists.json` — **57 names supplied by Nate.** More than the 20–30 originally planned; the
   effect is simply that more of the window matches and the cut list does more work.
 - `config/similar-artists.json` — **192 adjacent artists**, generated once offline across the 57 seeds.
-- `config/prefs.json` — home, `priceCeiling`, `weeknightTolerance`, `horizonDays`.
+- `config/prefs.json` — home, `weeknightTolerance`, `horizonDays`, and `priceCeiling`, which is
+  currently inert because price is not a scoring component.
 - `.env` — `TICKETMASTER_API_KEY`, supplied and gitignored. Build-time only; it never reaches the
   browser or the host.
 
@@ -125,7 +125,6 @@ Weights live in one config object so the UI can render the breakdown.
 | Taste | 45 | Direct 45, or 40 if matched inside a longer billing. Adjacent 20, or 17 the same way. |
 | Urgency | 20 | Higher of two axes. Onsale: opens ≤7d 20, ≤30d 12, later 5, on sale now 4, unknown 4. Proximity: show ≤14d 18, ≤30d 12, ≤60d 7, beyond 3. |
 | Effort | 20 | SF 20. Near East Bay 14. Peninsula/South Bay 8. Minus 6 if Mon–Thu. Floor 0. |
-| Price | 15 | Min at or under 40% of the $300 ceiling: 15. Under ceiling: 10. Over: 0. **Not published: not scored**, event ranked out of 85. |
 
 Scores are normalized to 0–100 so an 85-denominator show stays comparable to a 100-denominator
 one. Both answer the same question: what fraction of the points this event could have earned did
@@ -134,7 +133,7 @@ it earn.
 Reason strings assemble only the components that fired, and only the urgency axis that actually
 set the score:
 
-> Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.
+> Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday.
 
 No adjectives, no LLM, no invention. "On sale now" earns no clause — it was true of every event in
 the window, so it says nothing about whether to go.

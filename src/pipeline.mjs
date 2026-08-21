@@ -141,8 +141,6 @@ export async function buildPayload({
       weekday: breakdown.effort.weekday,
       venue: event.venue?.name ?? null,
       city: event.venue?.city ?? null,
-      priceMin: event.priceMin,
-      priceCurrency: event.priceCurrency,
       score: total,
       raw: rawScore,
       scoredOutOf,
@@ -193,7 +191,9 @@ export async function buildPayload({
     built: true,
     generatedAt: now.toISOString(),
     horizonDays: prefs.horizonDays,
-    priceCeiling: prefs.priceCeiling,
+    // prefs.priceCeiling is intentionally not published here. Nothing scores on
+    // it right now, and shipping it would imply the ranking honoured a ceiling
+    // it never consulted. It stays in prefs.json for when a priced source lands.
     weights: WEIGHTS,
     source: {
       name: 'Ticketmaster Discovery API v2',

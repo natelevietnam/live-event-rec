@@ -1,11 +1,13 @@
 // Renders public/data.json. All judgement already happened at build time —
 // this file only formats numbers and strings that are already in the payload.
 
+// Price is not here: the source publishes none for the events this list matches,
+// so it was removed as a scoring component rather than shown as a permanently
+// empty row. See the roadmap.
 const COMPONENT_LABELS = {
   taste: 'Taste',
   urgency: 'Urgency',
   effort: 'Effort',
-  price: 'Price',
 };
 
 const el = (tag, className, text) => {
@@ -54,23 +56,16 @@ function componentNote(key, part) {
     const place = part.areaLabel ? `${part.areaLabel}.` : 'Venue city not published.';
     return part.weeknight ? `${place} Weeknight, −${part.weeknightPenalty}.` : place;
   }
-  if (key === 'price') {
-    if (!part.applicable) {
-      return 'No price published. Not estimated, and not scored — this show is ranked out of 85 on the other three.';
-    }
-    if (part.band === 'over') return `Above your $${part.ceiling} ceiling.`;
-    if (part.band === 'deep') return `Well under your $${part.ceiling} ceiling.`;
-    return `Under your $${part.ceiling} ceiling.`;
-  }
   return '';
 }
 
 function renderBreakdown(breakdown, show) {
   const details = el('details', 'breakdown');
-  const label =
-    show.scoredOutOf && show.scoredOutOf !== 100
-      ? `Score breakdown — ${show.raw} of ${show.scoredOutOf} possible`
-      : 'Score breakdown';
+  // Names the raw total so the bars below visibly add up to it, and so the
+  // headline percentage is traceable rather than asserted.
+  const label = show.scoredOutOf
+    ? `Score breakdown — ${show.raw} of ${show.scoredOutOf} points`
+    : 'Score breakdown';
   details.append(el('summary', null, label));
 
   const bars = el('div', 'bars');
@@ -127,7 +122,6 @@ function renderCard(show) {
     // not repeated here.
     show.date ?? '',
     [show.venue, show.city].filter(Boolean).join(', '),
-    typeof show.priceMin === 'number' ? `From $${show.priceMin}` : 'No price published',
   ].filter((p) => p.length > 0);
 
   const meta = el('p', 'card-meta');
