@@ -101,6 +101,6 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Worth It dev server — http://localhost:${PORT}`);
+  console.log(`Live Event Rec dev server — http://localhost:${PORT}`);
   console.log('Refresh on the page will query Ticketmaster live and re-rank.');
 });

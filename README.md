@@ -130,39 +130,8 @@ so. The final score is normalized to 0–100 so an 85-denominator show stays com
 did it earn."
 
 Guessing a price would break principle 3. Averaging one in as a flat score quietly does the
-same thing to the ranking.
-
-**The gap is worst exactly where it hurts.** Measured across 600 sampled events:
-
-| Venue type | Events with a published price |
-|---|---|
-| Stadiums, arenas, amphitheatres, pavilions | **1 of 58 — 2%** |
-| Everything smaller | 176 of 542 — 32% |
-
-Arena acts are precisely the artists on the seed list, which is why all six shortlisted shows read
-"No price published". Confirmed not to be a fetch bug: the single-event detail endpoint
-(`/discovery/v2/events/{id}`) returns no `priceRanges` either, and only `standard` price types ever
-appear — never resale. The free Discovery tier simply does not carry this data for big rooms.
-
-### Getting real prices requires a partnership, not a signup
-
-Every route was checked. **None of them is self-serve.** This is the single biggest constraint on
-the product, so it is worth stating precisely rather than vaguely:
-
-| Route | Gives | Status |
-|---|---|---|
-| Ticketmaster **Commerce API** | Real offers and price levels | **Partner only.** Verified `401 oauth.v2.InvalidApiKeyForGivenResource` on this key. "Access to the Partner Commerce API is typically restricted to a select few business partners." Contact `partnersupport@ticketmaster.com`. |
-| Ticketmaster **Inventory Status API** | Sold-out / limited / few-left — a genuine scarcity signal | **Partner only.** Same 401 on this key. |
-| **SeatGeek Platform API** | `stats.lowest_price`, `stats.average_price`, resale included | **Application only.** `portal.seatgeek.com` has no self-serve credential flow — it gates access behind a "Get Access" form and manual approval. |
-| Ticketmaster **Affiliate Program** (via Impact) | Affiliate links across TM, TicketWeb, Universe, Front Gate, Moshtix | **Application, approval required.** Grants link/commission access; expanded price data is not a stated benefit. |
-| Scraping StubHub / Vivid / SeatGeek web | Prices | **Rejected.** Breaks their terms, selectors rot, and unverifiable prices would undermine the one thing this product sells — that every number traces to a source. |
-
-The realistic near-term path is the **Ticketmaster Affiliate Program**, since it is the only one with
-an actual open application form, and it is also the only one that would let the "Get tickets" links
-earn anything. It is not guaranteed to unlock pricing.
-
-Until one of those lands, "No price published" is the honest output, and the ceiling preference
-cannot bite on arena shows.
+same thing to the ranking. Until a priced source exists, "No price published" is the honest
+output — see **Roadmap → Real prices** for what closing that gap would take.
 
 Reason strings are assembled from the components that actually fired, in order. A component that did
 not fire contributes no clause, and only the urgency axis that actually set the score speaks:
@@ -215,12 +184,13 @@ npm run deploy         # git subtree push --prefix public origin gh-pages
 There is no build step on the host. `data.json` is generated locally and committed, so the deployed
 site is a pure static artifact and **the API key never touches the host**.
 
-**Single file.** `npm run bundle` writes `dist/worth-it.html` — stylesheet, script, and data inlined
+**Single file.** `npm run bundle` writes `dist/live-event-rec.html` — stylesheet, script, and data inlined
 into one self-contained file. Opens by double-click, works offline, needs no host at all. Useful for
 sending to someone directly.
 
-`vercel.json` is also checked in if you'd rather host there; set the project's root directory to
-`worth-it` and the output directory to `public`.
+`vercel.json` is also checked in if you'd rather host there. Import the repo as-is — the project
+lives at the repository root, so leave Vercel's root directory unset; `vercel.json` already points
+the output directory at `public`.
 
 ---
 
@@ -231,9 +201,40 @@ sending to someone directly.
 2. **Rarity signal.** "First Bay Area date in two years" is the single strongest yes-flipper, and it
    is deliberately absent. The Discovery API carries no tour history, and guessing it would mean
    inventing a fact. Needs a real tour-history source.
-3. **Real prices.** The measured gap, and the one worth fixing first — see below.
-3. **Calendar conflicts.** Shows overlapping a busy block should move to their own "Worth it, but
+3. **Real prices.** See below — the measured gap, and the one worth fixing first.
+4. **Calendar conflicts.** Shows overlapping a busy block should move to their own "Worth it, but
    you are busy" bucket rather than being ranked as if the night were free. Cut for scope, not
    because it is unimportant — it is the second-strongest friction signal after venue distance.
-4. **Group coordination.** The real blocker on a maybe is often whether a friend is in. A share link
+5. **Group coordination.** The real blocker on a maybe is often whether a friend is in. A share link
    with a one-tap yes.
+
+### Roadmap → Real prices
+
+Not in scope today. Recorded here because it is the sharpest constraint on the product and the
+research is already done.
+
+**The gap is worst exactly where it hurts.** Measured across 600 sampled events:
+
+| Venue type | Events with a published price |
+|---|---|
+| Stadiums, arenas, amphitheatres, pavilions | **1 of 58 — 2%** |
+| Everything smaller | 176 of 542 — 32% |
+
+Arena acts are precisely the artists on the seed list, which is why every shortlisted show reads "No
+price published", and why raising the ceiling from $200 to $300 changed nothing. Confirmed not to be
+a fetch bug: the single-event detail endpoint (`/discovery/v2/events/{id}`) returns no `priceRanges`
+either, and only `standard` price types ever appear — never resale.
+
+**Every route to real prices is a partnership, not a signup.** All were checked:
+
+| Route | Gives | Status |
+|---|---|---|
+| Ticketmaster **Commerce API** | Real offers and price levels | **Partner only.** Verified `401 oauth.v2.InvalidApiKeyForGivenResource` on this key. "Access to the Partner Commerce API is typically restricted to a select few business partners." Contact `partnersupport@ticketmaster.com`. |
+| Ticketmaster **Inventory Status API** | Sold-out / limited / few-left — a genuine scarcity signal | **Partner only.** Same 401 on this key. |
+| **SeatGeek Platform API** | `stats.lowest_price`, `stats.average_price`, resale included | **Application only.** `portal.seatgeek.com` has no self-serve credential flow — it gates access behind a "Get Access" form and manual approval. |
+| Ticketmaster **Affiliate Program** (via Impact) | Affiliate links across TM, TicketWeb, Universe, Front Gate, Moshtix | **Application, approval required.** Grants link and commission access; expanded price data is not a stated benefit. |
+| Scraping StubHub / Vivid / SeatGeek web | Prices | **Rejected.** Breaks their terms, selectors rot, and unverifiable prices would undermine the one thing this product sells — that every number traces to a source. |
+
+The realistic near-term path is the **Ticketmaster Affiliate Program**: the only one with an open
+application form, and the only one that would also let the "Get tickets" links earn anything. It is
+not guaranteed to unlock pricing.

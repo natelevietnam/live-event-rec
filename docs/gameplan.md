@@ -1,4 +1,4 @@
-# Worth It — build spec (revised)
+# Live Event Rec — build spec (revised)
 
 TrashLab take-home. **Status: built and deployed** —
 https://natelevietnam.github.io/live-event-rec/
@@ -32,34 +32,6 @@ Hard freeze Friday Aug 21, 14:00 PT.
 | 14 | **Refresh button, two modes.** | A static public page cannot hold an API key, so the browser can never query Ticketmaster directly. Live refresh runs locally via a dev server that holds the key; the deployed page refreshes against data rebuilt twice daily by a scheduled GitHub Action. Both modes state which one they are performing. |
 
 Everything else follows the original spec literally.
-
-### Why prices are missing, measured
-
-Across 600 sampled events, only 30% publish a `priceRanges` block at all, and the gap is worst
-exactly where it hurts:
-
-| Venue type | Events with a published price |
-|---|---|
-| Stadiums, arenas, amphitheatres, pavilions | **1 of 58 — 2%** |
-| Everything smaller | 176 of 542 — 32% |
-
-Arena acts are precisely what is on the seed list, which is why all six shortlisted shows read "No
-price published" and why raising the ceiling from $200 to $300 changed nothing. Confirmed not to be
-a fetch bug: the single-event detail endpoint returns no `priceRanges` either, and only `standard`
-price types ever appear — never resale.
-
-**Every route to real prices requires a partnership, not a signup.** All were checked:
-
-| Route | Gives | Status |
-|---|---|---|
-| Ticketmaster **Commerce API** | Real offers and price levels | **Partner only.** Verified `401 InvalidApiKeyForGivenResource`. Restricted to "a select few business partners"; contact `partnersupport@ticketmaster.com`. |
-| Ticketmaster **Inventory Status API** | Sold-out / limited — a real scarcity signal | **Partner only.** Same 401. |
-| **SeatGeek Platform API** | `lowest_price` / `average_price`, resale included | **Application only.** `portal.seatgeek.com` gates access behind a "Get Access" form and manual approval; there is no self-serve `client_id` flow. |
-| Ticketmaster **Affiliate Program** (Impact) | Affiliate links across TM, TicketWeb, Universe, Front Gate, Moshtix | **Application, approval required.** Expanded price data is not a stated benefit. |
-| Scraping StubHub / Vivid | Prices | **Rejected.** Breaks their terms, selectors rot, and unverifiable prices would undermine the one thing this product sells — that every number traces to a source. |
-
-The realistic near-term path is the **Ticketmaster Affiliate Program**: the only one with an open
-application form, and the only one that would also let the "Get tickets" links earn anything.
 
 ---
 
@@ -213,7 +185,7 @@ generated locally and committed, so the key never touches the host.
 Verified in a clean incognito profile against the live URL: renders correctly, and no horizontal
 overflow at 360, 400, 480, or desktop widths.
 
-`npm run bundle` also writes `dist/worth-it.html`, one self-contained file that opens by
+`npm run bundle` also writes `dist/live-event-rec.html`, one self-contained file that opens by
 double-click and works offline — a shareable artifact that needs no host or account.
 
 ---
@@ -241,10 +213,44 @@ double-click and works offline — a shareable artifact that needs no host or ac
 2. **Rarity signal.** "First Bay Area date in two years" is the strongest yes-flipper and is
    deliberately absent, because the Discovery API carries no tour history and guessing it would mean
    inventing a fact. Needs a tour-history source.
-3. **Calendar conflicts.** A show overlapping a busy block should move to its own bucket rather than
+3. **Real prices.** 70% of events publish none, and arena shows publish essentially none, so the
+   price ceiling cannot bite on the artists that matter. Detailed below.
+4. **Calendar conflicts.** A show overlapping a busy block should move to its own bucket rather than
    rank as if the night were free. Cut for scope on the day, not for lack of value.
-4. **Group coordination.** The real blocker on a maybe is often whether a friend is in. A share link
+5. **Group coordination.** The real blocker on a maybe is often whether a friend is in. A share link
    with a one-tap yes.
+
+
+### Roadmap item 3 — real prices, in detail
+
+Not in scope today. Recorded here because it is the sharpest constraint on the product
+and the research is already done.
+
+Across 600 sampled events, only 30% publish a `priceRanges` block at all, and the gap is worst
+exactly where it hurts:
+
+| Venue type | Events with a published price |
+|---|---|
+| Stadiums, arenas, amphitheatres, pavilions | **1 of 58 — 2%** |
+| Everything smaller | 176 of 542 — 32% |
+
+Arena acts are precisely what is on the seed list, which is why all six shortlisted shows read "No
+price published" and why raising the ceiling from $200 to $300 changed nothing. Confirmed not to be
+a fetch bug: the single-event detail endpoint returns no `priceRanges` either, and only `standard`
+price types ever appear — never resale.
+
+**Every route to real prices requires a partnership, not a signup.** All were checked:
+
+| Route | Gives | Status |
+|---|---|---|
+| Ticketmaster **Commerce API** | Real offers and price levels | **Partner only.** Verified `401 InvalidApiKeyForGivenResource`. Restricted to "a select few business partners"; contact `partnersupport@ticketmaster.com`. |
+| Ticketmaster **Inventory Status API** | Sold-out / limited — a real scarcity signal | **Partner only.** Same 401. |
+| **SeatGeek Platform API** | `lowest_price` / `average_price`, resale included | **Application only.** `portal.seatgeek.com` gates access behind a "Get Access" form and manual approval; there is no self-serve `client_id` flow. |
+| Ticketmaster **Affiliate Program** (Impact) | Affiliate links across TM, TicketWeb, Universe, Front Gate, Moshtix | **Application, approval required.** Expanded price data is not a stated benefit. |
+| Scraping StubHub / Vivid | Prices | **Rejected.** Breaks their terms, selectors rot, and unverifiable prices would undermine the one thing this product sells — that every number traces to a source. |
+
+The realistic near-term path is the **Ticketmaster Affiliate Program**: the only one with an open
+application form, and the only one that would also let the "Get tickets" links earn anything.
 
 ---
 
@@ -256,7 +262,7 @@ double-click and works offline — a shareable artifact that needs no host or ac
 - [x] Step 0 verified against the live API
 - [x] Real `public/data.json` generated — 1000 events read, 6 shortlisted, 994 cut
 - [x] Page verified rendering in headless Chrome
-- [x] Single-file build (`npm run bundle` → `dist/worth-it.html`), verified under `file://`
+- [x] Single-file build (`npm run bundle` → `dist/live-event-rec.html`), verified under `file://`
 - [x] Deployed — https://natelevietnam.github.io/live-event-rec/
 - [ ] Confirm price ceiling (200) and weeknight tolerance (low)
 - [ ] Press release, roadmap write-up, demo video

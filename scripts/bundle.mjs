@@ -1,5 +1,5 @@
 // Inlines the page, its stylesheet, its script, and the generated data into a
-// single self-contained HTML file at dist/worth-it.html.
+// single self-contained HTML file at dist/live-event-rec.html.
 //
 // Why this exists: fetch() is blocked under file://, so the normal page cannot
 // read data.json when opened by double-click. This build embeds the payload in
@@ -46,9 +46,9 @@ if (bundled.includes('href="./styles.css"') || bundled.includes('src="./app.js"'
 }
 
 mkdirSync(join(ROOT, 'dist'), { recursive: true });
-const target = join(ROOT, 'dist/worth-it.html');
+const target = join(ROOT, 'dist/live-event-rec.html');
 writeFileSync(target, bundled);
 
 const kb = (bundled.length / 1024).toFixed(0);
-console.log(`Wrote dist/worth-it.html — ${kb} KB, ${data.shows.length} shows, ${data.cut.length} cut.`);
+console.log(`Wrote dist/live-event-rec.html — ${kb} KB, ${data.shows.length} shows, ${data.cut.length} cut.`);
 console.log('Self-contained: no network, no host, opens by double-click.');
