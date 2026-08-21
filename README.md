@@ -23,7 +23,7 @@ These are load-bearing, not decoration.
 2. **Show the cut.** Rejected shows are listed with their reasons. Showing your work on what was
    filtered out is the credibility of a ranking product.
 3. **No invented facts.** If a signal is not in the source data it does not appear in the UI. Missing
-   prices read "Price TBD" and are never estimated.
+   prices read "No price published", are never estimated, and are not scored at all.
 4. **No accounts, no auth, no login, no database.** Static build output.
 5. **Ship the loop, not the breadth.** One clean end-to-end pass beats three half-features.
 
@@ -61,11 +61,16 @@ ceiling. Three locality strategies are tried in order and the first one returnin
 
 | Order | Strategy |
 |---|---|
-| 1 | `dmaId=382` — San Francisco / Oakland / San Jose |
-| 2 | `geoPoint=9q8y` with `radius=50&unit=miles` |
+| 1 | `geoPoint=9q8y` with `radius=50&unit=miles` |
+| 2 | `dmaId=382` — San Francisco / Oakland / San Jose |
 | 3 | `city=San Francisco` |
 
 Which one was actually used is printed at build time and stated in the page footer.
+
+`geoPoint` leads rather than `dmaId` because Step 0 caught `dmaId=382` returning Sacramento venues —
+Ace of Spades, Crest Theater — roughly 90 miles from SoMa, which the effort buckets would have scored
+identically to Mountain View. The 50-mile radius constrains this server-side, and a client-side
+distance guard (60 miles, from the lat/long the API already returns) covers the fallback path.
 
 ### Matching
 
