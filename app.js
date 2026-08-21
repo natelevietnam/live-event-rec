@@ -184,17 +184,14 @@ function renderCutRow(row) {
   return li;
 }
 
+// Written for a reader deciding where to go, not for someone auditing the query.
+// The exact locality parameters and the API's paging ceiling are still recorded
+// in data.json and the README for anyone who does want to check.
 function renderSource(source, horizonDays) {
-  const bits = [
-    `Source: ${source.name}${source.locality ? `, ${source.locality}` : ''}, next ${horizonDays} days.`,
-    `${source.eventsConsidered.toLocaleString()} events considered.`,
-  ];
-  if (source.truncated) {
-    bits.push(
-      `The API caps paging, so ${source.eventsConsidered.toLocaleString()} of ${source.eventsReported.toLocaleString()} reported events were read.`,
-    );
-  }
-  return bits.join(' ');
+  const n = source.eventsConsidered;
+  const about = source.truncated ? 'About ' : '';
+  const count = `${about}${n.toLocaleString()} Bay Area show${n === 1 ? '' : 's'}`;
+  return `Listings come from Ticketmaster. ${count} in the next ${horizonDays} days were considered.`;
 }
 
 // --- rendering the whole payload ------------------------------------------
