@@ -257,10 +257,10 @@ async function setupRefresh(initial) {
   }
 
   btn.hidden = false;
-  note.hidden = false;
-  note.textContent = live
-    ? 'Refresh queries Ticketmaster live and re-ranks.'
-    : 'Refresh re-reads the published listing. The data itself is rebuilt on a schedule, because a static page holds no API key.';
+  // Only the local dev mode explains itself. On the deployed page the button
+  // needs no caption — the timestamp next to it already says what it does.
+  note.hidden = !live;
+  if (live) note.textContent = 'Refresh queries Ticketmaster live and re-ranks.';
 
   let lastStamp = initial.generatedAt;
 

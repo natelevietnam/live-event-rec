@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-21T20:12:51.571Z",
+  "generatedAt": "2026-08-21T20:21:50.426Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T20:12:51Z",
-      "endDateTime": "2026-11-19T20:12:51Z"
+      "startDateTime": "2026-08-21T20:21:50Z",
+      "endDateTime": "2026-11-19T20:21:50Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1016,
@@ -127,63 +127,13 @@
   ],
   "defaults": {
     "artists": [
-      "Chris Brown",
-      "YOASOBI",
-      "Pop Smoke",
-      "Ella Mai",
-      "Pitbull",
-      "Waka Flocka Flame",
-      "MEOVV",
-      "XG",
       "J. Cole",
-      "Kendrick Lamar",
-      "BLACKPINK",
-      "Usher",
-      "Ne-Yo",
-      "Akon",
-      "Nelly",
-      "Soulja Boy",
-      "Migos",
-      "Future",
-      "The Weeknd",
-      "T-Pain",
-      "Drake",
-      "JAY-Z",
-      "Rihanna",
-      "Beyoncé",
-      "T.I.",
-      "SZA",
-      "Red Velvet",
-      "Alicia Keys",
-      "Don Toliver",
-      "Linkin Park",
       "Snoop Dogg",
-      "Kanye West",
-      "Doechii",
-      "Doja Cat",
-      "NewJeans",
+      "Usher",
+      "Chris Brown",
       "Tyla",
-      "J. Tajor",
-      "MIN",
-      "Jay Sean",
-      "Sean Kingston",
-      "Lloyd",
-      "KISS OF LIFE",
-      "Fetty Wap",
-      "Metro Boomin",
-      "TLC",
-      "Michael Jackson",
-      "Tori Kelly",
-      "JID",
-      "Big Sean",
-      "Cordae",
-      "Tinashe",
-      "Gunna",
-      "Lil Uzi Vert",
-      "Khalid",
-      "Busta Rhymes",
-      "Jeremih",
-      "Wale"
+      "Doja Cat",
+      "TLC"
     ],
     "genres": [],
     "travel": "all"
@@ -585,6 +535,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_F1mIUcV",
+      "artist": "Daniel Caesar",
+      "date": "Fri Aug 21",
+      "localDate": "2026-08-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afagkf",
       "artist": "Whalefall/ Sleepycat/ The Science Team/ Petals for Armor/ Pluie",
       "date": "Fri Aug 21",
@@ -702,13 +659,6 @@
       "date": "Fri Aug 21",
       "localDate": "2026-08-21",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_F1mIUcV",
-      "artist": "Daniel Caesar",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "scored 68, below the top 6"
     },
     {
       "id": "G5vYZ_2vzqgkf",
@@ -1033,6 +983,20 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A7x78b",
+      "artist": "Ledisi",
+      "date": "Thu Aug 27",
+      "localDate": "2026-08-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_axm9SXH",
+      "artist": "Mamamoo",
+      "date": "Thu Aug 27",
+      "localDate": "2026-08-27",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfPvqd",
       "artist": "Son Rompe Pera",
       "date": "Thu Aug 27",
@@ -1066,20 +1030,6 @@
       "date": "Thu Aug 27",
       "localDate": "2026-08-27",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78b",
-      "artist": "Ledisi",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "scored 47, below the top 6"
-    },
-    {
-      "id": "G5vYZ_axm9SXH",
-      "artist": "Mamamoo",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "scored 47, below the top 6"
     },
     {
       "id": "G5vYZbghpZQrK",
@@ -1201,6 +1151,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_AnrXCcj",
+      "artist": "The Roots",
+      "date": "Sat Aug 29",
+      "localDate": "2026-08-29",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af0yjS",
       "artist": "Rose Blood Festival",
       "date": "Sat Aug 29",
@@ -1311,13 +1268,6 @@
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
       "reason": "later date for USHER, higher-scoring night already listed"
-    },
-    {
-      "id": "G5vYZ_AnrXCcj",
-      "artist": "Nas",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "scored 54, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7-VOd",
@@ -2013,6 +1963,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A7x78N",
+      "artist": "Jesse McCartney",
+      "date": "Fri Sep 11",
+      "localDate": "2026-09-11",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7Pdv0",
       "artist": "Blood Orange",
       "date": "Fri Sep 11",
@@ -2102,13 +2059,6 @@
       "date": "Fri Sep 11",
       "localDate": "2026-09-11",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78N",
-      "artist": "Jesse McCartney",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "scored 47, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7-VOA",
@@ -2685,18 +2635,18 @@
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1A7Pw7F",
-      "artist": "Mild Minds",
+      "id": "Z7r9jZ1AAZbFU",
+      "artist": "Big Daddy Kane",
       "date": "Fri Sep 18",
       "localDate": "2026-09-18",
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1AAZbFU",
-      "artist": "Big Daddy Kane",
+      "id": "Z7r9jZ1A7Pw7F",
+      "artist": "Mild Minds",
       "date": "Fri Sep 18",
       "localDate": "2026-09-18",
-      "reason": "scored 54, below the top 6"
+      "reason": "no taste match"
     },
     {
       "id": "Z7r9jZ1A7Pb0o",
@@ -2861,7 +2811,7 @@
     },
     {
       "id": "Z7r9jZ1A7PKeb",
-      "artist": "Bow Wow",
+      "artist": "Mario",
       "date": "Sat Sep 19",
       "localDate": "2026-09-19",
       "reason": "scored 47, below the top 6"
@@ -3112,6 +3062,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_1mWZNyw",
+      "artist": "LE SSERAFIM",
+      "date": "Wed Sep 23",
+      "localDate": "2026-09-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_53ML09c",
       "artist": "Sebastien Tellier",
       "date": "Wed Sep 23",
@@ -3159,13 +3116,6 @@
       "date": "Wed Sep 23",
       "localDate": "2026-09-23",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1mWZNyw",
-      "artist": "LE SSERAFIM",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "scored 34, below the top 6"
     },
     {
       "id": "G5vYZbUD3X2kj",
@@ -3434,6 +3384,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_u5It6JP",
+      "artist": "Erykah Badu",
+      "date": "Sun Sep 27",
+      "localDate": "2026-09-27",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7xKPZ",
       "artist": "Art Garfunkel",
       "date": "Sun Sep 27",
@@ -3516,13 +3473,6 @@
       "date": "Sun Sep 27",
       "localDate": "2026-09-27",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u5It6JP",
-      "artist": "Smino",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "scored 48, below the top 6"
     },
     {
       "id": "G5vYZ_A2ft6lv",
@@ -3847,6 +3797,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_1KoLUrp",
+      "artist": "Hayley Williams",
+      "date": "Fri Oct 2",
+      "localDate": "2026-10-02",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7PKqM",
       "artist": "Robert Plant",
       "date": "Fri Oct 2",
@@ -4008,13 +3965,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_1KoLUrp",
-      "artist": "Rico Nasty",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "scored 41, below the top 6"
-    },
-    {
       "id": "G5vYZ_G0Mro22",
       "artist": "Palm Tree Music Festival",
       "date": "Sat Oct 3",
@@ -4024,6 +3974,13 @@
     {
       "id": "rZ7HnEZ1Afx6kK",
       "artist": "All Shall Perish",
+      "date": "Sat Oct 3",
+      "localDate": "2026-10-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_53TLUOG",
+      "artist": "Kehlani",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "no taste match"
@@ -4134,13 +4091,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_53TLUOG",
-      "artist": "Kehlani",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "scored 41, below the top 6"
-    },
-    {
       "id": "Z7r9jZ1A70s8I",
       "artist": "Simone Porter",
       "date": "Sun Oct 4",
@@ -4150,6 +4100,13 @@
     {
       "id": "G5vYZ_8Ekyd0p",
       "artist": "Octo Octa",
+      "date": "Sun Oct 4",
+      "localDate": "2026-10-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5K7qMj8",
+      "artist": "Kehlani",
       "date": "Sun Oct 4",
       "localDate": "2026-10-04",
       "reason": "no taste match"
@@ -4216,13 +4173,6 @@
       "date": "Sun Oct 4",
       "localDate": "2026-10-04",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5K7qMj8",
-      "artist": "Kehlani",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "later date for Kehlani, higher-scoring night already listed"
     },
     {
       "id": "rZ7HnEZ1AfaK77",
@@ -4372,18 +4322,18 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfFEef",
-      "artist": "Karaoke Tuesday",
+      "id": "G5vYZ_appqGq6",
+      "artist": "aespa",
       "date": "Tue Oct 6",
       "localDate": "2026-10-06",
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_appqGq6",
-      "artist": "aespa",
+      "id": "rZ7HnEZ1AfFEef",
+      "artist": "Karaoke Tuesday",
       "date": "Tue Oct 6",
       "localDate": "2026-10-06",
-      "reason": "scored 41, below the top 6"
+      "reason": "no taste match"
     },
     {
       "id": "G5vYZbgD1f1IU",
@@ -5240,6 +5190,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_2MJMpSz",
+      "artist": "ScHoolboy Q",
+      "date": "Fri Oct 16",
+      "localDate": "2026-10-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70ybw",
       "artist": "glaive",
       "date": "Fri Oct 16",
@@ -5345,13 +5302,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_2MJMpSz",
-      "artist": "ScHoolboy Q",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "scored 48, below the top 6"
-    },
-    {
       "id": "rZ7HnEZ1AfPtkd",
       "artist": "Bingo Loco",
       "date": "Sat Oct 17",
@@ -5368,6 +5318,13 @@
     {
       "id": "rZ7HnEZ1A4v7Gd",
       "artist": "Dry Socket",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7x78M",
+      "artist": "Nelly",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -5469,13 +5426,6 @@
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78M",
-      "artist": "Nelly",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "scored 71, below the top 6"
     },
     {
       "id": "G5vYZ_ullh3se",
@@ -5912,6 +5862,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A7Jeo6",
+      "artist": "Chief Keef",
+      "date": "Fri Oct 23",
+      "localDate": "2026-10-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfF3PV",
       "artist": "Frog",
       "date": "Fri Oct 23",
@@ -5938,13 +5895,6 @@
       "date": "Fri Oct 23",
       "localDate": "2026-10-23",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Jeo6",
-      "artist": "Chief Keef",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "scored 52, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7Pg_v",
@@ -6542,6 +6492,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_5mDVnwZ",
+      "artist": "Knocked Loose",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8Ed3wRn",
       "artist": "DJ Mandy",
       "date": "Sat Oct 31",
@@ -6617,13 +6574,6 @@
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mDVnwZ",
-      "artist": "Denzel Curry",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "scored 38, below the top 6"
     },
     {
       "id": "Z7r9jZ1A70OaE",
@@ -6738,6 +6688,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A70wFs",
+      "artist": "XG",
+      "date": "Tue Nov 3",
+      "localDate": "2026-11-03",
+      "reason": "no taste match"
+    },
+    {
       "id": "1Ae0Z_8GkIQZv3c",
       "artist": "Missio",
       "date": "Tue Nov 3",
@@ -6764,13 +6721,6 @@
       "date": "Tue Nov 3",
       "localDate": "2026-11-03",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70wFs",
-      "artist": "XG",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "scored 67, below the top 6"
     },
     {
       "id": "rZ7HnEZ1AfPIfK",
@@ -7480,18 +7430,18 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_G85IhoF",
-      "artist": "The Mountain Goats",
+      "id": "Z7r9jZ1A7PE8g",
+      "artist": "Vince Staples",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1A7PE8g",
-      "artist": "Vince Staples",
+      "id": "G5vYZ_G85IhoF",
+      "artist": "The Mountain Goats",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
-      "reason": "scored 52, below the top 6"
+      "reason": "no taste match"
     }
   ],
   "eventCount": 1000
