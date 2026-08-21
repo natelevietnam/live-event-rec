@@ -7,7 +7,8 @@
   "scripts": {
     "verify": "node scripts/verify.mjs",
     "build:data": "node scripts/build-data.mjs",
-    "serve": "npx --yes serve public"
+    "serve": "npx --yes serve public",
+    "bundle": "node scripts/bundle.mjs"
   },
   "engines": {
     "node": ">=20"

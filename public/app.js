@@ -110,7 +110,9 @@ function renderCard(show) {
   card.append(head);
 
   const metaParts = [
-    [show.weekday, show.date].filter(Boolean).join(' · '),
+    // show.date already carries the weekday ("Fri Nov 13"), so show.weekday is
+    // not repeated here.
+    show.date ?? '',
     [show.venue, show.city].filter(Boolean).join(', '),
     typeof show.priceMin === 'number' ? `From $${show.priceMin}` : 'Price TBD',
   ].filter((p) => p.length > 0);
@@ -155,13 +157,20 @@ function renderSource(source, horizonDays) {
 async function main() {
   const headline = document.getElementById('headline');
   let data;
-  try {
-    const res = await fetch('./data.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(String(res.status));
-    data = await res.json();
-  } catch {
-    headline.textContent = 'Could not load the results.';
-    return;
+  // The single-file build inlines the payload, because fetch() is blocked under
+  // file:// and that build exists precisely to be opened by double-click.
+  const inlined = document.getElementById('bundled-data');
+  if (inlined) {
+    data = JSON.parse(inlined.textContent);
+  } else {
+    try {
+      const res = await fetch('./data.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(String(res.status));
+      data = await res.json();
+    } catch {
+      headline.textContent = 'Could not load the results.';
+      return;
+    }
   }
 
   // Placeholder payload shipped before the first real run. Say so rather than
