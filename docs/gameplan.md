@@ -27,7 +27,37 @@ Hard freeze Friday Aug 21, 14:00 PT.
 | 10 | **Taste is weighted by match confidence.** | A seed matched exactly is a more certain read than one matched inside a longer billing, and now scores 45 against 40. Co-headliners hitting several seeds are named in the reason rather than one being picked arbitrarily. |
 | 11 | **Tribute and covers acts are cut.** | They carry the real artist's name and match cleanly, so a tribute band would have been presented as the artist — the exact invented fact principle 3 forbids. Two seeds on Nate's list (Pop Smoke, Michael Jackson) are deceased, so tributes are the only thing they can surface. |
 
+| 12 | **"Get tickets" link on every card.** | The Discovery payload already carries the official Ticketmaster listing URL, present on 6 of 6 shortlisted shows. No reseller scrape is involved and the destination is the primary seller. |
+| 13 | **Price ceiling raised to $300.** | Nate's call. It changed nothing in the current output, which is itself the finding — see the price coverage note below. |
+
 Everything else follows the original spec literally.
+
+### Why prices are missing, measured
+
+Across 600 sampled events, only 30% publish a `priceRanges` block at all, and the gap is worst
+exactly where it hurts:
+
+| Venue type | Events with a published price |
+|---|---|
+| Stadiums, arenas, amphitheatres, pavilions | **1 of 58 — 2%** |
+| Everything smaller | 176 of 542 — 32% |
+
+Arena acts are precisely what is on the seed list, which is why all six shortlisted shows read "No
+price published" and why raising the ceiling from $200 to $300 changed nothing. Confirmed not to be
+a fetch bug: the single-event detail endpoint returns no `priceRanges` either, and only `standard`
+price types ever appear — never resale.
+
+Two documented routes, neither of which is scraping a reseller:
+
+- **Ticketmaster Commerce API** (`/commerce/v2/events/{id}/offers`) — real offers and price levels.
+  Verified `401 InvalidApiKeyForGivenResource` on a free key; needs partner access. The **Inventory
+  Status API** returns the same 401, and would give a genuine sold-out/limited scarcity signal.
+- **SeatGeek Platform API** — `stats.lowest_price` and `stats.average_price`, resale included, under
+  a normal `client_id`. A second source, so it needs its own matching pass.
+
+Scraping StubHub or Vivid was considered and rejected: it breaks their terms, the selectors rot, and
+unverifiable prices would undermine the one thing this product sells — that every number on the page
+traces to a source.
 
 ---
 
@@ -121,7 +151,7 @@ Weights live in one config object so the UI can render the breakdown.
 | Taste | 45 | Direct 45, or 40 if matched inside a longer billing. Adjacent 20, or 17 the same way. |
 | Urgency | 20 | Higher of two axes. Onsale: opens ≤7d 20, ≤30d 12, later 5, on sale now 4, unknown 4. Proximity: show ≤14d 18, ≤30d 12, ≤60d 7, beyond 3. |
 | Effort | 20 | SF 20. Near East Bay 14. Peninsula/South Bay 8. Minus 6 if Mon–Thu. Floor 0. |
-| Price | 15 | Min at or under 40% of ceiling: 15. Under ceiling: 10. Over: 0. **Not published: not scored**, event ranked out of 85. |
+| Price | 15 | Min at or under 40% of the $300 ceiling: 15. Under ceiling: 10. Over: 0. **Not published: not scored**, event ranked out of 85. |
 
 Scores are normalized to 0–100 so an 85-denominator show stays comparable to a 100-denominator
 one. Both answer the same question: what fraction of the points this event could have earned did
@@ -159,7 +189,8 @@ Page structure, top to bottom:
 
 1. **Header.** "N shows worth your time in the next 90 days." Last refreshed timestamp, visible.
 2. **The list.** 3 to 6 cards: artist, date and day of week, venue and city, price from, score, the
-   reason sentence, urgency badge when onsale is inside 7 days. Score breakdown expandable.
+   reason sentence, urgency badge. Score breakdown expandable, with a per-component bar and a
+   plain-language note. A "Get tickets" link goes to the official Ticketmaster listing.
 3. **"Filtered out (N)."** Collapsed by default. One line each: artist, date, reason.
 4. **Footer.** Source, locality strategy used, events considered, paging truncation if any, and the
    coverage gap stated plainly: big rooms are covered, indie venues on DICE and Eventbrite are not.

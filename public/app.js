@@ -154,6 +154,19 @@ function renderCard(show) {
   }
 
   card.append(renderBreakdown(show.breakdown, show));
+
+  // The official Ticketmaster listing. It ships in the Discovery payload, so no
+  // reseller scrape is involved and the destination is the primary seller.
+  if (show.url) {
+    const actions = el('div', 'actions');
+    const buy = el('a', 'buy', 'Get tickets');
+    buy.href = show.url;
+    buy.rel = 'noopener noreferrer';
+    buy.target = '_blank';
+    actions.append(buy);
+    actions.append(el('span', 'actions-note', 'Ticketmaster'));
+    card.append(actions);
+  }
   li.append(card);
   return li;
 }

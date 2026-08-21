@@ -127,6 +127,28 @@ did it earn."
 Guessing a price would break principle 3. Averaging one in as a flat score quietly does the
 same thing to the ranking.
 
+**The gap is worst exactly where it hurts.** Measured across 600 sampled events:
+
+| Venue type | Events with a published price |
+|---|---|
+| Stadiums, arenas, amphitheatres, pavilions | **1 of 58 — 2%** |
+| Everything smaller | 176 of 542 — 32% |
+
+Arena acts are precisely the artists on the seed list, which is why all six shortlisted shows read
+"No price published". Confirmed not to be a fetch bug: the single-event detail endpoint
+(`/discovery/v2/events/{id}`) returns no `priceRanges` either, and only `standard` price types ever
+appear — never resale. The free Discovery tier simply does not carry this data for big rooms.
+
+Two documented routes to fix it, neither of which is scraping:
+
+- **Ticketmaster Commerce API** (`/commerce/v2/events/{id}/offers`) returns real offers and price
+  levels. Verified to return `401 oauth.v2.InvalidApiKeyForGivenResource` on a free key — it needs
+  partner access. The Inventory Status API (`/inventory-status/v1/availability`), which would also
+  give a genuine sold-out/limited scarcity signal, returns the same 401.
+- **SeatGeek Platform API** exposes `stats.lowest_price` and `stats.average_price` including resale,
+  under a normal `client_id`. A second source, so it needs its own matching pass, but it is a
+  documented API rather than a scrape.
+
 Reason strings are assembled from the components that actually fired, in order. A component that did
 not fire contributes no clause, and only the urgency axis that actually set the score speaks:
 
@@ -172,6 +194,7 @@ sending to someone directly.
 2. **Rarity signal.** "First Bay Area date in two years" is the single strongest yes-flipper, and it
    is deliberately absent. The Discovery API carries no tour history, and guessing it would mean
    inventing a fact. Needs a real tour-history source.
+3. **Real prices.** The measured gap, and the one worth fixing first — see below.
 3. **Calendar conflicts.** Shows overlapping a busy block should move to their own "Worth it, but
    you are busy" bucket rather than being ranked as if the night were free. Cut for scope, not
    because it is unimportant — it is the second-strongest friction signal after venue distance.

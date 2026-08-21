@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T06:37:08.248Z",
+  "generatedAt": "2026-08-21T13:18:24.864Z",
   "horizonDays": 90,
-  "priceCeiling": 200,
+  "priceCeiling": 300,
   "weights": {
     "taste": {
       "max": 45,
@@ -42,11 +42,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T06:37:08Z",
-      "endDateTime": "2026-11-19T06:37:08Z"
+      "startDateTime": "2026-08-21T13:18:24Z",
+      "endDateTime": "2026-11-19T13:18:24Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1014,
+    "eventsReported": 1015,
     "truncated": true
   },
   "shows": [
@@ -113,7 +113,7 @@
           "band": "unknown",
           "min": null,
           "currency": null,
-          "ceiling": 200
+          "ceiling": 300
         }
       }
     },
@@ -180,7 +180,7 @@
           "band": "unknown",
           "min": null,
           "currency": null,
-          "ceiling": 200
+          "ceiling": 300
         }
       }
     },
@@ -249,7 +249,7 @@
           "band": "unknown",
           "min": null,
           "currency": null,
-          "ceiling": 200
+          "ceiling": 300
         }
       }
     },
@@ -316,7 +316,7 @@
           "band": "unknown",
           "min": null,
           "currency": null,
-          "ceiling": 200
+          "ceiling": 300
         }
       }
     },
@@ -383,7 +383,7 @@
           "band": "unknown",
           "min": null,
           "currency": null,
-          "ceiling": 200
+          "ceiling": 300
         }
       }
     },
@@ -450,7 +450,7 @@
           "band": "unknown",
           "min": null,
           "currency": null,
-          "ceiling": 200
+          "ceiling": 300
         }
       }
     }
@@ -6337,6 +6337,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_8Dg4vS8",
+      "artist": "Montell Fish",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfJped",
       "artist": "60 juno",
       "date": "Fri Oct 30",
@@ -7399,13 +7406,6 @@
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
       "reason": "scored 52, below the top 6"
-    },
-    {
-      "id": "Z7r9jZ1A7PPvP",
-      "artist": "Margaret Glaspy",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
     },
     {
       "id": "G5vYZ_2H97zto",
