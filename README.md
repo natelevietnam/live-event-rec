@@ -33,11 +33,11 @@ These are load-bearing, not decoration.
 
 ```bash
 cp .env.example .env          # paste a free key from developer.ticketmaster.com
-$EDITOR config/artists.json   # 20–30 artists you would actually go see
+$EDITOR config/artists.json   # the artists you would actually go see
 
 npm run verify                # Step 0 — proves the query returns real Bay Area events
 npm run build:data            # fetch, match, score, write public/data.json
-npm run serve                 # open the page locally
+npm run dev                   # serve the page WITH a working live Refresh button
 ```
 
 No install step: there are no runtime dependencies. Node 20+ only.
@@ -144,15 +144,25 @@ Arena acts are precisely the artists on the seed list, which is why all six shor
 (`/discovery/v2/events/{id}`) returns no `priceRanges` either, and only `standard` price types ever
 appear — never resale. The free Discovery tier simply does not carry this data for big rooms.
 
-Two documented routes to fix it, neither of which is scraping:
+### Getting real prices requires a partnership, not a signup
 
-- **Ticketmaster Commerce API** (`/commerce/v2/events/{id}/offers`) returns real offers and price
-  levels. Verified to return `401 oauth.v2.InvalidApiKeyForGivenResource` on a free key — it needs
-  partner access. The Inventory Status API (`/inventory-status/v1/availability`), which would also
-  give a genuine sold-out/limited scarcity signal, returns the same 401.
-- **SeatGeek Platform API** exposes `stats.lowest_price` and `stats.average_price` including resale,
-  under a normal `client_id`. A second source, so it needs its own matching pass, but it is a
-  documented API rather than a scrape.
+Every route was checked. **None of them is self-serve.** This is the single biggest constraint on
+the product, so it is worth stating precisely rather than vaguely:
+
+| Route | Gives | Status |
+|---|---|---|
+| Ticketmaster **Commerce API** | Real offers and price levels | **Partner only.** Verified `401 oauth.v2.InvalidApiKeyForGivenResource` on this key. "Access to the Partner Commerce API is typically restricted to a select few business partners." Contact `partnersupport@ticketmaster.com`. |
+| Ticketmaster **Inventory Status API** | Sold-out / limited / few-left — a genuine scarcity signal | **Partner only.** Same 401 on this key. |
+| **SeatGeek Platform API** | `stats.lowest_price`, `stats.average_price`, resale included | **Application only.** `portal.seatgeek.com` has no self-serve credential flow — it gates access behind a "Get Access" form and manual approval. |
+| Ticketmaster **Affiliate Program** (via Impact) | Affiliate links across TM, TicketWeb, Universe, Front Gate, Moshtix | **Application, approval required.** Grants link/commission access; expanded price data is not a stated benefit. |
+| Scraping StubHub / Vivid / SeatGeek web | Prices | **Rejected.** Breaks their terms, selectors rot, and unverifiable prices would undermine the one thing this product sells — that every number traces to a source. |
+
+The realistic near-term path is the **Ticketmaster Affiliate Program**, since it is the only one with
+an actual open application form, and it is also the only one that would let the "Get tickets" links
+earn anything. It is not guaranteed to unlock pricing.
+
+Until one of those lands, "No price published" is the honest output, and the ceiling preference
+cannot bite on arena shows.
 
 Reason strings are assembled from the components that actually fired, in order. A component that did
 not fire contributes no clause, and only the urgency axis that actually set the score speaks:
@@ -161,6 +171,28 @@ not fire contributes no clause, and only the urgency axis that actually set the 
 
 "On sale now" earns no clause. It was true of every event in the window, so it says nothing about
 whether to go.
+
+### Refreshing
+
+The refresh button runs in two modes, because **the API key must never reach the browser** — the
+deployed page is public and static, so any key it held would be readable by anyone who opened
+devtools.
+
+| Where | What Refresh does | Backed by |
+|---|---|---|
+| `npm run dev` (local) | Genuinely re-queries Ticketmaster, re-scores, rewrites `data.json`, re-renders. ~4s for the full 1000-event crawl. | `scripts/dev-server.mjs`, which holds the key server-side and exposes `POST /api/refresh` |
+| GitHub Pages (deployed) | Re-reads the published `data.json` and re-renders if it moved | `.github/workflows/refresh.yml`, which rebuilds at 06:00 and 18:00 Pacific using the key from repository secrets |
+
+The page detects which mode it is in by probing `/api/capabilities`, and the note under the button
+says which refresh it is actually performing rather than implying a live query it cannot make.
+
+The scheduled workflow compares the *shows and cut arrays* rather than the raw file, because
+`generatedAt` and `source.window` move on every run — a textual diff would redeploy twice a day
+forever with an identical ranking. It can also be run on demand from the Actions tab.
+
+`src/pipeline.mjs` holds the whole fetch → match → score pass so the CLI build and the refresh
+endpoint run byte-identical logic. A refresh that ranked differently from a build would undermine
+the score in exactly the way this product exists to avoid.
 
 ### Deduplication
 

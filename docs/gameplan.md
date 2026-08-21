@@ -29,6 +29,7 @@ Hard freeze Friday Aug 21, 14:00 PT.
 
 | 12 | **"Get tickets" link on every card.** | The Discovery payload already carries the official Ticketmaster listing URL, present on 6 of 6 shortlisted shows. No reseller scrape is involved and the destination is the primary seller. |
 | 13 | **Price ceiling raised to $300.** | Nate's call. It changed nothing in the current output, which is itself the finding — see the price coverage note below. |
+| 14 | **Refresh button, two modes.** | A static public page cannot hold an API key, so the browser can never query Ticketmaster directly. Live refresh runs locally via a dev server that holds the key; the deployed page refreshes against data rebuilt twice daily by a scheduled GitHub Action. Both modes state which one they are performing. |
 
 Everything else follows the original spec literally.
 
@@ -47,17 +48,18 @@ price published" and why raising the ceiling from $200 to $300 changed nothing. 
 a fetch bug: the single-event detail endpoint returns no `priceRanges` either, and only `standard`
 price types ever appear — never resale.
 
-Two documented routes, neither of which is scraping a reseller:
+**Every route to real prices requires a partnership, not a signup.** All were checked:
 
-- **Ticketmaster Commerce API** (`/commerce/v2/events/{id}/offers`) — real offers and price levels.
-  Verified `401 InvalidApiKeyForGivenResource` on a free key; needs partner access. The **Inventory
-  Status API** returns the same 401, and would give a genuine sold-out/limited scarcity signal.
-- **SeatGeek Platform API** — `stats.lowest_price` and `stats.average_price`, resale included, under
-  a normal `client_id`. A second source, so it needs its own matching pass.
+| Route | Gives | Status |
+|---|---|---|
+| Ticketmaster **Commerce API** | Real offers and price levels | **Partner only.** Verified `401 InvalidApiKeyForGivenResource`. Restricted to "a select few business partners"; contact `partnersupport@ticketmaster.com`. |
+| Ticketmaster **Inventory Status API** | Sold-out / limited — a real scarcity signal | **Partner only.** Same 401. |
+| **SeatGeek Platform API** | `lowest_price` / `average_price`, resale included | **Application only.** `portal.seatgeek.com` gates access behind a "Get Access" form and manual approval; there is no self-serve `client_id` flow. |
+| Ticketmaster **Affiliate Program** (Impact) | Affiliate links across TM, TicketWeb, Universe, Front Gate, Moshtix | **Application, approval required.** Expanded price data is not a stated benefit. |
+| Scraping StubHub / Vivid | Prices | **Rejected.** Breaks their terms, selectors rot, and unverifiable prices would undermine the one thing this product sells — that every number traces to a source. |
 
-Scraping StubHub or Vivid was considered and rejected: it breaks their terms, the selectors rot, and
-unverifiable prices would undermine the one thing this product sells — that every number on the page
-traces to a source.
+The realistic near-term path is the **Ticketmaster Affiliate Program**: the only one with an open
+application form, and the only one that would also let the "Get tickets" links earn anything.
 
 ---
 
