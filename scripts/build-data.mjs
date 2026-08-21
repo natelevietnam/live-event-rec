@@ -10,7 +10,7 @@ import {
   extractEvent,
   windowParams,
 } from '../src/ticketmaster.mjs';
-import { buildIndex, matchEventWithIndex } from '../src/match.mjs';
+import { buildIndex, matchEventWithIndex, looksLikeTribute } from '../src/match.mjs';
 import { normalizeName } from '../src/normalize.mjs';
 import { scoreEvent, WEIGHTS } from '../src/score.mjs';
 import { buildReason, formatShowDate } from '../src/reason.mjs';
@@ -97,6 +97,17 @@ for (const raw of fetched.events) {
       date: formatShowDate(event),
       localDate: event.localDate,
       reason: 'no taste match',
+    });
+    continue;
+  }
+
+  if (looksLikeTribute(event)) {
+    cut.push({
+      id: event.id,
+      artist: event.attractions[0] ?? event.name,
+      date: formatShowDate(event),
+      localDate: event.localDate,
+      reason: 'tribute or covers act, not the artist',
     });
     continue;
   }

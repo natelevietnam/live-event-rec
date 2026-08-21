@@ -75,8 +75,18 @@ It is generated once, offline, at build time; it is never fetched at runtime. An
 an adjacent name scores lower and is labelled "adjacent to &lt;seed&gt;" in the UI. It is never
 presented as a direct match.
 
-Containment matching requires two or more tokens, so a short name like "XG" cannot match inside an
-unrelated event title. Everything matching neither tier is cut with "no taste match".
+Two guards keep the list trustworthy:
+
+- **Containment floors.** Matching a seed as a phrase inside a longer title requires 2+ tokens *and*
+  6+ characters. Without the character floor "T.I." (normalized: `t i`) would match any title with
+  those two letters as adjacent words. Short names still match, but only exactly — so `Future`
+  matches Future and not Future Islands, and `XG` matches XG and not "XG Racing Night".
+- **Tribute guard.** Tribute and covers acts carry the real artist's name, so they match cleanly and
+  would be presented as the artist. They are cut with "tribute or covers act, not the artist".
+  Known limitation: this catches acts that say so in their name; an "MJ Live" style tribute that
+  never spells it out still slips through.
+
+Everything matching neither tier is cut with "no taste match".
 
 ### Scoring, 0–100
 
