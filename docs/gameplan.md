@@ -1,7 +1,11 @@
 # Worth It — build spec (revised)
 
-TrashLab take-home. Revised from the original gameplan on Aug 20 to reflect two scope decisions:
-the build moved a day earlier, and the Google Calendar integration was cut.
+TrashLab take-home. **Status: built and deployed** —
+https://natelevietnam.github.io/live-event-rec/
+
+Revised from the original gameplan on Aug 20. Two of the changes below were scope decisions (the
+build moved a day earlier, the Google Calendar integration was cut). The rest came from measuring
+the live API rather than trusting the spec — each one is listed with the measurement that forced it.
 
 Hard freeze Friday Aug 21, 14:00 PT.
 
@@ -37,8 +41,12 @@ rejected and why.
 go. This decides.
 
 **The insight:** the thing that flips a maybe into a yes is rarely the artist. It is scarcity and
-friction. Onsale closes Thursday. It is a Wednesday in Mountain View and you have a 9am. No existing
-tool weighs those together.
+friction. The show is in nine days. It is a Wednesday in Mountain View and you have a 9am. No
+existing tool weighs those together.
+
+The original framing of scarcity was "onsale closes Thursday". The live data says otherwise — at 90
+days out essentially everything is already on sale — so the scarcity that actually bites is how soon
+the show is. Same insight, measured signal. See change 8.
 
 ---
 
@@ -56,9 +64,12 @@ tool weighs those together.
 
 ## 3. Inputs
 
-- `config/artists.json` — 20 to 30 artist names Nate would actually go see. **Still open.**
+- `config/artists.json` — **57 names supplied by Nate.** More than the 20–30 originally planned; the
+  effect is simply that more of the window matches and the cut list does more work.
+- `config/similar-artists.json` — **192 adjacent artists**, generated once offline across the 57 seeds.
 - `config/prefs.json` — home, `priceCeiling`, `weeknightTolerance`, `horizonDays`.
-- `.env` — `TICKETMASTER_API_KEY`. Free key from developer.ticketmaster.com. **Still open.**
+- `.env` — `TICKETMASTER_API_KEY`, supplied and gitignored. Build-time only; it never reaches the
+  browser or the host.
 
 ---
 
@@ -70,7 +81,8 @@ Params: `apikey`, `classificationName=music`, locality, `startDateTime` = now,
 `endDateTime` = now + 90 days, `size=200`, `page` paginated, `sort=date,asc`.
 
 Locality strategies, tried in order until one returns events:
-`dmaId=382` → `geoPoint=9q8y&radius=50&unit=miles` → `city=San Francisco`.
+`geoPoint=9q8y&radius=50&unit=miles` → `dmaId=382` → `city=San Francisco`.
+See change 7 above for why `geoPoint` leads rather than `dmaId`.
 
 Fields extracted per event: `name`, `dates.start.dateTime` / `.localDate`, `dates.status.code`
 (cancelled and postponed are cut), `sales.public.startDateTime`, `sales.presales[]`,
@@ -92,8 +104,11 @@ punctuation stripped, leading "The" dropped.
 seed to 3–6 adjacent artists. Adjacent matches score lower and are labelled "adjacent to &lt;seed&gt;",
 never presented as direct.
 
-Containment matching requires 2+ tokens so short names cannot match inside unrelated titles.
-Everything matching neither tier is cut with "no taste match".
+Containment matching requires 2+ tokens **and 6+ characters**, so short names cannot match inside
+unrelated titles — `Future` does not match Future Islands, and `T.I.` (normalized `t i`) does not
+match any title with those letters as adjacent words. Tribute and covers acts are cut with "tribute
+or covers act, not the artist"; see changes 10 and 11 above. Everything matching neither tier is cut
+with "no taste match".
 
 ---
 
