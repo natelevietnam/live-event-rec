@@ -124,7 +124,7 @@ for (const raw of fetched.events) {
     continue;
   }
 
-  const { total, breakdown } = scoreEvent(event, match, prefs, now);
+  const { total, raw: rawScore, scoredOutOf, breakdown } = scoreEvent(event, match, prefs, now);
   scored.push({
     id: event.id,
     // The act actually playing, as the API names it. On an adjacent match this is
@@ -132,6 +132,7 @@ for (const raw of fetched.events) {
     // name that is not performing.
     artist: match.matchedOn,
     seed: match.seed,
+    seeds: match.seeds ?? [match.seed],
     tier: match.tier,
     eventName: event.name,
     url: event.url,
@@ -144,6 +145,8 @@ for (const raw of fetched.events) {
     priceMin: event.priceMin,
     priceCurrency: event.priceCurrency,
     score: total,
+    raw: rawScore,
+    scoredOutOf,
     reason: buildReason(breakdown),
     urgent: breakdown.urgency.imminent,
     breakdown,

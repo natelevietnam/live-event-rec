@@ -1,19 +1,26 @@
 {
-  "generatedAt": "2026-08-21T06:29:01.419Z",
+  "generatedAt": "2026-08-21T06:37:08.248Z",
   "horizonDays": 90,
   "priceCeiling": 200,
   "weights": {
     "taste": {
       "max": 45,
       "direct": 45,
-      "adjacent": 20
+      "directLoose": 40,
+      "adjacent": 20,
+      "adjacentLoose": 17
     },
     "urgency": {
       "max": 20,
-      "within7": 20,
-      "within30": 12,
-      "onSaleNow": 8,
-      "unknown": 5
+      "onsaleWithin7": 20,
+      "onsaleWithin30": 12,
+      "onsaleLater": 5,
+      "onSaleNow": 4,
+      "unknown": 4,
+      "showWithin14": 18,
+      "showWithin30": 12,
+      "showWithin60": 7,
+      "showBeyond60": 3
     },
     "effort": {
       "max": 20,
@@ -28,7 +35,6 @@
       "deep": 15,
       "underCeiling": 10,
       "overCeiling": 0,
-      "unknown": 7,
       "deepFraction": 0.4
     }
   },
@@ -36,8 +42,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T06:29:01Z",
-      "endDateTime": "2026-11-19T06:29:01Z"
+      "startDateTime": "2026-08-21T06:37:08Z",
+      "endDateTime": "2026-11-19T06:37:08Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1014,
@@ -45,9 +51,215 @@
   },
   "shows": [
     {
+      "id": "G5vYZ_7nmFDCr",
+      "artist": "J. Cole",
+      "seed": "J. Cole",
+      "seeds": [
+        "J. Cole"
+      ],
+      "tier": "direct",
+      "eventName": "J. Cole: The Fall-Off Tour",
+      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-oakland-california-08-29-2026/event/1C00644AAE23B39E",
+      "date": "Sat Aug 29",
+      "localDate": "2026-08-29",
+      "localTime": "20:00:00",
+      "weekday": "Saturday",
+      "venue": "Oakland Arena",
+      "city": "Oakland",
+      "priceMin": null,
+      "priceCurrency": null,
+      "score": 91,
+      "raw": 77,
+      "scoredOutOf": 85,
+      "reason": "Direct match. 9 days out. Oakland venue, Saturday. No price published.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 45,
+          "max": 45,
+          "tier": "direct",
+          "exact": true,
+          "seed": "J. Cole",
+          "seeds": [
+            "J. Cole"
+          ],
+          "matchedOn": "J. Cole"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2026-02-20T19:00:00.000Z",
+          "presaleName": "VIP Packages",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 9,
+          "imminent": true
+        },
+        "effort": {
+          "points": 14,
+          "max": 20,
+          "area": "eastBay",
+          "areaLabel": "Oakland",
+          "weeknight": false,
+          "weekday": "Saturday",
+          "weeknightPenalty": 0
+        },
+        "price": {
+          "points": 0,
+          "max": 0,
+          "applicable": false,
+          "band": "unknown",
+          "min": null,
+          "currency": null,
+          "ceiling": 200
+        }
+      }
+    },
+    {
+      "id": "G5vYZ_uF-GLNe",
+      "artist": "Snoop Dogg",
+      "seed": "Snoop Dogg",
+      "seeds": [
+        "Snoop Dogg"
+      ],
+      "tier": "direct",
+      "eventName": "MOUNT WESTMORE - SNOOP DOGG - ICE CUBE - E-40 - TOO SHORT - & More!",
+      "url": "https://www.ticketmaster.com/mount-westmore-snoop-dogg-ice-cube-san-jose-california-08-21-2026/event/1C0064D22131F8C2",
+      "date": "Fri Aug 21",
+      "localDate": "2026-08-21",
+      "localTime": "20:00:00",
+      "weekday": "Friday",
+      "venue": "SAP Center at San Jose",
+      "city": "San Jose",
+      "priceMin": null,
+      "priceCurrency": null,
+      "score": 84,
+      "raw": 71,
+      "scoredOutOf": 85,
+      "reason": "Direct match. Tomorrow. San Jose venue, Friday. No price published.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 45,
+          "max": 45,
+          "tier": "direct",
+          "exact": true,
+          "seed": "Snoop Dogg",
+          "seeds": [
+            "Snoop Dogg"
+          ],
+          "matchedOn": "Snoop Dogg"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "onsale",
+          "at": "2026-06-26T17:00:00.000Z",
+          "presaleName": null,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 1,
+          "imminent": true
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "peninsulaSouthBay",
+          "areaLabel": "San Jose",
+          "weeknight": false,
+          "weekday": "Friday",
+          "weeknightPenalty": 0
+        },
+        "price": {
+          "points": 0,
+          "max": 0,
+          "applicable": false,
+          "band": "unknown",
+          "min": null,
+          "currency": null,
+          "ceiling": 200
+        }
+      }
+    },
+    {
+      "id": "G5vYZ_F6ROqCc",
+      "artist": "USHER",
+      "seed": "Usher",
+      "seeds": [
+        "Usher",
+        "Chris Brown"
+      ],
+      "tier": "direct",
+      "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-08-28-2026/event/1C006481EF81D3AD",
+      "date": "Fri Aug 28",
+      "localDate": "2026-08-28",
+      "localTime": "19:00:00",
+      "weekday": "Friday",
+      "venue": "Levi's® Stadium",
+      "city": "Santa Clara",
+      "priceMin": null,
+      "priceCurrency": null,
+      "score": 84,
+      "raw": 71,
+      "scoredOutOf": 85,
+      "reason": "Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 45,
+          "max": 45,
+          "tier": "direct",
+          "exact": true,
+          "seed": "Usher",
+          "seeds": [
+            "Usher",
+            "Chris Brown"
+          ],
+          "matchedOn": "USHER"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2026-04-27T19:00:00.000Z",
+          "presaleName": "VIP Packages Onsale",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 8,
+          "imminent": true
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "peninsulaSouthBay",
+          "areaLabel": "Santa Clara",
+          "weeknight": false,
+          "weekday": "Friday",
+          "weeknightPenalty": 0
+        },
+        "price": {
+          "points": 0,
+          "max": 0,
+          "applicable": false,
+          "band": "unknown",
+          "min": null,
+          "currency": null,
+          "ceiling": 200
+        }
+      }
+    },
+    {
       "id": "G5vYZ_2fIMqin",
       "artist": "Tyla",
       "seed": "Tyla",
+      "seeds": [
+        "Tyla"
+      ],
       "tier": "direct",
       "eventName": "TYLA - THE A*POP WORLD TOUR",
       "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
@@ -59,25 +271,33 @@
       "city": "San Francisco",
       "priceMin": null,
       "priceCurrency": null,
-      "score": 80,
-      "reason": "Direct match. On sale now. SF venue, Friday. Price TBD.",
+      "score": 81,
+      "raw": 69,
+      "scoredOutOf": 85,
+      "reason": "Direct match. SF venue, Friday. No price published.",
       "urgent": false,
       "breakdown": {
         "taste": {
           "points": 45,
           "max": 45,
           "tier": "direct",
+          "exact": true,
           "seed": "Tyla",
+          "seeds": [
+            "Tyla"
+          ],
           "matchedOn": "Tyla"
         },
         "urgency": {
-          "points": 8,
+          "points": 4,
           "max": 20,
+          "driver": "onsale",
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
-          "daysUntil": 0,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 85,
           "imminent": false
         },
         "effort": {
@@ -90,65 +310,13 @@
           "weeknightPenalty": 0
         },
         "price": {
-          "points": 7,
-          "max": 15,
+          "points": 0,
+          "max": 0,
+          "applicable": false,
           "band": "unknown",
           "min": null,
-          "currency": null
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_7nmFDCr",
-      "artist": "J. Cole",
-      "seed": "J. Cole",
-      "tier": "direct",
-      "eventName": "J. Cole: The Fall-Off Tour",
-      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-oakland-california-08-29-2026/event/1C00644AAE23B39E",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "localTime": "20:00:00",
-      "weekday": "Saturday",
-      "venue": "Oakland Arena",
-      "city": "Oakland",
-      "priceMin": null,
-      "priceCurrency": null,
-      "score": 74,
-      "reason": "Direct match. On sale now. Oakland venue, Saturday. Price TBD.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "seed": "J. Cole",
-          "matchedOn": "J. Cole"
-        },
-        "urgency": {
-          "points": 8,
-          "max": 20,
-          "state": "onSaleNow",
-          "kind": "presale",
-          "at": "2026-02-20T19:00:00.000Z",
-          "presaleName": "VIP Packages",
-          "daysUntil": 0,
-          "imminent": false
-        },
-        "effort": {
-          "points": 14,
-          "max": 20,
-          "area": "eastBay",
-          "areaLabel": "Oakland",
-          "weeknight": false,
-          "weekday": "Saturday",
-          "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 7,
-          "max": 15,
-          "band": "unknown",
-          "min": null,
-          "currency": null
+          "currency": null,
+          "ceiling": 200
         }
       }
     },
@@ -156,6 +324,9 @@
       "id": "G5vYZbS0uA9TW",
       "artist": "Doja Cat",
       "seed": "Doja Cat",
+      "seeds": [
+        "Doja Cat"
+      ],
       "tier": "direct",
       "eventName": "Doja Cat - Tour Ma Vie World Tour",
       "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
@@ -167,25 +338,33 @@
       "city": "San Francisco",
       "priceMin": null,
       "priceCurrency": null,
-      "score": 74,
-      "reason": "Direct match. On sale now. SF venue, Monday. Price TBD.",
+      "score": 78,
+      "raw": 66,
+      "scoredOutOf": 85,
+      "reason": "Direct match. SF venue, Monday. No price published.",
       "urgent": false,
       "breakdown": {
         "taste": {
           "points": 45,
           "max": 45,
           "tier": "direct",
+          "exact": true,
           "seed": "Doja Cat",
+          "seeds": [
+            "Doja Cat"
+          ],
           "matchedOn": "Doja Cat"
         },
         "urgency": {
-          "points": 8,
+          "points": 7,
           "max": 20,
+          "driver": "proximity",
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
-          "daysUntil": 0,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 60,
           "imminent": false
         },
         "effort": {
@@ -198,119 +377,13 @@
           "weeknightPenalty": 6
         },
         "price": {
-          "points": 7,
-          "max": 15,
+          "points": 0,
+          "max": 0,
+          "applicable": false,
           "band": "unknown",
           "min": null,
-          "currency": null
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_uF-GLNe",
-      "artist": "Snoop Dogg",
-      "seed": "Snoop Dogg",
-      "tier": "direct",
-      "eventName": "MOUNT WESTMORE - SNOOP DOGG - ICE CUBE - E-40 - TOO SHORT - & More!",
-      "url": "https://www.ticketmaster.com/mount-westmore-snoop-dogg-ice-cube-san-jose-california-08-21-2026/event/1C0064D22131F8C2",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "localTime": "20:00:00",
-      "weekday": "Friday",
-      "venue": "SAP Center at San Jose",
-      "city": "San Jose",
-      "priceMin": null,
-      "priceCurrency": null,
-      "score": 68,
-      "reason": "Direct match. On sale now. San Jose venue, Friday. Price TBD.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "seed": "Snoop Dogg",
-          "matchedOn": "Snoop Dogg"
-        },
-        "urgency": {
-          "points": 8,
-          "max": 20,
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-06-26T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntil": 0,
-          "imminent": false
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "San Jose",
-          "weeknight": false,
-          "weekday": "Friday",
-          "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 7,
-          "max": 15,
-          "band": "unknown",
-          "min": null,
-          "currency": null
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_F6ROqCc",
-      "artist": "Usher Raymond & Chris Brown",
-      "seed": "Chris Brown",
-      "tier": "direct",
-      "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-08-28-2026/event/1C006481EF81D3AD",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "localTime": "19:00:00",
-      "weekday": "Friday",
-      "venue": "Levi's® Stadium",
-      "city": "Santa Clara",
-      "priceMin": null,
-      "priceCurrency": null,
-      "score": 68,
-      "reason": "Direct match. On sale now. Santa Clara venue, Friday. Price TBD.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "seed": "Chris Brown",
-          "matchedOn": "Usher Raymond & Chris Brown"
-        },
-        "urgency": {
-          "points": 8,
-          "max": 20,
-          "state": "onSaleNow",
-          "kind": "presale",
-          "at": "2026-04-27T19:00:00.000Z",
-          "presaleName": "VIP Packages Onsale",
-          "daysUntil": 0,
-          "imminent": false
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "Santa Clara",
-          "weeknight": false,
-          "weekday": "Friday",
-          "weeknightPenalty": 0
-        },
-        "price": {
-          "points": 7,
-          "max": 15,
-          "band": "unknown",
-          "min": null,
-          "currency": null
+          "currency": null,
+          "ceiling": 200
         }
       }
     },
@@ -318,6 +391,9 @@
       "id": "G5vYZ_6eBbDWb",
       "artist": "TLC",
       "seed": "TLC",
+      "seeds": [
+        "TLC"
+      ],
       "tier": "direct",
       "eventName": "TLC & Salt-N-Pepa with En Vogue - IT'S ICONIC",
       "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-concord-california-10-11-2026/event/1C006470BA63BF58",
@@ -329,25 +405,33 @@
       "city": "Concord",
       "priceMin": null,
       "priceCurrency": null,
-      "score": 68,
-      "reason": "Direct match. On sale now. Concord venue, Sunday. Price TBD.",
+      "score": 71,
+      "raw": 60,
+      "scoredOutOf": 85,
+      "reason": "Direct match. Concord venue, Sunday. No price published.",
       "urgent": false,
       "breakdown": {
         "taste": {
           "points": 45,
           "max": 45,
           "tier": "direct",
+          "exact": true,
           "seed": "TLC",
+          "seeds": [
+            "TLC"
+          ],
           "matchedOn": "TLC"
         },
         "urgency": {
-          "points": 8,
+          "points": 7,
           "max": 20,
+          "driver": "proximity",
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
-          "daysUntil": 0,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 52,
           "imminent": false
         },
         "effort": {
@@ -360,11 +444,13 @@
           "weeknightPenalty": 0
         },
         "price": {
-          "points": 7,
-          "max": 15,
+          "points": 0,
+          "max": 0,
+          "applicable": false,
           "band": "unknown",
           "min": null,
-          "currency": null
+          "currency": null,
+          "ceiling": 200
         }
       }
     }
@@ -543,7 +629,7 @@
       "artist": "Daniel Caesar",
       "date": "Fri Aug 21",
       "localDate": "2026-08-21",
-      "reason": "scored 55, below the top 6"
+      "reason": "scored 68, below the top 6"
     },
     {
       "id": "G5vYZ_2vzqgkf",
@@ -683,7 +769,7 @@
       "artist": "Ginuwine",
       "date": "Sat Aug 22",
       "localDate": "2026-08-22",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 54, below the top 6"
     },
     {
       "id": "G5vYZ_6NFzWKk",
@@ -907,14 +993,14 @@
       "artist": "Ledisi",
       "date": "Thu Aug 27",
       "localDate": "2026-08-27",
-      "reason": "scored 37, below the top 6"
+      "reason": "scored 47, below the top 6"
     },
     {
       "id": "G5vYZ_axm9SXH",
       "artist": "Mamamoo",
       "date": "Thu Aug 27",
       "localDate": "2026-08-27",
-      "reason": "scored 37, below the top 6"
+      "reason": "scored 47, below the top 6"
     },
     {
       "id": "G5vYZbghpZQrK",
@@ -1142,17 +1228,17 @@
     },
     {
       "id": "G5vYZ_a6FH2jc",
-      "artist": "Usher Raymond & Chris Brown",
+      "artist": "USHER",
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
-      "reason": "later date for Usher Raymond & Chris Brown, higher-scoring night already listed"
+      "reason": "later date for USHER, higher-scoring night already listed"
     },
     {
       "id": "G5vYZ_AnrXCcj",
       "artist": "Nas",
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 54, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7-VOd",
@@ -1261,10 +1347,10 @@
     },
     {
       "id": "G5vYZ_a6FXTqA",
-      "artist": "Usher Raymond & Chris Brown",
+      "artist": "USHER",
       "date": "Tue Sep 1",
       "localDate": "2026-09-01",
-      "reason": "later date for Usher Raymond & Chris Brown, higher-scoring night already listed"
+      "reason": "later date for USHER, higher-scoring night already listed"
     },
     {
       "id": "rZ7HnEZ1AfZw_f",
@@ -1936,7 +2022,7 @@
       "artist": "Jesse McCartney",
       "date": "Fri Sep 11",
       "localDate": "2026-09-11",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 47, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7-VOA",
@@ -2517,7 +2603,7 @@
       "artist": "Big Daddy Kane",
       "date": "Fri Sep 18",
       "localDate": "2026-09-18",
-      "reason": "scored 49, below the top 6"
+      "reason": "scored 54, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7Pb0o",
@@ -2685,7 +2771,7 @@
       "artist": "Bow Wow",
       "date": "Sat Sep 19",
       "localDate": "2026-09-19",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 47, below the top 6"
     },
     {
       "id": "rZ7HnEZ1AfJeOd",
@@ -2986,7 +3072,7 @@
       "artist": "LE SSERAFIM",
       "date": "Wed Sep 23",
       "localDate": "2026-09-23",
-      "reason": "scored 37, below the top 6"
+      "reason": "scored 34, below the top 6"
     },
     {
       "id": "G5vYZbUD3X2kj",
@@ -3343,7 +3429,7 @@
       "artist": "Smino",
       "date": "Sun Sep 27",
       "localDate": "2026-09-27",
-      "reason": "scored 49, below the top 6"
+      "reason": "scored 48, below the top 6"
     },
     {
       "id": "G5vYZ_A2ft6lv",
@@ -3833,7 +3919,7 @@
       "artist": "Rico Nasty",
       "date": "Fri Oct 2",
       "localDate": "2026-10-02",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 41, below the top 6"
     },
     {
       "id": "G5vYZ_G0Mro22",
@@ -3959,7 +4045,7 @@
       "artist": "Kehlani",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 41, below the top 6"
     },
     {
       "id": "Z7r9jZ1A70s8I",
@@ -4204,7 +4290,7 @@
       "artist": "aespa",
       "date": "Tue Oct 6",
       "localDate": "2026-10-06",
-      "reason": "scored 43, below the top 6"
+      "reason": "scored 41, below the top 6"
     },
     {
       "id": "G5vYZbgD1f1IU",
@@ -5170,7 +5256,7 @@
       "artist": "ScHoolboy Q",
       "date": "Fri Oct 16",
       "localDate": "2026-10-16",
-      "reason": "scored 49, below the top 6"
+      "reason": "scored 48, below the top 6"
     },
     {
       "id": "rZ7HnEZ1AfPtkd",
@@ -5296,7 +5382,7 @@
       "artist": "Nelly",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
-      "reason": "scored 68, below the top 6"
+      "reason": "scored 71, below the top 6"
     },
     {
       "id": "G5vYZ_ullh3se",
@@ -5772,7 +5858,7 @@
       "artist": "Chief Keef",
       "date": "Fri Oct 23",
       "localDate": "2026-10-23",
-      "reason": "scored 55, below the top 6"
+      "reason": "scored 52, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7Pg_v",
@@ -6059,7 +6145,7 @@
       "artist": "Bryson Tiller",
       "date": "Tue Oct 27",
       "localDate": "2026-10-27",
-      "reason": "scored 37, below the top 6"
+      "reason": "scored 31, below the top 6"
     },
     {
       "id": "G5vYZ_AllHHol",
@@ -6444,7 +6530,7 @@
       "artist": "Denzel Curry",
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
-      "reason": "scored 55, below the top 6"
+      "reason": "scored 56, below the top 6"
     },
     {
       "id": "Z7r9jZ1A70OaE",
@@ -6591,7 +6677,7 @@
       "artist": "XG",
       "date": "Tue Nov 3",
       "localDate": "2026-11-03",
-      "reason": "scored 68, below the top 6"
+      "reason": "scored 67, below the top 6"
     },
     {
       "id": "rZ7HnEZ1AfPIfK",
@@ -7312,7 +7398,7 @@
       "artist": "Vince Staples",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
-      "reason": "scored 55, below the top 6"
+      "reason": "scored 52, below the top 6"
     },
     {
       "id": "Z7r9jZ1A7PPvP",
@@ -7326,7 +7412,7 @@
       "artist": "Jorja Smith",
       "date": "Mon Nov 16",
       "localDate": "2026-11-16",
-      "reason": "scored 49, below the top 6"
+      "reason": "scored 45, below the top 6"
     }
   ]
 }

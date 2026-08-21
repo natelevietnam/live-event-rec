@@ -17,6 +17,11 @@ Hard freeze Friday Aug 21, 14:00 PT.
 | 4 | **One card per artist (new).** | A three-night run is one decision, not three. Without this the top six can be one act six times. Extra nights go to the cut list with a stated reason — never silently dropped. |
 | 5 | **Locality fallback is automatic (new).** | The original said "verify `dmaId=382`, fallback if it fails." The build script now tries all three strategies in order and states which one it used, in the footer. A silent geography failure is the worst failure mode here. |
 | 6 | **Paging ceiling disclosed (new).** | Discovery refuses paging past 1000 items. If the window has more, the footer says how many of how many were read. Silent truncation would read as "we looked at everything." |
+| 7 | **`geoPoint` leads instead of `dmaId=382`.** | Step 0 against the live API showed `dmaId=382` returns Sacramento venues — roughly 90 miles from SoMa, scored identically to Mountain View by the city buckets. The 50-mile `geoPoint` constrains this server-side. A client-side distance guard covers the fallback path. |
+| 8 | **Urgency rebuilt on two axes.** | Measured on live data, the spec's onsale rule was a constant: 0 of 200 sampled events had a future public onsale. Every show scored 8, so urgency contributed nothing and five shows tied at 68 for three slots. Proximity to the show date carries the same scarcity insight on a signal the data actually has. The onsale rule survives as an override. |
+| 9 | **A missing price is no longer scored.** | 70% of events publish no price, so the flat 7/15 went to most of the list and flattened it. Those events are now scored out of 85 and the card says so. Normalizing to 0–100 keeps the two denominators comparable. |
+| 10 | **Taste is weighted by match confidence.** | A seed matched exactly is a more certain read than one matched inside a longer billing, and now scores 45 against 40. Co-headliners hitting several seeds are named in the reason rather than one being picked arbitrarily. |
+| 11 | **Tribute and covers acts are cut.** | They carry the real artist's name and match cleanly, so a tribute band would have been presented as the artist — the exact invented fact principle 3 forbids. Two seeds on Nate's list (Pop Smoke, Michael Jackson) are deceased, so tributes are the only thing they can surface. |
 
 Everything else follows the original spec literally.
 
@@ -98,16 +103,35 @@ Weights live in one config object so the UI can render the breakdown.
 
 | Component | Max | Rule |
 |---|---|---|
-| Taste | 45 | Direct 45. Adjacent 20. |
-| Urgency | 20 | Opens within 7 days: 20. Within 30 days: 12. Already on sale: 8. Unknown: 5. |
-| Effort | 20 | SF 20. Oakland/Berkeley 14. Peninsula/South Bay 8. Minus 6 if Mon–Thu. Floor 0. |
-| Price | 15 | Min at or under 40% of ceiling: 15. Under ceiling: 10. Over: 0. Missing: 7, labelled "price TBD". |
+| Taste | 45 | Direct 45, or 40 if matched inside a longer billing. Adjacent 20, or 17 the same way. |
+| Urgency | 20 | Higher of two axes. Onsale: opens ≤7d 20, ≤30d 12, later 5, on sale now 4, unknown 4. Proximity: show ≤14d 18, ≤30d 12, ≤60d 7, beyond 3. |
+| Effort | 20 | SF 20. Near East Bay 14. Peninsula/South Bay 8. Minus 6 if Mon–Thu. Floor 0. |
+| Price | 15 | Min at or under 40% of ceiling: 15. Under ceiling: 10. Over: 0. **Not published: not scored**, event ranked out of 85. |
 
-Reason strings assemble only the components that fired:
+Scores are normalized to 0–100 so an 85-denominator show stays comparable to a 100-denominator
+one. Both answer the same question: what fraction of the points this event could have earned did
+it earn.
 
-> Direct match. Presale opens Tue Aug 25. SF venue, Saturday. From $68.
+Reason strings assemble only the components that fired, and only the urgency axis that actually
+set the score:
 
-No adjectives, no LLM, no invention.
+> Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.
+
+No adjectives, no LLM, no invention. "On sale now" earns no clause — it was true of every event in
+the window, so it says nothing about whether to go.
+
+### What the live data forced
+
+Both changes to the spec's scoring came from measuring, not from taste:
+
+| Finding | Measurement | Consequence |
+|---|---|---|
+| Onsale urgency is a constant | 0 of 200 sampled events had a future public onsale; 1 had a future presale | Every show scored 8/20. Five tied at 68 for three slots. Rebuilt on proximity. |
+| Most events have no price | 141 of 200 (70%) carry no `priceRanges`; big rooms are worst | Flat 7/15 went to most of the list. Now excluded from the denominator instead. |
+
+Before the fix every shortlisted show scored exactly `60 + effort` — the ranking was sorting by
+venue distance and nothing else. After it, the top six span 71–91 and the matched population
+spans 31–91.
 
 ---
 
@@ -168,10 +192,19 @@ sending.
 
 ---
 
-## 11. Open items for Nate
+## 11. Status
 
-- [ ] `config/artists.json`, 20 to 30 names
-- [ ] Ticketmaster API key into `.env`
+- [x] `config/artists.json` — 57 names supplied by Nate
+- [x] `config/similar-artists.json` — 192 adjacent artists generated offline
+- [x] Ticketmaster API key in `.env` (gitignored)
+- [x] Step 0 verified against the live API
+- [x] Real `public/data.json` generated — 1000 events read, 6 shortlisted, 994 cut
+- [x] Page verified rendering in headless Chrome
+- [x] Single-file build (`npm run bundle` → `dist/worth-it.html`), verified under `file://`
+- [x] Hosting — GitHub Pages
 - [ ] Confirm price ceiling (200) and weeknight tolerance (low)
-- [ ] Confirm Vercel as the host
-- [ ] Repo `natelevietnam/live-event-rec` is currently public — confirm that is intended
+- [ ] Press release, roadmap write-up, demo video
+
+Two seeds on the list cannot tour: **Pop Smoke** and **Michael Jackson** are deceased, so those
+entries can only surface tribute acts, which the tribute guard cuts. They are harmless but
+contribute nothing.

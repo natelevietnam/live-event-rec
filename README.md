@@ -95,15 +95,43 @@ renders the breakdown from the same numbers the ranking used.
 
 | Component | Max | Rule |
 |---|---|---|
-| Taste | 45 | Direct match 45. Adjacent match 20. |
-| Urgency | 20 | Onsale or presale opens within 7 days: 20. Within 30 days: 12. Already on sale: 8. Onsale date unknown: 5. |
-| Effort | 20 | SF venue 20. Oakland or Berkeley 14. Peninsula or South Bay 8. Then subtract 6 if the show is Mon–Thu. Floor at 0. |
-| Price | 15 | `priceRanges[0].min` at or under 40% of your ceiling: 15. Under ceiling: 10. Over ceiling: 0. Missing: 7, labelled "price TBD", never estimated. |
+| Taste | 45 | Direct match 45, or 40 if matched inside a longer billing. Adjacent match 20, or 17 the same way. |
+| Urgency | 20 | The higher of two axes. **Onsale:** opens within 7 days 20, within 30 days 12, later 5, already on sale 4, unknown 4. **Proximity:** show within 14 days 18, within 30 days 12, within 60 days 7, beyond 3. |
+| Effort | 20 | SF venue 20. Near East Bay 14. Peninsula or South Bay 8. Then subtract 6 if the show is Mon–Thu. Floor at 0. |
+| Price | 15 | `priceRanges[0].min` at or under 40% of your ceiling: 15. Under ceiling: 10. Over ceiling: 0. **Not published: not scored** — see below. |
+
+### Why urgency has two axes
+
+The original spec scored urgency on onsale timing alone. Measured against the live
+API that component is a **constant**: of 200 sampled events, **zero** had a future public
+onsale and one had a future presale. Ninety days out, everything is already on sale, so
+the rule fired identically for every show and contributed no ranking information.
+
+The insight it was reaching for — scarcity forces a decision — is real, so it is kept on
+the axis the data actually carries: how soon the show is. A show in nine days is a
+decision you make now; one in eighty is not. The onsale rule remains as an override for
+the case it was written for, a newly announced tour, and still wins outright when it fires.
+
+### Why a missing price is not scored
+
+Roughly **70% of events carry no `priceRanges` at all** (141 of 200 sampled), and big rooms
+are the worst offenders. The original flat "7 out of 15" for missing data therefore went to
+most of the list and flattened it. Instead, an event with no published price is scored out
+of **85** on the three components that do have data, and both the card and the breakdown say
+so. The final score is normalized to 0–100 so an 85-denominator show stays comparable to a
+100-denominator one: both answer "what fraction of the points this event could have earned
+did it earn."
+
+Guessing a price would break principle 3. Averaging one in as a flat score quietly does the
+same thing to the ranking.
 
 Reason strings are assembled from the components that actually fired, in order. A component that did
-not fire contributes no clause:
+not fire contributes no clause, and only the urgency axis that actually set the score speaks:
 
-> Direct match. Presale opens Tue Aug 25. SF venue, Saturday. From $68.
+> Direct match: Usher, Chris Brown. 8 days out. Santa Clara venue, Friday. No price published.
+
+"On sale now" earns no clause. It was true of every event in the window, so it says nothing about
+whether to go.
 
 ### Deduplication
 

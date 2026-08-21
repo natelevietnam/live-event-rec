@@ -70,19 +70,25 @@ function lookup(candidate, index) {
   if (!norm) return null;
 
   if (index.direct.has(norm)) {
-    return { tier: 'direct', seed: index.direct.get(norm), matchedOn: candidate };
+    return { tier: 'direct', seed: index.direct.get(norm), matchedOn: candidate, exact: true };
   }
   if (index.adjacent.has(norm)) {
-    return { tier: 'adjacent', seed: index.adjacent.get(norm), matchedOn: candidate };
+    return { tier: 'adjacent', seed: index.adjacent.get(norm), matchedOn: candidate, exact: true };
   }
 
   // Fuzzier pass: seed name appearing as a whole phrase inside the candidate,
   // e.g. attraction "Japanese Breakfast (Solo)" against seed "Japanese Breakfast".
+  // Flagged inexact — it is a real match but a less certain one, and the score
+  // reflects that rather than pretending the two are equally confident.
   for (const [key, seed] of index.direct) {
-    if (containedIn(key, norm)) return { tier: 'direct', seed, matchedOn: candidate };
+    if (containedIn(key, norm)) {
+      return { tier: 'direct', seed, matchedOn: candidate, exact: false };
+    }
   }
   for (const [key, seed] of index.adjacent) {
-    if (containedIn(key, norm)) return { tier: 'adjacent', seed, matchedOn: candidate };
+    if (containedIn(key, norm)) {
+      return { tier: 'adjacent', seed, matchedOn: candidate, exact: false };
+    }
   }
   return null;
 }
@@ -99,14 +105,23 @@ export function matchEvent(event, artists, similar) {
 export function matchEventWithIndex(event, index) {
   const candidates = event.attractions.length > 0 ? event.attractions : [event.name].filter(Boolean);
 
-  let best = null;
+  const hits = [];
   for (const candidate of candidates) {
     const hit = lookup(candidate, index);
-    if (!hit) continue;
-    if (hit.tier === 'direct') return hit; // direct always wins, stop looking
-    if (!best) best = hit;
+    if (hit) hits.push(hit);
   }
-  return best;
+  if (hits.length === 0) return null;
+
+  // Direct beats adjacent; within a tier, an exact match beats a containment one.
+  const directs = hits.filter((h) => h.tier === 'direct');
+  const pool = directs.length > 0 ? directs : hits;
+  pool.sort((a, b) => Number(b.exact) - Number(a.exact));
+
+  // A bill hitting several of your artists at once is a genuinely stronger yes.
+  // It earns no extra points — taste is already capped — but it is named in the
+  // reason so the card says "Usher, Chris Brown" rather than picking one.
+  const seeds = [...new Set(pool.map((h) => h.seed))];
+  return { ...pool[0], seeds };
 }
 
 export { buildIndex, tokensOf };

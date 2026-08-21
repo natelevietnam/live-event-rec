@@ -38,19 +38,32 @@ export function formatShowDate(event) {
 }
 
 function tasteClause(taste) {
-  if (taste.tier === 'direct') return 'Direct match.';
+  const seeds = taste.seeds ?? [taste.seed];
+  if (taste.tier === 'direct') {
+    // A bill hitting several of your artists says so rather than picking one.
+    if (seeds.length > 1) return `Direct match: ${seeds.join(', ')}.`;
+    return 'Direct match.';
+  }
   return `Adjacent to ${taste.seed}.`;
 }
 
 function urgencyClause(urgency) {
-  if (urgency.state === 'opens') {
+  // Only the axis that actually set the score speaks, and only when it carries
+  // a decision. "On sale now" fired on every event in the window, so it says
+  // nothing about whether to go and earns no clause.
+  if (urgency.driver === 'onsale' && urgency.state === 'opens') {
     const day = formatPacificDay(urgency.at);
     if (!day) return null;
     const label = urgency.kind === 'presale' ? 'Presale' : 'Onsale';
     return `${label} opens ${day}.`;
   }
-  if (urgency.state === 'onSaleNow') return 'On sale now.';
-  return null; // unknown onsale contributes points but asserts nothing
+  if (urgency.driver === 'proximity' && urgency.daysUntilShow !== null) {
+    const d = urgency.daysUntilShow;
+    if (d <= 0) return 'Tonight.';
+    if (d === 1) return 'Tomorrow.';
+    if (d <= 30) return `${d} days out.`;
+  }
+  return null;
 }
 
 function effortClause(effort) {
@@ -62,8 +75,7 @@ function effortClause(effort) {
 }
 
 function priceClause(price) {
-  if (price.band === 'unknown') return 'Price TBD.';
-  if (typeof price.min !== 'number') return null;
+  if (!price.applicable || typeof price.min !== 'number') return 'No price published.';
   const amount = Number.isInteger(price.min) ? price.min : price.min.toFixed(2);
   return `From $${amount}.`;
 }

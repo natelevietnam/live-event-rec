@@ -31,34 +31,47 @@ function formatTimestamp(iso) {
 
 function componentNote(key, part) {
   if (key === 'taste') {
+    const confidence = part.exact ? '' : ' Matched inside a longer billing, so scored lower.';
     return part.tier === 'direct'
-      ? `Direct match on ${part.matchedOn}.`
-      : `${part.matchedOn} is adjacent to ${part.seed}.`;
+      ? `Direct match on ${part.matchedOn}.${confidence}`
+      : `${part.matchedOn} is adjacent to ${part.seed}.${confidence}`;
   }
   if (key === 'urgency') {
-    if (part.state === 'opens') {
+    if (part.driver === 'onsale' && part.state === 'opens') {
       const label = part.kind === 'presale' ? 'Presale' : 'Onsale';
-      return `${label} opens in ${part.daysUntil} day${part.daysUntil === 1 ? '' : 's'}.`;
+      return `${label} opens in ${part.daysUntilOnsale} day${part.daysUntilOnsale === 1 ? '' : 's'}.`;
     }
-    if (part.state === 'onSaleNow') return 'Already on sale.';
-    return 'Onsale date not published by the source.';
+    if (part.daysUntilShow !== null) {
+      const sale =
+        part.state === 'onSaleNow' ? 'already on sale' : 'onsale date not published';
+      const d = part.daysUntilShow;
+      const when = d <= 0 ? 'Show is today' : d === 1 ? '1 day until the show' : `${d} days until the show`;
+      return `${when}, ${sale}.`;
+    }
+    return 'No usable date published by the source.';
   }
   if (key === 'effort') {
     const place = part.areaLabel ? `${part.areaLabel}.` : 'Venue city not published.';
     return part.weeknight ? `${place} Weeknight, −${part.weeknightPenalty}.` : place;
   }
   if (key === 'price') {
-    if (part.band === 'unknown') return 'Price not published by the source. Not estimated.';
-    if (part.band === 'over') return 'Above your ceiling.';
-    if (part.band === 'deep') return 'Well under your ceiling.';
-    return 'Under your ceiling.';
+    if (!part.applicable) {
+      return 'No price published. Not estimated, and not scored — this show is ranked out of 85 on the other three.';
+    }
+    if (part.band === 'over') return `Above your $${part.ceiling} ceiling.`;
+    if (part.band === 'deep') return `Well under your $${part.ceiling} ceiling.`;
+    return `Under your $${part.ceiling} ceiling.`;
   }
   return '';
 }
 
-function renderBreakdown(breakdown) {
+function renderBreakdown(breakdown, show) {
   const details = el('details', 'breakdown');
-  details.append(el('summary', null, 'Score breakdown'));
+  const label =
+    show.scoredOutOf && show.scoredOutOf !== 100
+      ? `Score breakdown — ${show.raw} of ${show.scoredOutOf} possible`
+      : 'Score breakdown';
+  details.append(el('summary', null, label));
 
   const bars = el('div', 'bars');
   for (const [key, label] of Object.entries(COMPONENT_LABELS)) {
@@ -75,7 +88,7 @@ function renderBreakdown(breakdown) {
     track.append(fill);
     row.append(track);
 
-    row.append(el('span', 'bar-value', `${part.points}/${part.max}`));
+    row.append(el('span', 'bar-value', part.max > 0 ? `${part.points}/${part.max}` : 'n/a'));
     row.append(el('p', 'bar-note', componentNote(key, part)));
     bars.append(row);
   }
@@ -114,7 +127,7 @@ function renderCard(show) {
     // not repeated here.
     show.date ?? '',
     [show.venue, show.city].filter(Boolean).join(', '),
-    typeof show.priceMin === 'number' ? `From $${show.priceMin}` : 'Price TBD',
+    typeof show.priceMin === 'number' ? `From $${show.priceMin}` : 'No price published',
   ].filter((p) => p.length > 0);
 
   const meta = el('p', 'card-meta');
@@ -126,9 +139,21 @@ function renderCard(show) {
 
   card.append(el('p', 'card-reason', show.reason));
 
-  if (show.urgent) card.append(el('span', 'badge', 'Closing soon'));
+  // "Closing" only makes sense for an onsale window. When the urgency comes from
+  // the show itself being near, the badge says so instead.
+  if (show.urgent) {
+    const u = show.breakdown.urgency;
+    const d = u.daysUntilShow;
+    const label =
+      u.driver === 'onsale' && u.state === 'opens'
+        ? 'Onsale closing'
+        : d !== null && d <= 7
+          ? 'This week'
+          : 'Within two weeks';
+    card.append(el('span', 'badge', label));
+  }
 
-  card.append(renderBreakdown(show.breakdown));
+  card.append(renderBreakdown(show.breakdown, show));
   li.append(card);
   return li;
 }
