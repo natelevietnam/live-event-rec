@@ -366,7 +366,7 @@ function renderChips() {
   const box = document.getElementById('artistChips');
   box.replaceChildren();
   if (state.artists.length === 0) {
-    box.append(el('span', 'chips-empty', 'No artists — genre alone will rank the list.'));
+    box.append(el('span', 'chips-empty', 'No artists yet. Add a name below, or pick a genre.'));
   }
   for (const name of state.artists) {
     const chip = el('span', 'chip', name);
