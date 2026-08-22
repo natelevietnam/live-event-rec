@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-21T20:21:50.426Z",
+  "generatedAt": "2026-08-22T02:14:30.625Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-21T20:21:50Z",
-      "endDateTime": "2026-11-19T20:21:50Z"
+      "startDateTime": "2026-08-22T02:14:30Z",
+      "endDateTime": "2026-11-20T02:14:30Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1016,
+    "eventsReported": 1011,
     "truncated": true
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 188
+      "count": 189
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Pop",
-      "count": 108
+      "count": 107
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,11 +66,11 @@
     },
     {
       "name": "R&B",
-      "count": 59
+      "count": 60
     },
     {
       "name": "Dance/Electronic",
-      "count": 39
+      "count": 40
     },
     {
       "name": "Country",
@@ -78,11 +78,11 @@
     },
     {
       "name": "Latin",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Metal",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Blues",
@@ -485,48 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_dU5Uyb_",
-      "artist": "Noah Kahan",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-bfZ",
-      "artist": "Tucker Wetmore",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xfpe",
-      "artist": "Dimmu Borgir",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mmG6t5",
-      "artist": "Earthless",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ad-I7BZ",
-      "artist": "Karol G",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6eU7h08",
-      "artist": "Morris Day and the Time",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1A4ZajK",
       "artist": "Smoked909/ Manos De Fierro/ Humanicide/ Avulsion/ Suffering",
@@ -1522,13 +1480,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1A4vFbK",
-      "artist": "Connor Morrison, Honey Disposition, Ben Thuesen, Libba",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A70o-J",
       "artist": "Nitzer Ebb",
       "date": "Fri Sep 4",
@@ -1559,6 +1510,13 @@
     {
       "id": "rZ7HnEZ1AfFzaf",
       "artist": "Tonic Walter",
+      "date": "Fri Sep 4",
+      "localDate": "2026-09-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vFbK",
+      "artist": "Connor Morrison, Honey Disposition, Ben Thuesen, Libba",
       "date": "Fri Sep 4",
       "localDate": "2026-09-04",
       "reason": "no taste match"
@@ -2520,7 +2478,7 @@
       "artist": "josh conway",
       "date": "Thu Sep 17",
       "localDate": "2026-09-17",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_GXHIG-P",
@@ -3189,7 +3147,7 @@
     },
     {
       "id": "rZ7HnEZ1AfJfuK",
-      "artist": "Latin Jazz Night Jam",
+      "artist": "Latin Jazz Night Returns",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -3406,7 +3364,7 @@
     },
     {
       "id": "rZ7HnEZ1Afap_f",
-      "artist": "Joon (SOLD OUT)",
+      "artist": "Joon with Lauryn Kovacs (SOLD OUT)",
       "date": "Sun Sep 27",
       "localDate": "2026-09-27",
       "reason": "no taste match"
@@ -5722,6 +5680,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1vG0",
+      "artist": "Broadway",
+      "date": "Thu Oct 22",
+      "localDate": "2026-10-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_A5NTXU-",
       "artist": "gnash",
       "date": "Thu Oct 22",
@@ -7441,6 +7406,41 @@
       "artist": "The Mountain Goats",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2H97zto",
+      "artist": "Jorja Smith",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PPvP",
+      "artist": "Margaret Glaspy",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Nh2X",
+      "artist": "The Mountain Goats",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70zfg",
+      "artist": "Manic Street Preachers",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70K_w",
+      "artist": "Son Volt",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
       "reason": "no taste match"
     }
   ],
