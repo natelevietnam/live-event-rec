@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-22T02:14:30.625Z",
+  "generatedAt": "2026-08-22T13:30:00.238Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-22T02:14:30Z",
-      "endDateTime": "2026-11-20T02:14:30Z"
+      "startDateTime": "2026-08-22T13:30:00Z",
+      "endDateTime": "2026-11-20T13:30:00Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1011,
-    "truncated": true
+    "eventsReported": 1000,
+    "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 231
+      "count": 238
     },
     {
       "name": "Other",
-      "count": 189
-    },
-    {
-      "name": "Alternative",
-      "count": 110
+      "count": 186
     },
     {
       "name": "Pop",
-      "count": 107
+      "count": 110
+    },
+    {
+      "name": "Alternative",
+      "count": 108
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 70
+      "count": 67
     },
     {
       "name": "R&B",
-      "count": 60
+      "count": 59
     },
     {
       "name": "Dance/Electronic",
@@ -74,11 +74,11 @@
     },
     {
       "name": "Country",
-      "count": 35
+      "count": 36
     },
     {
       "name": "Latin",
-      "count": 28
+      "count": 27
     },
     {
       "name": "Metal",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Blues",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Folk",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Classical",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Reggae",
@@ -192,63 +192,6 @@
           "areaLabel": "Oakland",
           "weeknight": false,
           "weekday": "Saturday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_uF-GLNe",
-      "artist": "Snoop Dogg",
-      "seed": "Snoop Dogg",
-      "seeds": [
-        "Snoop Dogg"
-      ],
-      "tier": "direct",
-      "eventName": "MOUNT WESTMORE - SNOOP DOGG - ICE CUBE - E-40 - TOO SHORT - & More!",
-      "url": "https://www.ticketmaster.com/mount-westmore-snoop-dogg-ice-cube-san-jose-california-08-21-2026/event/1C0064D22131F8C2",
-      "genre": "Hip-Hop/Rap",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "localTime": "20:00:00",
-      "weekday": "Friday",
-      "venue": "SAP Center at San Jose",
-      "city": "San Jose",
-      "score": 84,
-      "raw": 71,
-      "scoredOutOf": 85,
-      "reason": "Direct match. Tonight. San Jose venue, Friday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "Snoop Dogg",
-          "seeds": [
-            "Snoop Dogg"
-          ],
-          "matchedOn": "Snoop Dogg"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-06-26T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "San Jose",
-          "weeknight": false,
-          "weekday": "Friday",
           "weeknightPenalty": 0
         }
       }
@@ -482,142 +425,66 @@
           "weeknightPenalty": 0
         }
       }
+    },
+    {
+      "id": "Z7r9jZ1A7x78p",
+      "artist": "Ginuwine",
+      "seed": "Usher",
+      "seeds": [
+        "Usher"
+      ],
+      "tier": "adjacent",
+      "eventName": "Dru Hill w/ Ginuwine",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x78p",
+      "genre": "Other",
+      "date": "Sat Aug 22",
+      "localDate": "2026-08-22",
+      "localTime": "19:30:00",
+      "weekday": "Saturday",
+      "venue": "Mountain Winery",
+      "city": "Saratoga",
+      "score": 54,
+      "raw": 46,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to Usher. Tomorrow. Saratoga venue, Saturday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "Usher",
+          "seeds": [
+            "Usher"
+          ],
+          "matchedOn": "Ginuwine"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "onsale",
+          "at": "2026-04-10T17:00:00.000Z",
+          "presaleName": null,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 1,
+          "imminent": true
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "peninsulaSouthBay",
+          "areaLabel": "Saratoga",
+          "weeknight": false,
+          "weekday": "Saturday",
+          "weeknightPenalty": 0
+        }
+      }
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1A4ZajK",
-      "artist": "Smoked909/ Manos De Fierro/ Humanicide/ Avulsion/ Suffering",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_F1mIUcV",
-      "artist": "Daniel Caesar",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afagkf",
-      "artist": "Whalefall/ Sleepycat/ The Science Team/ Petals for Armor/ Pluie",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afx8Fd",
-      "artist": "DWLLRS",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FruZaRN",
-      "artist": "Nine Vicious",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70-F4",
-      "artist": "anees",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfON_S",
-      "artist": "Mustache Harbor",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Vro",
-      "artist": "Norman Brown",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_60bR_8o",
-      "artist": "Morgan Wallen Tribute UK",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pgj9",
-      "artist": "Inner Wave",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Y-K",
-      "artist": "Ron Artis II",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_Gbej3Ok",
-      "artist": "Pete Floyd",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_F6mIc7J",
-      "artist": "Lupillo Rivera",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1kAYv0PIGACWuDv",
-      "artist": "HANSON",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFpbV",
-      "artist": "Gimme Gimme Disco",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPgFN",
-      "artist": "Niina Soleil",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaSf0",
-      "artist": "Fully Loaded, San Quinn",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJK8K",
-      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Vr8",
-      "artist": "Norman Brown",
-      "date": "Fri Aug 21",
-      "localDate": "2026-08-21",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_2vzqgkf",
       "artist": "Bang the Bay Presents: Feel the Sounds",
@@ -750,13 +617,6 @@
       "date": "Sat Aug 22",
       "localDate": "2026-08-22",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78p",
-      "artist": "Ginuwine",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "scored 54, below the top 6"
     },
     {
       "id": "G5vYZ_6NFzWKk",
@@ -7441,6 +7301,146 @@
       "artist": "Son Volt",
       "date": "Mon Nov 16",
       "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1sHw6pW",
+      "artist": "Straight No Chaser",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfJA4d",
+      "artist": "Silverada",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aMJj0IJ",
+      "artist": "Son Volt",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C0rMvam",
+      "artist": "Thundercat",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFE4V",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZbU3R_nwH",
+      "artist": "Three Days Grace",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwJf",
+      "artist": "Open Mic Night",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afat_f",
+      "artist": "untitled (halo)",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G850l8_",
+      "artist": "The Mountain Goats",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8pVx7Pk",
+      "artist": "Jamila Woods",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CFd56Zl",
+      "artist": "Alice Cooper",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaWJha",
+      "artist": "Pretty Lights",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70A8s",
+      "artist": "GWAR",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z8kd",
+      "artist": "Internet Girl",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZYZS",
+      "artist": "Pretty Sick",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Pl8-",
+      "artist": "The Mountain Goats",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1m-eW1q",
+      "artist": "KATSEYE",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70MGt",
+      "artist": "Fred Eaglesmith",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1yavCof",
+      "artist": "Joanne Shaw Taylor",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_um1ZJh-",
+      "artist": "Pretty Lights",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
       "reason": "no taste match"
     }
   ],
