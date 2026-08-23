@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-22T13:30:00.238Z",
+  "generatedAt": "2026-08-23T02:22:57.123Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,12 +36,12 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-22T13:30:00Z",
-      "endDateTime": "2026-11-20T13:30:00Z"
+      "startDateTime": "2026-08-23T02:22:57Z",
+      "endDateTime": "2026-11-21T02:22:57Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1000,
-    "truncated": false
+    "eventsReported": 1001,
+    "truncated": true
   },
   "genres": [
     {
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 186
+      "count": 188
     },
     {
       "name": "Pop",
@@ -66,11 +66,11 @@
     },
     {
       "name": "R&B",
-      "count": 59
+      "count": 58
     },
     {
       "name": "Dance/Electronic",
-      "count": 40
+      "count": 39
     },
     {
       "name": "Country",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 8 days out. Oakland venue, Saturday.",
+      "reason": "Direct match. 7 days out. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -178,11 +178,11 @@
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
-          "kind": "presale",
+          "kind": "onsale",
           "at": "2026-02-20T19:00:00.000Z",
-          "presaleName": "VIP Packages",
+          "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 8,
+          "daysUntilShow": 7,
           "imminent": true
         },
         "effort": {
@@ -217,7 +217,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. 7 days out. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. 6 days out. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -241,7 +241,7 @@
           "at": "2026-04-27T19:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 7,
+          "daysUntilShow": 6,
           "imminent": true
         },
         "effort": {
@@ -298,7 +298,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 84,
+          "daysUntilShow": 83,
           "imminent": false
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 59,
+          "daysUntilShow": 58,
           "imminent": false
         },
         "effort": {
@@ -412,7 +412,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 51,
+          "daysUntilShow": 50,
           "imminent": false
         },
         "effort": {
@@ -446,7 +446,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. Tomorrow. Saratoga venue, Saturday.",
+      "reason": "Adjacent to Usher. Tonight. Saratoga venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -469,7 +469,7 @@
           "at": "2026-04-10T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -485,41 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_2vzqgkf",
-      "artist": "Bang the Bay Presents: Feel the Sounds",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PN4I",
-      "artist": "Chris Lake",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70J8z",
-      "artist": "Bingo Loco",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aNMPKQV",
-      "artist": "Karol G",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ujc_mlR",
-      "artist": "Raphael Saadiq",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_FnLGlxr",
       "artist": "Little Stranger",
@@ -1333,6 +1298,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1vrf",
+      "artist": "Adam's Rib/ Little Oil/ The Online Company",
+      "date": "Fri Sep 4",
+      "localDate": "2026-09-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af0EbS",
       "artist": "Chxrry",
       "date": "Fri Sep 4",
@@ -1783,6 +1755,13 @@
     {
       "id": "Z7r9jZ1A7x78N",
       "artist": "Jesse McCartney",
+      "date": "Fri Sep 11",
+      "localDate": "2026-09-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1vqV",
+      "artist": "Double XP/ Zapstar/ Ulyssescfm/ Luna Ivy/ Quinkana",
       "date": "Fri Sep 11",
       "localDate": "2026-09-11",
       "reason": "no taste match"
@@ -3062,6 +3041,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1vr7",
+      "artist": "Medscool/ Wiseacre/ Little Oil",
+      "date": "Fri Sep 25",
+      "localDate": "2026-09-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfPOAS",
       "artist": "In Color",
       "date": "Fri Sep 25",
@@ -3809,6 +3795,13 @@
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "cancelled"
+    },
+    {
+      "id": "rZ7HnEZ1Af1vO7",
+      "artist": "Stu & The Kojacks/ Jo/Mo Riders/ Jennifer McKitrick/ Joe Dileo",
+      "date": "Sat Oct 3",
+      "localDate": "2026-10-03",
+      "reason": "no taste match"
     },
     {
       "id": "G5vYZ_kI3yuzG",
@@ -5834,6 +5827,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "1A9ZkfpGkdVYqDp",
+      "artist": "Bronco",
+      "date": "Sat Oct 24",
+      "localDate": "2026-10-24",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af00jd",
       "artist": "Everclear",
       "date": "Sat Oct 24",
@@ -7073,6 +7073,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1vq0",
+      "artist": "Locked Shut/ Rust/ Drop Step/ Damnata",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7POjM",
       "artist": "Sammy Virji",
       "date": "Fri Nov 13",
@@ -7432,13 +7439,6 @@
     {
       "id": "G5vYZ_1yavCof",
       "artist": "Joanne Shaw Taylor",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_um1ZJh-",
-      "artist": "Pretty Lights",
       "date": "Thu Nov 19",
       "localDate": "2026-11-19",
       "reason": "no taste match"
