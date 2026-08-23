@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-23T02:22:57.123Z",
+  "generatedAt": "2026-08-23T13:30:14.527Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,12 +36,12 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-23T02:22:57Z",
-      "endDateTime": "2026-11-21T02:22:57Z"
+      "startDateTime": "2026-08-23T13:30:14Z",
+      "endDateTime": "2026-11-21T13:30:14Z"
     },
-    "eventsConsidered": 1000,
-    "eventsReported": 1001,
-    "truncated": true
+    "eventsConsidered": 998,
+    "eventsReported": 998,
+    "truncated": false
   },
   "genres": [
     {
@@ -50,11 +50,11 @@
     },
     {
       "name": "Other",
-      "count": 188
+      "count": 184
     },
     {
       "name": "Pop",
-      "count": 110
+      "count": 111
     },
     {
       "name": "Alternative",
@@ -66,7 +66,7 @@
     },
     {
       "name": "R&B",
-      "count": 58
+      "count": 57
     },
     {
       "name": "Dance/Electronic",
@@ -85,20 +85,20 @@
       "count": 24
     },
     {
-      "name": "Blues",
-      "count": 20
-    },
-    {
       "name": "Folk",
       "count": 20
     },
     {
-      "name": "World",
+      "name": "Blues",
       "count": 19
     },
     {
+      "name": "World",
+      "count": 18
+    },
+    {
       "name": "Jazz",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Classical",
@@ -107,6 +107,10 @@
     {
       "name": "Reggae",
       "count": 4
+    },
+    {
+      "name": "New Age",
+      "count": 2
     },
     {
       "name": "Religious",
@@ -118,10 +122,6 @@
     },
     {
       "name": "Music",
-      "count": 1
-    },
-    {
-      "name": "New Age",
       "count": 1
     }
   ],
@@ -427,27 +427,27 @@
       }
     },
     {
-      "id": "Z7r9jZ1A7x78p",
-      "artist": "Ginuwine",
+      "id": "Z7r9jZ1A7PKeb",
+      "artist": "Mario",
       "seed": "Usher",
       "seeds": [
         "Usher"
       ],
       "tier": "adjacent",
-      "eventName": "Dru Hill w/ Ginuwine",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x78p",
-      "genre": "Other",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "localTime": "19:30:00",
+      "eventName": "Total Vibez Live",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKeb",
+      "genre": null,
+      "date": "Sat Sep 19",
+      "localDate": "2026-09-19",
+      "localTime": "13:00:00",
       "weekday": "Saturday",
-      "venue": "Mountain Winery",
-      "city": "Saratoga",
-      "score": 54,
-      "raw": 46,
+      "venue": "Discovery Meadows",
+      "city": "San Jose",
+      "score": 47,
+      "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. Tonight. Saratoga venue, Saturday.",
-      "urgent": true,
+      "reason": "Adjacent to Usher. 27 days out. San Jose venue, Saturday.",
+      "urgent": false,
       "breakdown": {
         "taste": {
           "points": 20,
@@ -458,25 +458,25 @@
           "seeds": [
             "Usher"
           ],
-          "matchedOn": "Ginuwine"
+          "matchedOn": "Mario"
         },
         "urgency": {
-          "points": 18,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
           "kind": "onsale",
-          "at": "2026-04-10T17:00:00.000Z",
+          "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
+          "daysUntilShow": 27,
+          "imminent": false
         },
         "effort": {
           "points": 8,
           "max": 20,
           "area": "peninsulaSouthBay",
-          "areaLabel": "Saratoga",
+          "areaLabel": "San Jose",
           "weeknight": false,
           "weekday": "Saturday",
           "weeknightPenalty": 0
@@ -485,104 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_FnLGlxr",
-      "artist": "Little Stranger",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbU7iwcVu",
-      "artist": "The Breeders",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaJr7",
-      "artist": "Faith Zapata/ Emma Roellig/ Caroline Wolfson/ meag",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfOI7d",
-      "artist": "The Charities",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aYOHheX",
-      "artist": "Oliver Tree",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_arqsZSI",
-      "artist": "Ammy Virk",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_5r2zJRn",
-      "artist": "Richard Bean",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u9PpwSQ",
-      "artist": "Willie Watson",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1AfF-O0",
-      "artist": "Sad Girls Club",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-z8N",
-      "artist": "Pearl & The Oysters",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfF-kf",
-      "artist": "The Black Heart Procession + The Young Destroyers",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PyJk",
-      "artist": "The Black Heart Procession",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Vra",
-      "artist": "Norman Brown",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJKGS",
-      "artist": "DESMADRE A LA VUELTA w/ Esamipau + Yarí + Juanchii & PATIO TAKEOVER by Club Nova",
-      "date": "Sat Aug 22",
-      "localDate": "2026-08-22",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_6NFzWKk",
       "artist": "UNDERTALE Symphony",
@@ -2605,13 +2507,6 @@
       "date": "Sat Sep 19",
       "localDate": "2026-09-19",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PKeb",
-      "artist": "Mario",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "scored 47, below the top 6"
     },
     {
       "id": "rZ7HnEZ1AfJeOd",
@@ -7442,7 +7337,98 @@
       "date": "Thu Nov 19",
       "localDate": "2026-11-19",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_um1ZJh-",
+      "artist": "Pretty Lights",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_6eSo5Cw",
+      "artist": "The Fab Four",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaXJh8",
+      "artist": "Pretty Lights",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Jl8S",
+      "artist": "The Mountain Goats",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z_PS",
+      "artist": "Spencer Day",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aLF2qt-",
+      "artist": "Eivør",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFVbV",
+      "artist": "Hug",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7-VOo",
+      "artist": "Susan Werner",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_82JOnp9",
+      "artist": "Super Diamond",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_27EJQDO",
+      "artist": "The English Beat",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PK7b",
+      "artist": "Maddie Zahm",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af-OZK",
+      "artist": "Dan Whitlam",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "cancelled"
+    },
+    {
+      "id": "rZ7HnEZ1Af-f_K",
+      "artist": "Bayonne",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 1000
+  "eventCount": 998
 }
