@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-23T13:30:14.527Z",
+  "generatedAt": "2026-08-24T02:21:29.767Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-23T13:30:14Z",
-      "endDateTime": "2026-11-21T13:30:14Z"
+      "startDateTime": "2026-08-24T02:21:29Z",
+      "endDateTime": "2026-11-22T02:21:29Z"
     },
-    "eventsConsidered": 998,
-    "eventsReported": 998,
+    "eventsConsidered": 991,
+    "eventsReported": 991,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 238
+      "count": 236
     },
     {
       "name": "Other",
-      "count": 184
+      "count": 182
     },
     {
       "name": "Pop",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 67
+      "count": 66
     },
     {
       "name": "R&B",
@@ -94,7 +94,7 @@
     },
     {
       "name": "World",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Jazz",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 7 days out. Oakland venue, Saturday.",
+      "reason": "Direct match. 6 days out. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 7,
+          "daysUntilShow": 6,
           "imminent": true
         },
         "effort": {
@@ -217,7 +217,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. 6 days out. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. 5 days out. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -241,7 +241,7 @@
           "at": "2026-04-27T19:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 6,
+          "daysUntilShow": 5,
           "imminent": true
         },
         "effort": {
@@ -298,7 +298,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 83,
+          "daysUntilShow": 82,
           "imminent": false
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 58,
+          "daysUntilShow": 57,
           "imminent": false
         },
         "effort": {
@@ -412,7 +412,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 50,
+          "daysUntilShow": 49,
           "imminent": false
         },
         "effort": {
@@ -485,55 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_6NFzWKk",
-      "artist": "UNDERTALE Symphony",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uw8sED3",
-      "artist": "Andrew E.",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VOv",
-      "artist": "Dale Watson",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GKa5hfX",
-      "artist": "Ilaiyaraja",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbUb29bj0",
-      "artist": "The Breeders",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ujnRXQp",
-      "artist": "Arrival From Sweden",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1TGYWyi",
-      "artist": "Jason Bonham's Led Zeppelin Evening",
-      "date": "Sun Aug 23",
-      "localDate": "2026-08-23",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7x789",
       "artist": "Allen Stone",
@@ -7430,5 +7381,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 998
+  "eventCount": 991
 }
