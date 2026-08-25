@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-25T02:17:02.974Z",
+  "generatedAt": "2026-08-25T13:48:28.754Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-25T02:17:02Z",
-      "endDateTime": "2026-11-23T02:17:02Z"
+      "startDateTime": "2026-08-25T13:48:28Z",
+      "endDateTime": "2026-11-23T13:48:28Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1019,
+    "eventsReported": 1021,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 238
+      "count": 239
     },
     {
       "name": "Other",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Alternative",
-      "count": 107
+      "count": 105
     },
     {
       "name": "Hip-Hop/Rap",
@@ -446,7 +446,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 26 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 25 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -469,7 +469,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 26,
+          "daysUntilShow": 25,
           "imminent": false
         },
         "effort": {
@@ -485,20 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7x3vK",
-      "artist": "Built To Spill",
-      "date": "Mon Aug 24",
-      "localDate": "2026-08-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfP3_N",
-      "artist": "GLU",
-      "date": "Mon Aug 24",
-      "localDate": "2026-08-24",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7xk7e",
       "artist": "Built To Spill",
@@ -3665,7 +3651,7 @@
     },
     {
       "id": "rZ7HnEZ1Af1vO7",
-      "artist": "Stu & The Kojacks/ Jo/Mo Riders/ Jenifer McKitrick Band/ Joe Dileo",
+      "artist": "Stu & The Kojaks/ Jo/Mo Riders/ Jenifer McKitrick Band/ Joe Dileo",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "no taste match"
@@ -7439,6 +7425,20 @@
     {
       "id": "Z7r9jZ1A7-VOo",
       "artist": "Susan Werner",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_82JOnp9",
+      "artist": "Super Diamond",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_27EJQDO",
+      "artist": "The English Beat",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
