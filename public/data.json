@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-24T13:50:30.764Z",
+  "generatedAt": "2026-08-25T02:17:02.974Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,12 +36,12 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-24T13:50:30Z",
-      "endDateTime": "2026-11-22T13:50:30Z"
+      "startDateTime": "2026-08-25T02:17:02Z",
+      "endDateTime": "2026-11-23T02:17:02Z"
     },
-    "eventsConsidered": 999,
-    "eventsReported": 999,
-    "truncated": false
+    "eventsConsidered": 1000,
+    "eventsReported": 1019,
+    "truncated": true
   },
   "genres": [
     {
@@ -50,11 +50,11 @@
     },
     {
       "name": "Other",
-      "count": 182
+      "count": 184
     },
     {
       "name": "Pop",
-      "count": 113
+      "count": 111
     },
     {
       "name": "Alternative",
@@ -62,27 +62,27 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 67
+      "count": 66
     },
     {
       "name": "R&B",
-      "count": 58
+      "count": 59
     },
     {
       "name": "Dance/Electronic",
-      "count": 39
+      "count": 43
     },
     {
       "name": "Country",
-      "count": 36
+      "count": 37
     },
     {
       "name": "Latin",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Metal",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Folk",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Jazz",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Classical",
@@ -107,10 +107,6 @@
     {
       "name": "Reggae",
       "count": 4
-    },
-    {
-      "name": "New Age",
-      "count": 2
     },
     {
       "name": "Religious",
@@ -122,6 +118,10 @@
     },
     {
       "name": "Music",
+      "count": 1
+    },
+    {
+      "name": "New Age",
       "count": 1
     }
   ],
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 6 days out. Oakland venue, Saturday.",
+      "reason": "Direct match. 5 days out. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 6,
+          "daysUntilShow": 5,
           "imminent": true
         },
         "effort": {
@@ -217,7 +217,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. 5 days out. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. 4 days out. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -237,11 +237,11 @@
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
-          "kind": "presale",
+          "kind": "onsale",
           "at": "2026-04-27T19:00:00.000Z",
-          "presaleName": "VIP Packages Onsale",
+          "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
@@ -298,7 +298,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 82,
+          "daysUntilShow": 81,
           "imminent": false
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 57,
+          "daysUntilShow": 56,
           "imminent": false
         },
         "effort": {
@@ -412,7 +412,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 49,
+          "daysUntilShow": 48,
           "imminent": false
         },
         "effort": {
@@ -509,6 +509,13 @@
     {
       "id": "rZ7HnEZ1AfxA_N",
       "artist": "DEATH LENS + HEART TO GOLD + GRAVE SECRETS + GARAGE SPIDERS",
+      "date": "Tue Aug 25",
+      "localDate": "2026-08-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ8Qp",
+      "artist": "Willie Watson",
       "date": "Tue Aug 25",
       "localDate": "2026-08-25",
       "reason": "no taste match"
@@ -1186,6 +1193,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZ8Q9",
+      "artist": "The English Beat",
+      "date": "Fri Sep 4",
+      "localDate": "2026-09-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZvbP",
       "artist": "Kirk Whalum",
       "date": "Fri Sep 4",
@@ -1466,15 +1480,15 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfFF-V",
-      "artist": "Hail the Sun",
+      "id": "G5vYZ_aR9Vi7q",
+      "artist": "Liz Phair",
       "date": "Wed Sep 9",
       "localDate": "2026-09-09",
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_aR9Vi7q",
-      "artist": "Liz Phair",
+      "id": "rZ7HnEZ1AfFF-V",
+      "artist": "Hail the Sun",
       "date": "Wed Sep 9",
       "localDate": "2026-09-09",
       "reason": "no taste match"
@@ -1533,7 +1547,7 @@
       "artist": "Naomi Sharon",
       "date": "Thu Sep 10",
       "localDate": "2026-09-10",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1A7Pvbp",
@@ -1670,7 +1684,7 @@
     },
     {
       "id": "rZ7HnEZ1A4vFqN",
-      "artist": "The Hyphy Function - A Party For The Bay, By The Bay!",
+      "artist": "The Hyphy Function - A Party For The Bay, By The Bay! w/ DJ Westcoast + MicahTron + Mattyagi & Patio by Family Not a Group",
       "date": "Fri Sep 11",
       "localDate": "2026-09-11",
       "reason": "no taste match"
@@ -2250,6 +2264,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4vFrK",
+      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
+      "date": "Fri Sep 18",
+      "localDate": "2026-09-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfaaqV",
       "artist": "Daft Disko",
       "date": "Fri Sep 18",
@@ -2691,6 +2712,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1Z07",
+      "artist": "NERVY",
+      "date": "Wed Sep 23",
+      "localDate": "2026-09-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7x3v9",
       "artist": "Temples",
       "date": "Wed Sep 23",
@@ -2784,6 +2812,13 @@
     {
       "id": "rZ7HnEZ1Af0o4K",
       "artist": "Revocation",
+      "date": "Fri Sep 25",
+      "localDate": "2026-09-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZfGN",
+      "artist": "Cannons",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -3398,6 +3433,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZ8je",
+      "artist": "Combichrist",
+      "date": "Thu Oct 1",
+      "localDate": "2026-10-01",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7-UOy",
       "artist": "Geoff Tate",
       "date": "Thu Oct 1",
@@ -3566,6 +3608,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfJ4FS",
+      "artist": "Sploinky Rave",
+      "date": "Fri Oct 2",
+      "localDate": "2026-10-02",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af-Vjd",
       "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party!",
       "date": "Fri Oct 2",
@@ -3616,7 +3665,7 @@
     },
     {
       "id": "rZ7HnEZ1Af1vO7",
-      "artist": "Stu & The Kojacks/ Jo/Mo Riders/ Jennifer McKitrick/ Joe Dileo",
+      "artist": "Stu & The Kojacks/ Jo/Mo Riders/ Jenifer McKitrick Band/ Joe Dileo",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "no taste match"
@@ -4497,6 +4546,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_o3Q9v7F",
+      "artist": "Taemin",
+      "date": "Mon Oct 12",
+      "localDate": "2026-10-12",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7J74o",
       "artist": "KiNG MALA",
       "date": "Mon Oct 12",
@@ -4742,6 +4798,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfayFf",
+      "artist": "Lost Kings",
+      "date": "Thu Oct 15",
+      "localDate": "2026-10-15",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70_33",
       "artist": "Musiq Soulchild",
       "date": "Thu Oct 15",
@@ -4912,6 +4975,13 @@
     {
       "id": "rZ7HnEZ1AfFKJ7",
       "artist": "SISTO:DEVOUR - Sever the Bloodline Tour w/ BLVNKSPVCE + PNTHER",
+      "date": "Fri Oct 16",
+      "localDate": "2026-10-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ8jF",
+      "artist": "Petty Theft",
       "date": "Fri Oct 16",
       "localDate": "2026-10-16",
       "reason": "no taste match"
@@ -5521,6 +5591,13 @@
     {
       "id": "Z7r9jZ1A70bf_",
       "artist": "REZN",
+      "date": "Fri Oct 23",
+      "localDate": "2026-10-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ8ja",
+      "artist": "Cheekface",
       "date": "Fri Oct 23",
       "localDate": "2026-10-23",
       "reason": "no taste match"
@@ -6198,6 +6275,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_o-cBAqj",
+      "artist": "Blood Orange Liqueur with Hella Doubtful",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_GKogGHE",
       "artist": "Jorge Medina",
       "date": "Sat Oct 31",
@@ -6415,6 +6499,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_o9y4oMN",
+      "artist": "Moby",
+      "date": "Thu Nov 5",
+      "localDate": "2026-11-05",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afx68K",
       "artist": "Dave Hause & The Mermaid",
       "date": "Thu Nov 5",
@@ -6438,6 +6529,13 @@
     {
       "id": "Z7r9jZ1A7x9k7",
       "artist": "The Black Angels",
+      "date": "Thu Nov 5",
+      "localDate": "2026-11-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZUZg",
+      "artist": "Shwayze",
       "date": "Thu Nov 5",
       "localDate": "2026-11-05",
       "reason": "no taste match"
@@ -6494,6 +6592,20 @@
     {
       "id": "G5vYZ_kKoOgLV",
       "artist": "Bahamas",
+      "date": "Fri Nov 6",
+      "localDate": "2026-11-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oKkjru5",
+      "artist": "Jessie Reyez",
+      "date": "Fri Nov 6",
+      "localDate": "2026-11-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZo-a",
+      "artist": "Y&T",
       "date": "Fri Nov 6",
       "localDate": "2026-11-06",
       "reason": "no taste match"
@@ -7045,6 +7157,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_oL-BPz-",
+      "artist": "Marisela",
+      "date": "Sun Nov 15",
+      "localDate": "2026-11-15",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7PPv0",
       "artist": "Craig Finn",
       "date": "Sun Nov 15",
@@ -7173,6 +7292,13 @@
     {
       "id": "rZ7HnEZ1AfZwJf",
       "artist": "Open Mic Night",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v6ZN",
+      "artist": "Icona Pop",
       "date": "Wed Nov 18",
       "localDate": "2026-11-18",
       "reason": "no taste match"
@@ -7316,126 +7442,7 @@
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_82JOnp9",
-      "artist": "Super Diamond",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_27EJQDO",
-      "artist": "The English Beat",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PK7b",
-      "artist": "Maddie Zahm",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-OZK",
-      "artist": "Dan Whitlam",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1Af-f_K",
-      "artist": "Bayonne",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JpJa",
-      "artist": "The Residents",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8SbxulZ",
-      "artist": "Jonas Brothers",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_umaTJhb",
-      "artist": "Pretty Lights",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1he3H24",
-      "artist": "BERTHA: Grateful Drag",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85Eh8W",
-      "artist": "The Mountain Goats",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z_Jd",
-      "artist": "Spencer Day",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uN0bIPf",
-      "artist": "Agriculture",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_80C7UaF",
-      "artist": "Timex Social Club",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VO3",
-      "artist": "Susan Werner",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1Y5Zd_I",
-      "artist": "Who's Bad",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1S5eJmh",
-      "artist": "Arcángel",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZOGS",
-      "artist": "Q Marsden",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
     }
   ],
-  "eventCount": 999
+  "eventCount": 1000
 }
