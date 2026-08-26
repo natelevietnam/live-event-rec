@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-26T02:23:49.594Z",
+  "generatedAt": "2026-08-26T13:53:24.389Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-26T02:23:49Z",
-      "endDateTime": "2026-11-24T02:23:49Z"
+      "startDateTime": "2026-08-26T13:53:24Z",
+      "endDateTime": "2026-11-24T13:53:24Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1028,
+    "eventsReported": 1025,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 237
+      "count": 236
     },
     {
       "name": "Other",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 37
+      "count": 36
     },
     {
       "name": "Latin",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Jazz",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Classical",
@@ -446,7 +446,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 25 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 24 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -469,7 +469,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 25,
+          "daysUntilShow": 24,
           "imminent": false
         },
         "effort": {
@@ -485,41 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7xk7e",
-      "artist": "Built To Spill",
-      "date": "Tue Aug 25",
-      "localDate": "2026-08-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfxA_N",
-      "artist": "DEATH LENS + HEART TO GOLD + GRAVE SECRETS + GARAGE SPIDERS",
-      "date": "Tue Aug 25",
-      "localDate": "2026-08-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8Qp",
-      "artist": "Willie Watson",
-      "date": "Tue Aug 25",
-      "localDate": "2026-08-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_57bppsB",
-      "artist": "David Byrne",
-      "date": "Tue Aug 25",
-      "localDate": "2026-08-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEkf",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Aug 25",
-      "localDate": "2026-08-25",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Af0I7d",
       "artist": "Nonpoint",
@@ -822,6 +787,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfJbOS",
+      "artist": "STUNNA GIRL IN SAN JOSE!",
+      "date": "Sat Aug 29",
+      "localDate": "2026-08-29",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfxK0d",
       "artist": "Brenn!",
       "date": "Sat Aug 29",
@@ -845,13 +817,6 @@
     {
       "id": "rZ7HnEZ1AfOxuK",
       "artist": "We Touch Grass: Anime Rave",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJbOS",
-      "artist": "STUNNA GIRL IN SAN JOSE!",
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
       "reason": "no taste match"
@@ -889,7 +854,7 @@
       "artist": "Charlie Wilson",
       "date": "Sun Aug 30",
       "localDate": "2026-08-30",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1A7x78O",
@@ -3655,13 +3620,6 @@
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5pA9b1J",
-      "artist": "Roxette",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "cancelled"
     },
     {
       "id": "rZ7HnEZ1Af1vO7",
@@ -7439,6 +7397,48 @@
     {
       "id": "G5vYZ_G85Jl8S",
       "artist": "The Mountain Goats",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z_PS",
+      "artist": "Spencer Day",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aLF2qt-",
+      "artist": "Eivør",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFVbV",
+      "artist": "Hug",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7-VOo",
+      "artist": "Susan Werner",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_82JOnp9",
+      "artist": "Super Diamond",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_27EJQDO",
+      "artist": "The English Beat",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
