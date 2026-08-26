@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-25T13:48:28.754Z",
+  "generatedAt": "2026-08-26T02:23:49.594Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-25T13:48:28Z",
-      "endDateTime": "2026-11-23T13:48:28Z"
+      "startDateTime": "2026-08-26T02:23:49Z",
+      "endDateTime": "2026-11-24T02:23:49Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1021,
+    "eventsReported": 1028,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 239
+      "count": 237
     },
     {
       "name": "Other",
-      "count": 184
+      "count": 185
     },
     {
       "name": "Pop",
-      "count": 111
+      "count": 114
     },
     {
       "name": "Alternative",
-      "count": 105
+      "count": 104
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Country",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Jazz",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Classical",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 5 days out. Oakland venue, Saturday.",
+      "reason": "Direct match. 4 days out. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
@@ -217,7 +217,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. 4 days out. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. 3 days out. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -241,7 +241,7 @@
           "at": "2026-04-27T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 4,
+          "daysUntilShow": 3,
           "imminent": true
         },
         "effort": {
@@ -298,7 +298,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 81,
+          "daysUntilShow": 80,
           "imminent": false
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 56,
+          "daysUntilShow": 55,
           "imminent": false
         },
         "effort": {
@@ -412,7 +412,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 48,
+          "daysUntilShow": 47,
           "imminent": false
         },
         "effort": {
@@ -2132,7 +2132,7 @@
     },
     {
       "id": "rZ7HnEZ1AfP9AS",
-      "artist": "Dutch Melrose",
+      "artist": "Dutch Melrose, Benny Mayne, Pretty Havoc",
       "date": "Thu Sep 17",
       "localDate": "2026-09-17",
       "reason": "no taste match"
@@ -2411,6 +2411,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af17J7",
+      "artist": "Cut Chemist",
+      "date": "Sat Sep 19",
+      "localDate": "2026-09-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4ZFaN",
       "artist": "Cult Member",
       "date": "Sat Sep 19",
@@ -2455,6 +2462,13 @@
     {
       "id": "G5vYZ_80p8IxM",
       "artist": " MISSIONED SOULS NORTH AMERICA TOUR 2026",
+      "date": "Sun Sep 20",
+      "localDate": "2026-09-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_ob6EPFz",
+      "artist": "Lane 8",
       "date": "Sun Sep 20",
       "localDate": "2026-09-20",
       "reason": "no taste match"
@@ -4113,7 +4127,7 @@
     },
     {
       "id": "rZ7HnEZ1AfJ_vS",
-      "artist": "Drag Talk",
+      "artist": "Filth is Eternal",
       "date": "Thu Oct 8",
       "localDate": "2026-10-08",
       "reason": "no taste match"
@@ -4184,6 +4198,13 @@
     {
       "id": "Z7r9jZ1A70MG0",
       "artist": "Toad the Wet Sprocket",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1kfV",
+      "artist": "Bingo Loco",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -4296,6 +4317,13 @@
     {
       "id": "Z7r9jZ1A70_3F",
       "artist": "Musiq Soulchild",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1k47",
+      "artist": "Bingo Loco",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -6121,6 +6149,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A70Epk",
+      "artist": "Stella Lefty",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_6E75qN1",
       "artist": "Shpongle",
       "date": "Fri Oct 30",
@@ -6641,6 +6676,13 @@
     {
       "id": "G5vYZ_5VOavXh",
       "artist": "Hugel",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v7oS",
+      "artist": "Earlybirds Club",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -7397,48 +7439,6 @@
     {
       "id": "G5vYZ_G85Jl8S",
       "artist": "The Mountain Goats",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z_PS",
-      "artist": "Spencer Day",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aLF2qt-",
-      "artist": "Eivør",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFVbV",
-      "artist": "Hug",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VOo",
-      "artist": "Susan Werner",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_82JOnp9",
-      "artist": "Super Diamond",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_27EJQDO",
-      "artist": "The English Beat",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
