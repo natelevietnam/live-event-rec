@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-27T22:48:21.222Z",
+  "generatedAt": "2026-08-28T12:29:49.005Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-27T22:48:21Z",
-      "endDateTime": "2026-11-25T22:48:21Z"
+      "startDateTime": "2026-08-28T12:29:49Z",
+      "endDateTime": "2026-11-26T12:29:49Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1058,
+    "eventsReported": 1052,
     "truncated": true
   },
   "genres": [
@@ -50,15 +50,15 @@
     },
     {
       "name": "Other",
-      "count": 196
+      "count": 197
     },
     {
       "name": "Pop",
-      "count": 110
+      "count": 111
     },
     {
       "name": "Alternative",
-      "count": 104
+      "count": 103
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Country",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Latin",
-      "count": 28
+      "count": 27
     },
     {
       "name": "Metal",
@@ -94,7 +94,7 @@
     },
     {
       "name": "World",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Jazz",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Classical",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Reggae",
@@ -446,7 +446,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 23 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 22 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -469,7 +469,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 23,
+          "daysUntilShow": 22,
           "imminent": false
         },
         "effort": {
@@ -485,76 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_dK5OiBq",
-      "artist": "Britain's Finest",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6Nrymcw",
-      "artist": "Muse",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PU8M",
-      "artist": "Miko Marks",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78b",
-      "artist": "Ledisi",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_axm9SXH",
-      "artist": "Mamamoo",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPvqd",
-      "artist": "Son Rompe Pera",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z-qd",
-      "artist": "Strangepride, Big Afternoon, & Collision Brothers",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_eTNbyEr",
-      "artist": "Courtney Barnett",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FnFfMOX",
-      "artist": "Hermanos Espinoza",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-kxp",
-      "artist": "Osees",
-      "date": "Thu Aug 27",
-      "localDate": "2026-08-27",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZbghpZQrK",
       "artist": "5 Seconds of Summer",
@@ -2975,7 +2905,7 @@
       "artist": "The Sound of Music",
       "date": "Sat Sep 26",
       "localDate": "2026-09-26",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_7iWzLEh",
@@ -7441,6 +7371,76 @@
       "artist": "Son Volt",
       "date": "Tue Nov 17",
       "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C0rMvam",
+      "artist": "Thundercat",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFE4V",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZbU3R_nwH",
+      "artist": "Three Days Grace",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwJf",
+      "artist": "Open Mic Night",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v6ZN",
+      "artist": "Icona Pop",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afat_f",
+      "artist": "untitled (halo)",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G850l8_",
+      "artist": "The Mountain Goats",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8pVx7Pk",
+      "artist": "Jamila Woods",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CFd56Zl",
+      "artist": "Alice Cooper",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaWJha",
+      "artist": "Pretty Lights",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
       "reason": "no taste match"
     }
   ],
