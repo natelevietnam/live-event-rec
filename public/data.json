@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-28T12:29:49.005Z",
+  "generatedAt": "2026-08-28T22:52:48.637Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-28T12:29:49Z",
-      "endDateTime": "2026-11-26T12:29:49Z"
+      "startDateTime": "2026-08-28T22:52:48Z",
+      "endDateTime": "2026-11-26T22:52:48Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1052,
+    "eventsReported": 1072,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 226
+      "count": 220
     },
     {
       "name": "Other",
-      "count": 197
+      "count": 206
     },
     {
       "name": "Pop",
-      "count": 111
+      "count": 109
     },
     {
       "name": "Alternative",
-      "count": 103
+      "count": 102
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,15 +66,15 @@
     },
     {
       "name": "R&B",
-      "count": 60
+      "count": 58
     },
     {
       "name": "Dance/Electronic",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Country",
-      "count": 37
+      "count": 35
     },
     {
       "name": "Latin",
@@ -94,7 +94,7 @@
     },
     {
       "name": "World",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Jazz",
@@ -102,18 +102,18 @@
     },
     {
       "name": "Classical",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Reggae",
       "count": 4
     },
     {
-      "name": "Religious",
-      "count": 2
+      "name": "Theatre",
+      "count": 3
     },
     {
-      "name": "Theatre",
+      "name": "Religious",
       "count": 2
     },
     {
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 2 days out. Oakland venue, Saturday.",
+      "reason": "Direct match. Tomorrow. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 2,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -217,7 +217,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. Tomorrow. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. Tonight. Santa Clara venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -241,7 +241,7 @@
           "at": "2026-04-27T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -298,7 +298,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 78,
+          "daysUntilShow": 77,
           "imminent": false
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 53,
+          "daysUntilShow": 52,
           "imminent": false
         },
         "effort": {
@@ -412,7 +412,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 45,
+          "daysUntilShow": 44,
           "imminent": false
         },
         "effort": {
@@ -1522,6 +1522,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A7PyOK",
+      "artist": "Flux Pavilion",
+      "date": "Fri Sep 11",
+      "localDate": "2026-09-11",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZI-P",
       "artist": "Pendulum",
       "date": "Fri Sep 11",
@@ -2049,6 +2056,13 @@
     {
       "id": "G5vYZ_6LqPWgq",
       "artist": "Jack Harlow",
+      "date": "Fri Sep 18",
+      "localDate": "2026-09-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7JAbx",
+      "artist": "Cortex",
       "date": "Fri Sep 18",
       "localDate": "2026-09-18",
       "reason": "no taste match"
@@ -3048,6 +3062,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAvZ8a",
+      "artist": "horsegiirL",
+      "date": "Sun Sep 27",
+      "localDate": "2026-09-27",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_A2ft6lv",
       "artist": "Social Distortion",
       "date": "Mon Sep 28",
@@ -3692,6 +3713,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZ_Zz",
+      "artist": "Elephante",
+      "date": "Sat Oct 3",
+      "localDate": "2026-10-03",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_6UneILd",
       "artist": "My Morning Jacket",
       "date": "Sat Oct 3",
@@ -4238,6 +4266,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZO-g",
+      "artist": "High On Fire",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_uwogz7s",
       "artist": "Damage Inc",
       "date": "Fri Oct 9",
@@ -4266,6 +4301,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZsjw",
+      "artist": "Audien",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_ofGuSbW",
       "artist": "Cumbiatron",
       "date": "Fri Oct 9",
@@ -4284,6 +4326,13 @@
       "artist": "Bingo Loco",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7JpeZ",
+      "artist": "Polo & Pan",
+      "date": "Sat Oct 10",
+      "localDate": "2026-10-10",
       "reason": "no taste match"
     },
     {
@@ -4359,6 +4408,13 @@
     {
       "id": "Z7r9jZ1A70kG-",
       "artist": "Palace",
+      "date": "Sat Oct 10",
+      "localDate": "2026-10-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ6-v",
+      "artist": "Tinlicker",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -5043,6 +5099,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZOf3",
+      "artist": "Elephant Revival",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8Go2xkN",
       "artist": "Sam Grisman Project",
       "date": "Sat Oct 17",
@@ -5094,6 +5157,13 @@
     {
       "id": "rZ7HnEZ1AfJpZN",
       "artist": "Ella Boh  — Blurry Tour",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PyO3",
+      "artist": "Yheti",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -6079,6 +6149,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZaoY",
+      "artist": "Bridge City Sinners",
+      "date": "Thu Oct 29",
+      "localDate": "2026-10-29",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7Pgjb",
       "artist": "Blues Traveler",
       "date": "Thu Oct 29",
@@ -6118,6 +6195,13 @@
       "artist": "Rossi.",
       "date": "Thu Oct 29",
       "localDate": "2026-10-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZk-s",
+      "artist": "Lost In Dreams Festival",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
       "reason": "no taste match"
     },
     {
@@ -6254,8 +6338,22 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZxo3",
+      "artist": "RL Grime",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_5mDVnwZ",
       "artist": "Knocked Loose",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1KOf",
+      "artist": "Halloween Show!",
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
       "reason": "no taste match"
@@ -6298,6 +6396,13 @@
     {
       "id": "G5vYZ_u2LCDvy",
       "artist": "YG",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZaoN",
+      "artist": "The Rocky Horror Picture Show",
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
       "reason": "no taste match"
@@ -6709,6 +6814,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZsO6",
+      "artist": "Adriatique",
+      "date": "Fri Nov 6",
+      "localDate": "2026-11-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4ZtQK",
       "artist": "ROCK EN ESPANOL NIGHT",
       "date": "Fri Nov 6",
@@ -6977,6 +7089,13 @@
     {
       "id": "Z7r9jZ1AAZ8C6",
       "artist": "Soft Cell",
+      "date": "Wed Nov 11",
+      "localDate": "2026-11-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ38J",
+      "artist": "Aterciopelados",
       "date": "Wed Nov 11",
       "localDate": "2026-11-11",
       "reason": "no taste match"
@@ -7311,136 +7430,17 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_G85IhoF",
-      "artist": "The Mountain Goats",
+      "id": "Z7r9jZ1AAZJqE",
+      "artist": "Allison Russell",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_2H97zto",
-      "artist": "Jorja Smith",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PPvP",
-      "artist": "Margaret Glaspy",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85Nh2X",
+      "id": "G5vYZ_G85IhoF",
       "artist": "The Mountain Goats",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70zfg",
-      "artist": "Manic Street Preachers",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70K_w",
-      "artist": "Son Volt",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1sHw6pW",
-      "artist": "Straight No Chaser",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJA4d",
-      "artist": "Silverada",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aMJj0IJ",
-      "artist": "Son Volt",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_C0rMvam",
-      "artist": "Thundercat",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFE4V",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbU3R_nwH",
-      "artist": "Three Days Grace",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwJf",
-      "artist": "Open Mic Night",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4v6ZN",
-      "artist": "Icona Pop",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afat_f",
-      "artist": "untitled (halo)",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G850l8_",
-      "artist": "The Mountain Goats",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8pVx7Pk",
-      "artist": "Jamila Woods",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CFd56Zl",
-      "artist": "Alice Cooper",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_umaWJha",
-      "artist": "Pretty Lights",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
+      "date": "Sun Nov 15",
+      "localDate": "2026-11-15",
       "reason": "no taste match"
     }
   ],
