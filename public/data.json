@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-29T07:39:51.941Z",
+  "generatedAt": "2026-08-29T16:57:52.279Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-29T07:39:51Z",
-      "endDateTime": "2026-11-27T07:39:51Z"
+      "startDateTime": "2026-08-29T16:57:52Z",
+      "endDateTime": "2026-11-27T16:57:52Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1056,
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. Tomorrow. Oakland venue, Saturday.",
+      "reason": "Direct match. Tonight. Oakland venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -217,7 +217,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. Tomorrow. Santa Clara venue, Saturday.",
+      "reason": "Direct match: Usher, Chris Brown. Tonight. Santa Clara venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -241,7 +241,7 @@
           "at": "2026-04-27T21:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -298,7 +298,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 77,
+          "daysUntilShow": 76,
           "imminent": false
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 52,
+          "daysUntilShow": 51,
           "imminent": false
         },
         "effort": {
@@ -412,7 +412,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 44,
+          "daysUntilShow": 43,
           "imminent": false
         },
         "effort": {
@@ -446,7 +446,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 22 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 21 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -469,7 +469,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 22,
+          "daysUntilShow": 21,
           "imminent": false
         },
         "effort": {
