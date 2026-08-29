@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-28T22:52:48.637Z",
+  "generatedAt": "2026-08-29T07:39:51.941Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-28T22:52:48Z",
-      "endDateTime": "2026-11-26T22:52:48Z"
+      "startDateTime": "2026-08-29T07:39:51Z",
+      "endDateTime": "2026-11-27T07:39:51Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1072,
+    "eventsReported": 1056,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 220
+      "count": 222
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 208
     },
     {
       "name": "Pop",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Alternative",
-      "count": 102
+      "count": 101
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 70
+      "count": 67
     },
     {
       "name": "R&B",
@@ -70,11 +70,11 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 45
+      "count": 44
     },
     {
       "name": "Country",
-      "count": 35
+      "count": 37
     },
     {
       "name": "Latin",
@@ -89,12 +89,12 @@
       "count": 20
     },
     {
-      "name": "Blues",
+      "name": "World",
       "count": 18
     },
     {
-      "name": "World",
-      "count": 18
+      "name": "Blues",
+      "count": 16
     },
     {
       "name": "Jazz",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Classical",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Reggae",
@@ -197,7 +197,7 @@
       }
     },
     {
-      "id": "G5vYZ_F6ROqCc",
+      "id": "G5vYZ_a6FH2jc",
       "artist": "USHER",
       "seed": "Usher",
       "seeds": [
@@ -206,18 +206,18 @@
       ],
       "tier": "direct",
       "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-08-28-2026/event/1C006481EF81D3AD",
+      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-08-29-2026/event/1C006491C8F0F72D",
       "genre": "R&B",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
+      "date": "Sat Aug 29",
+      "localDate": "2026-08-29",
       "localTime": "19:00:00",
-      "weekday": "Friday",
+      "weekday": "Saturday",
       "venue": "Levi's® Stadium",
       "city": "Santa Clara",
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. Tonight. Santa Clara venue, Friday.",
+      "reason": "Direct match: Usher, Chris Brown. Tomorrow. Santa Clara venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -238,10 +238,10 @@
           "driver": "proximity",
           "state": "onSaleNow",
           "kind": "onsale",
-          "at": "2026-04-27T19:00:00.000Z",
+          "at": "2026-04-27T21:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -250,7 +250,7 @@
           "area": "peninsulaSouthBay",
           "areaLabel": "Santa Clara",
           "weeknight": false,
-          "weekday": "Friday",
+          "weekday": "Saturday",
           "weeknightPenalty": 0
         }
       }
@@ -486,118 +486,6 @@
   ],
   "cut": [
     {
-      "id": "G5vYZbghpZQrK",
-      "artist": "5 Seconds of Summer",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PUoe",
-      "artist": "Richard Elliot",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_52WSBvP",
-      "artist": "Greyboy Allstars",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZOkK",
-      "artist": "FlipABeatClub Presents: WAV Forum 4th Fridays at Neck of the Woods SF",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_eTN9yE3",
-      "artist": "Courtney Barnett",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1Dbmqb3",
-      "artist": "Sweet Pill",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70oaz",
-      "artist": "Bill Callahan",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GR-b1L9",
-      "artist": "Eric Benet",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xo7s",
-      "artist": "Bob Schneider",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G6ueRTyDh",
-      "artist": "Third Eye Blind",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x3vf",
-      "artist": "Osees",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfON8S",
-      "artist": "Wax + DJ Hoppa",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Zppd",
-      "artist": "GENWUNNER",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFk0f",
-      "artist": "House Party",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PUod",
-      "artist": "Richard Elliot",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af040d",
-      "artist": "GEMS x 2000's Party: The Bay's Best Throwback Party! w/ DJ Devere + Nate Rioz + Mia Amore + J. Quest & PATIO TAKEOVER by Berk Visual",
-      "date": "Fri Aug 28",
-      "localDate": "2026-08-28",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7-VOe",
       "artist": "Bob Schneider",
       "date": "Sat Aug 29",
@@ -715,13 +603,6 @@
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_a6FH2jc",
-      "artist": "USHER",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "later date for USHER, higher-scoring night already listed"
     },
     {
       "id": "Z7r9jZ1A7-VOd",
@@ -4574,13 +4455,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_o3Q9v7F",
-      "artist": "Taemin",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7J74o",
       "artist": "KiNG MALA",
       "date": "Mon Oct 12",
@@ -4611,6 +4485,13 @@
     {
       "id": "G5vYZbgi4WuoT",
       "artist": "MARO",
+      "date": "Mon Oct 12",
+      "localDate": "2026-10-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_o3Q9v7F",
+      "artist": "Taemin",
       "date": "Mon Oct 12",
       "localDate": "2026-10-12",
       "reason": "no taste match"
@@ -5992,7 +5873,7 @@
       "artist": "Bryson Tiller",
       "date": "Tue Oct 27",
       "localDate": "2026-10-27",
-      "reason": "scored 31, below the top 6"
+      "reason": "scored 34, below the top 6"
     },
     {
       "id": "G5vYZ_AllHHol",
@@ -7304,6 +7185,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1K00",
+      "artist": "Kraus",
+      "date": "Sat Nov 14",
+      "localDate": "2026-11-14",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8QLfqro",
       "artist": "Allison Russell",
       "date": "Sat Nov 14",
@@ -7441,6 +7329,118 @@
       "artist": "The Mountain Goats",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2H97zto",
+      "artist": "Jorja Smith",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PPvP",
+      "artist": "Margaret Glaspy",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Nh2X",
+      "artist": "The Mountain Goats",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70zfg",
+      "artist": "Manic Street Preachers",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70K_w",
+      "artist": "Son Volt",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1sHw6pW",
+      "artist": "Straight No Chaser",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfJA4d",
+      "artist": "Silverada",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aMJj0IJ",
+      "artist": "Son Volt",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C0rMvam",
+      "artist": "Thundercat",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFE4V",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZbU3R_nwH",
+      "artist": "Three Days Grace",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwJf",
+      "artist": "Open Mic Night",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v6ZN",
+      "artist": "Icona Pop",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afat_f",
+      "artist": "untitled (halo)",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G850l8_",
+      "artist": "The Mountain Goats",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8pVx7Pk",
+      "artist": "Jamila Woods",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
       "reason": "no taste match"
     }
   ],
