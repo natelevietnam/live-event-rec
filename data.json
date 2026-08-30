@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-29T16:57:52.279Z",
+  "generatedAt": "2026-08-30T06:14:18.496Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,41 +36,41 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-29T16:57:52Z",
-      "endDateTime": "2026-11-27T16:57:52Z"
+      "startDateTime": "2026-08-30T06:14:18Z",
+      "endDateTime": "2026-11-28T06:14:18Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1056,
+    "eventsReported": 1046,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 222
+      "count": 228
     },
     {
       "name": "Other",
-      "count": 208
+      "count": 206
     },
     {
       "name": "Pop",
-      "count": 109
+      "count": 108
     },
     {
       "name": "Alternative",
-      "count": 101
+      "count": 99
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 67
+      "count": 63
     },
     {
       "name": "R&B",
-      "count": 58
+      "count": 59
     },
     {
       "name": "Dance/Electronic",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Country",
@@ -89,12 +89,12 @@
       "count": 20
     },
     {
-      "name": "World",
-      "count": 18
+      "name": "Blues",
+      "count": 17
     },
     {
-      "name": "Blues",
-      "count": 16
+      "name": "World",
+      "count": 17
     },
     {
       "name": "Jazz",
@@ -140,7 +140,7 @@
   },
   "shows": [
     {
-      "id": "G5vYZ_7nmFDCr",
+      "id": "G5vYZ_7wgW4Xu",
       "artist": "J. Cole",
       "seed": "J. Cole",
       "seeds": [
@@ -148,18 +148,18 @@
       ],
       "tier": "direct",
       "eventName": "J. Cole: The Fall-Off Tour",
-      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-oakland-california-08-29-2026/event/1C00644AAE23B39E",
+      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-oakland-california-08-30-2026/event/1C00644CB5F55F8D",
       "genre": "Hip-Hop/Rap",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
+      "date": "Sun Aug 30",
+      "localDate": "2026-08-30",
       "localTime": "20:00:00",
-      "weekday": "Saturday",
+      "weekday": "Sunday",
       "venue": "Oakland Arena",
       "city": "Oakland",
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. Tonight. Oakland venue, Saturday.",
+      "reason": "Direct match. Tomorrow. Oakland venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-02-20T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -191,66 +191,7 @@
           "area": "eastBay",
           "areaLabel": "Oakland",
           "weeknight": false,
-          "weekday": "Saturday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_a6FH2jc",
-      "artist": "USHER",
-      "seed": "Usher",
-      "seeds": [
-        "Usher",
-        "Chris Brown"
-      ],
-      "tier": "direct",
-      "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-08-29-2026/event/1C006491C8F0F72D",
-      "genre": "R&B",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "localTime": "19:00:00",
-      "weekday": "Saturday",
-      "venue": "Levi's® Stadium",
-      "city": "Santa Clara",
-      "score": 84,
-      "raw": 71,
-      "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. Tonight. Santa Clara venue, Saturday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "Usher",
-          "seeds": [
-            "Usher",
-            "Chris Brown"
-          ],
-          "matchedOn": "USHER"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-04-27T21:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "Santa Clara",
-          "weeknight": false,
-          "weekday": "Saturday",
+          "weekday": "Sunday",
           "weeknightPenalty": 0
         }
       }
@@ -365,6 +306,65 @@
           "areaLabel": "SF",
           "weeknight": true,
           "weekday": "Monday",
+          "weeknightPenalty": 6
+        }
+      }
+    },
+    {
+      "id": "G5vYZ_a6FXTqA",
+      "artist": "USHER",
+      "seed": "Usher",
+      "seeds": [
+        "Usher",
+        "Chris Brown"
+      ],
+      "tier": "direct",
+      "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
+      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-09-01-2026/event/1C006491C8FBF745",
+      "genre": "R&B",
+      "date": "Tue Sep 1",
+      "localDate": "2026-09-01",
+      "localTime": "19:00:00",
+      "weekday": "Tuesday",
+      "venue": "Levi's® Stadium",
+      "city": "Santa Clara",
+      "score": 76,
+      "raw": 65,
+      "scoredOutOf": 85,
+      "reason": "Direct match: Usher, Chris Brown. 3 days out. Santa Clara venue, Tuesday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 45,
+          "max": 45,
+          "tier": "direct",
+          "exact": true,
+          "seed": "Usher",
+          "seeds": [
+            "Usher",
+            "Chris Brown"
+          ],
+          "matchedOn": "USHER"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "onsale",
+          "at": "2026-04-27T23:00:00.000Z",
+          "presaleName": null,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 3,
+          "imminent": true
+        },
+        "effort": {
+          "points": 2,
+          "max": 20,
+          "area": "peninsulaSouthBay",
+          "areaLabel": "Santa Clara",
+          "weeknight": true,
+          "weekday": "Tuesday",
           "weeknightPenalty": 6
         }
       }
@@ -486,120 +486,8 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1A7-VOe",
-      "artist": "Bob Schneider",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_AnrXCcj",
-      "artist": "The Roots",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1Af0yjS",
       "artist": "Rose Blood Festival",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PU8E",
-      "artist": "Simon Phillips",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78_",
-      "artist": "I Love The 90's Tour",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJFad",
-      "artist": "Taylor Iman Jones",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kEZqm7t",
-      "artist": "Brad Mehldau",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbMnbsIIP",
-      "artist": "Tori Amos",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kwOyD3m",
-      "artist": "Sonu Nigam",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G6uk06aMa",
-      "artist": "Paul Wong",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x3v4",
-      "artist": "Osees",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJbOS",
-      "artist": "STUNNA GIRL IN SAN JOSE!",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfxK0d",
-      "artist": "Brenn!",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0bFK",
-      "artist": "MarQ",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PS-J",
-      "artist": "BRESH Party",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfOxuK",
-      "artist": "We Touch Grass: Anime Rave",
-      "date": "Sat Aug 29",
-      "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJkkK",
-      "artist": "Crash Out (afrobeats, dancehall, hip-hop & more)",
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
       "reason": "no taste match"
@@ -640,13 +528,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_7wgW4Xu",
-      "artist": "J. Cole",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
-      "reason": "later date for J. Cole, higher-scoring night already listed"
-    },
-    {
       "id": "Z7r9jZ1AAZvbp",
       "artist": "Mark Hummel",
       "date": "Mon Aug 31",
@@ -656,6 +537,13 @@
     {
       "id": "rZ7HnEZ1AfxFQd",
       "artist": "Ingested",
+      "date": "Tue Sep 1",
+      "localDate": "2026-09-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_dKneCYe",
+      "artist": "Screeching Weasel",
       "date": "Tue Sep 1",
       "localDate": "2026-09-01",
       "reason": "no taste match"
@@ -682,13 +570,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_dKneCYe",
-      "artist": "Screeching Weasel",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_F9w4P9i",
       "artist": "Diana Ross",
       "date": "Tue Sep 1",
@@ -701,13 +582,6 @@
       "date": "Tue Sep 1",
       "localDate": "2026-09-01",
       "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_a6FXTqA",
-      "artist": "USHER",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "later date for USHER, higher-scoring night already listed"
     },
     {
       "id": "rZ7HnEZ1AfZw_f",
@@ -4371,6 +4245,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfF7qV",
+      "artist": "Mimosas & Motown: Sunday Brunch October 11th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
+      "date": "Sun Oct 11",
+      "localDate": "2026-10-11",
+      "reason": "no taste match"
+    },
+    {
       "id": "1Ae0Z_8Gki4oozq",
       "artist": "Moneyhillcasino",
       "date": "Sun Oct 11",
@@ -6807,6 +6688,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfF7r7",
+      "artist": "Mimosas & Motown: Sunday Brunch November 8th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
+      "date": "Sun Nov 8",
+      "localDate": "2026-11-08",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_GnJfN19",
       "artist": "Daughtry",
       "date": "Sun Nov 8",
@@ -7441,6 +7329,118 @@
       "artist": "Jamila Woods",
       "date": "Wed Nov 18",
       "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CFd56Zl",
+      "artist": "Alice Cooper",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaWJha",
+      "artist": "Pretty Lights",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70A8s",
+      "artist": "GWAR",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z8kd",
+      "artist": "Internet Girl",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZYZS",
+      "artist": "Pretty Sick",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Pl8-",
+      "artist": "The Mountain Goats",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1m-eW1q",
+      "artist": "KATSEYE",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70MGt",
+      "artist": "Fred Eaglesmith",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1yavCof",
+      "artist": "Joanne Shaw Taylor",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_um1ZJh-",
+      "artist": "Pretty Lights",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_6eSo5Cw",
+      "artist": "The Fab Four",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaXJh8",
+      "artist": "Pretty Lights",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Jl8S",
+      "artist": "The Mountain Goats",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z_PS",
+      "artist": "Spencer Day",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aLF2qt-",
+      "artist": "Eivør",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFVbV",
+      "artist": "Hug",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
       "reason": "no taste match"
     }
   ],
