@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-30T17:12:17.308Z",
+  "generatedAt": "2026-08-31T06:40:07.635Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-30T17:12:17Z",
-      "endDateTime": "2026-11-28T17:12:17Z"
+      "startDateTime": "2026-08-31T06:40:07Z",
+      "endDateTime": "2026-11-29T06:40:07Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1046,
+    "eventsReported": 1043,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 228
+      "count": 229
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 205
     },
     {
       "name": "Pop",
-      "count": 108
+      "count": 109
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 98
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,11 +66,11 @@
     },
     {
       "name": "R&B",
-      "count": 59
+      "count": 58
     },
     {
       "name": "Dance/Electronic",
-      "count": 45
+      "count": 46
     },
     {
       "name": "Country",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Latin",
-      "count": 27
+      "count": 26
     },
     {
       "name": "Metal",
@@ -139,63 +139,6 @@
     "travel": "all"
   },
   "shows": [
-    {
-      "id": "G5vYZ_7wgW4Xu",
-      "artist": "J. Cole",
-      "seed": "J. Cole",
-      "seeds": [
-        "J. Cole"
-      ],
-      "tier": "direct",
-      "eventName": "J. Cole: The Fall-Off Tour",
-      "url": "https://www.ticketmaster.com/j-cole-the-falloff-tour-oakland-california-08-30-2026/event/1C00644CB5F55F8D",
-      "genre": "Hip-Hop/Rap",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
-      "localTime": "20:00:00",
-      "weekday": "Sunday",
-      "venue": "Oakland Arena",
-      "city": "Oakland",
-      "score": 91,
-      "raw": 77,
-      "scoredOutOf": 85,
-      "reason": "Direct match. Tonight. Oakland venue, Sunday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "J. Cole",
-          "seeds": [
-            "J. Cole"
-          ],
-          "matchedOn": "J. Cole"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-02-20T19:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 14,
-          "max": 20,
-          "area": "eastBay",
-          "areaLabel": "Oakland",
-          "weeknight": false,
-          "weekday": "Sunday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
     {
       "id": "G5vYZ_2fIMqin",
       "artist": "Tyla",
@@ -482,6 +425,63 @@
           "weeknightPenalty": 0
         }
       }
+    },
+    {
+      "id": "G5vYZ_5IX0y73",
+      "artist": "Bryson Tiller",
+      "seed": "Chris Brown",
+      "seeds": [
+        "Chris Brown"
+      ],
+      "tier": "adjacent",
+      "eventName": "Bryson Tiller Presents: The Neo Trapsoul Tour",
+      "url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
+      "genre": "Hip-Hop/Rap",
+      "date": "Tue Oct 27",
+      "localDate": "2026-10-27",
+      "localTime": "19:30:00",
+      "weekday": "Tuesday",
+      "venue": "Toyota Pavilion at Concord",
+      "city": "Concord",
+      "score": 34,
+      "raw": 29,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to Chris Brown. Concord venue, Tuesday.",
+      "urgent": false,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "Chris Brown",
+          "seeds": [
+            "Chris Brown"
+          ],
+          "matchedOn": "Bryson Tiller"
+        },
+        "urgency": {
+          "points": 7,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2026-06-05T19:00:00.000Z",
+          "presaleName": "Citi® Cardmember Preferred Tickets",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 58,
+          "imminent": false
+        },
+        "effort": {
+          "points": 2,
+          "max": 20,
+          "area": "unknown",
+          "areaLabel": "Concord",
+          "weeknight": true,
+          "weekday": "Tuesday",
+          "weeknightPenalty": 6
+        }
+      }
     }
   ],
   "cut": [
@@ -490,41 +490,6 @@
       "artist": "Rose Blood Festival",
       "date": "Sat Aug 29",
       "localDate": "2026-08-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VOd",
-      "artist": "Tim Flannery and the Lunatic Fringe",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PU8J",
-      "artist": "Simon Phillips",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78O",
-      "artist": "Diana Ross",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFS_V",
-      "artist": "Ditz",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_16RYwjI",
-      "artist": "El Tri",
-      "date": "Sun Aug 30",
-      "localDate": "2026-08-30",
       "reason": "no taste match"
     },
     {
@@ -5750,13 +5715,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_5IX0y73",
-      "artist": "Bryson Tiller",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "scored 34, below the top 6"
-    },
-    {
       "id": "G5vYZ_AllHHol",
       "artist": "Gorillaz",
       "date": "Wed Oct 28",
@@ -7442,6 +7400,48 @@
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7-VOo",
+      "artist": "Susan Werner",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_82JOnp9",
+      "artist": "Super Diamond",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_27EJQDO",
+      "artist": "The English Beat",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa_q7",
+      "artist": "Memphis LK",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PK7b",
+      "artist": "Maddie Zahm",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af-OZK",
+      "artist": "Dan Whitlam",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "cancelled"
     }
   ],
   "eventCount": 1000
