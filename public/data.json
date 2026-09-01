@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-01T06:01:08.298Z",
+  "generatedAt": "2026-09-01T17:09:09.189Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-01T06:01:08Z",
-      "endDateTime": "2026-11-30T06:01:08Z"
+      "startDateTime": "2026-09-01T17:09:09Z",
+      "endDateTime": "2026-11-30T17:09:09Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1058,
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 63
+      "count": 62
     },
     {
       "name": "R&B",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Latin",
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 74,
+          "daysUntilShow": 73,
           "imminent": false
         },
         "effort": {
@@ -239,7 +239,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 49,
+          "daysUntilShow": 48,
           "imminent": false
         },
         "effort": {
@@ -274,7 +274,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. Tomorrow. Santa Clara venue, Tuesday.",
+      "reason": "Direct match: Usher, Chris Brown. Tonight. Santa Clara venue, Tuesday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -298,7 +298,7 @@
           "at": "2026-04-27T23:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -355,7 +355,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 41,
+          "daysUntilShow": 40,
           "imminent": false
         },
         "effort": {
@@ -389,7 +389,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 19 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 18 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -412,7 +412,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 19,
+          "daysUntilShow": 18,
           "imminent": false
         },
         "effort": {
@@ -469,7 +469,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 57,
+          "daysUntilShow": 56,
           "imminent": false
         },
         "effort": {
@@ -5015,13 +5015,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_CJ596wT",
-      "artist": "Saint Levant",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_2LEvHN2",
       "artist": "The Click Five",
       "date": "Sun Oct 18",
@@ -7292,6 +7285,13 @@
     {
       "id": "G5vYZ_1sHw6pW",
       "artist": "Straight No Chaser",
+      "date": "Tue Nov 17",
+      "localDate": "2026-11-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1670",
+      "artist": "Jammy Buffet",
       "date": "Tue Nov 17",
       "localDate": "2026-11-17",
       "reason": "no taste match"
