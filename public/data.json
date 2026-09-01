@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-08-31T19:23:07.505Z",
+  "generatedAt": "2026-09-01T06:01:08.298Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-08-31T19:23:07Z",
-      "endDateTime": "2026-11-29T19:23:07Z"
+      "startDateTime": "2026-09-01T06:01:08Z",
+      "endDateTime": "2026-11-30T06:01:08Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1055,
+    "eventsReported": 1058,
     "truncated": true
   },
   "genres": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Other",
-      "count": 207
+      "count": 209
     },
     {
       "name": "Pop",
-      "count": 110
+      "count": 109
     },
     {
       "name": "Alternative",
@@ -89,12 +89,12 @@
       "count": 20
     },
     {
-      "name": "Blues",
+      "name": "World",
       "count": 17
     },
     {
-      "name": "World",
-      "count": 17
+      "name": "Blues",
+      "count": 16
     },
     {
       "name": "Jazz",
@@ -485,13 +485,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAZvbp",
-      "artist": "Mark Hummel",
-      "date": "Mon Aug 31",
-      "localDate": "2026-08-31",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfxFQd",
       "artist": "Ingested",
@@ -3532,7 +3525,7 @@
     },
     {
       "id": "rZ7HnEZ1Af1fZf",
-      "artist": "RC Avenue",
+      "artist": "RC AVENUE",
       "date": "Sun Oct 4",
       "localDate": "2026-10-04",
       "reason": "no taste match"
@@ -4504,6 +4497,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af1puV",
+      "artist": "​​​​​​​Moral Law/ A Year Ago Today/ A Life Spent/ altar/ xMagdalenex",
+      "date": "Thu Oct 15",
+      "localDate": "2026-10-15",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70_3a",
       "artist": "Musiq Soulchild",
       "date": "Thu Oct 15",
@@ -4807,6 +4807,13 @@
     {
       "id": "rZ7HnEZ1A4v7Gd",
       "artist": "Dry Socket",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZZaw",
+      "artist": "San Francisco Symphony",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -7432,13 +7439,6 @@
     {
       "id": "G5vYZ_6eSo5Cw",
       "artist": "The Fab Four",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_umaXJh8",
-      "artist": "Pretty Lights",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
