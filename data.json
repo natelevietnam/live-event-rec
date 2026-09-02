@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-02T05:26:57.907Z",
+  "generatedAt": "2026-09-02T16:59:55.184Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-02T05:26:57Z",
-      "endDateTime": "2026-12-01T05:26:57Z"
+      "startDateTime": "2026-09-02T16:59:55Z",
+      "endDateTime": "2026-12-01T16:59:55Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1049,
+    "eventsReported": 1050,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 226
+      "count": 225
     },
     {
       "name": "Other",
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 73,
+          "daysUntilShow": 72,
           "imminent": false
         },
         "effort": {
@@ -239,7 +239,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 48,
+          "daysUntilShow": 47,
           "imminent": false
         },
         "effort": {
@@ -296,7 +296,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 40,
+          "daysUntilShow": 39,
           "imminent": false
         },
         "effort": {
@@ -330,7 +330,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 18 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 17 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -353,7 +353,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 18,
+          "daysUntilShow": 17,
           "imminent": false
         },
         "effort": {
@@ -410,7 +410,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 56,
+          "daysUntilShow": 55,
           "imminent": false
         },
         "effort": {
@@ -5531,7 +5531,7 @@
     },
     {
       "id": "rZ7HnEZ1AfatbV",
-      "artist": "natalie jinju",
+      "artist": "natalie jinju, Chiabiee",
       "date": "Sun Oct 25",
       "localDate": "2026-10-25",
       "reason": "no taste match"
@@ -6169,6 +6169,13 @@
     {
       "id": "Z7r9jZ1A7P90y",
       "artist": "The Psychedelic Furs",
+      "date": "Sun Nov 1",
+      "localDate": "2026-11-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oX1w9NC",
+      "artist": "Eaglemania",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
@@ -7380,13 +7387,6 @@
     {
       "id": "G5vYZ_82JOnp9",
       "artist": "Super Diamond",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_27EJQDO",
-      "artist": "The English Beat",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
