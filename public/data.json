@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-01T17:09:09.189Z",
+  "generatedAt": "2026-09-02T05:26:57.907Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-01T17:09:09Z",
-      "endDateTime": "2026-11-30T17:09:09Z"
+      "startDateTime": "2026-09-02T05:26:57Z",
+      "endDateTime": "2026-12-01T05:26:57Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1058,
+    "eventsReported": 1049,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 227
+      "count": 226
     },
     {
       "name": "Other",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Alternative",
-      "count": 98
+      "count": 99
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "R&B",
-      "count": 58
+      "count": 56
     },
     {
       "name": "Dance/Electronic",
@@ -78,11 +78,11 @@
     },
     {
       "name": "Latin",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Metal",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Folk",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Jazz",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Classical",
@@ -249,65 +249,6 @@
           "areaLabel": "SF",
           "weeknight": true,
           "weekday": "Monday",
-          "weeknightPenalty": 6
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_a6FXTqA",
-      "artist": "USHER",
-      "seed": "Usher",
-      "seeds": [
-        "Usher",
-        "Chris Brown"
-      ],
-      "tier": "direct",
-      "eventName": "The R&B Tour - Starring Usher Raymond & Chris Brown",
-      "url": "https://www.ticketmaster.com/the-rb-tour-starring-usher-raymond-santa-clara-california-09-01-2026/event/1C006491C8FBF745",
-      "genre": "R&B",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "localTime": "19:00:00",
-      "weekday": "Tuesday",
-      "venue": "Levi's® Stadium",
-      "city": "Santa Clara",
-      "score": 76,
-      "raw": 65,
-      "scoredOutOf": 85,
-      "reason": "Direct match: Usher, Chris Brown. Tonight. Santa Clara venue, Tuesday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "Usher",
-          "seeds": [
-            "Usher",
-            "Chris Brown"
-          ],
-          "matchedOn": "USHER"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-04-27T23:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 2,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "Santa Clara",
-          "weeknight": true,
-          "weekday": "Tuesday",
           "weeknightPenalty": 6
         }
       }
@@ -485,55 +426,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfxFQd",
-      "artist": "Ingested",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dKneCYe",
-      "artist": "Screeching Weasel",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvb_",
-      "artist": "Haley Reinhart",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6GAOFcs",
-      "artist": "Eagles of Death Metal",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PJCf",
-      "artist": "The Garden",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_F9w4P9i",
-      "artist": "Diana Ross",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEbV",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Sep 1",
-      "localDate": "2026-09-01",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfZw_f",
       "artist": "Open Mic Night",
@@ -1201,7 +1093,7 @@
     },
     {
       "id": "rZ7HnEZ1Afk4f0",
-      "artist": "CuVa Bimö",
+      "artist": "CuVa Bimö, The Lighting Section, Soft Circuit",
       "date": "Fri Sep 11",
       "localDate": "2026-09-11",
       "reason": "no taste match"
@@ -2420,13 +2312,6 @@
     {
       "id": "rZ7HnEZ1AfqS3K",
       "artist": "Slow Magic",
-      "date": "Fri Sep 25",
-      "localDate": "2026-09-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uenxDBK",
-      "artist": "Sleep",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -3937,6 +3822,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_CQwHuk4",
+      "artist": "Holy Priest",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZ_8K",
       "artist": "Dead Kennedys",
       "date": "Fri Oct 9",
@@ -3974,13 +3866,6 @@
     {
       "id": "G5vYZ_6bQKIZz",
       "artist": "My Morning Jacket",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CQwHuk4",
-      "artist": "Holy Priest",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -7439,6 +7324,69 @@
     {
       "id": "G5vYZ_6eSo5Cw",
       "artist": "The Fab Four",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaXJh8",
+      "artist": "Pretty Lights",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oS_F5V2",
+      "artist": "DANNA",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Jl8S",
+      "artist": "The Mountain Goats",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z_PS",
+      "artist": "Spencer Day",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aLF2qt-",
+      "artist": "Eivør",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFVbV",
+      "artist": "Hug",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7-VOo",
+      "artist": "Susan Werner",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_82JOnp9",
+      "artist": "Super Diamond",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_27EJQDO",
+      "artist": "The English Beat",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
