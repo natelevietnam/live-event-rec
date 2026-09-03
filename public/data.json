@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-02T16:59:55.184Z",
+  "generatedAt": "2026-09-03T05:28:23.499Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-02T16:59:55Z",
-      "endDateTime": "2026-12-01T16:59:55Z"
+      "startDateTime": "2026-09-03T05:28:23Z",
+      "endDateTime": "2026-12-02T05:28:23Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1050,
+    "eventsReported": 1045,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 225
+      "count": 224
     },
     {
       "name": "Other",
-      "count": 209
+      "count": 207
     },
     {
       "name": "Pop",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 101
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 45
+      "count": 46
     },
     {
       "name": "Country",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Folk",
-      "count": 20
+      "count": 19
     },
     {
       "name": "World",
@@ -113,15 +113,15 @@
       "count": 3
     },
     {
+      "name": "New Age",
+      "count": 2
+    },
+    {
       "name": "Religious",
       "count": 2
     },
     {
       "name": "Music",
-      "count": 1
-    },
-    {
-      "name": "New Age",
       "count": 1
     }
   ],
@@ -427,62 +427,6 @@
   ],
   "cut": [
     {
-      "id": "rZ7HnEZ1AfZw_f",
-      "artist": "Open Mic Night",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ9Fy",
-      "artist": "Avery Wilson",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70PGA",
-      "artist": "Roger Daltrey",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_amcXSrN",
-      "artist": "LP",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afxf4K",
-      "artist": "Zoh Amba",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfF34V",
-      "artist": "Lenka",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7POjy",
-      "artist": "Noname",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dwWjIOa",
-      "artist": "ZAYN",
-      "date": "Wed Sep 2",
-      "localDate": "2026-09-02",
-      "reason": "cancelled"
-    },
-    {
       "id": "Z7r9jZ1AAZbFg",
       "artist": "Sheena Easton",
       "date": "Thu Sep 3",
@@ -728,13 +672,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_uZXpsD4",
-      "artist": "Brandon Flowers",
-      "date": "Sat Sep 5",
-      "localDate": "2026-09-05",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7P984",
       "artist": "BIGBANG",
       "date": "Sat Sep 5",
@@ -772,6 +709,13 @@
     {
       "id": "rZ7HnEZ1Afa8x7",
       "artist": "The Emo Night Tour",
+      "date": "Sat Sep 5",
+      "localDate": "2026-09-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_uZXpsD4",
+      "artist": "Brandon Flowers",
       "date": "Sat Sep 5",
       "localDate": "2026-09-05",
       "reason": "no taste match"
@@ -2706,6 +2650,13 @@
       "artist": "Tokyo Tea Room",
       "date": "Mon Sep 28",
       "localDate": "2026-09-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGZF0",
+      "artist": "Triangle Fire/ Choke/ P.O.S./ Ick",
+      "date": "Tue Sep 29",
+      "localDate": "2026-09-29",
       "reason": "no taste match"
     },
     {
@@ -7387,6 +7338,55 @@
     {
       "id": "G5vYZ_82JOnp9",
       "artist": "Super Diamond",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_27EJQDO",
+      "artist": "The English Beat",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa_q7",
+      "artist": "Memphis LK",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PK7b",
+      "artist": "Maddie Zahm",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af-OZK",
+      "artist": "Dan Whitlam",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "cancelled"
+    },
+    {
+      "id": "rZ7HnEZ1Af16F0",
+      "artist": "@NICKCHEO the *TOUR* the *MOVIE*",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af-f_K",
+      "artist": "Bayonne",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZo-8",
+      "artist": "Dev Lemons",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
