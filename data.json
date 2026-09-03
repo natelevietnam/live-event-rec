@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-03T05:28:23.499Z",
+  "generatedAt": "2026-09-03T16:56:04.038Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-03T05:28:23Z",
-      "endDateTime": "2026-12-02T05:28:23Z"
+      "startDateTime": "2026-09-03T16:56:04Z",
+      "endDateTime": "2026-12-02T16:56:04Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1045,
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 72,
+          "daysUntilShow": 71,
           "imminent": false
         },
         "effort": {
@@ -239,7 +239,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 47,
+          "daysUntilShow": 46,
           "imminent": false
         },
         "effort": {
@@ -296,7 +296,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 39,
+          "daysUntilShow": 38,
           "imminent": false
         },
         "effort": {
@@ -330,7 +330,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 17 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 16 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -353,7 +353,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 17,
+          "daysUntilShow": 16,
           "imminent": false
         },
         "effort": {
@@ -410,7 +410,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 55,
+          "daysUntilShow": 54,
           "imminent": false
         },
         "effort": {
@@ -554,7 +554,7 @@
     },
     {
       "id": "rZ7HnEZ1A4vFbK",
-      "artist": "Connor Morrison, Honey Disposition, Ben Thuesen, Libba",
+      "artist": "Connor Morrison, Ben Thuesen, Libba",
       "date": "Fri Sep 4",
       "localDate": "2026-09-04",
       "reason": "no taste match"
@@ -3130,7 +3130,7 @@
     },
     {
       "id": "rZ7HnEZ1Af-Vjd",
-      "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party!",
+      "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party! w/ Jafin + Mattyagi + Retrommel & PATIO TAKEOVER BY Meri Jaan (4Dhila x Ms. Organic)",
       "date": "Fri Oct 2",
       "localDate": "2026-10-02",
       "reason": "no taste match"
@@ -4473,6 +4473,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfaEFV",
+      "artist": "Renny Conti",
+      "date": "Fri Oct 16",
+      "localDate": "2026-10-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_C6BAJNk",
       "artist": "Neurosis",
       "date": "Fri Oct 16",
@@ -4573,13 +4580,6 @@
     {
       "id": "rZ7HnEZ1AfPsGd",
       "artist": "Allan Rayman",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaEFV",
-      "artist": "Renny Conti",
       "date": "Fri Oct 16",
       "localDate": "2026-10-16",
       "reason": "no taste match"
