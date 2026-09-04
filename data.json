@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-04T05:30:46.136Z",
+  "generatedAt": "2026-09-04T16:43:49.493Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-04T05:30:46Z",
-      "endDateTime": "2026-12-03T05:30:46Z"
+      "startDateTime": "2026-09-04T16:43:49Z",
+      "endDateTime": "2026-12-03T16:43:49Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1047,
+    "eventsReported": 1048,
     "truncated": true
   },
   "genres": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Other",
-      "count": 208
+      "count": 209
     },
     {
       "name": "Pop",
-      "count": 110
+      "count": 109
     },
     {
       "name": "Alternative",
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 71,
+          "daysUntilShow": 70,
           "imminent": false
         },
         "effort": {
@@ -239,7 +239,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 46,
+          "daysUntilShow": 45,
           "imminent": false
         },
         "effort": {
@@ -296,7 +296,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 38,
+          "daysUntilShow": 37,
           "imminent": false
         },
         "effort": {
@@ -330,7 +330,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 16 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 15 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -353,7 +353,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 16,
+          "daysUntilShow": 15,
           "imminent": false
         },
         "effort": {
@@ -410,7 +410,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 54,
+          "daysUntilShow": 53,
           "imminent": false
         },
         "effort": {
@@ -4088,6 +4088,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfG7FV",
+      "artist": "Cross Stich/ Let Them Eat Horses/ Luna Ivy/ Splendor",
+      "date": "Sun Oct 11",
+      "localDate": "2026-10-11",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7PIj7",
       "artist": "The Rocky Horror Picture Show",
       "date": "Sun Oct 11",
@@ -7380,13 +7387,6 @@
     {
       "id": "G5vYZ_8SbxulZ",
       "artist": "Jonas Brothers",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_umaTJhb",
-      "artist": "Pretty Lights",
       "date": "Sat Nov 21",
       "localDate": "2026-11-21",
       "reason": "no taste match"
