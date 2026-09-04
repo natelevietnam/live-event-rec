@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-03T16:56:04.038Z",
+  "generatedAt": "2026-09-04T05:30:46.136Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-03T16:56:04Z",
-      "endDateTime": "2026-12-02T16:56:04Z"
+      "startDateTime": "2026-09-04T05:30:46Z",
+      "endDateTime": "2026-12-03T05:30:46Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1045,
+    "eventsReported": 1047,
     "truncated": true
   },
   "genres": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Other",
-      "count": 207
+      "count": 208
     },
     {
       "name": "Pop",
-      "count": 109
+      "count": 110
     },
     {
       "name": "Alternative",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 62
+      "count": 61
     },
     {
       "name": "R&B",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Metal",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Folk",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Blues",
-      "count": 16
+      "count": 14
     },
     {
       "name": "Jazz",
@@ -427,34 +427,6 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1AAZbFg",
-      "artist": "Sheena Easton",
-      "date": "Thu Sep 3",
-      "localDate": "2026-09-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78-",
-      "artist": "Taj Mahal",
-      "date": "Thu Sep 3",
-      "localDate": "2026-09-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7--aN",
-      "artist": "Tab Benoit",
-      "date": "Thu Sep 3",
-      "localDate": "2026-09-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZI-N",
-      "artist": "Roni Size - Reprazent",
-      "date": "Thu Sep 3",
-      "localDate": "2026-09-03",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7PUOU",
       "artist": "The Chainsmokers",
       "date": "Fri Sep 4",
@@ -751,13 +723,6 @@
     {
       "id": "rZ7HnEZ1A4ZYZd",
       "artist": "Fervence, Captive State, Beauty is Betrayal , The Beauty in Death , Swept to Sea",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2ZAbQK7",
-      "artist": "Talib Kweli",
       "date": "Sun Sep 6",
       "localDate": "2026-09-06",
       "reason": "no taste match"
@@ -4571,6 +4536,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGd0V",
+      "artist": "Parabellum",
+      "date": "Fri Oct 16",
+      "localDate": "2026-10-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfPs7K",
       "artist": "Allan Rayman",
       "date": "Fri Oct 16",
@@ -7389,6 +7361,34 @@
       "artist": "Dev Lemons",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZo-o",
+      "artist": "Surely Tempo",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7JpJa",
+      "artist": "The Residents",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8SbxulZ",
+      "artist": "Jonas Brothers",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaTJhb",
+      "artist": "Pretty Lights",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
       "reason": "no taste match"
     }
   ],
