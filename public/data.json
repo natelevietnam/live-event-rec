@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-04T16:43:49.493Z",
+  "generatedAt": "2026-09-05T05:15:56.207Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-04T16:43:49Z",
-      "endDateTime": "2026-12-03T16:43:49Z"
+      "startDateTime": "2026-09-05T05:15:56Z",
+      "endDateTime": "2026-12-04T05:15:56Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1048,
+    "eventsReported": 1034,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 224
+      "count": 226
     },
     {
       "name": "Other",
-      "count": 209
+      "count": 205
     },
     {
       "name": "Pop",
-      "count": 109
+      "count": 107
     },
     {
       "name": "Alternative",
@@ -62,15 +62,15 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 61
+      "count": 60
     },
     {
       "name": "R&B",
-      "count": 56
+      "count": 55
     },
     {
       "name": "Dance/Electronic",
-      "count": 46
+      "count": 45
     },
     {
       "name": "Country",
@@ -78,19 +78,19 @@
     },
     {
       "name": "Latin",
-      "count": 27
+      "count": 26
     },
     {
       "name": "Metal",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Folk",
-      "count": 19
+      "count": 20
     },
     {
       "name": "World",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Blues",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Jazz",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Classical",
@@ -426,160 +426,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7PUOU",
-      "artist": "The Chainsmokers",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pov-",
-      "artist": "Black Tiger Sex Machine",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-fJK",
-      "artist": "DevilDriver",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P73d",
-      "artist": "Bingo Loco",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPJGN",
-      "artist": "Bingo Loco",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbMOmgfqL",
-      "artist": "Styx",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZS4S",
-      "artist": "Ashes At Last/ I Kidnapped The Princess/ A Thousand Pardons/ Sovereign Suicide",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1vrf",
-      "artist": "Adam's Rib/ Little Oil/ The Online Company",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0EbS",
-      "artist": "Chxrry",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70o-J",
-      "artist": "Nitzer Ebb",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PSqb",
-      "artist": "BIGBANG",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJA7N",
-      "artist": "NB Ridaz Live At TIkI PETE",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1AvjZ_8GkXOCFN5",
-      "artist": "Banda El Recodo",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFzaf",
-      "artist": "Tonic Walter",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vFbK",
-      "artist": "Connor Morrison, Ben Thuesen, Libba",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PNuU",
-      "artist": "Alan Vuong",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8Q9",
-      "artist": "The English Beat",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvbP",
-      "artist": "Kirk Whalum",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pw76",
-      "artist": "Jason Ross",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-VQK",
-      "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party! w/ J.Espinosa + DJ Black Woman + E-Will & PATIO TAKEOVER by H.E.R.E.",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P73e",
-      "artist": "Bingo Loco",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPJGS",
-      "artist": "Bingo Loco",
-      "date": "Fri Sep 4",
-      "localDate": "2026-09-04",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7PpoK",
       "artist": "Electroluxx Pride Party",
@@ -2648,13 +2494,6 @@
     {
       "id": "Z7r9jZ1A7J3pF",
       "artist": "Sophie Truax",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPZAN",
-      "artist": "Way Dynamic",
       "date": "Tue Sep 29",
       "localDate": "2026-09-29",
       "reason": "no taste match"
@@ -5446,6 +5285,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGd4V",
+      "artist": "Smush/ TBA",
+      "date": "Sun Oct 25",
+      "localDate": "2026-10-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afaxvf",
       "artist": "Blessing Offor",
       "date": "Sun Oct 25",
@@ -5866,11 +5712,18 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_3KvU2fu",
+      "artist": "The Whitney Houston Experience",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_604_bVA",
       "artist": "ZZ Top Experience – Fuzz Top",
       "date": "Fri Oct 30",
       "localDate": "2026-10-30",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1A7PsG3",
@@ -5924,6 +5777,13 @@
     {
       "id": "Z7r9jZ1AAZxo3",
       "artist": "RL Grime",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGAGV",
+      "artist": "Queer Mischief - A Queer Magic Halloween Party w/ Sucia + Black Woman + Kurren$i",
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
       "reason": "no taste match"
@@ -6654,6 +6514,13 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Nov 10",
       "localDate": "2026-11-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGAvf",
+      "artist": "Boltcutter/ Misery Whip/ Forced To Suffer/ Iron Front",
+      "date": "Wed Nov 11",
+      "localDate": "2026-11-11",
       "reason": "no taste match"
     },
     {
@@ -7389,6 +7256,139 @@
       "artist": "Jonas Brothers",
       "date": "Sat Nov 21",
       "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_umaTJhb",
+      "artist": "Pretty Lights",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1he3H24",
+      "artist": "BERTHA: Grateful Drag",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G85Eh8W",
+      "artist": "The Mountain Goats",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvoaM",
+      "artist": "Brutalismus 3000",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Z_Jd",
+      "artist": "Spencer Day",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_uN0bIPf",
+      "artist": "Agriculture",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvkaM",
+      "artist": "Ozomatli",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_80C7UaF",
+      "artist": "Timex Social Club",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7-VO3",
+      "artist": "Susan Werner",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1Y5Zd_I",
+      "artist": "Who's Bad",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1S5eJmh",
+      "artist": "Arcángel",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZOGS",
+      "artist": "Q Marsden",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvak7",
+      "artist": "Wuki",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_59foVWT",
+      "artist": "Boston Manor",
+      "date": "Sun Nov 22",
+      "localDate": "2026-11-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFkFV",
+      "artist": "gavn!",
+      "date": "Sun Nov 22",
+      "localDate": "2026-11-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfasAV",
+      "artist": "Mark William Lewis",
+      "date": "Sun Nov 22",
+      "localDate": "2026-11-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CMqs-Mt",
+      "artist": "The Residents",
+      "date": "Sun Nov 22",
+      "localDate": "2026-11-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_832SQGl",
+      "artist": "Rishab Rikhiram Sharma",
+      "date": "Mon Nov 23",
+      "localDate": "2026-11-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_okBBScK",
+      "artist": "CocoRosie",
+      "date": "Mon Nov 23",
+      "localDate": "2026-11-23",
       "reason": "no taste match"
     }
   ],
