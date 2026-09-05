@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-05T05:15:56.207Z",
+  "generatedAt": "2026-09-05T15:46:53.289Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-05T05:15:56Z",
-      "endDateTime": "2026-12-04T05:15:56Z"
+      "startDateTime": "2026-09-05T15:46:53Z",
+      "endDateTime": "2026-12-04T15:46:53Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1034,
@@ -239,7 +239,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 45,
+          "daysUntilShow": 44,
           "imminent": false
         },
         "effort": {
@@ -296,7 +296,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 37,
+          "daysUntilShow": 36,
           "imminent": false
         },
         "effort": {
@@ -330,7 +330,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 15 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 14 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -353,7 +353,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 15,
+          "daysUntilShow": 14,
           "imminent": false
         },
         "effort": {
@@ -410,7 +410,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 53,
+          "daysUntilShow": 52,
           "imminent": false
         },
         "effort": {
