@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-06T15:58:43.711Z",
+  "generatedAt": "2026-09-07T05:41:25.270Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-06T15:58:43Z",
-      "endDateTime": "2026-12-05T15:58:43Z"
+      "startDateTime": "2026-09-07T05:41:25Z",
+      "endDateTime": "2026-12-06T05:41:25Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1022,
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 208
     },
     {
       "name": "Pop",
@@ -70,18 +70,18 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Country",
       "count": 38
     },
     {
-      "name": "Metal",
-      "count": 27
+      "name": "Latin",
+      "count": 26
     },
     {
-      "name": "Latin",
+      "name": "Metal",
       "count": 26
     },
     {
@@ -90,11 +90,11 @@
     },
     {
       "name": "World",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Jazz",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Blues",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 69,
+          "daysUntilShow": 68,
           "imminent": false
         },
         "effort": {
@@ -430,62 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAZvbx",
-      "artist": "Sons of Champlin",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFNFV",
-      "artist": "Pallbearer, Ordh, Chrome Ghost",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZYZd",
-      "artist": "Fervence, Captive State, Beauty is Betrayal , The Beauty in Death , Swept to Sea",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa0-V",
-      "artist": "Polkadot/ MyVeronica/ Buddy Junior",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5QfZ_VP",
-      "artist": "Babyface",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GTFvqR3",
-      "artist": "Katchafire",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G6urqWIcF",
-      "artist": "Hai Lai A Mu",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Kut",
-      "artist": "Tiffany Day",
-      "date": "Sun Sep 6",
-      "localDate": "2026-09-06",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_FH7LP2r",
       "artist": "The Charlatans",
@@ -7393,6 +7337,62 @@
       "artist": "Fleetwood Macramé",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PgGw",
+      "artist": "Devault",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5Knqmdp",
+      "artist": "Dweezil Zappa",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1KqfyQ_",
+      "artist": "Scott Bradlee's Postmodern Jukebox",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G1_Rsak",
+      "artist": "Jalen Ngonda",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEp7",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_A2KV6-_",
+      "artist": "The Neighbourhood",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwOV",
+      "artist": "Open Mic Night",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7Jo0A",
+      "artist": "The Carpenters Songbook - A Live Celebration",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
       "reason": "no taste match"
     }
   ],
