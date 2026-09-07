@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-07T05:41:25.270Z",
+  "generatedAt": "2026-09-07T18:06:17.270Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-07T05:41:25Z",
-      "endDateTime": "2026-12-06T05:41:25Z"
+      "startDateTime": "2026-09-07T18:06:17Z",
+      "endDateTime": "2026-12-06T18:06:17Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1022,
+    "eventsReported": 1025,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 227
+      "count": 226
     },
     {
       "name": "Other",
-      "count": 208
+      "count": 206
     },
     {
       "name": "Pop",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 58
+      "count": 61
     },
     {
       "name": "R&B",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 68,
+          "daysUntilShow": 67,
           "imminent": false
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 43,
+          "daysUntilShow": 42,
           "imminent": false
         },
         "effort": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 35,
+          "daysUntilShow": 34,
           "imminent": false
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 13 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 12 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 13,
+          "daysUntilShow": 12,
           "imminent": true
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 51,
+          "daysUntilShow": 50,
           "imminent": false
         },
         "effort": {
@@ -2890,6 +2890,13 @@
     {
       "id": "rZ7HnEZ1Afx7qS",
       "artist": "ROYA",
+      "date": "Sat Oct 3",
+      "localDate": "2026-10-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1bu7",
+      "artist": "MC Abdul",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "no taste match"
@@ -6570,6 +6577,20 @@
       "reason": "no taste match"
     },
     {
+      "id": "15e0Z_3GYjoAw",
+      "artist": "Deante' Hitchcock",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGdC7",
+      "artist": "Deante' Hitchcock",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfP3FS",
       "artist": "MARIS",
       "date": "Fri Nov 13",
@@ -7372,27 +7393,6 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Dec 1",
       "localDate": "2026-12-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_A2KV6-_",
-      "artist": "The Neighbourhood",
-      "date": "Wed Dec 2",
-      "localDate": "2026-12-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwOV",
-      "artist": "Open Mic Night",
-      "date": "Wed Dec 2",
-      "localDate": "2026-12-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Jo0A",
-      "artist": "The Carpenters Songbook - A Live Celebration",
-      "date": "Wed Dec 2",
-      "localDate": "2026-12-02",
       "reason": "no taste match"
     }
   ],
