@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-07T18:06:17.270Z",
+  "generatedAt": "2026-09-08T05:36:09.744Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-07T18:06:17Z",
-      "endDateTime": "2026-12-06T18:06:17Z"
+      "startDateTime": "2026-09-08T05:36:09Z",
+      "endDateTime": "2026-12-07T05:36:09Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1025,
+    "eventsReported": 1033,
     "truncated": true
   },
   "genres": [
@@ -430,13 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_FH7LP2r",
-      "artist": "The Charlatans",
-      "date": "Mon Sep 7",
-      "localDate": "2026-09-07",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7JdFy",
       "artist": "Samara Joy",
@@ -7393,6 +7386,13 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Dec 1",
       "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_A2KV6-_",
+      "artist": "The Neighbourhood",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
       "reason": "no taste match"
     }
   ],
