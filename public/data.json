@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-08T05:36:09.744Z",
+  "generatedAt": "2026-09-08T17:04:44.085Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-08T05:36:09Z",
-      "endDateTime": "2026-12-07T05:36:09Z"
+      "startDateTime": "2026-09-08T17:04:44Z",
+      "endDateTime": "2026-12-07T17:04:44Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1033,
+    "eventsReported": 1040,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 226
+      "count": 224
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 205
     },
     {
       "name": "Pop",
-      "count": 105
+      "count": 106
     },
     {
       "name": "Alternative",
@@ -62,15 +62,15 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 61
+      "count": 63
     },
     {
       "name": "R&B",
-      "count": 54
+      "count": 53
     },
     {
       "name": "Dance/Electronic",
-      "count": 46
+      "count": 47
     },
     {
       "name": "Country",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Folk",
-      "count": 20
+      "count": 21
     },
     {
       "name": "World",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Jazz",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Blues",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 67,
+          "daysUntilShow": 66,
           "imminent": false
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 42,
+          "daysUntilShow": 41,
           "imminent": false
         },
         "effort": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 34,
+          "daysUntilShow": 33,
           "imminent": false
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 12 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 11 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 12,
+          "daysUntilShow": 11,
           "imminent": true
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 50,
+          "daysUntilShow": 49,
           "imminent": false
         },
         "effort": {
@@ -2547,6 +2547,13 @@
     {
       "id": "G5vYZ_63YNicB",
       "artist": "Don West",
+      "date": "Thu Oct 1",
+      "localDate": "2026-10-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af16qf",
+      "artist": "BashfortheWorld",
       "date": "Thu Oct 1",
       "localDate": "2026-10-01",
       "reason": "no taste match"
@@ -5709,6 +5716,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGdf7",
+      "artist": "The Emo Night Tour",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afa7xf",
       "artist": "Improvement Movement",
       "date": "Sat Oct 31",
@@ -6913,6 +6927,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_359mevz",
+      "artist": "Prateek Kuhad",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4Z8kd",
       "artist": "Internet Girl",
       "date": "Thu Nov 19",
@@ -6959,6 +6980,13 @@
       "artist": "Pretty Lights",
       "date": "Thu Nov 19",
       "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_35P5NtU",
+      "artist": "Shoreline Mafia",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
       "reason": "no taste match"
     },
     {
@@ -7347,6 +7375,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_oJn_sZF",
+      "artist": "Jackie Greene",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfJ9rK",
       "artist": "Fleetwood Macramé",
       "date": "Sat Nov 28",
@@ -7354,45 +7389,10 @@
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1A7PgGw",
-      "artist": "Devault",
+      "id": "rZ7HnEZ1AfGvZ7",
+      "artist": "Broadway Rave",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5Knqmdp",
-      "artist": "Dweezil Zappa",
-      "date": "Sun Nov 29",
-      "localDate": "2026-11-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1KqfyQ_",
-      "artist": "Scott Bradlee's Postmodern Jukebox",
-      "date": "Sun Nov 29",
-      "localDate": "2026-11-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G1_Rsak",
-      "artist": "Jalen Ngonda",
-      "date": "Tue Dec 1",
-      "localDate": "2026-12-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEp7",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Dec 1",
-      "localDate": "2026-12-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_A2KV6-_",
-      "artist": "The Neighbourhood",
-      "date": "Wed Dec 2",
-      "localDate": "2026-12-02",
       "reason": "no taste match"
     }
   ],
