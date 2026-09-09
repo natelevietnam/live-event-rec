@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-08T17:04:44.085Z",
+  "generatedAt": "2026-09-09T05:43:07.551Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-08T17:04:44Z",
-      "endDateTime": "2026-12-07T17:04:44Z"
+      "startDateTime": "2026-09-09T05:43:07Z",
+      "endDateTime": "2026-12-08T05:43:07Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1040,
+    "eventsReported": 1038,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 224
+      "count": 225
     },
     {
       "name": "Other",
-      "count": 205
+      "count": 204
     },
     {
       "name": "Pop",
-      "count": 106
+      "count": 105
     },
     {
       "name": "Alternative",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Country",
@@ -94,11 +94,11 @@
     },
     {
       "name": "Jazz",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Blues",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Classical",
@@ -430,55 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7JdFy",
-      "artist": "Samara Joy",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfAUff",
-      "artist": "PawPaw Rod",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8G0",
-      "artist": "Bikini Kill",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xvZS",
-      "artist": "Slayyyter",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvb9",
-      "artist": "Matt Schofield",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1DMvkmg",
-      "artist": "Wave To Earth",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEGV",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Sep 8",
-      "localDate": "2026-09-08",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_aR9Vi7q",
       "artist": "Liz Phair",
@@ -1665,6 +1616,13 @@
     {
       "id": "G5vYZ_235LpE8",
       "artist": "Dogstar",
+      "date": "Tue Sep 22",
+      "localDate": "2026-09-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv-Q6",
+      "artist": "The Front Bottoms",
       "date": "Tue Sep 22",
       "localDate": "2026-09-22",
       "reason": "no taste match"
@@ -5822,7 +5780,7 @@
     },
     {
       "id": "rZ7HnEZ1A4Zeqd",
-      "artist": "Prince Daddy and The Hyena, Combat, Walter Etc.",
+      "artist": "Prince Daddy and The Hyena, Combat, Walter Etc., Friendship Games",
       "date": "Tue Nov 3",
       "localDate": "2026-11-03",
       "reason": "no taste match"
@@ -6955,6 +6913,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZgPU",
+      "artist": "Røz",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1m-eW1q",
       "artist": "KATSEYE",
       "date": "Thu Nov 19",
@@ -7393,6 +7358,41 @@
       "artist": "Broadway Rave",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PgGw",
+      "artist": "Devault",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5Knqmdp",
+      "artist": "Dweezil Zappa",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1KqfyQ_",
+      "artist": "Scott Bradlee's Postmodern Jukebox",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G1_Rsak",
+      "artist": "Jalen Ngonda",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEp7",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
       "reason": "no taste match"
     }
   ],
