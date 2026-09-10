@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-10T05:36:10.082Z",
+  "generatedAt": "2026-09-10T16:53:27.372Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-10T05:36:10Z",
-      "endDateTime": "2026-12-09T05:36:10Z"
+      "startDateTime": "2026-09-10T16:53:27Z",
+      "endDateTime": "2026-12-09T16:53:27Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1046,
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 65,
+          "daysUntilShow": 64,
           "imminent": false
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 40,
+          "daysUntilShow": 39,
           "imminent": false
         },
         "effort": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 32,
+          "daysUntilShow": 31,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-10T17:00:00.000Z",
           "presaleName": "Artist Presale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 64,
+          "daysUntilShow": 63,
           "imminent": true
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 10 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 9 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 10,
+          "daysUntilShow": 9,
           "imminent": true
         },
         "effort": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 48,
+          "daysUntilShow": 47,
           "imminent": false
         },
         "effort": {
@@ -487,13 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "1718v7G6ubddr2l",
-      "artist": "Pop Rocks",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_GkzjrI5",
       "artist": "Naomi Sharon",
@@ -4473,6 +4466,13 @@
     {
       "id": "Z7r9jZ1A70OaI",
       "artist": "She Wants Revenge",
+      "date": "Sun Oct 18",
+      "localDate": "2026-10-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3KgDy6X",
+      "artist": "Nice as F**k",
       "date": "Sun Oct 18",
       "localDate": "2026-10-18",
       "reason": "no taste match"
