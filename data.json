@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-09T17:02:05.583Z",
+  "generatedAt": "2026-09-10T05:36:10.082Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-09T17:02:05Z",
-      "endDateTime": "2026-12-08T17:02:05Z"
+      "startDateTime": "2026-09-10T05:36:10Z",
+      "endDateTime": "2026-12-09T05:36:10Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1045,
+    "eventsReported": 1046,
     "truncated": true
   },
   "genres": [
@@ -50,31 +50,31 @@
     },
     {
       "name": "Other",
-      "count": 205
+      "count": 206
     },
     {
       "name": "Pop",
-      "count": 105
+      "count": 104
     },
     {
       "name": "Alternative",
-      "count": 101
+      "count": 100
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 64
+      "count": 65
     },
     {
       "name": "R&B",
-      "count": 52
+      "count": 53
     },
     {
       "name": "Dance/Electronic",
-      "count": 48
+      "count": 47
     },
     {
       "name": "Country",
-      "count": 38
+      "count": 37
     },
     {
       "name": "Latin",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Jazz",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Blues",
@@ -322,7 +322,7 @@
         "J. Cole"
       ],
       "tier": "adjacent",
-      "eventName": "ISAIAH RASHAD: Lil Sunnys Awful Road Trip",
+      "eventName": "ISAIAH RASHAD: Lil Sunny's Awful Road Trip",
       "url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-oakland-california-11-12-2026/event/1C006523ECE47322",
       "genre": "Hip-Hop/Rap",
       "date": "Thu Nov 12",
@@ -356,7 +356,7 @@
           "kind": "presale",
           "at": "2026-09-10T17:00:00.000Z",
           "presaleName": "Artist Presale",
-          "daysUntilOnsale": 1,
+          "daysUntilOnsale": 0,
           "daysUntilShow": 64,
           "imminent": true
         },
@@ -487,62 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_aR9Vi7q",
-      "artist": "Liz Phair",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFF-V",
-      "artist": "Hail the Sun",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kw4eyPa",
-      "artist": "Weezer",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZw0f",
-      "artist": "Open Mic Night",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPMOS",
-      "artist": "Kevin Atwater",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70yxK",
-      "artist": "Blood Orange",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aYCK90v",
-      "artist": "Slayyyter",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u8cdHWt",
-      "artist": "Greylan James",
-      "date": "Wed Sep 9",
-      "localDate": "2026-09-09",
-      "reason": "no taste match"
-    },
     {
       "id": "1718v7G6ubddr2l",
       "artist": "Pop Rocks",
@@ -1483,7 +1427,7 @@
     },
     {
       "id": "rZ7HnEZ1A4Zgkd",
-      "artist": "¡DESMADRE! w/ OtebNSolrac + Mar E. Fresh B2B Wockie & PATIO TAKOVER by Bussdown Collective",
+      "artist": "¡DESMADRE! w/ OtebNSolrac + Wockie & PATIO TAKOVER by Bussdown Collective",
       "date": "Sat Sep 19",
       "localDate": "2026-09-19",
       "reason": "no taste match"
@@ -1902,8 +1846,22 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_2O0xHNw",
+      "artist": "Pete Escovedo Orchestra",
+      "date": "Fri Sep 25",
+      "localDate": "2026-09-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZfGN",
       "artist": "Cannons",
+      "date": "Fri Sep 25",
+      "localDate": "2026-09-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGoqV",
+      "artist": "FlipABeatClub Presents: WAV Forum 4th Fridays at Neck of the Woods SF",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -1946,13 +1904,6 @@
     {
       "id": "G5vYZ_kCR9X_j",
       "artist": "Kruder & Dorfmeister",
-      "date": "Fri Sep 25",
-      "localDate": "2026-09-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2O0xHNw",
-      "artist": "Pete Escovedo Orchestra",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -6053,6 +6004,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGof7",
+      "artist": "Strikeforce",
+      "date": "Fri Nov 6",
+      "localDate": "2026-11-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_FBhhauY",
       "artist": "SYML",
       "date": "Fri Nov 6",
@@ -6572,7 +6530,7 @@
     },
     {
       "id": "rZ7HnEZ1Af1vq0",
-      "artist": "Locked Shut/ Rust/ Drop Step/ Damnata",
+      "artist": "LOCKED SHUT",
       "date": "Fri Nov 13",
       "localDate": "2026-11-13",
       "reason": "no taste match"
@@ -7443,6 +7401,48 @@
       "artist": "Broadway Rave",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PgGw",
+      "artist": "Devault",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5Knqmdp",
+      "artist": "Dweezil Zappa",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1KqfyQ_",
+      "artist": "Scott Bradlee's Postmodern Jukebox",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G1_Rsak",
+      "artist": "Jalen Ngonda",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEp7",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_A2KV6-_",
+      "artist": "The Neighbourhood",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
       "reason": "no taste match"
     }
   ],
