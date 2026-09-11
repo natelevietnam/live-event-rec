@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-11T05:37:13.465Z",
+  "generatedAt": "2026-09-11T16:55:19.153Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-11T05:37:13Z",
-      "endDateTime": "2026-12-10T05:37:13Z"
+      "startDateTime": "2026-09-11T16:55:19Z",
+      "endDateTime": "2026-12-10T16:55:19Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1048,
+    "eventsReported": 1051,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 225
+      "count": 224
     },
     {
       "name": "Other",
@@ -54,11 +54,11 @@
     },
     {
       "name": "Pop",
-      "count": 103
+      "count": 104
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 100
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "R&B",
-      "count": 52
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 64,
+          "daysUntilShow": 63,
           "imminent": false
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 39,
+          "daysUntilShow": 38,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 71,
       "raw": 60,
       "scoredOutOf": 85,
-      "reason": "Direct match. Concord venue, Sunday.",
+      "reason": "Direct match. 30 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 31,
+          "daysUntilShow": 30,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 63,
+          "daysUntilShow": 62,
           "imminent": true
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 9 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 8 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 9,
+          "daysUntilShow": 8,
           "imminent": true
         },
         "effort": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 47,
+          "daysUntilShow": 46,
           "imminent": false
         },
         "effort": {
@@ -805,6 +805,13 @@
     {
       "id": "Z7r9jZ1A7P6PE",
       "artist": "Kamasi Washington",
+      "date": "Sun Sep 13",
+      "localDate": "2026-09-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGpkf",
+      "artist": "Strawberry Panic/ Progidy/ Peachole/ Thicket",
       "date": "Sun Sep 13",
       "localDate": "2026-09-13",
       "reason": "no taste match"
@@ -6151,6 +6158,13 @@
       "reason": "cancelled"
     },
     {
+      "id": "rZ7HnEZ1AfGZvV",
+      "artist": "James Ivy",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70Mo9",
       "artist": "Alex Cameron",
       "date": "Sat Nov 7",
@@ -7427,20 +7441,6 @@
     {
       "id": "rZ7HnEZ1A4vZOS",
       "artist": "The Kilans",
-      "date": "Wed Dec 2",
-      "localDate": "2026-12-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CtT897C",
-      "artist": "Eloise",
-      "date": "Wed Dec 2",
-      "localDate": "2026-12-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1AA7",
-      "artist": "The Womack Sisters",
       "date": "Wed Dec 2",
       "localDate": "2026-12-02",
       "reason": "no taste match"
