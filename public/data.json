@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-10T16:53:27.372Z",
+  "generatedAt": "2026-09-11T05:37:13.465Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,41 +36,41 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-10T16:53:27Z",
-      "endDateTime": "2026-12-09T16:53:27Z"
+      "startDateTime": "2026-09-11T05:37:13Z",
+      "endDateTime": "2026-12-10T05:37:13Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1046,
+    "eventsReported": 1048,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 224
+      "count": 225
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 210
     },
     {
       "name": "Pop",
-      "count": 104
+      "count": 103
     },
     {
       "name": "Alternative",
-      "count": 100
+      "count": 99
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 65
+      "count": 64
     },
     {
       "name": "R&B",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Country",
@@ -334,7 +334,7 @@
       "score": 56,
       "raw": 48,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. Presale opens Thu Sep 10. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. Onsale opens Fri Sep 11. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -353,9 +353,9 @@
           "max": 20,
           "driver": "onsale",
           "state": "opens",
-          "kind": "presale",
-          "at": "2026-09-10T17:00:00.000Z",
-          "presaleName": "Artist Presale",
+          "kind": "onsale",
+          "at": "2026-09-11T17:00:00.000Z",
+          "presaleName": null,
           "daysUntilOnsale": 0,
           "daysUntilShow": 63,
           "imminent": true
@@ -487,41 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_GkzjrI5",
-      "artist": "Naomi Sharon",
-      "date": "Thu Sep 10",
-      "localDate": "2026-09-10",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1Af1aq0",
-      "artist": "Stäläg13/ Straggler/ Hell Bound Pound/ Fatale ",
-      "date": "Thu Sep 10",
-      "localDate": "2026-09-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pvbp",
-      "artist": "Blood Orange",
-      "date": "Thu Sep 10",
-      "localDate": "2026-09-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_awwb7Mr",
-      "artist": "Soda Stereo",
-      "date": "Thu Sep 10",
-      "localDate": "2026-09-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFza7",
-      "artist": "Rules",
-      "date": "Thu Sep 10",
-      "localDate": "2026-09-10",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1A4ZUON",
       "artist": "Lil Kayla - Live in Oakland!",
@@ -726,22 +691,8 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_26ddNV7",
-      "artist": "Moneybagg Yo",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_1hAAGiP",
       "artist": "Beats Antique",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8T3xGp_",
-      "artist": "Ultimate Earth, Wind & Fire",
       "date": "Sat Sep 12",
       "localDate": "2026-09-12",
       "reason": "no taste match"
@@ -798,13 +749,6 @@
     {
       "id": "rZ7HnEZ1AfPwQK",
       "artist": "BL3SS - 360 Set - North American Tour 2026",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z-ON",
-      "artist": "Konstancy, Sammy Shiblaq, Hakvm, Katana",
       "date": "Sat Sep 12",
       "localDate": "2026-09-12",
       "reason": "no taste match"
@@ -1435,13 +1379,6 @@
     {
       "id": "Z7r9jZ1A7PKe_",
       "artist": "Good Vibez",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_80p8IxM",
-      "artist": " MISSIONED SOULS NORTH AMERICA TOUR 2026",
       "date": "Sun Sep 20",
       "localDate": "2026-09-20",
       "reason": "no taste match"
@@ -4408,6 +4345,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A7Pe1b",
+      "artist": "MUNA",
+      "date": "Sun Oct 18",
+      "localDate": "2026-10-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_GGRVjEA",
       "artist": "EPIK HIGH",
       "date": "Sun Oct 18",
@@ -6172,6 +6116,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_26ddNV7",
+      "artist": "Moneybagg Yo",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7P87M",
       "artist": "Fitz and The Tantrums",
       "date": "Sat Nov 7",
@@ -6566,6 +6517,13 @@
     {
       "id": "G5vYZ_65LofpP",
       "artist": "Tank and the Bangas",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG3O0",
+      "artist": "Mustache Harbor",
       "date": "Fri Nov 13",
       "localDate": "2026-11-13",
       "reason": "no taste match"
@@ -7441,6 +7399,48 @@
     {
       "id": "G5vYZ_A2KV6-_",
       "artist": "The Neighbourhood",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwOV",
+      "artist": "Open Mic Night",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7Jo0A",
+      "artist": "The Carpenters Songbook - A Live Celebration",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGFjV",
+      "artist": "The Buttertones",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vZOS",
+      "artist": "The Kilans",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CtT897C",
+      "artist": "Eloise",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1AA7",
+      "artist": "The Womack Sisters",
       "date": "Wed Dec 2",
       "localDate": "2026-12-02",
       "reason": "no taste match"
