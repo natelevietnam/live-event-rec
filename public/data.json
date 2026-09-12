@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-12T05:24:31.397Z",
+  "generatedAt": "2026-09-12T15:59:20.938Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-12T05:24:31Z",
-      "endDateTime": "2026-12-11T05:24:31Z"
+      "startDateTime": "2026-09-12T15:59:20Z",
+      "endDateTime": "2026-12-11T15:59:20Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1040,
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 38,
+          "daysUntilShow": 37,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 30 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 29 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 30,
+          "daysUntilShow": 29,
           "imminent": false
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 8 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 7 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 8,
+          "daysUntilShow": 7,
           "imminent": true
         },
         "effort": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 46,
+          "daysUntilShow": 45,
           "imminent": false
         },
         "effort": {
