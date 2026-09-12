@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-11T16:55:19.153Z",
+  "generatedAt": "2026-09-12T05:24:31.397Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-11T16:55:19Z",
-      "endDateTime": "2026-12-10T16:55:19Z"
+      "startDateTime": "2026-09-12T05:24:31Z",
+      "endDateTime": "2026-12-11T05:24:31Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1051,
+    "eventsReported": 1040,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 224
+      "count": 234
     },
     {
       "name": "Other",
-      "count": 210
+      "count": 203
     },
     {
       "name": "Pop",
@@ -58,19 +58,19 @@
     },
     {
       "name": "Alternative",
-      "count": 100
+      "count": 99
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 64
+      "count": 63
     },
     {
       "name": "R&B",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Dance/Electronic",
-      "count": 46
+      "count": 44
     },
     {
       "name": "Country",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Latin",
-      "count": 27
+      "count": 26
     },
     {
       "name": "Metal",
@@ -113,6 +113,10 @@
       "count": 3
     },
     {
+      "name": "New Age",
+      "count": 2
+    },
+    {
       "name": "Religious",
       "count": 2
     },
@@ -122,10 +126,6 @@
     },
     {
       "name": "Music",
-      "count": 1
-    },
-    {
-      "name": "New Age",
       "count": 1
     }
   ],
@@ -274,8 +274,8 @@
       "weekday": "Sunday",
       "venue": "Toyota Pavilion at Concord",
       "city": "Concord",
-      "score": 71,
-      "raw": 60,
+      "score": 76,
+      "raw": 65,
       "scoredOutOf": 85,
       "reason": "Direct match. 30 days out. Concord venue, Sunday.",
       "urgent": false,
@@ -292,7 +292,7 @@
           "matchedOn": "TLC"
         },
         "urgency": {
-          "points": 7,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -311,63 +311,6 @@
           "weeknight": false,
           "weekday": "Sunday",
           "weeknightPenalty": 0
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_32iy6Gx",
-      "artist": "Isaiah Rashad",
-      "seed": "J. Cole",
-      "seeds": [
-        "J. Cole"
-      ],
-      "tier": "adjacent",
-      "eventName": "ISAIAH RASHAD: Lil Sunny's Awful Road Trip",
-      "url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-oakland-california-11-12-2026/event/1C006523ECE47322",
-      "genre": "Hip-Hop/Rap",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "localTime": "20:00:00",
-      "weekday": "Thursday",
-      "venue": "Fox Theater - Oakland",
-      "city": "Oakland",
-      "score": 56,
-      "raw": 48,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. Onsale opens Fri Sep 11. Oakland venue, Thursday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "J. Cole",
-          "seeds": [
-            "J. Cole"
-          ],
-          "matchedOn": "Isaiah Rashad"
-        },
-        "urgency": {
-          "points": 20,
-          "max": 20,
-          "driver": "onsale",
-          "state": "opens",
-          "kind": "onsale",
-          "at": "2026-09-11T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 62,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "eastBay",
-          "areaLabel": "Oakland",
-          "weeknight": true,
-          "weekday": "Thursday",
-          "weeknightPenalty": 6
         }
       }
     },
@@ -425,6 +368,63 @@
           "weeknight": false,
           "weekday": "Saturday",
           "weeknightPenalty": 0
+        }
+      }
+    },
+    {
+      "id": "G5vYZ_32iy6Gx",
+      "artist": "Isaiah Rashad",
+      "seed": "J. Cole",
+      "seeds": [
+        "J. Cole"
+      ],
+      "tier": "adjacent",
+      "eventName": "ISAIAH RASHAD: Lil Sunny's Awful Road Trip",
+      "url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-oakland-california-11-12-2026/event/1C006523ECE47322",
+      "genre": "Hip-Hop/Rap",
+      "date": "Thu Nov 12",
+      "localDate": "2026-11-12",
+      "localTime": "20:00:00",
+      "weekday": "Thursday",
+      "venue": "Fox Theater - Oakland",
+      "city": "Oakland",
+      "score": 38,
+      "raw": 32,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to J. Cole. Oakland venue, Thursday.",
+      "urgent": false,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "J. Cole",
+          "seeds": [
+            "J. Cole"
+          ],
+          "matchedOn": "Isaiah Rashad"
+        },
+        "urgency": {
+          "points": 4,
+          "max": 20,
+          "driver": "onsale",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2026-09-11T17:00:00.000Z",
+          "presaleName": "VIP Package Onsale",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 62,
+          "imminent": false
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "eastBay",
+          "areaLabel": "Oakland",
+          "weeknight": true,
+          "weekday": "Thursday",
+          "weeknightPenalty": 6
         }
       }
     },
@@ -487,146 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1A4ZUON",
-      "artist": "Lil Kayla - Live in Oakland!",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VO7",
-      "artist": "Tainted Love",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afq-AN",
-      "artist": "Powerman 5000",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78N",
-      "artist": "Jesse McCartney",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1vqV",
-      "artist": "Double XP/ Zapstar/ Ulyssescfm/ Luna Ivy/ Quinkana",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pdv0",
-      "artist": "Blood Orange",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-y0k",
-      "artist": "Altin Gun",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P-Qo",
-      "artist": "Necrot",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1Sa3k5o",
-      "artist": "Asal",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfOpOd",
-      "artist": "Super Diamond",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_alAOqgf",
-      "artist": "Foster the People",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbz3nxnRH",
-      "artist": "Codiciado",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afk4f0",
-      "artist": "CuVa Bimö, The Lighting Section, Soft Circuit",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPsZd",
-      "artist": "anaiis",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J3pA",
-      "artist": "Acid Tongue",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJF_S",
-      "artist": "Arlo",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PyOK",
-      "artist": "Flux Pavilion",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZI-P",
-      "artist": "Pendulum",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vFqN",
-      "artist": "The Hyphy Function - A Party For The Bay, By The Bay! w/ DJ Westcoast + MicahTron + Mattyagi & Patio by Family Not a Group",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZVGS",
-      "artist": "LIL KAYLA LIVE IN SAN JOSE",
-      "date": "Fri Sep 11",
-      "localDate": "2026-09-11",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7-VOA",
       "artist": "Tainted Love",
@@ -814,7 +674,7 @@
       "artist": "Strawberry Panic/ Progidy/ Peachole/ Thicket",
       "date": "Sun Sep 13",
       "localDate": "2026-09-13",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_G73bicc",
@@ -3295,6 +3155,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfG4OV",
+      "artist": "Where is honest?",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70MG0",
       "artist": "Toad the Wet Sprocket",
       "date": "Fri Oct 9",
@@ -3838,6 +3705,13 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Oct 13",
       "localDate": "2026-10-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3RlmFN-",
+      "artist": "Movie",
+      "date": "Wed Oct 14",
+      "localDate": "2026-10-14",
       "reason": "no taste match"
     },
     {
@@ -4538,6 +4412,13 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Oct 20",
       "localDate": "2026-10-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3Rihbis",
+      "artist": "Movie",
+      "date": "Wed Oct 21",
+      "localDate": "2026-10-21",
       "reason": "no taste match"
     },
     {
@@ -6242,6 +6123,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfG8kf",
+      "artist": "Weston Estate",
+      "date": "Mon Nov 9",
+      "localDate": "2026-11-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4vFaK",
       "artist": "Past Self, Creux Lies, Hot Goth GF ",
       "date": "Mon Nov 9",
@@ -7443,6 +7331,118 @@
       "artist": "The Kilans",
       "date": "Wed Dec 2",
       "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CtT897C",
+      "artist": "Eloise",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1AA7",
+      "artist": "The Womack Sisters",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8EbEMOl",
+      "artist": "Rod Stewart Tribute",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfPv0N",
+      "artist": "MEEK",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1N8zXfr",
+      "artist": "Fetty Wap",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZgoN",
+      "artist": "The Womack Sisters",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8QD4N94",
+      "artist": "Rita Wilson",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2NoqbG8",
+      "artist": "The String Cheese Incident",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5CHDJie",
+      "artist": "John Summit",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1zD0GtE",
+      "artist": "You Should Be Dancing - A Tribute to the Bee Gees",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CjHxbFf",
+      "artist": "Mannheim Steamroller Christmas",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af17Jf",
+      "artist": "Nightmare of You",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af-VjN",
+      "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party!",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2NhLQ4c",
+      "artist": "The String Cheese Incident",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2ejmndl",
+      "artist": "Trivium",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2NKhFEa",
+      "artist": "The String Cheese Incident",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
       "reason": "no taste match"
     }
   ],
