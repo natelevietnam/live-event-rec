@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-12T15:59:20.938Z",
+  "generatedAt": "2026-09-13T05:39:36.676Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-12T15:59:20Z",
-      "endDateTime": "2026-12-11T15:59:20Z"
+      "startDateTime": "2026-09-13T05:39:36Z",
+      "endDateTime": "2026-12-12T05:39:36Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1040,
+    "eventsReported": 1027,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 234
+      "count": 233
     },
     {
       "name": "Other",
-      "count": 203
+      "count": 202
     },
     {
       "name": "Pop",
-      "count": 104
+      "count": 107
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 98
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "R&B",
-      "count": 52
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 37
+      "count": 36
     },
     {
       "name": "Latin",
@@ -90,15 +90,15 @@
     },
     {
       "name": "World",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Jazz",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Blues",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Classical",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 63,
+          "daysUntilShow": 62,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 62,
+          "daysUntilShow": 61,
           "imminent": false
         },
         "effort": {
@@ -488,162 +488,8 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1A7-VOA",
-      "artist": "Tainted Love",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8jbcuQ-",
-      "artist": "Orville Peck",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vd0S",
-      "artist": "Femcel SZN",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afaop7",
-      "artist": "Slow Coast/ The Moondrops/ Sun Casino",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kQFX_FC",
-      "artist": "Public Image Ltd",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x6fZ",
-      "artist": "San Holo",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFPq0",
-      "artist": "Jonathan Karrant The Johnny Mercer Songbook",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GlZGIDj",
-      "artist": "Ryan Beatty",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1xngV7n",
-      "artist": "Thievery Corporation",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1hAAGiP",
-      "artist": "Beats Antique",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kQS9Nlh",
-      "artist": "The Kenny Wayne Shepherd Band",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FNtvEnU",
-      "artist": "Palomazo Norteno",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6TJqbSx",
-      "artist": "SABAI",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G6u2ejOIZ",
-      "artist": "Annabelle Louie",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GzP0DLP",
-      "artist": "Gimme Gimme Disco",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70SP_",
-      "artist": "Dent May",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af09PK",
-      "artist": "Dent May",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPwQK",
-      "artist": "BL3SS - 360 Set - North American Tour 2026",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1718v0G6CjipYIQ",
-      "artist": "COLORS Presents: R&B ONLY",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
       "id": "LvZ18QJt_k0nUhruIcRUD",
       "artist": "R&B ONLY",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa707",
-      "artist": "It's A 2000's Party",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ9vM",
-      "artist": "Rose Royce",
-      "date": "Sat Sep 12",
-      "localDate": "2026-09-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vejd",
-      "artist": "AFROBASHMENT (afrobeats, dancehall, hip-hop & more)",
       "date": "Sat Sep 12",
       "localDate": "2026-09-12",
       "reason": "no taste match"
@@ -3876,6 +3722,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGbvV",
+      "artist": "Open Mic Night",
+      "date": "Fri Oct 16",
+      "localDate": "2026-10-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70_38",
       "artist": "Musiq Soulchild",
       "date": "Fri Oct 16",
@@ -4123,6 +3976,13 @@
     {
       "id": "Z7r9jZ1AAZ3Gw",
       "artist": "NOTD",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG907",
+      "artist": "Rob Dehlinger",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -6417,6 +6277,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGb77",
+      "artist": "It's Raining Queens: Martha Wash and Marsha Warfield",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_65LofpP",
       "artist": "Tank and the Bangas",
       "date": "Fri Nov 13",
@@ -7443,6 +7310,139 @@
       "artist": "The String Cheese Incident",
       "date": "Sat Dec 5",
       "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5925f5N",
+      "artist": "John Summit",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8IbgCQT",
+      "artist": "4 Lads From Liverpool",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_88s7zuR",
+      "artist": "it's murph",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7J47t",
+      "artist": "Melvin Seals and JGB",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "1A9ZkffGkeBmCOT",
+      "artist": "Grasshopper",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afaekf",
+      "artist": "Dragon Smoke",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG6vV",
+      "artist": "Tommy Fleece + Reserv",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70s8N",
+      "artist": "Helene Grimaud",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7Pobv",
+      "artist": "John Zorn",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afapj0",
+      "artist": "Fireworks",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "1Ae0Z_oGkiaN-ZW",
+      "artist": "Geordie Kieffer",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1o-f",
+      "artist": "Geordie Kieffer",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFAb0",
+      "artist": "Squirrel Nut Zippers",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1UDxFhX",
+      "artist": "Gracie Abrams",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZbqF",
+      "artist": "Chase Petra",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_GEbY5kj",
+      "artist": "Alicia Villarreal",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1xEneit",
+      "artist": "Angine de Poitrine",
+      "date": "Mon Dec 7",
+      "localDate": "2026-12-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7x3v-",
+      "artist": "Buck Meek",
+      "date": "Mon Dec 7",
+      "localDate": "2026-12-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_5mq0w7N",
+      "artist": "Gracie Abrams",
+      "date": "Mon Dec 7",
+      "localDate": "2026-12-07",
       "reason": "no taste match"
     }
   ],
