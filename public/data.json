@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-13T16:49:44.108Z",
+  "generatedAt": "2026-09-14T05:47:54.522Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-13T16:49:44Z",
-      "endDateTime": "2026-12-12T16:49:44Z"
+      "startDateTime": "2026-09-14T05:47:54Z",
+      "endDateTime": "2026-12-13T05:47:54Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1027,
+    "eventsReported": 1028,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 233
+      "count": 234
     },
     {
       "name": "Other",
-      "count": 202
+      "count": 203
     },
     {
       "name": "Pop",
-      "count": 107
+      "count": 110
     },
     {
       "name": "Alternative",
-      "count": 98
+      "count": 99
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 63
+      "count": 62
     },
     {
       "name": "R&B",
-      "count": 50
+      "count": 48
     },
     {
       "name": "Dance/Electronic",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 36
+      "count": 35
     },
     {
       "name": "Latin",
@@ -98,11 +98,11 @@
     },
     {
       "name": "Blues",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Classical",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Reggae",
@@ -388,8 +388,8 @@
       "weekday": "Thursday",
       "venue": "Fox Theater - Oakland",
       "city": "Oakland",
-      "score": 38,
-      "raw": 32,
+      "score": 41,
+      "raw": 35,
       "scoredOutOf": 85,
       "reason": "Adjacent to J. Cole. Oakland venue, Thursday.",
       "urgent": false,
@@ -406,9 +406,9 @@
           "matchedOn": "Isaiah Rashad"
         },
         "urgency": {
-          "points": 4,
+          "points": 7,
           "max": 20,
-          "driver": "onsale",
+          "driver": "proximity",
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2026-09-11T17:00:00.000Z",
@@ -487,90 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1Afa7-f",
-      "artist": "Mimosas & Motown: Sunday Brunch, September 13, 2026 Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8jbmuQR",
-      "artist": "Orville Peck",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P6PE",
-      "artist": "Kamasi Washington",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGpkf",
-      "artist": "Strawberry Panic/ Progidy/ Peachole/ Thicket",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_G73bicc",
-      "artist": "Masego",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x780",
-      "artist": "Smokey Robinson",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfOpbN",
-      "artist": "Sub Urban",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Moa",
-      "artist": "Carla dal Forno",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPz7N",
-      "artist": "Towa Bird",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_unntxdc",
-      "artist": "Manchester Orchestra",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Poa",
-      "artist": "Bear McCreary",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ddjjMmd",
-      "artist": "Andrea Bocelli",
-      "date": "Sun Sep 13",
-      "localDate": "2026-09-13",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAZp7Y",
       "artist": "Kamasi Washington",
@@ -5136,6 +5052,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_3UXZlzg",
+      "artist": "Gabby Concepcion",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8Dg4vS8",
       "artist": "Montell Fish",
       "date": "Fri Oct 30",
@@ -7443,6 +7366,83 @@
       "artist": "Gracie Abrams",
       "date": "Mon Dec 7",
       "localDate": "2026-12-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8mLA54u",
+      "artist": "Frost Children",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFkr7",
+      "artist": "HARBOUR",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4Zd1d",
+      "artist": "Why?",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZwfS",
+      "artist": "Wishy",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_1U8_jNx",
+      "artist": "Angine de Poitrine",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_o57uAU0",
+      "artist": "Triumph",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFECf",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwjf",
+      "artist": "Open Mic Night",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oSOdrr2",
+      "artist": "ONEUS",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa7F0",
+      "artist": "feeble little horse",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFkG0",
+      "artist": "Father of Peace",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
       "reason": "no taste match"
     }
   ],
