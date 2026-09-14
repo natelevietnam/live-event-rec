@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-14T05:47:54.522Z",
+  "generatedAt": "2026-09-14T18:20:43.284Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-14T05:47:54Z",
-      "endDateTime": "2026-12-13T05:47:54Z"
+      "startDateTime": "2026-09-14T18:20:43Z",
+      "endDateTime": "2026-12-13T18:20:43Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1028,
+    "eventsReported": 1031,
     "truncated": true
   },
   "genres": [
@@ -50,15 +50,15 @@
     },
     {
       "name": "Other",
-      "count": 203
+      "count": 204
     },
     {
       "name": "Pop",
-      "count": 110
+      "count": 109
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 98
     },
     {
       "name": "Hip-Hop/Rap",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Jazz",
-      "count": 17
+      "count": 18
     },
     {
       "name": "World",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 61,
+          "daysUntilShow": 60,
           "imminent": false
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 36,
+          "daysUntilShow": 35,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 28 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 27 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 28,
+          "daysUntilShow": 27,
           "imminent": false
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 6 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 5 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 6,
+          "daysUntilShow": 5,
           "imminent": true
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 60,
+          "daysUntilShow": 59,
           "imminent": false
         },
         "effort": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 44,
+          "daysUntilShow": 43,
           "imminent": false
         },
         "effort": {
@@ -1405,6 +1405,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_FLhq9Xi",
+      "artist": "Beck",
+      "date": "Fri Sep 25",
+      "localDate": "2026-09-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZfGN",
       "artist": "Cannons",
       "date": "Fri Sep 25",
@@ -1442,13 +1449,6 @@
     {
       "id": "G5vYZ_1h9Msjn",
       "artist": "Everything Everything",
-      "date": "Fri Sep 25",
-      "localDate": "2026-09-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FLhq9Xi",
-      "artist": "Beck",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -1545,6 +1545,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_FLLnFxY",
+      "artist": "Beck",
+      "date": "Sat Sep 26",
+      "localDate": "2026-09-26",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_d2ADlKy",
       "artist": "Lionel Richie",
       "date": "Sat Sep 26",
@@ -1582,13 +1589,6 @@
     {
       "id": "Z7r9jZ1A7OSuJ",
       "artist": "Sugar",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FLLnFxY",
-      "artist": "Beck",
       "date": "Sat Sep 26",
       "localDate": "2026-09-26",
       "reason": "no taste match"
@@ -2413,6 +2413,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGb-0",
+      "artist": "Personal Space Man/ Eli Elisco/ Starfari",
+      "date": "Sat Oct 3",
+      "localDate": "2026-10-03",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_uBwkDX6",
       "artist": "Danny Elfman",
       "date": "Sat Oct 3",
@@ -2431,7 +2438,7 @@
       "artist": "MC Abdul",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_5KVu2pa",
@@ -3234,6 +3241,13 @@
     {
       "id": "G5vYZ_2DedeGH",
       "artist": "Punchis Punchis",
+      "date": "Sat Oct 10",
+      "localDate": "2026-10-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vFOK",
+      "artist": "AFROBASHMENT(afrobeats, dancehall, hip-hop & more)",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -4368,6 +4382,13 @@
     {
       "id": "G5vYZ_1f5qfAc",
       "artist": "SWITCHFOOT",
+      "date": "Fri Oct 23",
+      "localDate": "2026-10-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG4qV",
+      "artist": "Psyched! Radio Present Joey Cash w/ Jade 2008 + Discnogirl + Leakz",
       "date": "Fri Oct 23",
       "localDate": "2026-10-23",
       "reason": "no taste match"
@@ -7420,27 +7441,6 @@
     {
       "id": "rZ7HnEZ1AfZwjf",
       "artist": "Open Mic Night",
-      "date": "Wed Dec 9",
-      "localDate": "2026-12-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_oSOdrr2",
-      "artist": "ONEUS",
-      "date": "Wed Dec 9",
-      "localDate": "2026-12-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa7F0",
-      "artist": "feeble little horse",
-      "date": "Wed Dec 9",
-      "localDate": "2026-12-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFkG0",
-      "artist": "Father of Peace",
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
