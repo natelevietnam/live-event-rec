@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-14T18:20:43.284Z",
+  "generatedAt": "2026-09-15T05:49:20.896Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-14T18:20:43Z",
-      "endDateTime": "2026-12-13T18:20:43Z"
+      "startDateTime": "2026-09-15T05:49:20Z",
+      "endDateTime": "2026-12-14T05:49:20Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1031,
+    "eventsReported": 1035,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 234
+      "count": 235
     },
     {
       "name": "Other",
-      "count": 204
+      "count": 205
     },
     {
       "name": "Pop",
-      "count": 109
+      "count": 108
     },
     {
       "name": "Alternative",
-      "count": 98
+      "count": 99
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "R&B",
-      "count": 48
+      "count": 47
     },
     {
       "name": "Dance/Electronic",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Classical",
@@ -160,8 +160,8 @@
       "weekday": "Friday",
       "venue": "Bill Graham Civic Auditorium",
       "city": "San Francisco",
-      "score": 81,
-      "raw": 69,
+      "score": 85,
+      "raw": 72,
       "scoredOutOf": 85,
       "reason": "Direct match. SF venue, Friday.",
       "urgent": false,
@@ -178,9 +178,9 @@
           "matchedOn": "Tyla"
         },
         "urgency": {
-          "points": 4,
+          "points": 7,
           "max": 20,
-          "driver": "onsale",
+          "driver": "proximity",
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2026-07-31T17:00:00.000Z",
@@ -487,34 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAZp7Y",
-      "artist": "Kamasi Washington",
-      "date": "Mon Sep 14",
-      "localDate": "2026-09-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5Gb92xF",
-      "artist": "Haute & Freddy",
-      "date": "Mon Sep 14",
-      "localDate": "2026-09-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GXWXiIN",
-      "artist": "Isaiah Falls",
-      "date": "Mon Sep 14",
-      "localDate": "2026-09-14",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1AfOJjN",
-      "artist": "Haute & Freddy",
-      "date": "Mon Sep 14",
-      "localDate": "2026-09-14",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A703uM",
       "artist": "Squeeze",
@@ -4569,6 +4541,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_3UXZlzg",
+      "artist": "Gabby Concepcion",
+      "date": "Sat Oct 24",
+      "localDate": "2026-10-24",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_FTZ_iUu",
       "artist": "SOFI TUKKER",
       "date": "Sat Oct 24",
@@ -5073,13 +5052,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_3UXZlzg",
-      "artist": "Gabby Concepcion",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_8Dg4vS8",
       "artist": "Montell Fish",
       "date": "Fri Oct 30",
@@ -5154,7 +5126,7 @@
       "artist": "The Whitney Houston Experience",
       "date": "Fri Oct 30",
       "localDate": "2026-10-30",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_604_bVA",
@@ -7441,6 +7413,34 @@
     {
       "id": "rZ7HnEZ1AfZwjf",
       "artist": "Open Mic Night",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oSOdrr2",
+      "artist": "ONEUS",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa7F0",
+      "artist": "feeble little horse",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFkG0",
+      "artist": "Father of Peace",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_ud64RQU",
+      "artist": "The Jayhawks",
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
