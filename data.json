@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-15T17:28:26.038Z",
+  "generatedAt": "2026-09-16T05:38:18.032Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-15T17:28:26Z",
-      "endDateTime": "2026-12-14T17:28:26Z"
+      "startDateTime": "2026-09-16T05:38:18Z",
+      "endDateTime": "2026-12-15T05:38:18Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1039,
@@ -46,15 +46,15 @@
   "genres": [
     {
       "name": "Rock",
-      "count": 235
+      "count": 234
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 203
     },
     {
       "name": "Pop",
-      "count": 107
+      "count": 108
     },
     {
       "name": "Alternative",
@@ -62,11 +62,11 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 62
+      "count": 63
     },
     {
       "name": "R&B",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Dance/Electronic",
@@ -77,11 +77,11 @@
       "count": 36
     },
     {
-      "name": "Latin",
-      "count": 26
+      "name": "Metal",
+      "count": 27
     },
     {
-      "name": "Metal",
+      "name": "Latin",
       "count": 26
     },
     {
@@ -94,15 +94,15 @@
     },
     {
       "name": "World",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Blues",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Classical",
-      "count": 7
+      "count": 9
     },
     {
       "name": "Reggae",
@@ -487,55 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A703uM",
-      "artist": "Squeeze",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6RQGEcM",
-      "artist": "Johnny Blue Skies",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JdaZ",
-      "artist": "Gregory Alan Isakov",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZbqE",
-      "artist": "John Pizzarelli",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mm2MnF",
-      "artist": "Jeff Bernat",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0aQd",
-      "artist": "The Tear Garden (The Legendary Pink Dots & cEvin Key)",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEFV",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Sep 15",
-      "localDate": "2026-09-15",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_eplUIuH",
       "artist": "Five Finger Death Punch",
@@ -1651,7 +1602,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG-xf",
-      "artist": "Amor De Dios/ Forced To Suffer/ A Life Spent/ Off Tops",
+      "artist": "Amor De Dios/ Forced To Suffer/ exutoire/ A Life Spent/ Off Tops",
       "date": "Sun Sep 27",
       "localDate": "2026-09-27",
       "reason": "no taste match"
@@ -3064,6 +3015,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGxP0",
+      "artist": "Quebradita Darks Oakland w/ Sizzle + Lizzy al Toque + Xtcemi + Hopeless",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af1k47",
       "artist": "Bingo Loco",
       "date": "Fri Oct 9",
@@ -3135,7 +3093,7 @@
     },
     {
       "id": "rZ7HnEZ1A4ZeAK",
-      "artist": "Paige Fish — the midnight crisis tour",
+      "artist": "Paige Fish — The Midnight Crisis Tour",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -3869,6 +3827,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGxrf",
+      "artist": "Lil Darkie (album release show)",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_C6BkJN8",
       "artist": "Neurosis",
       "date": "Sat Oct 17",
@@ -4415,6 +4380,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGNr7",
+      "artist": "Adam Pascal",
+      "date": "Fri Oct 23",
+      "localDate": "2026-10-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_FDrVv2X",
       "artist": "SLIFT",
       "date": "Fri Oct 23",
@@ -4613,6 +4585,13 @@
     {
       "id": "Z7r9jZ1A7PzO7",
       "artist": "Jai Wolf",
+      "date": "Sat Oct 24",
+      "localDate": "2026-10-24",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGNqV",
+      "artist": "Adam Pascal",
       "date": "Sat Oct 24",
       "localDate": "2026-10-24",
       "reason": "no taste match"
@@ -5698,6 +5677,13 @@
     {
       "id": "1A9Zkf7GkeIKnMN",
       "artist": "Patti LaBelle",
+      "date": "Fri Nov 6",
+      "localDate": "2026-11-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG0u0",
+      "artist": "Fin/ Varulf/ Piss Baptism/ TBA",
       "date": "Fri Nov 6",
       "localDate": "2026-11-06",
       "reason": "no taste match"
@@ -6977,6 +6963,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGpbf",
+      "artist": "1 Umbrella",
+      "date": "Wed Nov 25",
+      "localDate": "2026-11-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_33P1hxM",
       "artist": "Los Gemelos De Sinaloa",
       "date": "Wed Nov 25",
@@ -7146,7 +7139,7 @@
     },
     {
       "id": "rZ7HnEZ1AfGfGf",
-      "artist": "Elijah Fox",
+      "artist": "Elijah Fox Trio Tour ft Myles Martin and Solo Smith",
       "date": "Thu Dec 3",
       "localDate": "2026-12-03",
       "reason": "no taste match"
@@ -7441,6 +7434,13 @@
     {
       "id": "rZ7HnEZ1AfZwjf",
       "artist": "Open Mic Night",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oSOdrr2",
+      "artist": "ONEUS",
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
