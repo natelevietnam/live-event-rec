@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-16T17:27:50.033Z",
+  "generatedAt": "2026-09-17T05:44:31.585Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-16T17:27:50Z",
-      "endDateTime": "2026-12-15T17:27:50Z"
+      "startDateTime": "2026-09-17T05:44:31Z",
+      "endDateTime": "2026-12-16T05:44:31Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1040,
+    "eventsReported": 1039,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 234
+      "count": 236
     },
     {
       "name": "Other",
-      "count": 203
+      "count": 204
     },
     {
       "name": "Pop",
-      "count": 106
+      "count": 104
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 100
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "R&B",
-      "count": 46
+      "count": 45
     },
     {
       "name": "Dance/Electronic",
@@ -77,11 +77,11 @@
       "count": 36
     },
     {
-      "name": "Metal",
-      "count": 27
+      "name": "Latin",
+      "count": 26
     },
     {
-      "name": "Latin",
+      "name": "Metal",
       "count": 26
     },
     {
@@ -89,11 +89,11 @@
       "count": 21
     },
     {
-      "name": "Jazz",
-      "count": 18
+      "name": "World",
+      "count": 19
     },
     {
-      "name": "World",
+      "name": "Jazz",
       "count": 18
     },
     {
@@ -109,15 +109,15 @@
       "count": 4
     },
     {
-      "name": "Theatre",
-      "count": 3
-    },
-    {
       "name": "New Age",
       "count": 2
     },
     {
       "name": "Religious",
+      "count": 2
+    },
+    {
+      "name": "Theatre",
       "count": 2
     },
     {
@@ -488,62 +488,6 @@
   ],
   "cut": [
     {
-      "id": "G5vYZ_eplUIuH",
-      "artist": "Five Finger Death Punch",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwQf",
-      "artist": "Open Mic Night",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_82EInOk",
-      "artist": "JAY B",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFyqf",
-      "artist": "ZEE MACHINE",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J3pk",
-      "artist": "Magic Sword",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7jbee",
-      "artist": "When Chai Met Toast",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GHJNyUm",
-      "artist": "Ravyn Lenae",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1A7J37V",
-      "artist": "Chelsea Wolfe",
-      "date": "Wed Sep 16",
-      "localDate": "2026-09-16",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1AfFge7",
       "artist": "Rolling Quartz - My Turn 2026 Tour - Live in Oakland",
       "date": "Thu Sep 17",
@@ -560,13 +504,6 @@
     {
       "id": "rZ7HnEZ1AfP6oN",
       "artist": "Rolling Quartz",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kEIJ7e9",
-      "artist": "The Bald and the Beautiful",
       "date": "Thu Sep 17",
       "localDate": "2026-09-17",
       "reason": "no taste match"
@@ -5654,6 +5591,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_39wnbj8",
+      "artist": "Sidhu Moose Wala",
+      "date": "Fri Nov 6",
+      "localDate": "2026-11-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZo-a",
       "artist": "Y&T",
       "date": "Fri Nov 6",
@@ -6697,6 +6641,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGJZ0",
+      "artist": "2000's Night",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afa_q7",
       "artist": "Memphis LK",
       "date": "Fri Nov 20",
@@ -7000,6 +6951,13 @@
     {
       "id": "G5vYZ_A0KFfCq",
       "artist": "Mariachi Vargas de Tecalitlán",
+      "date": "Fri Nov 27",
+      "localDate": "2026-11-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGPqV",
+      "artist": "Wonderbread 5",
       "date": "Fri Nov 27",
       "localDate": "2026-11-27",
       "reason": "no taste match"
@@ -7441,6 +7399,48 @@
     {
       "id": "rZ7HnEZ1AfZwjf",
       "artist": "Open Mic Night",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oSOdrr2",
+      "artist": "ONEUS",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa7F0",
+      "artist": "feeble little horse",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFkG0",
+      "artist": "Father of Peace",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_ud64RQU",
+      "artist": "The Jayhawks",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv9fU",
+      "artist": "The Strike",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_FljpPHE",
+      "artist": "The Pineapple Thief",
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
