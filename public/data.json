@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-17T05:44:31.585Z",
+  "generatedAt": "2026-09-17T17:27:56.275Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-17T05:44:31Z",
-      "endDateTime": "2026-12-16T05:44:31Z"
+      "startDateTime": "2026-09-17T17:27:56Z",
+      "endDateTime": "2026-12-16T17:27:56Z"
     },
-    "eventsConsidered": 1000,
-    "eventsReported": 1039,
+    "eventsConsidered": 999,
+    "eventsReported": 1042,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 236
+      "count": 237
     },
     {
       "name": "Other",
-      "count": 204
+      "count": 203
     },
     {
       "name": "Pop",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Classical",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 58,
+          "daysUntilShow": 57,
           "imminent": false
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 33,
+          "daysUntilShow": 32,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 25 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 24 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 25,
+          "daysUntilShow": 24,
           "imminent": false
         },
         "effort": {
@@ -310,63 +310,6 @@
           "areaLabel": "Concord",
           "weeknight": false,
           "weekday": "Sunday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
-    {
-      "id": "Z7r9jZ1A7PKeb",
-      "artist": "Mario",
-      "seed": "Usher",
-      "seeds": [
-        "Usher"
-      ],
-      "tier": "adjacent",
-      "eventName": "Total Vibez Live",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKeb",
-      "genre": null,
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "localTime": "13:00:00",
-      "weekday": "Saturday",
-      "venue": "Discovery Meadows",
-      "city": "San Jose",
-      "score": 54,
-      "raw": 46,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 3 days out. San Jose venue, Saturday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "Usher",
-          "seeds": [
-            "Usher"
-          ],
-          "matchedOn": "Mario"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "1900-01-01T18:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 3,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "San Jose",
-          "weeknight": false,
-          "weekday": "Saturday",
           "weeknightPenalty": 0
         }
       }
@@ -414,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 57,
+          "daysUntilShow": 56,
           "imminent": false
         },
         "effort": {
@@ -471,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 41,
+          "daysUntilShow": 40,
           "imminent": false
         },
         "effort": {
@@ -854,13 +797,6 @@
     {
       "id": "rZ7HnEZ1AfJeOd",
       "artist": "The Market Arts Festival - 5 Year Anniversary! w/ DJ Sandio + DJ Rell + JC-Caution + J-Blenz",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PKe_",
-      "artist": "Good Vibez",
       "date": "Sun Sep 20",
       "localDate": "2026-09-20",
       "reason": "no taste match"
@@ -6452,6 +6388,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_3YKIRgT",
+      "artist": "Hamilton Leithauser",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4v6ZN",
       "artist": "Icona Pop",
       "date": "Wed Nov 18",
@@ -7152,6 +7095,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAvJGo",
+      "artist": "Amorphis",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1zD0GtE",
       "artist": "You Should Be Dancing - A Tribute to the Bee Gees",
       "date": "Fri Dec 4",
@@ -7217,6 +7167,13 @@
     {
       "id": "G5vYZ_88s7zuR",
       "artist": "it's murph",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvJqA",
+      "artist": "Kamasi Washington",
       "date": "Sat Dec 5",
       "localDate": "2026-12-05",
       "reason": "no taste match"
@@ -7430,21 +7387,7 @@
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAv9fU",
-      "artist": "The Strike",
-      "date": "Wed Dec 9",
-      "localDate": "2026-12-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FljpPHE",
-      "artist": "The Pineapple Thief",
-      "date": "Wed Dec 9",
-      "localDate": "2026-12-09",
-      "reason": "no taste match"
     }
   ],
-  "eventCount": 1000
+  "eventCount": 999
 }
