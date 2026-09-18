@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-17T17:27:56.275Z",
+  "generatedAt": "2026-09-18T05:33:07.344Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-17T17:27:56Z",
-      "endDateTime": "2026-12-16T17:27:56Z"
+      "startDateTime": "2026-09-18T05:33:07Z",
+      "endDateTime": "2026-12-17T05:33:07Z"
     },
-    "eventsConsidered": 999,
-    "eventsReported": 1042,
+    "eventsConsidered": 1000,
+    "eventsReported": 1044,
     "truncated": true
   },
   "genres": [
@@ -50,26 +50,26 @@
     },
     {
       "name": "Other",
-      "count": 203
-    },
-    {
-      "name": "Pop",
-      "count": 104
+      "count": 207
     },
     {
       "name": "Alternative",
-      "count": 100
+      "count": 101
+    },
+    {
+      "name": "Pop",
+      "count": 101
     },
     {
       "name": "Hip-Hop/Rap",
       "count": 64
     },
     {
-      "name": "R&B",
+      "name": "Dance/Electronic",
       "count": 45
     },
     {
-      "name": "Dance/Electronic",
+      "name": "R&B",
       "count": 44
     },
     {
@@ -102,11 +102,11 @@
     },
     {
       "name": "Classical",
-      "count": 9
+      "count": 7
     },
     {
       "name": "Reggae",
-      "count": 4
+      "count": 5
     },
     {
       "name": "New Age",
@@ -430,69 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfFge7",
-      "artist": "Rolling Quartz - My Turn 2026 Tour - Live in Oakland",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kEkqCJe",
-      "artist": "Bleachers",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfP6oN",
-      "artist": "Rolling Quartz",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78P",
-      "artist": "The Temptations",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-gkK",
-      "artist": "Boys Go To Jupiter",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0Y0K",
-      "artist": "Mustard Service",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfP9AS",
-      "artist": "Dutch Melrose + Benny Mayne + Pretty Havoc",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uhS4zai",
-      "artist": "josh conway",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_GXHIG-P",
-      "artist": "Railroad Earth",
-      "date": "Thu Sep 17",
-      "localDate": "2026-09-17",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A70ovy",
       "artist": "Citizen",
@@ -2825,13 +2762,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1A4Zy-K",
-      "artist": "Adam Pascal",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1Afa9G7",
       "artist": "DOMi + JD Beck",
       "date": "Fri Oct 9",
@@ -3002,13 +2932,6 @@
     {
       "id": "G5vYZ_k1ywuyI",
       "artist": "Bonnie Raitt",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Zy-N",
-      "artist": "Adam Pascal",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -3917,6 +3840,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAv6ok",
+      "artist": "Last Dinosaurs",
+      "date": "Sun Oct 18",
+      "localDate": "2026-10-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_2LEvHN2",
       "artist": "The Click Five",
       "date": "Sun Oct 18",
@@ -3968,6 +3898,13 @@
     {
       "id": "G5vYZ_aK_K-GR",
       "artist": "Geese",
+      "date": "Mon Oct 19",
+      "localDate": "2026-10-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZMfs",
+      "artist": "Dinosaur Jr.",
       "date": "Mon Oct 19",
       "localDate": "2026-10-19",
       "reason": "no taste match"
@@ -4171,6 +4108,13 @@
     {
       "id": "G5vYZ_GFWW-6g",
       "artist": "Malcolm Todd",
+      "date": "Thu Oct 22",
+      "localDate": "2026-10-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvda8",
+      "artist": "Easy Star All-Stars",
       "date": "Thu Oct 22",
       "localDate": "2026-10-22",
       "reason": "no taste match"
@@ -4687,6 +4631,13 @@
       "reason": "cancelled"
     },
     {
+      "id": "Z7r9jZ1AAvvee",
+      "artist": "Havok",
+      "date": "Tue Oct 27",
+      "localDate": "2026-10-27",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_73JO5lB",
       "artist": "W.A.S.P.",
       "date": "Tue Oct 27",
@@ -5184,6 +5135,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGtjf",
+      "artist": "Halloween Costume Party",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70OaE",
       "artist": "The Musical Box",
       "date": "Sun Nov 1",
@@ -5457,6 +5415,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAZI_A",
+      "artist": "Thomas Dolby",
+      "date": "Thu Nov 5",
+      "localDate": "2026-11-05",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1MqembE",
       "artist": "Don Omar",
       "date": "Thu Nov 5",
@@ -5718,6 +5683,13 @@
     {
       "id": "rZ7HnEZ1Afa7f0",
       "artist": "Supertaste + 3kelves",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvFOV",
+      "artist": "Azchike",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -6089,6 +6061,13 @@
     {
       "id": "rZ7HnEZ1AfG3O0",
       "artist": "Mustache Harbor",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ_Z8",
+      "artist": "Robby Krieger",
       "date": "Fri Nov 13",
       "localDate": "2026-11-13",
       "reason": "no taste match"
@@ -7039,6 +7018,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAv6f3",
+      "artist": "Deap Vally",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8EbEMOl",
       "artist": "Rod Stewart Tribute",
       "date": "Thu Dec 3",
@@ -7305,6 +7291,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAv40F",
+      "artist": "Save Ferris",
+      "date": "Mon Dec 7",
+      "localDate": "2026-12-07",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8mLA54u",
       "artist": "Frost Children",
       "date": "Tue Dec 8",
@@ -7387,7 +7380,21 @@
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv9fU",
+      "artist": "The Strike",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_FljpPHE",
+      "artist": "The Pineapple Thief",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 999
+  "eventCount": 1000
 }
