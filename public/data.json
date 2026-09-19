@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-18T16:56:08.047Z",
+  "generatedAt": "2026-09-19T05:29:34.060Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,69 +36,69 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-18T16:56:08Z",
-      "endDateTime": "2026-12-17T16:56:08Z"
+      "startDateTime": "2026-09-19T05:29:34Z",
+      "endDateTime": "2026-12-18T05:29:34Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1045,
+    "eventsReported": 1031,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 237
+      "count": 238
     },
     {
       "name": "Other",
-      "count": 207
+      "count": 204
     },
     {
       "name": "Alternative",
-      "count": 101
+      "count": 105
     },
     {
       "name": "Pop",
-      "count": 91
+      "count": 92
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 64
+      "count": 65
     },
     {
       "name": "Dance/Electronic",
-      "count": 55
+      "count": 52
     },
     {
       "name": "R&B",
-      "count": 44
+      "count": 43
     },
     {
       "name": "Country",
       "count": 36
     },
     {
-      "name": "Latin",
-      "count": 26
+      "name": "Metal",
+      "count": 27
     },
     {
-      "name": "Metal",
-      "count": 26
+      "name": "Latin",
+      "count": 25
     },
     {
       "name": "Folk",
       "count": 21
     },
     {
+      "name": "Jazz",
+      "count": 19
+    },
+    {
       "name": "World",
       "count": 19
     },
     {
-      "name": "Jazz",
-      "count": 18
-    },
-    {
       "name": "Blues",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Classical",
@@ -431,139 +431,6 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1A70ovy",
-      "artist": "Citizen",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70g4a",
-      "artist": "Boz Scaggs",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dLfzbxE",
-      "artist": "The Growlers",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afadv0",
-      "artist": "RUSSELL!",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6nwou-z",
-      "artist": "The Exploited",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0IvN",
-      "artist": "Lido Pimienta",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6LqPWgq",
-      "artist": "Jack Harlow",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JAbx",
-      "artist": "Cortex",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_eBfZy7s",
-      "artist": "Carín León",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GAs-AZ6",
-      "artist": "Rayland Baxter",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FQ8mbrW",
-      "artist": "Kany Garcia",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZOAK",
-      "artist": "Bombshell/ Nonbinary Girlfriend/ Femme Cell/ starbelliedbug",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PI-O",
-      "artist": "Shawn James",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJa3d",
-      "artist": "Daniel Avery",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afx8Qd",
-      "artist": "BIIRD (Night 1)",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vFrK",
-      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaaqV",
-      "artist": "Daft Disko",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZbFU",
-      "artist": "Big Daddy Kane",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pw7F",
-      "artist": "Mild Minds",
-      "date": "Fri Sep 18",
-      "localDate": "2026-09-18",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7Pb0o",
       "artist": "Satin Jackets",
       "date": "Sat Sep 19",
@@ -800,13 +667,6 @@
       "date": "Sun Sep 20",
       "localDate": "2026-09-20",
       "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1AfOtFS",
-      "artist": "Seedhe Maut",
-      "date": "Mon Sep 21",
-      "localDate": "2026-09-21",
-      "reason": "no taste match"
     },
     {
       "id": "rZ7HnEZ1Af0a8S",
@@ -2734,6 +2594,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGY_f",
+      "artist": "Kaiju Tour: Trizz & Noa James",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afko47",
       "artist": "Swapmeet/ Joyer",
       "date": "Fri Oct 9",
@@ -3385,15 +3252,15 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_dw3o5zd",
-      "artist": "The Rush Tribute Project",
+      "id": "rZ7HnEZ1AfGbvV",
+      "artist": "Open Mic Night",
       "date": "Fri Oct 16",
       "localDate": "2026-10-16",
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfGbvV",
-      "artist": "Open Mic Night",
+      "id": "G5vYZ_dw3o5zd",
+      "artist": "The Rush Tribute Project",
       "date": "Fri Oct 16",
       "localDate": "2026-10-16",
       "reason": "no taste match"
@@ -4577,6 +4444,13 @@
     {
       "id": "Z7r9jZ1A7Pt77",
       "artist": "The War And Treaty",
+      "date": "Mon Oct 26",
+      "localDate": "2026-10-26",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_Kd2cK1B",
+      "artist": "Lil Pete",
       "date": "Mon Oct 26",
       "localDate": "2026-10-26",
       "reason": "no taste match"
@@ -7123,6 +6997,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "169ZkfsotZAuadak",
+      "artist": "Grasshopper: Three In Love ",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_2NhLQ4c",
       "artist": "The String Cheese Incident",
       "date": "Fri Dec 4",
@@ -7270,6 +7151,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_K5ffI_z",
+      "artist": "Pablo Cruise",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_GEbY5kj",
       "artist": "Alicia Villarreal",
       "date": "Sun Dec 6",
@@ -7393,6 +7281,118 @@
       "artist": "The Strike",
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_FljpPHE",
+      "artist": "The Pineapple Thief",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_ogD_pz6",
+      "artist": "Save Ferris",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_GkymCSV",
+      "artist": "Jamey Johnson",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af0UZN",
+      "artist": "feeble little horse",
+      "date": "Thu Dec 10",
+      "localDate": "2026-12-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfaO-f",
+      "artist": "Sam Quealy",
+      "date": "Thu Dec 10",
+      "localDate": "2026-12-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_53UKNHh",
+      "artist": "Strawberry Guy",
+      "date": "Thu Dec 10",
+      "localDate": "2026-12-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PfoA",
+      "artist": "Oliver Hazard",
+      "date": "Thu Dec 10",
+      "localDate": "2026-12-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PSrk",
+      "artist": "The Wooten Brothers",
+      "date": "Thu Dec 10",
+      "localDate": "2026-12-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aMbKo0B",
+      "artist": "Olivia Rodrigo",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4veaK",
+      "artist": "The Slackers",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG4x7",
+      "artist": "Sleepwalk/ Drought/ No Lights Caged View",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3kAZh9E",
+      "artist": "Jorma Kaukonen",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af13vV",
+      "artist": "Katya Smirnoff-Skyy",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af0oeK",
+      "artist": "THE BOBBY LEES",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGEq0",
+      "artist": "Authority Zero",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa7O7",
+      "artist": "Suicide Silence",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
       "reason": "no taste match"
     }
   ],
