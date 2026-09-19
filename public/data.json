@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-19T05:29:34.060Z",
+  "generatedAt": "2026-09-19T16:13:36.860Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-19T05:29:34Z",
-      "endDateTime": "2026-12-18T05:29:34Z"
+      "startDateTime": "2026-09-19T16:13:36Z",
+      "endDateTime": "2026-12-18T16:13:36Z"
     },
     "eventsConsidered": 1000,
     "eventsReported": 1031,
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 56,
+          "daysUntilShow": 55,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 78,
       "raw": 66,
       "scoredOutOf": 85,
-      "reason": "Direct match. SF venue, Monday.",
+      "reason": "Direct match. 30 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 31,
+          "daysUntilShow": 30,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 23 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 22 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-26T17:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 23,
+          "daysUntilShow": 22,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 55,
+          "daysUntilShow": 54,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 39,
+          "daysUntilShow": 38,
           "imminent": false
         },
         "effort": {
