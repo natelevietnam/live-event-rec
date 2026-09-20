@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-19T16:13:36.860Z",
+  "generatedAt": "2026-09-20T05:43:07.664Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-19T16:13:36Z",
-      "endDateTime": "2026-12-18T16:13:36Z"
+      "startDateTime": "2026-09-20T05:43:07Z",
+      "endDateTime": "2026-12-19T05:43:07Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1031,
+    "eventsReported": 1014,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 238
+      "count": 236
     },
     {
       "name": "Other",
-      "count": 204
+      "count": 203
     },
     {
       "name": "Alternative",
@@ -58,15 +58,15 @@
     },
     {
       "name": "Pop",
-      "count": 92
+      "count": 96
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 65
+      "count": 66
     },
     {
       "name": "Dance/Electronic",
-      "count": 52
+      "count": 48
     },
     {
       "name": "R&B",
@@ -74,27 +74,27 @@
     },
     {
       "name": "Country",
-      "count": 36
+      "count": 34
     },
     {
       "name": "Metal",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Latin",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Folk",
-      "count": 21
+      "count": 25
     },
     {
       "name": "Jazz",
-      "count": 19
+      "count": 18
     },
     {
       "name": "World",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Blues",
@@ -217,8 +217,8 @@
       "weekday": "Monday",
       "venue": "Chase Center",
       "city": "San Francisco",
-      "score": 78,
-      "raw": 66,
+      "score": 84,
+      "raw": 71,
       "scoredOutOf": 85,
       "reason": "Direct match. 30 days out. SF venue, Monday.",
       "urgent": false,
@@ -235,7 +235,7 @@
           "matchedOn": "Doja Cat"
         },
         "urgency": {
-          "points": 7,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -430,174 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7Pb0o",
-      "artist": "Satin Jackets",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u1SXrX_",
-      "artist": "Earlybirds Club",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-S14",
-      "artist": "Brandi Carlile",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MGN",
-      "artist": "Albert Lee",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbyk0x_-f",
-      "artist": "Steve Aoki",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dKlXXzG",
-      "artist": "Godsmack",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfxK0N",
-      "artist": "Elder",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZS8d",
-      "artist": "Concision/ Kill Or Be Killed/ A Faint Memory/ A November Morning /Let The Eat Horses",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6ezUhUZ",
-      "artist": "Jack Harlow",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dLfyFxs",
-      "artist": "The Growlers",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GnMS91b",
-      "artist": "The Matches",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-xPv",
-      "artist": "Arlo Parks",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P94w",
-      "artist": "Ravi Coltrane",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5KexEem",
-      "artist": "Jerry's Middle Finger",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_Ajubec2",
-      "artist": "Jon B.",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_arL_-j9",
-      "artist": "A Flock of Seagulls",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CU5Hpa4",
-      "artist": "Texas HeadHunters",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G6CErEP1W",
-      "artist": "Chicago",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJfGd",
-      "artist": "Yazz",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af17J7",
-      "artist": "Cut Chemist",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZFaN",
-      "artist": "Cult Member",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Pob",
-      "artist": "Be Your Own Pet",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ud0A07i",
-      "artist": "Anish Kumar",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Zgkd",
-      "artist": "¡DESMADRE! w/ OtebNSolrac + Wockie & PATIO TAKOVER by Bussdown Collective",
-      "date": "Sat Sep 19",
-      "localDate": "2026-09-19",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfJeOd",
       "artist": "The Market Arts Festival - 5 Year Anniversary! w/ DJ Sandio + DJ Rell + JC-Caution + J-Blenz",
@@ -2525,7 +2357,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG4OV",
-      "artist": "Where is honest?",
+      "artist": "WHERE IS HONEST?",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -5577,7 +5409,7 @@
     },
     {
       "id": "rZ7HnEZ1AfF7r7",
-      "artist": "Mimosas & Motown: Sunday Brunch November 8th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
+      "artist": "SOLD OUT! Mimosas & Motown: Sunday Brunch November 8th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
       "date": "Sun Nov 8",
       "localDate": "2026-11-08",
       "reason": "no taste match"
@@ -6998,7 +6830,7 @@
     },
     {
       "id": "169ZkfsotZAuadak",
-      "artist": "Grasshopper: Three In Love ",
+      "artist": "Grasshopper",
       "date": "Fri Dec 4",
       "localDate": "2026-12-04",
       "reason": "no taste match"
@@ -7393,6 +7225,174 @@
       "artist": "Suicide Silence",
       "date": "Sat Dec 12",
       "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_aMbfsP1",
+      "artist": "Olivia Rodrigo",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_50UZ11w",
+      "artist": "DragonForce",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70gaP",
+      "artist": "DragonForce",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_G3WCt2E",
+      "artist": "Tiny Habits",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZYPS",
+      "artist": "Daine",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3kAvh9s",
+      "artist": "Jorma Kaukonen",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af13e7",
+      "artist": "Katya Smirnoff-Skyy",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_uk9C1cy",
+      "artist": "Virtual Riot",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4ZpGK",
+      "artist": "the olllam",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZMaE",
+      "artist": "Svdden Death",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ9ZS",
+      "artist": "ConFunkShun",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGbu7",
+      "artist": "Brown, Sturgis & Brown",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_GXupJw-",
+      "artist": "Yaelokre",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZ9aZ",
+      "artist": "ConFunkShun",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af0fjN",
+      "artist": "Swervedriver",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3kAelbe",
+      "artist": "Jorma Kaukonen",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70UoJ",
+      "artist": "Matt Hansen",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGdjV",
+      "artist": "JD McPherson",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8jd0kWO",
+      "artist": "Silvestre Dangond",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfaaQ7",
+      "artist": "Willi Carlisle",
+      "date": "Mon Dec 14",
+      "localDate": "2026-12-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7JF8_",
+      "artist": "Bernadette Peters",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3SUwEMt",
+      "artist": "Syd",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K5-CQcC",
+      "artist": "Syd",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1pq7",
+      "artist": "Josie Edwards",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
       "reason": "no taste match"
     }
   ],
