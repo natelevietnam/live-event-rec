@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-21T05:54:38.194Z",
+  "generatedAt": "2026-09-21T18:28:35.384Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-21T05:54:38Z",
-      "endDateTime": "2026-12-20T05:54:38Z"
+      "startDateTime": "2026-09-21T18:28:35Z",
+      "endDateTime": "2026-12-20T18:28:35Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1011,
+    "eventsReported": 1018,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 234
+      "count": 235
     },
     {
       "name": "Other",
-      "count": 206
+      "count": 205
     },
     {
       "name": "Alternative",
-      "count": 104
+      "count": 105
     },
     {
       "name": "Pop",
-      "count": 97
+      "count": 96
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 48
     },
     {
       "name": "R&B",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Metal",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Latin",
@@ -89,16 +89,16 @@
       "count": 24
     },
     {
+      "name": "World",
+      "count": 19
+    },
+    {
       "name": "Jazz",
       "count": 18
     },
     {
-      "name": "World",
-      "count": 18
-    },
-    {
       "name": "Blues",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Classical",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 54,
+          "daysUntilShow": 53,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 29 days out. SF venue, Monday.",
+      "reason": "Direct match. 28 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 29,
+          "daysUntilShow": 28,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 21 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 20 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 21,
+          "daysUntilShow": 20,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 53,
+          "daysUntilShow": 52,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 37,
+          "daysUntilShow": 36,
           "imminent": false
         },
         "effort": {
@@ -4106,6 +4106,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGtk7",
+      "artist": "¡DESMADRE! w/ Jae Coca + Wockie + DJ Romi & Latin Goth Patio by Digital KitKat",
+      "date": "Sat Oct 24",
+      "localDate": "2026-10-24",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70s8E",
       "artist": "Rob Kapilow",
       "date": "Sun Oct 25",
@@ -4241,6 +4248,13 @@
     {
       "id": "rZ7HnEZ1AfFe40",
       "artist": "Landon Conrath",
+      "date": "Tue Oct 27",
+      "localDate": "2026-10-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGPOf",
+      "artist": "jackzebra — Zhuang Zhuang 2026 Tour",
       "date": "Tue Oct 27",
       "localDate": "2026-10-27",
       "reason": "no taste match"
@@ -4829,6 +4843,13 @@
     {
       "id": "G5vYZ_uku9zNY",
       "artist": "José Madero",
+      "date": "Sun Nov 1",
+      "localDate": "2026-11-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KFJEcR2",
+      "artist": "Baby Smoove",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
@@ -5996,6 +6017,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGYJ7",
+      "artist": "Leanna Firestone",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZbU3R_nwH",
       "artist": "Three Days Grace",
       "date": "Wed Nov 18",
@@ -6570,6 +6598,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGYqf",
+      "artist": "Oden & Fatzo Live",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7PgGw",
       "artist": "Devault",
       "date": "Sat Nov 28",
@@ -6731,6 +6766,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A7P-j-",
+      "artist": "Charo",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1zD0GtE",
       "artist": "You Should Be Dancing - A Tribute to the Bee Gees",
       "date": "Fri Dec 4",
@@ -6859,6 +6901,13 @@
     {
       "id": "Z7r9jZ1A7Pobv",
       "artist": "John Zorn",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KAvJHkT",
+      "artist": "Circle Jerks",
       "date": "Sun Dec 6",
       "localDate": "2026-12-06",
       "reason": "no taste match"
@@ -7344,55 +7393,6 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwQ7",
-      "artist": "Open Mic Night",
-      "date": "Wed Dec 16",
-      "localDate": "2026-12-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_o9gbWzH",
-      "artist": "Yung Gravy",
-      "date": "Wed Dec 16",
-      "localDate": "2026-12-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0d8S",
-      "artist": "Pokey LaFarge",
-      "date": "Wed Dec 16",
-      "localDate": "2026-12-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_320sgVQ",
-      "artist": "Victoria Monet",
-      "date": "Thu Dec 17",
-      "localDate": "2026-12-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZkP9",
-      "artist": "Elf in Concert",
-      "date": "Fri Dec 18",
-      "localDate": "2026-12-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8oC-HnX",
-      "artist": "Venna",
-      "date": "Fri Dec 18",
-      "localDate": "2026-12-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_owBzL2J",
-      "artist": "Death Angel",
-      "date": "Fri Dec 18",
-      "localDate": "2026-12-18",
       "reason": "no taste match"
     }
   ],
