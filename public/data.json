@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-20T16:41:08.588Z",
+  "generatedAt": "2026-09-21T05:54:38.194Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-20T16:41:08Z",
-      "endDateTime": "2026-12-19T16:41:08Z"
+      "startDateTime": "2026-09-21T05:54:38Z",
+      "endDateTime": "2026-12-20T05:54:38Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1014,
+    "eventsReported": 1011,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 236
+      "count": 234
     },
     {
       "name": "Other",
-      "count": 203
+      "count": 206
     },
     {
       "name": "Alternative",
-      "count": 105
+      "count": 104
     },
     {
       "name": "Pop",
-      "count": 96
+      "count": 97
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 66
+      "count": 65
     },
     {
       "name": "Dance/Electronic",
-      "count": 48
+      "count": 47
     },
     {
       "name": "R&B",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Metal",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Latin",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Folk",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Jazz",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Classical",
@@ -297,8 +297,8 @@
           "driver": "proximity",
           "state": "onSaleNow",
           "kind": "presale",
-          "at": "2026-03-26T17:00:00.000Z",
-          "presaleName": "Citi® Cardmember Preferred Tickets",
+          "at": "2026-03-24T17:00:00.000Z",
+          "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
           "daysUntilShow": 21,
           "imminent": false
@@ -430,76 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfJeOd",
-      "artist": "The Market Arts Festival - 5 Year Anniversary! w/ DJ Sandio + DJ Rell + JC-Caution + J-Blenz",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ob6EPFz",
-      "artist": "Lane 8",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZUGF",
-      "artist": "Shawn Mullins",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ew5dP-6",
-      "artist": "Rob Zombie",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78E",
-      "artist": "America",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pdep",
-      "artist": "Lauren Sanderson",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPFaK",
-      "artist": "Lauren Sanderson",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af7gPf",
-      "artist": "deca joins",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZsuS",
-      "artist": "BIIRD (Night 2)",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfeZJ7",
-      "artist": "Seedhe Maut",
-      "date": "Sun Sep 20",
-      "localDate": "2026-09-20",
-      "reason": "cancelled"
-    },
     {
       "id": "rZ7HnEZ1Af0a8S",
       "artist": "Sondre Lerche",
@@ -7393,6 +7323,76 @@
       "artist": "Josie Edwards",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGOr7",
+      "artist": "Labiahead - California Tour 2026",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvY4U",
+      "artist": "Roy Orbison Returns",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEG7",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwQ7",
+      "artist": "Open Mic Night",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_o9gbWzH",
+      "artist": "Yung Gravy",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af0d8S",
+      "artist": "Pokey LaFarge",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_320sgVQ",
+      "artist": "Victoria Monet",
+      "date": "Thu Dec 17",
+      "localDate": "2026-12-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZkP9",
+      "artist": "Elf in Concert",
+      "date": "Fri Dec 18",
+      "localDate": "2026-12-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8oC-HnX",
+      "artist": "Venna",
+      "date": "Fri Dec 18",
+      "localDate": "2026-12-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_owBzL2J",
+      "artist": "Death Angel",
+      "date": "Fri Dec 18",
+      "localDate": "2026-12-18",
       "reason": "no taste match"
     }
   ],
