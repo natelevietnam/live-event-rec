@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-21T18:28:35.384Z",
+  "generatedAt": "2026-09-22T05:51:45.246Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-21T18:28:35Z",
-      "endDateTime": "2026-12-20T18:28:35Z"
+      "startDateTime": "2026-09-22T05:51:45Z",
+      "endDateTime": "2026-12-21T05:51:45Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1018,
+    "eventsReported": 1019,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 235
+      "count": 234
     },
     {
       "name": "Other",
-      "count": 205
+      "count": 208
     },
     {
       "name": "Alternative",
-      "count": 105
+      "count": 104
     },
     {
       "name": "Pop",
-      "count": 96
+      "count": 95
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 65
+      "count": 66
     },
     {
       "name": "Dance/Electronic",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 34
+      "count": 33
     },
     {
       "name": "Metal",
@@ -430,41 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1Af0a8S",
-      "artist": "Sondre Lerche",
-      "date": "Mon Sep 21",
-      "localDate": "2026-09-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1S6t4Su",
-      "artist": "Waylon Wyatt",
-      "date": "Mon Sep 21",
-      "localDate": "2026-09-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Q6A4",
-      "artist": "Peter Hook and the Light",
-      "date": "Mon Sep 21",
-      "localDate": "2026-09-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x7-S",
-      "artist": "Friko",
-      "date": "Mon Sep 21",
-      "localDate": "2026-09-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PfAF",
-      "artist": "Uncle Acid and the Deadbeats",
-      "date": "Mon Sep 21",
-      "localDate": "2026-09-21",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Af1Fbf",
       "artist": "Jesse The Tree/ .tetsuo/ NAHreally/ FRIO",
@@ -3639,6 +3604,13 @@
     {
       "id": "rZ7HnEZ1Afat_0",
       "artist": "Yana",
+      "date": "Wed Oct 21",
+      "localDate": "2026-10-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv4FS",
+      "artist": "Ten",
       "date": "Wed Oct 21",
       "localDate": "2026-10-21",
       "reason": "no taste match"
@@ -6941,6 +6913,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAv4Ft",
+      "artist": "Ripe",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfFAb0",
       "artist": "Squirrel Nut Zippers",
       "date": "Sun Dec 6",
@@ -7393,6 +7372,27 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfZwQ7",
+      "artist": "Open Mic Night",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PEAv",
+      "artist": "Kat Edmonson",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_o9gbWzH",
+      "artist": "Yung Gravy",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
       "reason": "no taste match"
     }
   ],
