@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-22T05:51:45.246Z",
+  "generatedAt": "2026-09-22T17:31:11.623Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-22T05:51:45Z",
-      "endDateTime": "2026-12-21T05:51:45Z"
+      "startDateTime": "2026-09-22T17:31:11Z",
+      "endDateTime": "2026-12-21T17:31:11Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1019,
+    "eventsReported": 1023,
     "truncated": true
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 234
+      "count": 235
     },
     {
       "name": "Other",
-      "count": 208
+      "count": 205
     },
     {
       "name": "Alternative",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 66
+      "count": 65
     },
     {
       "name": "Dance/Electronic",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 43
+      "count": 45
     },
     {
       "name": "Country",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Folk",
-      "count": 24
+      "count": 25
     },
     {
       "name": "World",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 53,
+          "daysUntilShow": 52,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 28 days out. SF venue, Monday.",
+      "reason": "Direct match. 27 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 28,
+          "daysUntilShow": 27,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 20 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 19 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 20,
+          "daysUntilShow": 19,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 52,
+          "daysUntilShow": 51,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 36,
+          "daysUntilShow": 35,
           "imminent": false
         },
         "effort": {
@@ -1784,6 +1784,13 @@
     {
       "id": "Z7r9jZ1AAZ_Zz",
       "artist": "Elephante",
+      "date": "Sat Oct 3",
+      "localDate": "2026-10-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGUGf",
+      "artist": "Durand Bernarr",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
       "reason": "no taste match"
@@ -6962,6 +6969,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGt80",
+      "artist": "Keenan TreVon",
+      "date": "Mon Dec 7",
+      "localDate": "2026-12-07",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7x3v-",
       "artist": "Buck Meek",
       "date": "Mon Dec 7",
@@ -7144,6 +7158,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_K7kovVZ",
+      "artist": "Lucius",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfG4x7",
       "artist": "Sleepwalk/ Drought/ No Lights Caged View",
       "date": "Fri Dec 11",
@@ -7312,6 +7333,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_K5u39Zk",
+      "artist": "Spike and the Gimme Gimmes",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8jd0kWO",
       "artist": "Silvestre Dangond",
       "date": "Sun Dec 13",
@@ -7365,34 +7393,6 @@
       "artist": "Roy Orbison Returns",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEG7",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Dec 15",
-      "localDate": "2026-12-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwQ7",
-      "artist": "Open Mic Night",
-      "date": "Wed Dec 16",
-      "localDate": "2026-12-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PEAv",
-      "artist": "Kat Edmonson",
-      "date": "Wed Dec 16",
-      "localDate": "2026-12-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_o9gbWzH",
-      "artist": "Yung Gravy",
-      "date": "Wed Dec 16",
-      "localDate": "2026-12-16",
       "reason": "no taste match"
     }
   ],
