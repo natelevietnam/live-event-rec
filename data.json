@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-23T05:29:34.801Z",
+  "generatedAt": "2026-09-23T17:42:17.208Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-23T05:29:34Z",
-      "endDateTime": "2026-12-22T05:29:34Z"
+      "startDateTime": "2026-09-23T17:42:17Z",
+      "endDateTime": "2026-12-22T17:42:17Z"
     },
     "eventsConsidered": 1000,
-    "eventsReported": 1007,
+    "eventsReported": 1011,
     "truncated": true
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 208
+      "count": 207
     },
     {
       "name": "Alternative",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 64
+      "count": 65
     },
     {
       "name": "Dance/Electronic",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 45
+      "count": 46
     },
     {
       "name": "Country",
@@ -109,10 +109,6 @@
       "count": 5
     },
     {
-      "name": "Music",
-      "count": 2
-    },
-    {
       "name": "New Age",
       "count": 2
     },
@@ -126,6 +122,10 @@
     },
     {
       "name": "Children's Music",
+      "count": 1
+    },
+    {
+      "name": "Music",
       "count": 1
     }
   ],
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 52,
+          "daysUntilShow": 51,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 27 days out. SF venue, Monday.",
+      "reason": "Direct match. 26 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 27,
+          "daysUntilShow": 26,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 19 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 18 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 19,
+          "daysUntilShow": 18,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 51,
+          "daysUntilShow": 50,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 35,
+          "daysUntilShow": 34,
           "imminent": false
         },
         "effort": {
@@ -3245,6 +3245,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGzG0",
+      "artist": "Desmadre + Psyched! Radio Fest present: RIXXIA W/ Diabbla + BB Cora + Louie El Ser",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_ullh3se",
       "artist": "Dinosaur Jr.",
       "date": "Sun Oct 18",
@@ -5170,6 +5177,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_KpNxjb1",
+      "artist": "Adam Ant",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1y7YWsH",
       "artist": "Valerie - A Tribute to Amy Winehouse",
       "date": "Sat Nov 7",
@@ -6381,6 +6395,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_8bK7kMe",
+      "artist": "Steve Lacy",
+      "date": "Wed Nov 25",
+      "localDate": "2026-11-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_33P1hxM",
       "artist": "Los Gemelos De Sinaloa",
       "date": "Wed Nov 25",
@@ -7242,6 +7263,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_Kh8Ba7d",
+      "artist": "Hunxho",
+      "date": "Mon Dec 14",
+      "localDate": "2026-12-14",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7JF8_",
       "artist": "Bernadette Peters",
       "date": "Tue Dec 15",
@@ -7365,34 +7393,6 @@
       "artist": "Petey USA",
       "date": "Fri Dec 18",
       "localDate": "2026-12-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvbkA",
-      "artist": "Milk & Bone",
-      "date": "Fri Dec 18",
-      "localDate": "2026-12-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZkP_",
-      "artist": "Elf in Concert",
-      "date": "Sat Dec 19",
-      "localDate": "2026-12-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CB5abhn",
-      "artist": "Love Actually Live in Concert",
-      "date": "Sat Dec 19",
-      "localDate": "2026-12-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8n0QnDC",
-      "artist": "The Allman Betts Family Revival",
-      "date": "Sat Dec 19",
-      "localDate": "2026-12-19",
       "reason": "no taste match"
     }
   ],
