@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-23T17:42:17.208Z",
+  "generatedAt": "2026-09-24T05:51:30.196Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-23T17:42:17Z",
-      "endDateTime": "2026-12-22T17:42:17Z"
+      "startDateTime": "2026-09-24T05:51:30Z",
+      "endDateTime": "2026-12-23T05:51:30Z"
     },
-    "eventsConsidered": 1000,
-    "eventsReported": 1011,
-    "truncated": true
+    "eventsConsidered": 997,
+    "eventsReported": 997,
+    "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 233
+      "count": 232
     },
     {
       "name": "Other",
-      "count": 207
+      "count": 208
     },
     {
       "name": "Alternative",
@@ -62,19 +62,19 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 65
+      "count": 64
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
-    },
-    {
-      "name": "R&B",
       "count": 46
     },
     {
+      "name": "R&B",
+      "count": 45
+    },
+    {
       "name": "Country",
-      "count": 33
+      "count": 31
     },
     {
       "name": "Metal",
@@ -90,11 +90,11 @@
     },
     {
       "name": "World",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Jazz",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Blues",
@@ -106,7 +106,11 @@
     },
     {
       "name": "Reggae",
-      "count": 5
+      "count": 4
+    },
+    {
+      "name": "Music",
+      "count": 2
     },
     {
       "name": "New Age",
@@ -122,10 +126,6 @@
     },
     {
       "name": "Children's Music",
-      "count": 1
-    },
-    {
-      "name": "Music",
       "count": 1
     }
   ],
@@ -431,118 +431,6 @@
   ],
   "cut": [
     {
-      "id": "rZ7HnEZ1Afx6vN",
-      "artist": "Wednesday 13",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_avAnA4S",
-      "artist": "TRIBAL SEEDS",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZw_7",
-      "artist": "Open Mic Night",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uDcrdpk",
-      "artist": "Ken Carson",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78I",
-      "artist": "Jose Gonzalez",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1mWZNyw",
-      "artist": "LE SSERAFIM",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_53ML09c",
-      "artist": "Sebastien Tellier",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1Z07",
-      "artist": "NERVY",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x3v9",
-      "artist": "Temples",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-F8d",
-      "artist": "Ghostly Kisses",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_33ohIif",
-      "artist": "Jack White",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aShRGRM",
-      "artist": "Boz Scaggs",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaU_f",
-      "artist": "Nai Palm",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70fk_",
-      "artist": "Tommy Emmanuel",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_urt8qkL",
-      "artist": "Colby Acuff",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZeee",
-      "artist": "Carsie Blanton",
-      "date": "Wed Sep 23",
-      "localDate": "2026-09-23",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZbUD3X2kj",
       "artist": "Mötley Crüe",
       "date": "Thu Sep 24",
@@ -678,13 +566,6 @@
     {
       "id": "G5vYZ_1NG_qrt",
       "artist": "Jose Gonzalez",
-      "date": "Fri Sep 25",
-      "localDate": "2026-09-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FF8nCI2",
-      "artist": "Pablo Cruise",
       "date": "Fri Sep 25",
       "localDate": "2026-09-25",
       "reason": "no taste match"
@@ -880,7 +761,7 @@
     },
     {
       "id": "rZ7HnEZ1A4vFON",
-      "artist": "Crash Out (afrobeats, dancehall, hip-hop & more)",
+      "artist": "Crash Out (Afrobeats, Dancehall, Hip-hop & more)",
       "date": "Sat Sep 26",
       "localDate": "2026-09-26",
       "reason": "no taste match"
@@ -2230,13 +2111,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfGO-V",
-      "artist": "Yung Fazo, Cthrurio",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_6bQKIZz",
       "artist": "My Morning Jacket",
       "date": "Fri Oct 9",
@@ -2288,6 +2162,13 @@
     {
       "id": "rZ7HnEZ1AfJeFS",
       "artist": "Devon Gilfillian",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGO-V",
+      "artist": "Yung Fazo, Cthrurio, sophmorenoir",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -6857,6 +6738,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_FF8nCI2",
+      "artist": "Pablo Cruise",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_K5ffI_z",
       "artist": "Pablo Cruise",
       "date": "Sun Dec 6",
@@ -7394,7 +7282,98 @@
       "date": "Fri Dec 18",
       "localDate": "2026-12-18",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvbkA",
+      "artist": "Milk & Bone",
+      "date": "Fri Dec 18",
+      "localDate": "2026-12-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZkP_",
+      "artist": "Elf in Concert",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CB5abhn",
+      "artist": "Love Actually Live in Concert",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8n0QnDC",
+      "artist": "The Allman Betts Family Revival",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2gkw0jq",
+      "artist": "David Archuleta",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGb-7",
+      "artist": "Franc D'ambrosio",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfasF0",
+      "artist": "Shaun Cassidy - UNWRAPPED: Songs & Stories For The Holidays",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8KPzcMP",
+      "artist": "Wang Leehom",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZkPb",
+      "artist": "Elf in Concert",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afasv0",
+      "artist": "Set Your Goals",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8n0hnDQ",
+      "artist": "The Allman Betts Family Revival",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CnBCS6b",
+      "artist": "Dave Koz Christmas",
+      "date": "Tue Dec 22",
+      "localDate": "2026-12-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEZ0",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 22",
+      "localDate": "2026-12-22",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 1000
+  "eventCount": 997
 }
