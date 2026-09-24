@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-24T05:51:30.196Z",
+  "generatedAt": "2026-09-24T17:44:21.346Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-24T05:51:30Z",
-      "endDateTime": "2026-12-23T05:51:30Z"
+      "startDateTime": "2026-09-24T17:44:21Z",
+      "endDateTime": "2026-12-23T17:44:21Z"
     },
-    "eventsConsidered": 997,
-    "eventsReported": 997,
+    "eventsConsidered": 998,
+    "eventsReported": 998,
     "truncated": false
   },
   "genres": [
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 46
+      "count": 47
     },
     {
       "name": "R&B",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 51,
+          "daysUntilShow": 50,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 26 days out. SF venue, Monday.",
+      "reason": "Direct match. 25 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 26,
+          "daysUntilShow": 25,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 76,
       "raw": 65,
       "scoredOutOf": 85,
-      "reason": "Direct match. 18 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 17 days out. Concord venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 18,
+          "daysUntilShow": 17,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 50,
+          "daysUntilShow": 49,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "Citi® Cardmember Preferred Tickets",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 34,
+          "daysUntilShow": 33,
           "imminent": false
         },
         "effort": {
@@ -6822,6 +6822,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfuvG0",
+      "artist": "Kumo 99",
+      "date": "Tue Dec 8",
+      "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1U8_jNx",
       "artist": "Angine de Poitrine",
       "date": "Tue Dec 8",
@@ -7375,5 +7382,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 997
+  "eventCount": 998
 }
