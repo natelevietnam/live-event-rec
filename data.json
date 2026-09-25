@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-24T17:44:21.346Z",
+  "generatedAt": "2026-09-25T05:49:18.289Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-24T17:44:21Z",
-      "endDateTime": "2026-12-23T17:44:21Z"
+      "startDateTime": "2026-09-25T05:49:18Z",
+      "endDateTime": "2026-12-24T05:49:18Z"
     },
-    "eventsConsidered": 998,
-    "eventsReported": 998,
+    "eventsConsidered": 991,
+    "eventsReported": 991,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 232
+      "count": 230
     },
     {
       "name": "Other",
-      "count": 208
+      "count": 205
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Pop",
-      "count": 95
+      "count": 96
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 46
     },
     {
       "name": "R&B",
@@ -78,7 +78,7 @@
     },
     {
       "name": "Metal",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Latin",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Classical",
@@ -430,69 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZbUD3X2kj",
-      "artist": "Mötley Crüe",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kSFyTso",
-      "artist": "Stephen Wilson Jr.",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78t",
-      "artist": "Starship",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPbZK",
-      "artist": "Red Leather",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FxGxIkR",
-      "artist": "Jack White",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvvPZ",
-      "artist": "Soulwax",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-V7N",
-      "artist": "Elder Island",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P-j_",
-      "artist": "Carsie Blanton",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1yo5R1W",
-      "artist": "Samantha Fish",
-      "date": "Thu Sep 24",
-      "localDate": "2026-09-24",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Af0o4K",
       "artist": "Revocation",
@@ -6381,6 +6318,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_KLQ1qwG",
+      "artist": "Vessbroz",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_5Knqmdp",
       "artist": "Dweezil Zappa",
       "date": "Sun Nov 29",
@@ -7194,7 +7138,7 @@
     },
     {
       "id": "rZ7HnEZ1AfGOr7",
-      "artist": "Labiahead - California Tour 2026",
+      "artist": "Labiahead - California Tour 2026 - 2 Nights!",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
       "reason": "no taste match"
@@ -7223,6 +7167,13 @@
     {
       "id": "Z7r9jZ1A7PEAv",
       "artist": "Kat Edmonson",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGyof",
+      "artist": "Labiahead - California Tour 2026 - 2 Nights!",
       "date": "Wed Dec 16",
       "localDate": "2026-12-16",
       "reason": "no taste match"
@@ -7382,5 +7333,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 998
+  "eventCount": 991
 }
