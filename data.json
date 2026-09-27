@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-26T16:52:08.544Z",
+  "generatedAt": "2026-09-27T06:13:35.031Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-26T16:52:08Z",
-      "endDateTime": "2026-12-25T16:52:08Z"
+      "startDateTime": "2026-09-27T06:13:35Z",
+      "endDateTime": "2026-12-26T06:13:35Z"
     },
-    "eventsConsidered": 979,
-    "eventsReported": 979,
+    "eventsConsidered": 957,
+    "eventsReported": 957,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 227
+      "count": 225
     },
     {
       "name": "Other",
-      "count": 203
+      "count": 196
     },
     {
       "name": "Alternative",
-      "count": 102
+      "count": 100
     },
     {
       "name": "Pop",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 64
+      "count": 62
     },
     {
       "name": "R&B",
@@ -74,31 +74,31 @@
     },
     {
       "name": "Country",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Metal",
-      "count": 27
-    },
-    {
-      "name": "Latin",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Folk",
       "count": 24
     },
     {
+      "name": "Latin",
+      "count": 23
+    },
+    {
       "name": "World",
-      "count": 20
+      "count": 18
     },
     {
       "name": "Jazz",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Blues",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Classical",
@@ -107,10 +107,6 @@
     {
       "name": "Reggae",
       "count": 4
-    },
-    {
-      "name": "Music",
-      "count": 2
     },
     {
       "name": "New Age",
@@ -126,6 +122,10 @@
     },
     {
       "name": "Children's Music",
+      "count": 1
+    },
+    {
+      "name": "Music",
       "count": 1
     }
   ],
@@ -430,160 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1A4Z4Zd",
-      "artist": "Mitchum Yacoub and the Brass Empire",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvda6",
-      "artist": "Chuck Prophet",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Zf0S",
-      "artist": "Nef the Pharaoh & D-Lo - Burn The City Tour",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5RNR4jN",
-      "artist": "Riley Green",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1yuzmgI",
-      "artist": "Spafford",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FLLnFxY",
-      "artist": "Beck",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78Y",
-      "artist": "The Concert: A Tribute To ABBA",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PvjA",
-      "artist": "Wynton Marsalis",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZZ7K",
-      "artist": "Rome Streetz",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uenNDBh",
-      "artist": "Sleep",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7OSuJ",
-      "artist": "Sugar",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FNAdswI",
-      "artist": "Shreya Ghoshal",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5MYpdRV",
-      "artist": "Al Di Meola",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1MnIoTf",
-      "artist": "Marco Antonio Solis",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ANjdQHr",
-      "artist": "The Sound of Music",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_7iWzLEh",
-      "artist": "Cristian Castro",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZJZN",
-      "artist": "The Emo Night Tour",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PJqS",
-      "artist": "Rusty Chains - Tribute to Chris Cornell",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0bQK",
-      "artist": "West 22nd",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfF6GV",
-      "artist": "Max Fry",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvvPv",
-      "artist": "Parcels",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vFON",
-      "artist": "Crash Out (Afrobeats, Dancehall, Hip-hop & more)",
-      "date": "Sat Sep 26",
-      "localDate": "2026-09-26",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfG-xf",
       "artist": "Amor De Dios/ Forced To Suffer/ exutoire/ A Life Spent/ Off Tops",
@@ -7249,5 +7095,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 979
+  "eventCount": 957
 }
