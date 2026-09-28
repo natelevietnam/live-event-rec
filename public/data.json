@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-27T17:29:36.122Z",
+  "generatedAt": "2026-09-28T06:19:18.442Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-27T17:29:36Z",
-      "endDateTime": "2026-12-26T17:29:36Z"
+      "startDateTime": "2026-09-28T06:19:18Z",
+      "endDateTime": "2026-12-27T06:19:18Z"
     },
-    "eventsConsidered": 957,
-    "eventsReported": 957,
+    "eventsConsidered": 944,
+    "eventsReported": 944,
     "truncated": false
   },
   "genres": [
@@ -50,35 +50,35 @@
     },
     {
       "name": "Other",
-      "count": 196
+      "count": 193
     },
     {
       "name": "Alternative",
-      "count": 100
+      "count": 99
     },
     {
       "name": "Pop",
-      "count": 98
+      "count": 97
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 62
-    },
-    {
-      "name": "R&B",
-      "count": 45
+      "count": 59
     },
     {
       "name": "Dance/Electronic",
       "count": 44
     },
     {
+      "name": "R&B",
+      "count": 44
+    },
+    {
       "name": "Country",
-      "count": 30
+      "count": 29
     },
     {
       "name": "Metal",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Folk",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Latin",
-      "count": 23
+      "count": 20
     },
     {
       "name": "World",
@@ -201,6 +201,63 @@
       }
     },
     {
+      "id": "G5vYZ_6eBbDWb",
+      "artist": "TLC",
+      "seed": "TLC",
+      "seeds": [
+        "TLC"
+      ],
+      "tier": "direct",
+      "eventName": "TLC & Salt-N-Pepa with En Vogue - IT'S ICONIC",
+      "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-concord-california-10-11-2026/event/1C006470BA63BF58",
+      "genre": "Hip-Hop/Rap",
+      "date": "Sun Oct 11",
+      "localDate": "2026-10-11",
+      "localTime": "19:30:00",
+      "weekday": "Sunday",
+      "venue": "Toyota Pavilion at Concord",
+      "city": "Concord",
+      "score": 84,
+      "raw": 71,
+      "scoredOutOf": 85,
+      "reason": "Direct match. 14 days out. Concord venue, Sunday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 45,
+          "max": 45,
+          "tier": "direct",
+          "exact": true,
+          "seed": "TLC",
+          "seeds": [
+            "TLC"
+          ],
+          "matchedOn": "TLC"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2026-03-24T17:00:00.000Z",
+          "presaleName": "Preferred Seating Offer",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 14,
+          "imminent": true
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "unknown",
+          "areaLabel": "Concord",
+          "weeknight": false,
+          "weekday": "Sunday",
+          "weeknightPenalty": 0
+        }
+      }
+    },
+    {
       "id": "G5vYZbS0uA9TW",
       "artist": "Doja Cat",
       "seed": "Doja Cat",
@@ -254,63 +311,6 @@
           "weeknight": true,
           "weekday": "Monday",
           "weeknightPenalty": 6
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_6eBbDWb",
-      "artist": "TLC",
-      "seed": "TLC",
-      "seeds": [
-        "TLC"
-      ],
-      "tier": "direct",
-      "eventName": "TLC & Salt-N-Pepa with En Vogue - IT'S ICONIC",
-      "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-concord-california-10-11-2026/event/1C006470BA63BF58",
-      "genre": "Hip-Hop/Rap",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "localTime": "19:30:00",
-      "weekday": "Sunday",
-      "venue": "Toyota Pavilion at Concord",
-      "city": "Concord",
-      "score": 76,
-      "raw": 65,
-      "scoredOutOf": 85,
-      "reason": "Direct match. 14 days out. Concord venue, Sunday.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "TLC",
-          "seeds": [
-            "TLC"
-          ],
-          "matchedOn": "TLC"
-        },
-        "urgency": {
-          "points": 12,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "presale",
-          "at": "2026-03-24T17:00:00.000Z",
-          "presaleName": "Preferred Seating Offer",
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 14,
-          "imminent": false
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "unknown",
-          "areaLabel": "Concord",
-          "weeknight": false,
-          "weekday": "Sunday",
-          "weeknightPenalty": 0
         }
       }
     },
@@ -388,8 +388,8 @@
       "weekday": "Tuesday",
       "venue": "Toyota Pavilion at Concord",
       "city": "Concord",
-      "score": 34,
-      "raw": 29,
+      "score": 40,
+      "raw": 34,
       "scoredOutOf": 85,
       "reason": "Adjacent to Chris Brown. 30 days out. Concord venue, Tuesday.",
       "urgent": false,
@@ -406,7 +406,7 @@
           "matchedOn": "Bryson Tiller"
         },
         "urgency": {
-          "points": 7,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -430,118 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfG-xf",
-      "artist": "Amor De Dios/ Forced To Suffer/ exutoire/ A Life Spent/ Off Tops",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u5It6JP",
-      "artist": "Erykah Badu",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xKPZ",
-      "artist": "Art Garfunkel",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xAFx",
-      "artist": "A.J. Croce",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afap_f",
-      "artist": "Joon with Lauryn Kovacs (SOLD OUT)",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GG5IJhB",
-      "artist": "Eslabon Armado",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Sb3",
-      "artist": "LUCKI",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CJsZCHG",
-      "artist": "Amy Grant",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZAaF",
-      "artist": "Bravo the Bagchaser",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FL3IkLK",
-      "artist": "Julieta Venegas",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aDynCGo",
-      "artist": "Yandel",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1718v0G6C5DFODe",
-      "artist": "Guardin",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFUZf",
-      "artist": "Guardin",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JZQZ",
-      "artist": "Guardin",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vvPd",
-      "artist": "Hot Chip DJ Set",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvZ8a",
-      "artist": "horsegiirL",
-      "date": "Sun Sep 27",
-      "localDate": "2026-09-27",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_A2ft6lv",
       "artist": "Social Distortion",
@@ -3210,6 +3098,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afukj7",
+      "artist": "Etch/ Vicious Cycle/ Wink/ Here at the End/ Sucios",
+      "date": "Fri Oct 23",
+      "localDate": "2026-10-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfG4qV",
       "artist": "Psyched! Radio Present Joey Cash w/ Jade 2008 + Discnogirl + Leakz",
       "date": "Fri Oct 23",
@@ -4227,6 +4122,13 @@
     {
       "id": "Z7r9jZ1A7PfZb",
       "artist": "Pigeons Playing Ping Pong",
+      "date": "Sun Nov 1",
+      "localDate": "2026-11-01",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afukjf",
+      "artist": "The Undying/ Kink Shamer/ Deliria/ Broken Glass Sanctuary/ 13 Thrones",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
@@ -5312,6 +5214,13 @@
     {
       "id": "G5vYZ_oL-BPz-",
       "artist": "Marisela",
+      "date": "Sun Nov 15",
+      "localDate": "2026-11-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afukj0",
+      "artist": "Machina: Inharm/ Copalm/ Swagbaby/ Eclipse.XIV/ Mars Kumari",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
       "reason": "no taste match"
@@ -7095,5 +7004,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 957
+  "eventCount": 944
 }
