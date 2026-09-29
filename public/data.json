@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-28T19:59:21.871Z",
+  "generatedAt": "2026-09-29T06:34:33.928Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-28T19:59:21Z",
-      "endDateTime": "2026-12-27T19:59:21Z"
+      "startDateTime": "2026-09-29T06:34:33Z",
+      "endDateTime": "2026-12-28T06:34:33Z"
     },
-    "eventsConsidered": 948,
-    "eventsReported": 948,
+    "eventsConsidered": 941,
+    "eventsReported": 941,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 226
+      "count": 225
     },
     {
       "name": "Other",
-      "count": 195
+      "count": 194
     },
     {
       "name": "Alternative",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Pop",
-      "count": 97
+      "count": 95
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 59
+      "count": 57
     },
     {
       "name": "Dance/Electronic",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Folk",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Latin",
@@ -431,50 +431,8 @@
   ],
   "cut": [
     {
-      "id": "G5vYZ_A2ft6lv",
-      "artist": "Social Distortion",
-      "date": "Mon Sep 28",
-      "localDate": "2026-09-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZby5MgRNh",
-      "artist": "Aldous Harding",
-      "date": "Mon Sep 28",
-      "localDate": "2026-09-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaF70",
-      "artist": "Phora",
-      "date": "Mon Sep 28",
-      "localDate": "2026-09-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PZ0I",
-      "artist": "LUCKI",
-      "date": "Mon Sep 28",
-      "localDate": "2026-09-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0x8K",
-      "artist": "Tokyo Tea Room",
-      "date": "Mon Sep 28",
-      "localDate": "2026-09-28",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1AfGZF0",
       "artist": "Triangle Fire/ Choke/ P.O.S./ Ick",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_k3Wj-BC",
-      "artist": "Social Distortion",
       "date": "Tue Sep 29",
       "localDate": "2026-09-29",
       "reason": "no taste match"
@@ -2050,13 +2008,6 @@
     {
       "id": "G5vYZbgi4WuoT",
       "artist": "MARO",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_o3Q9v7F",
-      "artist": "Taemin",
       "date": "Mon Oct 12",
       "localDate": "2026-10-12",
       "reason": "no taste match"
@@ -7032,5 +6983,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 948
+  "eventCount": 941
 }
