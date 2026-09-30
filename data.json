@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-29T18:27:22.226Z",
+  "generatedAt": "2026-09-30T06:17:33.427Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-29T18:27:22Z",
-      "endDateTime": "2026-12-28T18:27:22Z"
+      "startDateTime": "2026-09-30T06:17:33Z",
+      "endDateTime": "2026-12-29T06:17:33Z"
     },
-    "eventsConsidered": 945,
-    "eventsReported": 945,
+    "eventsConsidered": 942,
+    "eventsReported": 942,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 226
+      "count": 225
     },
     {
       "name": "Other",
-      "count": 195
+      "count": 192
     },
     {
       "name": "Alternative",
-      "count": 100
+      "count": 99
     },
     {
       "name": "Pop",
-      "count": 96
+      "count": 95
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 44
+      "count": 45
     },
     {
       "name": "R&B",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Folk",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Latin",
@@ -97,12 +97,12 @@
       "count": 15
     },
     {
-      "name": "Blues",
-      "count": 8
+      "name": "Classical",
+      "count": 10
     },
     {
-      "name": "Classical",
-      "count": 7
+      "name": "Blues",
+      "count": 8
     },
     {
       "name": "Reggae",
@@ -110,10 +110,6 @@
     },
     {
       "name": "New Age",
-      "count": 2
-    },
-    {
-      "name": "Religious",
       "count": 2
     },
     {
@@ -126,6 +122,10 @@
     },
     {
       "name": "Music",
+      "count": 1
+    },
+    {
+      "name": "Religious",
       "count": 1
     }
   ],
@@ -412,7 +412,7 @@
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2026-06-05T19:00:00.000Z",
-          "presaleName": "Citi® Cardmember Preferred Tickets",
+          "presaleName": "T-Mobile® Concert Perks + Fast Lane",
           "daysUntilOnsale": 0,
           "daysUntilShow": 28,
           "imminent": false
@@ -430,62 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfGZF0",
-      "artist": "Triangle Fire/ Choke/ P.O.S./ Ick",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-8jN",
-      "artist": "Matthew West",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FiRSTfh",
-      "artist": "The Phil Collins Story",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J3pF",
-      "artist": "Sophie Truax",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ919",
-      "artist": "CupcakKe",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5Rd9iKw",
-      "artist": "Ethan Regan",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JKbK",
-      "artist": "Candlebox",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEZV",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Sep 29",
-      "localDate": "2026-09-29",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_G5go7Yh",
       "artist": "Show Me the Body",
@@ -946,7 +890,7 @@
       "artist": "Stu & The Kojaks/ Jo/Mo Riders/ Jenifer McKitrick Band/ Joe Dileo",
       "date": "Sat Oct 3",
       "localDate": "2026-10-03",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_kI3yuzG",
@@ -6115,6 +6059,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAe8JK",
+      "artist": "San Francisco Gay Men's Chorus",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAvJGo",
       "artist": "Amorphis",
       "date": "Fri Dec 4",
@@ -6171,6 +6122,20 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAe8Jf",
+      "artist": "San Francisco Gay Men's Chorus",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KgWoMQ2",
+      "artist": "Earlybirds Club",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_2ejmndl",
       "artist": "Trivium",
       "date": "Sat Dec 5",
@@ -6194,6 +6159,13 @@
     {
       "id": "G5vYZ_8IbgCQT",
       "artist": "4 Lads From Liverpool",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAe8J4",
+      "artist": "San Francisco Gay Men's Chorus",
       "date": "Sat Dec 5",
       "localDate": "2026-12-05",
       "reason": "no taste match"
@@ -6976,6 +6948,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_okloqsV",
+      "artist": "A John Prine Christmas with The Jenner Fox Band",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_CnBCS6b",
       "artist": "Dave Koz Christmas",
       "date": "Tue Dec 22",
@@ -7011,5 +6990,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 945
+  "eventCount": 942
 }
