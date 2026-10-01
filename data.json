@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-09-30T18:16:35.719Z",
+  "generatedAt": "2026-10-01T06:49:41.032Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-09-30T18:16:35Z",
-      "endDateTime": "2026-12-29T18:16:35Z"
+      "startDateTime": "2026-10-01T06:49:41Z",
+      "endDateTime": "2026-12-30T06:49:41Z"
     },
-    "eventsConsidered": 941,
-    "eventsReported": 941,
+    "eventsConsidered": 923,
+    "eventsReported": 923,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 225
+      "count": 219
     },
     {
       "name": "Other",
-      "count": 192
+      "count": 190
     },
     {
       "name": "Alternative",
-      "count": 99
+      "count": 98
     },
     {
       "name": "Pop",
-      "count": 95
+      "count": 94
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 57
+      "count": 55
     },
     {
       "name": "Dance/Electronic",
-      "count": 45
+      "count": 44
     },
     {
       "name": "R&B",
@@ -74,11 +74,11 @@
     },
     {
       "name": "Country",
-      "count": 30
+      "count": 28
     },
     {
       "name": "Metal",
-      "count": 27
+      "count": 24
     },
     {
       "name": "Folk",
@@ -430,125 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_G5go7Yh",
-      "artist": "Show Me the Body",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbgBhEbRe",
-      "artist": "Jack Johnson",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1ab7",
-      "artist": "Brujeria",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwrf",
-      "artist": "Open Mic Night",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70f-d",
-      "artist": "JPEGMAFIA",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PfZI",
-      "artist": "Chat Pile",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78s",
-      "artist": "Pat Benatar & Neil Giraldo",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_25fuxne",
-      "artist": "Twin Temple",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFFG0",
-      "artist": "Author and Punisher",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFdFV",
-      "artist": "tobi lou",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xpjk",
-      "artist": "Failure",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfqsJK",
-      "artist": "Chasing Abbey",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afk4f7",
-      "artist": "DOOM GONG + James Wavey",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CnS1vl2",
-      "artist": "Porch Light",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x4jZ",
-      "artist": "Beth Orton",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-seK",
-      "artist": "Emei",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2gwUVtY",
-      "artist": "Bella White",
-      "date": "Wed Sep 30",
-      "localDate": "2026-09-30",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZbgBhSbRz",
       "artist": "Jack Johnson",
@@ -1476,13 +1357,6 @@
     {
       "id": "Z7r9jZ1A7Pdj6",
       "artist": "Slightly Stoopid",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG4OV",
-      "artist": "WHERE IS HONEST?",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -3406,13 +3280,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_oK4pKbl",
-      "artist": "fakemink",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_CtWDpVD",
       "artist": "Los Hermanos Mendoza",
       "date": "Sun Oct 25",
@@ -4436,7 +4303,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG0u0",
-      "artist": "Fin/ Varulf/ Piss Baptism/ TBA",
+      "artist": "Fin/ Varulf/ Piss Baptism/ Hellhunter",
       "date": "Fri Nov 6",
       "localDate": "2026-11-06",
       "reason": "no taste match"
@@ -6981,7 +6848,14 @@
       "date": "Thu Dec 24",
       "localDate": "2026-12-24",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFE_0",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 29",
+      "localDate": "2026-12-29",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 941
+  "eventCount": 923
 }
