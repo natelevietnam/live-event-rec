@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-01T06:49:41.032Z",
+  "generatedAt": "2026-10-01T18:41:46.916Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-01T06:49:41Z",
-      "endDateTime": "2026-12-30T06:49:41Z"
+      "startDateTime": "2026-10-01T18:41:46Z",
+      "endDateTime": "2026-12-30T18:41:46Z"
     },
-    "eventsConsidered": 923,
-    "eventsReported": 923,
+    "eventsConsidered": 924,
+    "eventsReported": 924,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 190
+      "count": 191
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Pop",
-      "count": 94
+      "count": 95
     },
     {
       "name": "Hip-Hop/Rap",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 44,
+          "daysUntilShow": 43,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 11 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 10 days out. Concord venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 11,
+          "daysUntilShow": 10,
           "imminent": true
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 19 days out. SF venue, Monday.",
+      "reason": "Direct match. 18 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 19,
+          "daysUntilShow": 18,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 43,
+          "daysUntilShow": 42,
           "imminent": false
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 40,
       "raw": 34,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 27 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 26 days out. Concord venue, Tuesday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "T-Mobile® Concert Perks + Fast Lane",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 27,
+          "daysUntilShow": 26,
           "imminent": false
         },
         "effort": {
@@ -1264,13 +1264,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_uejR_we",
-      "artist": "Rod Wave",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A70s3e",
       "artist": "Son Lux",
       "date": "Wed Oct 7",
@@ -1448,6 +1441,13 @@
     {
       "id": "Z7r9jZ1A7Pte9",
       "artist": "Phillip Phillips",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_uejR_we",
+      "artist": "Rod Wave",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -1670,6 +1670,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_2DedeGH",
+      "artist": "Punchis Punchis",
+      "date": "Sat Oct 10",
+      "localDate": "2026-10-10",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfFyFf",
       "artist": "Electric Feels",
       "date": "Sat Oct 10",
@@ -1679,13 +1686,6 @@
     {
       "id": "Z7r9jZ1A70_3f",
       "artist": "Musiq Soulchild",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2DedeGH",
-      "artist": "Punchis Punchis",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -3735,6 +3735,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afufqf",
+      "artist": "Coral 9",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_F2jtp2r",
       "artist": "Parra for Cuva",
       "date": "Fri Oct 30",
@@ -3968,13 +3975,6 @@
     {
       "id": "Z7r9jZ1A7P90y",
       "artist": "The Psychedelic Furs",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_oX1w9NC",
-      "artist": "Eaglemania",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
@@ -4289,7 +4289,7 @@
     },
     {
       "id": "G5vYZ_oX6GEdb",
-      "artist": "Weekend Youth with Secret Robot Alliance and Zak Fennie & Friends",
+      "artist": "Weekend Youth with Top Secret Robot Alliance and Zak Fennie & Friends",
       "date": "Fri Nov 6",
       "localDate": "2026-11-06",
       "reason": "no taste match"
@@ -6682,6 +6682,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afu4r7",
+      "artist": "82MAJOR",
+      "date": "Thu Dec 17",
+      "localDate": "2026-12-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_320sgVQ",
       "artist": "Victoria Monet",
       "date": "Thu Dec 17",
@@ -6857,5 +6864,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 923
+  "eventCount": 924
 }
