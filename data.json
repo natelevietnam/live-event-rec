@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-01T18:41:46.916Z",
+  "generatedAt": "2026-10-02T06:41:19.877Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-01T18:41:46Z",
-      "endDateTime": "2026-12-30T18:41:46Z"
+      "startDateTime": "2026-10-02T06:41:19Z",
+      "endDateTime": "2026-12-31T06:41:19Z"
     },
-    "eventsConsidered": 924,
-    "eventsReported": 924,
+    "eventsConsidered": 909,
+    "eventsReported": 909,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 219
+      "count": 215
     },
     {
       "name": "Other",
-      "count": 191
+      "count": 189
     },
     {
       "name": "Alternative",
-      "count": 98
+      "count": 95
     },
     {
       "name": "Pop",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 55
+      "count": 53
     },
     {
       "name": "Dance/Electronic",
@@ -70,19 +70,19 @@
     },
     {
       "name": "R&B",
-      "count": 43
+      "count": 42
     },
     {
       "name": "Country",
-      "count": 28
+      "count": 27
     },
     {
       "name": "Metal",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Folk",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Latin",
@@ -106,7 +106,7 @@
     },
     {
       "name": "Reggae",
-      "count": 4
+      "count": 3
     },
     {
       "name": "New Age",
@@ -315,6 +315,63 @@
       }
     },
     {
+      "id": "Z7r9jZ1A7PKeb",
+      "artist": "Mario",
+      "seed": "Usher",
+      "seeds": [
+        "Usher"
+      ],
+      "tier": "adjacent",
+      "eventName": "Total Vibez Live",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKeb",
+      "genre": null,
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "localTime": "14:00:00",
+      "weekday": "Saturday",
+      "venue": "Lake Cunningham Regional Park",
+      "city": "San Jose",
+      "score": 41,
+      "raw": 35,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to Usher. San Jose venue, Saturday.",
+      "urgent": false,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "Usher",
+          "seeds": [
+            "Usher"
+          ],
+          "matchedOn": "Mario"
+        },
+        "urgency": {
+          "points": 7,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "onsale",
+          "at": "1900-01-01T18:00:00.000Z",
+          "presaleName": null,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 37,
+          "imminent": false
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "peninsulaSouthBay",
+          "areaLabel": "San Jose",
+          "weeknight": false,
+          "weekday": "Saturday",
+          "weeknightPenalty": 0
+        }
+      }
+    },
+    {
       "id": "G5vYZ_32iy6Gx",
       "artist": "Isaiah Rashad",
       "seed": "J. Cole",
@@ -430,132 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZbgBhSbRz",
-      "artist": "Jack Johnson",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6RUiHsh",
-      "artist": "$UICIDEBOY$",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5lRNnFg",
-      "artist": "Steve Earle",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaFjV",
-      "artist": "Weedeater",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvbO",
-      "artist": "Vincent Ingala",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78w",
-      "artist": "Lynyrd Skynyrd",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CNEtaMW",
-      "artist": "Michelle Branch",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaoGV",
-      "artist": "Galactic Empire",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJavN",
-      "artist": "Saint Harison",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x3vb",
-      "artist": "Soda Blonde",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPOvS",
-      "artist": "Mari Froes",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af084K",
-      "artist": "Carbon Leaf",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_63YNicB",
-      "artist": "Don West",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af16qf",
-      "artist": "BashfortheWorld",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70oay",
-      "artist": "Fruit Bats",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8je",
-      "artist": "Combichrist",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-UOy",
-      "artist": "Geoff Tate",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1OoKm-8",
-      "artist": "The Green",
-      "date": "Thu Oct 1",
-      "localDate": "2026-10-01",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_G9ndgNM",
       "artist": "Palm Tree Music Festival",
@@ -6862,7 +6793,21 @@
       "date": "Tue Dec 29",
       "localDate": "2026-12-29",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_Kj0LtB6",
+      "artist": "ILLENIUM",
+      "date": "Wed Dec 30",
+      "localDate": "2026-12-30",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KIZgFjn",
+      "artist": "Primus",
+      "date": "Wed Dec 30",
+      "localDate": "2026-12-30",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 924
+  "eventCount": 909
 }
