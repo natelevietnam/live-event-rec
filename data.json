@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-03T06:02:09.047Z",
+  "generatedAt": "2026-10-03T16:59:02.046Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-03T06:02:09Z",
-      "endDateTime": "2027-01-01T06:02:09Z"
+      "startDateTime": "2026-10-03T16:59:02Z",
+      "endDateTime": "2027-01-01T16:59:02Z"
     },
     "eventsConsidered": 922,
     "eventsReported": 922,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Metal",
@@ -94,11 +94,11 @@
     },
     {
       "name": "Jazz",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Blues",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Classical",
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 42,
+          "daysUntilShow": 41,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 9 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 8 days out. Concord venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 9,
+          "daysUntilShow": 8,
           "imminent": true
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 17 days out. SF venue, Monday.",
+      "reason": "Direct match. 16 days out. SF venue, Monday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 17,
+          "daysUntilShow": 16,
           "imminent": false
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 36,
+          "daysUntilShow": 35,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 41,
+          "daysUntilShow": 40,
           "imminent": false
         },
         "effort": {
@@ -448,7 +448,7 @@
       "score": 40,
       "raw": 34,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 25 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 24 days out. Concord venue, Tuesday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "T-Mobile® Concert Perks + Fast Lane",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 25,
+          "daysUntilShow": 24,
           "imminent": false
         },
         "effort": {
@@ -487,20 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_6EKEmgV",
-      "artist": "Billy Strings",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G9-k3TC",
-      "artist": "Palm Tree Music Festival",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_G0Mro22",
       "artist": "Palm Tree Music Festival",
@@ -6895,6 +6881,20 @@
     {
       "id": "Z7r9jZ1AAv8ob",
       "artist": "Steel Pulse",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGKZV",
+      "artist": "Paula West New Year's Eve Concert 7pm",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAev7F",
+      "artist": "Boney James",
       "date": "Thu Dec 31",
       "localDate": "2026-12-31",
       "reason": "no taste match"
