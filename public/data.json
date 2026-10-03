@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-02T18:12:38.253Z",
+  "generatedAt": "2026-10-03T06:02:09.047Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-02T18:12:38Z",
-      "endDateTime": "2026-12-31T18:12:38Z"
+      "startDateTime": "2026-10-03T06:02:09Z",
+      "endDateTime": "2027-01-01T06:02:09Z"
     },
-    "eventsConsidered": 940,
-    "eventsReported": 940,
+    "eventsConsidered": 922,
+    "eventsReported": 922,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 218
+      "count": 212
     },
     {
       "name": "Other",
-      "count": 207
+      "count": 202
     },
     {
       "name": "Alternative",
-      "count": 98
+      "count": 97
     },
     {
       "name": "Pop",
-      "count": 96
+      "count": 94
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Dance/Electronic",
@@ -70,19 +70,19 @@
     },
     {
       "name": "R&B",
-      "count": 42
+      "count": 43
     },
     {
       "name": "Country",
-      "count": 28
+      "count": 26
     },
     {
       "name": "Metal",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Folk",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Latin",
@@ -90,19 +90,19 @@
     },
     {
       "name": "World",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Jazz",
-      "count": 15
+      "count": 14
+    },
+    {
+      "name": "Blues",
+      "count": 10
     },
     {
       "name": "Classical",
       "count": 10
-    },
-    {
-      "name": "Blues",
-      "count": 9
     },
     {
       "name": "Reggae",
@@ -487,181 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_G9ndgNM",
-      "artist": "Palm Tree Music Festival",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1KoLUrp",
-      "artist": "Hayley Williams",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PKqM",
-      "artist": "Robert Plant",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6KrUK15",
-      "artist": "Billy Strings",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78S",
-      "artist": "Get the Led Out",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CNEttzd",
-      "artist": "Michelle Branch",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZOFN",
-      "artist": "Kevlar Upper/ Mortuary Assistant/ P.O.S./ Crawl of Time",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaZPf",
-      "artist": "Tyler Ballgame",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZS1d",
-      "artist": "Bella Kay",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_23r_aGi",
-      "artist": "Gillian Welch & David Rawlings",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PbAE",
-      "artist": "Thee Phantom & Illharmonic Orchestra",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1K6Y0Pb",
-      "artist": "Madeon",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ3o6",
-      "artist": "John Craigie",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G0jOGQC",
-      "artist": "Hey, Nothing",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kShISyZ",
-      "artist": "Snarky Puppy",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MOy",
-      "artist": "Death From Above 1979",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GR8P6jW",
-      "artist": "Eli Young Band",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xo7V",
-      "artist": "John Oates",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8UY9rz7",
-      "artist": "Salin",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_614Qt-p",
-      "artist": "Geoff Tate",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJ70N",
-      "artist": "Raynes + David Wimbish & The Collection",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uBwADXZ",
-      "artist": "Danny Elfman",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J3pa",
-      "artist": "Lyrics Born",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJ4FS",
-      "artist": "Sploinky Rave",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-Vjd",
-      "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party! w/ Jafin + Mattyagi + Retrommel & PATIO TAKEOVER by CLB_INTRNCNL",
-      "date": "Fri Oct 2",
-      "localDate": "2026-10-02",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_6EKEmgV",
       "artist": "Billy Strings",
@@ -1210,7 +1035,7 @@
     },
     {
       "id": "rZ7HnEZ1Afa0Gf",
-      "artist": "The Animeros",
+      "artist": "The Animeros + Edgar",
       "date": "Wed Oct 7",
       "localDate": "2026-10-07",
       "reason": "no taste match"
@@ -1451,7 +1276,7 @@
       "artist": "Cumbiatron",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1A70_3F",
@@ -1974,13 +1799,6 @@
     {
       "id": "Z7r9jZ1AAe4__",
       "artist": "Kelsey Lu",
-      "date": "Thu Oct 15",
-      "localDate": "2026-10-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1Hatgwr",
-      "artist": "SiM",
       "date": "Thu Oct 15",
       "localDate": "2026-10-15",
       "reason": "no taste match"
@@ -2519,7 +2337,7 @@
     },
     {
       "id": "G5vYZ_2LEvHN2",
-      "artist": "The Click Five",
+      "artist": "Fastball",
       "date": "Sun Oct 18",
       "localDate": "2026-10-18",
       "reason": "no taste match"
@@ -3002,7 +2820,7 @@
     },
     {
       "id": "rZ7HnEZ1Af040N",
-      "artist": "GEMS x 2000's Party! The Bay's Best Throwback Party w/",
+      "artist": "GEMS x 2000's Party! The Bay's Best Throwback Party w/ Amal + Chef Dre + XJEEZY & Old School Latin Patio by Her DJ Club",
       "date": "Fri Oct 23",
       "localDate": "2026-10-23",
       "reason": "no taste match"
@@ -3038,6 +2856,13 @@
     {
       "id": "rZ7HnEZ1Afa8j7",
       "artist": "Blitzkid",
+      "date": "Sat Oct 24",
+      "localDate": "2026-10-24",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_6xUPDzq",
+      "artist": "Dermot Kennedy",
       "date": "Sat Oct 24",
       "localDate": "2026-10-24",
       "reason": "no taste match"
@@ -3094,13 +2919,6 @@
     {
       "id": "Z7r9jZ1AAv67S",
       "artist": "fakemink",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6xUPDzq",
-      "artist": "Dermot Kennedy",
       "date": "Sat Oct 24",
       "localDate": "2026-10-24",
       "reason": "no taste match"
@@ -5493,6 +5311,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfuOF0",
+      "artist": "Danny Ali/ Pyro KP/ Quincy ISO/ Griffen",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7JpJa",
       "artist": "The Residents",
       "date": "Sat Nov 21",
@@ -7024,7 +6849,56 @@
       "date": "Wed Dec 30",
       "localDate": "2026-12-30",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGKZ0",
+      "artist": "Paula West New Year's Eve Concert 7pm",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KjPaQe2",
+      "artist": "ILLENIUM",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvMaM",
+      "artist": "Boney James",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AKP64V",
+      "artist": "Taba Chake (POSTPONED)",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "cancelled"
+    },
+    {
+      "id": "LvZ18Qne5lsTUPHFklPn7",
+      "artist": "R&B ONLY",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KIe4td1",
+      "artist": "Primus",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv8ob",
+      "artist": "Steel Pulse",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 940
+  "eventCount": 922
 }
