@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-03T16:59:02.046Z",
+  "generatedAt": "2026-10-04T06:37:13.277Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-03T16:59:02Z",
-      "endDateTime": "2027-01-01T16:59:02Z"
+      "startDateTime": "2026-10-04T06:37:13Z",
+      "endDateTime": "2027-01-02T06:37:13Z"
     },
-    "eventsConsidered": 922,
-    "eventsReported": 922,
+    "eventsConsidered": 902,
+    "eventsReported": 902,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 212
+      "count": 206
     },
     {
       "name": "Other",
-      "count": 202
+      "count": 197
     },
     {
       "name": "Alternative",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Pop",
-      "count": 94
+      "count": 92
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 52
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
@@ -70,15 +70,15 @@
     },
     {
       "name": "R&B",
-      "count": 43
+      "count": 41
     },
     {
       "name": "Country",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Metal",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Folk",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Latin",
-      "count": 20
+      "count": 21
     },
     {
       "name": "World",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Jazz",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Blues",
@@ -109,11 +109,11 @@
       "count": 3
     },
     {
-      "name": "New Age",
-      "count": 2
+      "name": "Theatre",
+      "count": 3
     },
     {
-      "name": "Theatre",
+      "name": "New Age",
       "count": 2
     },
     {
@@ -487,160 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_G0Mro22",
-      "artist": "Palm Tree Music Festival",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afx6kK",
-      "artist": "All Shall Perish",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_53TLUOG",
-      "artist": "Kehlani",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1vO7",
-      "artist": "Stu & The Kojaks/ Jo/Mo Riders/ Jenifer McKitrick Band/ Joe Dileo",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_kI3yuzG",
-      "artist": "Disney Worlds Collide Concert Tour",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_3",
-      "artist": "Igorrr",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6KrMS1Q",
-      "artist": "Billy Strings",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P8ZS",
-      "artist": "Castle Rat",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u3HOeRv",
-      "artist": "Geordie Greep",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQ8FZh",
-      "artist": "My Morning Jacket",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZFZ7",
-      "artist": "Hamdi",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_F9s4AGq",
-      "artist": "Jon Batiste",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8oBMEuV",
-      "artist": "The Samples",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xo7g",
-      "artist": "Killer Queen",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbzCIB_Sm",
-      "artist": "Get the Led Out",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGb-0",
-      "artist": "Personal Space Man/ Eli Elisco/ Starfari",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uBwkDX6",
-      "artist": "Danny Elfman",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afx7qS",
-      "artist": "ROYA",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1bu7",
-      "artist": "MC Abdul",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_5KVu2pa",
-      "artist": "Ecca Vandal",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ_Zz",
-      "artist": "Elephante",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGUGf",
-      "artist": "Durand Bernarr",
-      "date": "Sat Oct 3",
-      "localDate": "2026-10-03",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_6UneILd",
       "artist": "My Morning Jacket",
@@ -3008,6 +2854,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_fGZpeRN",
+      "artist": "Cornelio Vega",
+      "date": "Sun Oct 25",
+      "localDate": "2026-10-25",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4Zz_S",
       "artist": "Nekromantix",
       "date": "Sun Oct 25",
@@ -4795,6 +4648,13 @@
     {
       "id": "G5vYZ_GGM6cmY",
       "artist": "Bonobo",
+      "date": "Sat Nov 14",
+      "localDate": "2026-11-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_8I9xX8y",
+      "artist": "ABBA",
       "date": "Sat Nov 14",
       "localDate": "2026-11-14",
       "reason": "no taste match"
@@ -6900,5 +6760,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 922
+  "eventCount": 902
 }
