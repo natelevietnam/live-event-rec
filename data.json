@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-04T17:17:31.463Z",
+  "generatedAt": "2026-10-05T06:33:00.961Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-04T17:17:31Z",
-      "endDateTime": "2027-01-02T17:17:31Z"
+      "startDateTime": "2026-10-05T06:33:00Z",
+      "endDateTime": "2027-01-03T06:33:00Z"
     },
-    "eventsConsidered": 901,
-    "eventsReported": 901,
+    "eventsConsidered": 884,
+    "eventsReported": 884,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 205
+      "count": 201
     },
     {
       "name": "Other",
-      "count": 197
+      "count": 193
     },
     {
       "name": "Alternative",
-      "count": 97
+      "count": 96
     },
     {
       "name": "Pop",
-      "count": 92
+      "count": 91
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,19 +66,15 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 44
+      "count": 43
     },
     {
       "name": "R&B",
-      "count": 41
+      "count": 40
     },
     {
       "name": "Country",
       "count": 24
-    },
-    {
-      "name": "Metal",
-      "count": 22
     },
     {
       "name": "Folk",
@@ -89,8 +85,12 @@
       "count": 21
     },
     {
+      "name": "Metal",
+      "count": 21
+    },
+    {
       "name": "World",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Jazz",
@@ -102,11 +102,7 @@
     },
     {
       "name": "Classical",
-      "count": 10
-    },
-    {
-      "name": "Reggae",
-      "count": 3
+      "count": 9
     },
     {
       "name": "Theatre",
@@ -122,6 +118,10 @@
     },
     {
       "name": "Music",
+      "count": 1
+    },
+    {
+      "name": "Reggae",
       "count": 1
     },
     {
@@ -469,7 +469,7 @@
           "state": "onSaleNow",
           "kind": "presale",
           "at": "2026-06-05T19:00:00.000Z",
-          "presaleName": "T-Mobile® Concert Perks + Fast Lane",
+          "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
           "daysUntilShow": 23,
           "imminent": false
@@ -487,118 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A70s8I",
-      "artist": "Simone Porter",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8Ekyd0p",
-      "artist": "Octo Octa",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5K7qMj8",
-      "artist": "Kehlani",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_7pYzdvF",
-      "artist": "Bilmuri",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfOsOd",
-      "artist": "Hammerfall",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JdAg",
-      "artist": "Lang Lang",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70t8a",
-      "artist": "In Her Own Words",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1Fpf",
-      "artist": "Gloomhead/ Jenny Haniver(PDX)/ Whine",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPv7S",
-      "artist": "Keznamdi",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfxFud",
-      "artist": "rusowsky",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1fZf",
-      "artist": "RC AVENUE + Ebony Loren",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQoFZx",
-      "artist": "My Morning Jacket",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PSqa",
-      "artist": "Groundation",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70yp7",
-      "artist": "The Green",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CJZ9J8v",
-      "artist": "Steel Pulse",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_29a8Tw7",
-      "artist": "Ecca Vandal",
-      "date": "Sun Oct 4",
-      "localDate": "2026-10-04",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfaK77",
       "artist": "Soulfly",
@@ -1020,6 +908,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfGO-V",
+      "artist": "Yung Fazo, Cthrurio, SophomoreNoir, Jsprings",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_6bQKIZz",
       "artist": "My Morning Jacket",
       "date": "Fri Oct 9",
@@ -1078,13 +973,6 @@
     {
       "id": "rZ7HnEZ1AfJeFS",
       "artist": "Devon Gilfillian",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGO-V",
-      "artist": "Yung Fazo, Cthrurio, SophomoreNoir, Jsprings",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -3381,13 +3269,6 @@
     {
       "id": "rZ7HnEZ1AfFef0",
       "artist": "High Step Society",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afufqf",
-      "artist": "Coral 9",
       "date": "Fri Oct 30",
       "localDate": "2026-10-30",
       "reason": "no taste match"
@@ -6753,5 +6634,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 901
+  "eventCount": 884
 }
