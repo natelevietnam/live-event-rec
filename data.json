@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-05T06:33:00.961Z",
+  "generatedAt": "2026-10-06T07:11:18.681Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-05T06:33:00Z",
-      "endDateTime": "2027-01-03T06:33:00Z"
+      "startDateTime": "2026-10-06T07:11:18Z",
+      "endDateTime": "2027-01-04T07:11:18Z"
     },
-    "eventsConsidered": 884,
-    "eventsReported": 884,
+    "eventsConsidered": 881,
+    "eventsReported": 881,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 201
+      "count": 202
     },
     {
       "name": "Other",
@@ -66,31 +66,31 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 43
+      "count": 42
     },
     {
       "name": "R&B",
-      "count": 40
+      "count": 39
     },
     {
       "name": "Country",
-      "count": 24
-    },
-    {
-      "name": "Folk",
-      "count": 21
+      "count": 23
     },
     {
       "name": "Latin",
       "count": 21
     },
     {
+      "name": "Folk",
+      "count": 20
+    },
+    {
       "name": "Metal",
-      "count": 21
+      "count": 20
     },
     {
       "name": "World",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Jazz",
@@ -144,6 +144,63 @@
   },
   "shows": [
     {
+      "id": "G5vYZbS0uA9TW",
+      "artist": "Doja Cat",
+      "seed": "Doja Cat",
+      "seeds": [
+        "Doja Cat"
+      ],
+      "tier": "direct",
+      "eventName": "Doja Cat - Tour Ma Vie World Tour",
+      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
+      "genre": "Hip-Hop/Rap",
+      "date": "Mon Oct 19",
+      "localDate": "2026-10-19",
+      "localTime": "19:30:00",
+      "weekday": "Monday",
+      "venue": "Chase Center",
+      "city": "San Francisco",
+      "score": 91,
+      "raw": 77,
+      "scoredOutOf": 85,
+      "reason": "Direct match. 14 days out. SF venue, Monday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 45,
+          "max": 45,
+          "tier": "direct",
+          "exact": true,
+          "seed": "Doja Cat",
+          "seeds": [
+            "Doja Cat"
+          ],
+          "matchedOn": "Doja Cat"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2025-10-10T17:00:00.000Z",
+          "presaleName": "VIP Package Onsale",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 14,
+          "imminent": true
+        },
+        "effort": {
+          "points": 14,
+          "max": 20,
+          "area": "sf",
+          "areaLabel": "SF",
+          "weeknight": true,
+          "weekday": "Monday",
+          "weeknightPenalty": 6
+        }
+      }
+    },
+    {
       "id": "G5vYZ_2fIMqin",
       "artist": "Tyla",
       "seed": "Tyla",
@@ -186,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 40,
+          "daysUntilShow": 39,
           "imminent": false
         },
         "effort": {
@@ -220,7 +277,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 7 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 6 days out. Concord venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 7,
+          "daysUntilShow": 6,
           "imminent": true
         },
         "effort": {
@@ -254,63 +311,6 @@
           "weeknight": false,
           "weekday": "Sunday",
           "weeknightPenalty": 0
-        }
-      }
-    },
-    {
-      "id": "G5vYZbS0uA9TW",
-      "artist": "Doja Cat",
-      "seed": "Doja Cat",
-      "seeds": [
-        "Doja Cat"
-      ],
-      "tier": "direct",
-      "eventName": "Doja Cat - Tour Ma Vie World Tour",
-      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
-      "genre": "Hip-Hop/Rap",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "localTime": "19:30:00",
-      "weekday": "Monday",
-      "venue": "Chase Center",
-      "city": "San Francisco",
-      "score": 84,
-      "raw": 71,
-      "scoredOutOf": 85,
-      "reason": "Direct match. 15 days out. SF venue, Monday.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "Doja Cat",
-          "seeds": [
-            "Doja Cat"
-          ],
-          "matchedOn": "Doja Cat"
-        },
-        "urgency": {
-          "points": 12,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "presale",
-          "at": "2025-10-10T17:00:00.000Z",
-          "presaleName": "VIP Package Onsale",
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 15,
-          "imminent": false
-        },
-        "effort": {
-          "points": 14,
-          "max": 20,
-          "area": "sf",
-          "areaLabel": "SF",
-          "weeknight": true,
-          "weekday": "Monday",
-          "weeknightPenalty": 6
         }
       }
     },
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 34,
+          "daysUntilShow": 33,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 39,
+          "daysUntilShow": 38,
           "imminent": false
         },
         "effort": {
@@ -448,7 +448,7 @@
       "score": 40,
       "raw": 34,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 23 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 22 days out. Concord venue, Tuesday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 23,
+          "daysUntilShow": 22,
           "imminent": false
         },
         "effort": {
@@ -487,48 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfaK77",
-      "artist": "Soulfly",
-      "date": "Mon Oct 5",
-      "localDate": "2026-10-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZpfV",
-      "artist": "Euge Groove",
-      "date": "Mon Oct 5",
-      "localDate": "2026-10-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5PWhVbm",
-      "artist": "She & Him",
-      "date": "Mon Oct 5",
-      "localDate": "2026-10-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPNON",
-      "artist": "Mountain Grass Unit",
-      "date": "Mon Oct 5",
-      "localDate": "2026-10-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5Uqo2ue",
-      "artist": "Nick Hakim",
-      "date": "Mon Oct 5",
-      "localDate": "2026-10-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2eEDliJ",
-      "artist": "EsDeeKid",
-      "date": "Mon Oct 5",
-      "localDate": "2026-10-05",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Afav-V",
       "artist": "Mia Asano, DEADGRACE",
@@ -608,7 +566,7 @@
     },
     {
       "id": "rZ7HnEZ1Afk9af",
-      "artist": "TELESCREENS ",
+      "artist": "TELESCREENS + DETHCAPS",
       "date": "Tue Oct 6",
       "localDate": "2026-10-06",
       "reason": "no taste match"
@@ -1001,13 +959,6 @@
     {
       "id": "rZ7HnEZ1AfGxP0",
       "artist": "Quebradita Darks Oakland w/ Sizzle + Lizzy al Toque + Xtcemi + Hopeless",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1k47",
-      "artist": "Bingo Loco",
       "date": "Fri Oct 9",
       "localDate": "2026-10-09",
       "reason": "no taste match"
@@ -1631,13 +1582,6 @@
     {
       "id": "Z7r9jZ1AAe4_O",
       "artist": "The Jungle Giants",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2Sato57",
-      "artist": "Actress",
       "date": "Fri Oct 16",
       "localDate": "2026-10-16",
       "reason": "no taste match"
@@ -3274,6 +3218,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afufqf",
+      "artist": "Coral 9, Bazooka, Dogwater",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_F2jtp2r",
       "artist": "Parra for Cuva",
       "date": "Fri Oct 30",
@@ -3430,6 +3381,13 @@
     {
       "id": "rZ7HnEZ1AfGtjf",
       "artist": "Halloween Costume Party",
+      "date": "Sat Oct 31",
+      "localDate": "2026-10-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afu0b7",
+      "artist": "HYPHY HALLOWEEN w/ J. Jaxx + Seanny Sean + Marchante B2B Deesco + Hosted by West Coast",
       "date": "Sat Oct 31",
       "localDate": "2026-10-31",
       "reason": "no taste match"
@@ -4037,13 +3995,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_GnJfN19",
-      "artist": "Daughtry",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_AeKr67a",
       "artist": "Leonid & Friends",
       "date": "Sun Nov 8",
@@ -4053,6 +4004,13 @@
     {
       "id": "Z7r9jZ1A7-6e_",
       "artist": "Leonid & Friends",
+      "date": "Sun Nov 8",
+      "localDate": "2026-11-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuoaV",
+      "artist": "454",
       "date": "Sun Nov 8",
       "localDate": "2026-11-08",
       "reason": "no taste match"
@@ -4072,8 +4030,22 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_KEqmXqN",
+      "artist": "Forrest Nolan",
+      "date": "Sun Nov 8",
+      "localDate": "2026-11-08",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_1DHczIz",
       "artist": "The Smashing Pumpkins",
+      "date": "Sun Nov 8",
+      "localDate": "2026-11-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_GnJfN19",
+      "artist": "Daughtry",
       "date": "Sun Nov 8",
       "localDate": "2026-11-08",
       "reason": "no taste match"
@@ -6632,7 +6604,14 @@
       "date": "Thu Dec 31",
       "localDate": "2026-12-31",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2MrSP3Q",
+      "artist": "Lord Huron",
+      "date": "Sun Jan 3",
+      "localDate": "2027-01-03",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 884
+  "eventCount": 881
 }
