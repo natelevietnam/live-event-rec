@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-06T18:46:05.552Z",
+  "generatedAt": "2026-10-07T06:50:52.072Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-06T18:46:05Z",
-      "endDateTime": "2027-01-04T18:46:05Z"
+      "startDateTime": "2026-10-07T06:50:52Z",
+      "endDateTime": "2027-01-05T06:50:52Z"
     },
-    "eventsConsidered": 887,
-    "eventsReported": 887,
+    "eventsConsidered": 875,
+    "eventsReported": 875,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 204
+      "count": 197
     },
     {
       "name": "Other",
-      "count": 194
+      "count": 193
     },
     {
       "name": "Alternative",
-      "count": 96
+      "count": 94
     },
     {
       "name": "Pop",
-      "count": 92
+      "count": 90
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Dance/Electronic",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 39
+      "count": 38
     },
     {
       "name": "Country",
@@ -85,11 +85,11 @@
       "count": 20
     },
     {
-      "name": "Metal",
+      "name": "World",
       "count": 20
     },
     {
-      "name": "World",
+      "name": "Metal",
       "count": 19
     },
     {
@@ -488,125 +488,6 @@
   ],
   "cut": [
     {
-      "id": "rZ7HnEZ1Afav-V",
-      "artist": "Mia Asano, DEADGRACE",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0vrd",
-      "artist": "Arrows In Action",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7038K",
-      "artist": "The Menzingers",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6MafQwj",
-      "artist": "PRESIDENT",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-yqy",
-      "artist": "PRESIDENT",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6KGU2Qu",
-      "artist": "Jungle",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfOO4N",
-      "artist": "Enter Shikari",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1AAZpfg",
-      "artist": "Euge Groove",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_4U",
-      "artist": "Arrows In Action",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6dQYrto",
-      "artist": "Sammy Rae & The Friends",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZpaS",
-      "artist": "Cure for Paranoia",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afk9af",
-      "artist": "TELESCREENS + DETHCAPS",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQozZE",
-      "artist": "My Morning Jacket",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x7-V",
-      "artist": "Dua Saleh",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FxHV2Np",
-      "artist": "Cavetown",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_appqGq6",
-      "artist": "aespa",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEef",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Oct 6",
-      "localDate": "2026-10-06",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZbgD1f1IU",
       "artist": "The Neighbourhood",
       "date": "Wed Oct 7",
@@ -678,13 +559,6 @@
     },
     {
       "id": "Z7r9jZ1A70xv9",
-      "artist": "Dresden Dolls",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_K",
       "artist": "Dresden Dolls",
       "date": "Wed Oct 7",
       "localDate": "2026-10-07",
@@ -4345,6 +4219,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfuP_7",
+      "artist": "Sutekh Hexen/ Sin Pavilion/ Home Is The Void/ Silakbo",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4ZUZK",
       "artist": "Whitmer Thomas",
       "date": "Fri Nov 13",
@@ -4779,6 +4660,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAvyPN",
+      "artist": "Kabaka Pyramid",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_CFd56Zl",
       "artist": "Alice Cooper",
       "date": "Wed Nov 18",
@@ -5124,6 +5012,13 @@
     {
       "id": "G5vYZ_1S5eJmh",
       "artist": "Arcángel",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "169Zk4kPfZAG1ua8",
+      "artist": "Sharon Cuneta",
       "date": "Sat Nov 21",
       "localDate": "2026-11-21",
       "reason": "no taste match"
@@ -5530,6 +5425,13 @@
     {
       "id": "rZ7HnEZ1A4ZgoN",
       "artist": "The Womack Sisters",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAe88I",
+      "artist": "Night Lovell",
       "date": "Thu Dec 3",
       "localDate": "2026-12-03",
       "reason": "no taste match"
@@ -6341,7 +6243,7 @@
     },
     {
       "id": "G5vYZ_320sgVQ",
-      "artist": "Victoria Monet",
+      "artist": "Victoria Monét",
       "date": "Thu Dec 17",
       "localDate": "2026-12-17",
       "reason": "no taste match"
@@ -6405,6 +6307,13 @@
     {
       "id": "Z7r9jZ1AAZkP_",
       "artist": "Elf in Concert",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAeA0-",
+      "artist": "Honey Revenge",
       "date": "Sat Dec 19",
       "localDate": "2026-12-19",
       "reason": "no taste match"
@@ -6606,6 +6515,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAe7uU",
+      "artist": "Deltron 3030",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AKP64V",
       "artist": "Taba Chake (POSTPONED)",
       "date": "Thu Dec 31",
@@ -6655,5 +6571,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 887
+  "eventCount": 875
 }
