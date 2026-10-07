@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-07T06:50:52.072Z",
+  "generatedAt": "2026-10-07T19:12:16.136Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-07T06:50:52Z",
-      "endDateTime": "2027-01-05T06:50:52Z"
+      "startDateTime": "2026-10-07T19:12:16Z",
+      "endDateTime": "2027-01-05T19:12:16Z"
     },
-    "eventsConsidered": 875,
-    "eventsReported": 875,
+    "eventsConsidered": 876,
+    "eventsReported": 876,
     "truncated": false
   },
   "genres": [
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 52
+      "count": 54
     },
     {
       "name": "Dance/Electronic",
@@ -81,12 +81,12 @@
       "count": 21
     },
     {
-      "name": "Folk",
+      "name": "World",
       "count": 20
     },
     {
-      "name": "World",
-      "count": 20
+      "name": "Folk",
+      "count": 19
     },
     {
       "name": "Metal",
@@ -163,7 +163,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 13 days out. SF venue, Monday.",
+      "reason": "Direct match. 12 days out. SF venue, Monday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 13,
+          "daysUntilShow": 12,
           "imminent": true
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 38,
+          "daysUntilShow": 37,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 5 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 4 days out. Concord venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 32,
+          "daysUntilShow": 31,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 37,
+          "daysUntilShow": 36,
           "imminent": false
         },
         "effort": {
@@ -448,7 +448,7 @@
       "score": 40,
       "raw": 34,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 21 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 20 days out. Concord venue, Tuesday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 21,
+          "daysUntilShow": 20,
           "imminent": false
         },
         "effort": {
@@ -1658,7 +1658,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG907",
-      "artist": "Rob Dehlinger",
+      "artist": "Rob Dehlinger: The Swinging Trumpet from the Alpha Rhythm Kingss",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -3107,7 +3107,7 @@
     },
     {
       "id": "rZ7HnEZ1A4vF-N",
-      "artist": "Crash Out (afrobeats, dancehall, hip-hop & more)",
+      "artist": "BITE ME: MISCHIEF COSTUME PARTY",
       "date": "Fri Oct 30",
       "localDate": "2026-10-30",
       "reason": "no taste match"
@@ -4629,7 +4629,7 @@
       "artist": "untitled (halo)",
       "date": "Wed Nov 18",
       "localDate": "2026-11-18",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_G850l8_",
@@ -5052,13 +5052,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfFkFV",
-      "artist": "gavn!",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1AfasAV",
       "artist": "Mark William Lewis",
       "date": "Sun Nov 22",
@@ -5285,6 +5278,13 @@
     {
       "id": "rZ7HnEZ1AfGYqf",
       "artist": "Oden & Fatzo Live",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afu-1f",
+      "artist": "Mikey Vee, Lyka B",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
       "reason": "no taste match"
@@ -6235,6 +6235,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7vof",
+      "artist": "Kim Petras",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afu4r7",
       "artist": "82MAJOR",
       "date": "Thu Dec 17",
@@ -6571,5 +6578,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 875
+  "eventCount": 876
 }
