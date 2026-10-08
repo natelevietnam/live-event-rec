@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-07T19:12:16.136Z",
+  "generatedAt": "2026-10-08T06:59:50.975Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-07T19:12:16Z",
-      "endDateTime": "2027-01-05T19:12:16Z"
+      "startDateTime": "2026-10-08T06:59:50Z",
+      "endDateTime": "2027-01-06T06:59:50Z"
     },
-    "eventsConsidered": 876,
-    "eventsReported": 876,
+    "eventsConsidered": 866,
+    "eventsReported": 866,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 197
+      "count": 192
     },
     {
       "name": "Other",
-      "count": 193
+      "count": 191
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Pop",
-      "count": 90
+      "count": 89
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 38
+      "count": 37
     },
     {
       "name": "Country",
@@ -78,19 +78,19 @@
     },
     {
       "name": "Latin",
-      "count": 21
-    },
-    {
-      "name": "World",
-      "count": 20
-    },
-    {
-      "name": "Folk",
-      "count": 19
+      "count": 22
     },
     {
       "name": "Metal",
       "count": 19
+    },
+    {
+      "name": "World",
+      "count": 19
+    },
+    {
+      "name": "Folk",
+      "count": 18
     },
     {
       "name": "Jazz",
@@ -487,104 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZbgD1f1IU",
-      "artist": "The Neighbourhood",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6KGM2QK",
-      "artist": "Jungle",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FLJZy-y",
-      "artist": "Sombr",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwq0",
-      "artist": "Open Mic Night",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6dQsCt_",
-      "artist": "Sammy Rae & The Friends",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPwjS",
-      "artist": "Anna Graves",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPpCK",
-      "artist": "Jacob Alon",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Mo3",
-      "artist": "Lloyd Cole",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfqbqS",
-      "artist": "Deer Tick",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQ3zZV",
-      "artist": "My Morning Jacket",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70xv9",
-      "artist": "Dresden Dolls",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5SYAsEy",
-      "artist": "French Police",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70s3e",
-      "artist": "Son Lux",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa0Gf",
-      "artist": "The Animeros + Edgar",
-      "date": "Wed Oct 7",
-      "localDate": "2026-10-07",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A70o1v",
       "artist": "Dying Fetus",
@@ -1374,7 +1276,7 @@
       "artist": "Lost Kings",
       "date": "Thu Oct 15",
       "localDate": "2026-10-15",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1A70_33",
@@ -1658,7 +1560,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG907",
-      "artist": "Rob Dehlinger: The Swinging Trumpet from the Alpha Rhythm Kingss",
+      "artist": "Rob Dehlinger: The Swinging Trumpet from the Alpha Rhythm Kings",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -2448,13 +2350,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1AAv67S",
-      "artist": "fakemink",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7PzO7",
       "artist": "Jai Wolf",
       "date": "Sat Oct 24",
@@ -3093,7 +2988,7 @@
     },
     {
       "id": "rZ7HnEZ1Afufqf",
-      "artist": "Coral 9, Bazooka, Dogwater",
+      "artist": "Coral 9, Bazooka, Dogwater, DJ Kalamansi",
       "date": "Fri Oct 30",
       "localDate": "2026-10-30",
       "reason": "no taste match"
@@ -3780,6 +3675,13 @@
     {
       "id": "G5vYZ_26ddNV7",
       "artist": "Moneybagg Yo",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fjJpL_I",
+      "artist": "Los Nuevos Aventureros",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -4499,6 +4401,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAvMoF",
+      "artist": "Comeback Kid",
+      "date": "Mon Nov 16",
+      "localDate": "2026-11-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4_z",
       "artist": "Prayers",
       "date": "Mon Nov 16",
@@ -5059,6 +4968,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAeFj_",
+      "artist": "ezcodylee",
+      "date": "Sun Nov 22",
+      "localDate": "2026-11-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_CMqs-Mt",
       "artist": "The Residents",
       "date": "Sun Nov 22",
@@ -5284,7 +5200,7 @@
     },
     {
       "id": "rZ7HnEZ1Afu-1f",
-      "artist": "Mikey Vee, Lyka B",
+      "artist": "Mikey Vee, Lyka B, Solus The Happy Human",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
       "reason": "no taste match"
@@ -5313,6 +5229,13 @@
     {
       "id": "G5vYZ_1KqfyQ_",
       "artist": "Scott Bradlee's Postmodern Jukebox",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvMof",
+      "artist": "The Grouch",
       "date": "Sun Nov 29",
       "localDate": "2026-11-29",
       "reason": "no taste match"
@@ -6576,7 +6499,14 @@
       "date": "Sun Jan 3",
       "localDate": "2027-01-03",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEv7",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Jan 5",
+      "localDate": "2027-01-05",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 876
+  "eventCount": 866
 }
