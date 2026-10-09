@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-09T07:07:55.540Z",
+  "generatedAt": "2026-10-09T18:39:06.378Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-09T07:07:55Z",
-      "endDateTime": "2027-01-07T07:07:55Z"
+      "startDateTime": "2026-10-09T18:39:06Z",
+      "endDateTime": "2027-01-07T18:39:06Z"
     },
-    "eventsConsidered": 863,
-    "eventsReported": 863,
+    "eventsConsidered": 873,
+    "eventsReported": 873,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 194
+      "count": 198
     },
     {
       "name": "Rock",
-      "count": 190
+      "count": 192
     },
     {
       "name": "Alternative",
-      "count": 93
+      "count": 94
     },
     {
       "name": "Pop",
@@ -81,16 +81,16 @@
       "count": 22
     },
     {
-      "name": "Metal",
-      "count": 19
-    },
-    {
       "name": "World",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Folk",
-      "count": 18
+      "count": 19
+    },
+    {
+      "name": "Metal",
+      "count": 19
     },
     {
       "name": "Jazz",
@@ -163,7 +163,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 11 days out. SF venue, Monday.",
+      "reason": "Direct match. 10 days out. SF venue, Monday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 11,
+          "daysUntilShow": 10,
           "imminent": true
         },
         "effort": {
@@ -243,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 36,
+          "daysUntilShow": 35,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 3 days out. Concord venue, Sunday.",
+      "reason": "Direct match. 2 days out. Concord venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-03-24T17:00:00.000Z",
           "presaleName": "Preferred Seating Offer",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 3,
+          "daysUntilShow": 2,
           "imminent": true
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 30 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 29 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 30,
+          "daysUntilShow": 29,
           "imminent": false
         },
         "effort": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 35,
+          "daysUntilShow": 34,
           "imminent": false
         },
         "effort": {
@@ -448,7 +448,7 @@
       "score": 40,
       "raw": 34,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 19 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 18 days out. Concord venue, Tuesday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -471,7 +471,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 19,
+          "daysUntilShow": 18,
           "imminent": false
         },
         "effort": {
@@ -910,6 +910,13 @@
     {
       "id": "Z7r9jZ1A7x78g",
       "artist": "Air Supply",
+      "date": "Sun Oct 11",
+      "localDate": "2026-10-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv0_v",
+      "artist": "Derya Yildirim",
       "date": "Sun Oct 11",
       "localDate": "2026-10-11",
       "reason": "no taste match"
@@ -1608,6 +1615,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA77_E",
+      "artist": "Miko Marks",
+      "date": "Sun Oct 18",
+      "localDate": "2026-10-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_ullh3se",
       "artist": "Dinosaur Jr.",
       "date": "Sun Oct 18",
@@ -2009,6 +2023,13 @@
     {
       "id": "Z7r9jZ1AAZvQp",
       "artist": "TR/ST",
+      "date": "Fri Oct 23",
+      "localDate": "2026-10-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77QA",
+      "artist": "Frightwig",
       "date": "Fri Oct 23",
       "localDate": "2026-10-23",
       "reason": "no taste match"
@@ -2917,6 +2938,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA77Qa",
+      "artist": "Lebo",
+      "date": "Fri Oct 30",
+      "localDate": "2026-10-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_5KbZ5Fl",
       "artist": "The Chicks",
       "date": "Fri Oct 30",
@@ -2946,7 +2974,7 @@
     },
     {
       "id": "rZ7HnEZ1A4vF-N",
-      "artist": "BITE ME: MISCHIEF COSTUME PARTY",
+      "artist": "BITE ME: MISCHIEF COSTUME PARTY w/ Drew Banga + Red Corvette + Limo & Playah's Club Patio (LaPlayah x DJ Mark)",
       "date": "Fri Oct 30",
       "localDate": "2026-10-30",
       "reason": "no taste match"
@@ -3297,6 +3325,13 @@
     {
       "id": "rZ7HnEZ1AfZwj0",
       "artist": "Open Mic Night",
+      "date": "Wed Nov 4",
+      "localDate": "2026-11-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afusj7",
+      "artist": "Roman Candle/ Postdrome/ TBA",
       "date": "Wed Nov 4",
       "localDate": "2026-11-04",
       "reason": "no taste match"
@@ -3822,6 +3857,13 @@
     {
       "id": "Z7r9jZ1A70MJa",
       "artist": "The Tallest Man On Earth",
+      "date": "Tue Nov 10",
+      "localDate": "2026-11-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77QK",
+      "artist": "Buzzcocks",
       "date": "Tue Nov 10",
       "localDate": "2026-11-10",
       "reason": "no taste match"
@@ -4884,8 +4926,22 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA77Qp",
+      "artist": "Poi Dog Pondering",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4ZOGS",
       "artist": "Q Marsden",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afusef",
+      "artist": "veggi",
       "date": "Sat Nov 21",
       "localDate": "2026-11-21",
       "reason": "no taste match"
@@ -5131,6 +5187,13 @@
     {
       "id": "rZ7HnEZ1AfGvZ7",
       "artist": "Broadway Rave",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77jZ",
+      "artist": "Petty Theft",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
       "reason": "no taste match"
@@ -6347,6 +6410,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA77jA",
+      "artist": "Chuck Prophet",
+      "date": "Sat Dec 26",
+      "localDate": "2026-12-26",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAvo8p",
       "artist": "Jerry's Middle Finger",
       "date": "Sat Dec 26",
@@ -6487,5 +6557,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 863
+  "eventCount": 873
 }
