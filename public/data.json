@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-08T19:08:32.428Z",
+  "generatedAt": "2026-10-09T07:07:55.540Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-08T19:08:32Z",
-      "endDateTime": "2027-01-06T19:08:32Z"
+      "startDateTime": "2026-10-09T07:07:55Z",
+      "endDateTime": "2027-01-07T07:07:55Z"
     },
-    "eventsConsidered": 872,
-    "eventsReported": 872,
+    "eventsConsidered": 863,
+    "eventsReported": 863,
     "truncated": false
   },
   "genres": [
@@ -50,15 +50,15 @@
     },
     {
       "name": "Rock",
-      "count": 193
+      "count": 190
     },
     {
       "name": "Alternative",
-      "count": 95
+      "count": 93
     },
     {
       "name": "Pop",
-      "count": 89
+      "count": 87
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,11 +66,11 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 44
+      "count": 43
     },
     {
       "name": "R&B",
-      "count": 37
+      "count": 36
     },
     {
       "name": "Country",
@@ -331,8 +331,8 @@
       "weekday": "Saturday",
       "venue": "Lake Cunningham Regional Park",
       "city": "San Jose",
-      "score": 41,
-      "raw": 35,
+      "score": 47,
+      "raw": 40,
       "scoredOutOf": 85,
       "reason": "Adjacent to Usher. 30 days out. San Jose venue, Saturday.",
       "urgent": false,
@@ -349,7 +349,7 @@
           "matchedOn": "Mario"
         },
         "urgency": {
-          "points": 7,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -487,76 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A70o1v",
-      "artist": "Dying Fetus",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJ_vS",
-      "artist": "Filth is Eternal",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CCQ3aqo",
-      "artist": "The Rasmus",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZpFd",
-      "artist": "Will Downing",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_AxtLqKN",
-      "artist": "Mumford & Sons",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aRkP-mA",
-      "artist": "Mon Rovia",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPaZN",
-      "artist": "Evangelia",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJpZS",
-      "artist": "The Breaks",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0PPK",
-      "artist": "LØLØ, Mylie Taylor",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1A7-OGU",
-      "artist": "The Living Tombstone",
-      "date": "Thu Oct 8",
-      "localDate": "2026-10-08",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7Pdj6",
       "artist": "Slightly Stoopid",
@@ -719,6 +649,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAvV7k",
+      "artist": "Whipped Cream",
+      "date": "Fri Oct 9",
+      "localDate": "2026-10-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_ofGuSbW",
       "artist": "Cumbiatron",
       "date": "Fri Oct 9",
@@ -763,6 +700,13 @@
     {
       "id": "G5vYZ_epX9yGn",
       "artist": "Bruno Mars",
+      "date": "Sat Oct 10",
+      "localDate": "2026-10-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_k1ywuyI",
+      "artist": "Bonnie Raitt",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -826,13 +770,6 @@
     {
       "id": "Z7r9jZ1AAZ6-v",
       "artist": "Tinlicker",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_k1ywuyI",
-      "artist": "Bonnie Raitt",
       "date": "Sat Oct 10",
       "localDate": "2026-10-10",
       "reason": "no taste match"
@@ -6550,5 +6487,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 872
+  "eventCount": 863
 }
