@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-09T18:39:06.378Z",
+  "generatedAt": "2026-10-10T06:41:21.192Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,41 +36,41 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-09T18:39:06Z",
-      "endDateTime": "2027-01-07T18:39:06Z"
+      "startDateTime": "2026-10-10T06:41:21Z",
+      "endDateTime": "2027-01-08T06:41:21Z"
     },
-    "eventsConsidered": 873,
-    "eventsReported": 873,
+    "eventsConsidered": 849,
+    "eventsReported": 849,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 198
+      "count": 195
     },
     {
       "name": "Rock",
-      "count": 192
+      "count": 186
     },
     {
       "name": "Alternative",
-      "count": 94
+      "count": 92
     },
     {
       "name": "Pop",
-      "count": 87
+      "count": 83
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 54
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
-      "count": 43
+      "count": 41
     },
     {
       "name": "R&B",
-      "count": 36
+      "count": 35
     },
     {
       "name": "Country",
@@ -81,10 +81,6 @@
       "count": 22
     },
     {
-      "name": "World",
-      "count": 20
-    },
-    {
       "name": "Folk",
       "count": 19
     },
@@ -93,8 +89,12 @@
       "count": 19
     },
     {
+      "name": "World",
+      "count": 19
+    },
+    {
       "name": "Jazz",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Blues",
@@ -152,19 +152,19 @@
       ],
       "tier": "direct",
       "eventName": "Doja Cat - Tour Ma Vie World Tour",
-      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
+      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-25-2026/event/1C0063390D157FFD",
       "genre": "Hip-Hop/Rap",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
+      "date": "Sun Oct 25",
+      "localDate": "2026-10-25",
       "localTime": "19:30:00",
-      "weekday": "Monday",
+      "weekday": "Sunday",
       "venue": "Chase Center",
       "city": "San Francisco",
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 10 days out. SF venue, Monday.",
-      "urgent": true,
+      "reason": "Direct match. 16 days out. SF venue, Sunday.",
+      "urgent": false,
       "breakdown": {
         "taste": {
           "points": 45,
@@ -178,7 +178,7 @@
           "matchedOn": "Doja Cat"
         },
         "urgency": {
-          "points": 18,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -186,17 +186,17 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 10,
-          "imminent": true
+          "daysUntilShow": 16,
+          "imminent": false
         },
         "effort": {
-          "points": 14,
+          "points": 20,
           "max": 20,
           "area": "sf",
           "areaLabel": "SF",
-          "weeknight": true,
-          "weekday": "Monday",
-          "weeknightPenalty": 6
+          "weeknight": false,
+          "weekday": "Sunday",
+          "weeknightPenalty": 0
         }
       }
     },
@@ -487,195 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7Pdj6",
-      "artist": "Slightly Stoopid",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MG0",
-      "artist": "Toad the Wet Sprocket",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1kfV",
-      "artist": "Bingo Loco",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5VZPI4B",
-      "artist": "Mastodon",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaJG0",
-      "artist": "Traitrs",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CQwHuk4",
-      "artist": "Holy Priest",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ_8K",
-      "artist": "Dead Kennedys",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_3o",
-      "artist": "Musiq Soulchild",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2fxzWd8",
-      "artist": "Elvin Bishop",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78V",
-      "artist": "Rumours of Fleetwood Mac",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGY_f",
-      "artist": "Kaiju Tour: Trizz & Noa James",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afko47",
-      "artist": "Swapmeet/ Joyer",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGO-V",
-      "artist": "Yung Fazo, Cthrurio, SophomoreNoir, Jsprings",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQKIZz",
-      "artist": "My Morning Jacket",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pte9",
-      "artist": "Phillip Phillips",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uejR_we",
-      "artist": "Rod Wave",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa9G7",
-      "artist": "DOMi + JD Beck",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZO-g",
-      "artist": "High On Fire",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uwogz7s",
-      "artist": "Damage Inc",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_7UW6wPG",
-      "artist": "Air Supply",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPtfS",
-      "artist": "BLÜ EYES",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJeFS",
-      "artist": "Devon Gilfillian",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZsjw",
-      "artist": "Audien",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvV7k",
-      "artist": "Whipped Cream",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ofGuSbW",
-      "artist": "Cumbiatron",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1A70_3F",
-      "artist": "Musiq Soulchild",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGxP0",
-      "artist": "Quebradita Darks Oakland w/ Sizzle + Lizzy al Toque + Xtcemi + Hopeless",
-      "date": "Fri Oct 9",
-      "localDate": "2026-10-09",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7JpeZ",
       "artist": "Polo & Pan",
@@ -1496,6 +1307,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7AZs",
+      "artist": "Dom Dolla",
+      "date": "Sat Oct 17",
+      "localDate": "2026-10-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZ3Gw",
       "artist": "NOTD",
       "date": "Sat Oct 17",
@@ -1504,7 +1322,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG907",
-      "artist": "Rob Dehlinger: The Swinging Trumpet from the Alpha Rhythm Kings",
+      "artist": "Rob Dehlinger: The Singing Trumpet from the Alpha Rhythm Kings",
       "date": "Sat Oct 17",
       "localDate": "2026-10-17",
       "reason": "no taste match"
@@ -2021,6 +1839,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfuSef",
+      "artist": "Stratejacket/ 100% Jennifer/ The Shirley's",
+      "date": "Thu Oct 22",
+      "localDate": "2026-10-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZvQp",
       "artist": "TR/ST",
       "date": "Fri Oct 23",
@@ -2247,13 +2072,6 @@
     {
       "id": "rZ7HnEZ1Afa8j7",
       "artist": "Blitzkid",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6xUPDzq",
-      "artist": "Dermot Kennedy",
       "date": "Sat Oct 24",
       "localDate": "2026-10-24",
       "reason": "no taste match"
@@ -6555,7 +6373,21 @@
       "date": "Tue Jan 5",
       "localDate": "2027-01-05",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77jk",
+      "artist": "The Loved Ones",
+      "date": "Thu Jan 7",
+      "localDate": "2027-01-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGpfV",
+      "artist": "Live on the Stoop",
+      "date": "Thu Jan 7",
+      "localDate": "2027-01-07",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 873
+  "eventCount": 849
 }
