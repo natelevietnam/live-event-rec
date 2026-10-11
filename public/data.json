@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-10T17:38:40.199Z",
+  "generatedAt": "2026-10-11T06:48:09.509Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,41 +36,41 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-10T17:38:40Z",
-      "endDateTime": "2027-01-08T17:38:40Z"
+      "startDateTime": "2026-10-11T06:48:09Z",
+      "endDateTime": "2027-01-09T06:48:09Z"
     },
-    "eventsConsidered": 849,
-    "eventsReported": 849,
+    "eventsConsidered": 829,
+    "eventsReported": 829,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 195
+      "count": 188
     },
     {
       "name": "Rock",
-      "count": 186
+      "count": 182
     },
     {
       "name": "Alternative",
-      "count": 92
+      "count": 91
     },
     {
       "name": "Pop",
-      "count": 83
+      "count": 81
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Dance/Electronic",
-      "count": 41
+      "count": 40
     },
     {
       "name": "R&B",
-      "count": 35
+      "count": 34
     },
     {
       "name": "Country",
@@ -78,14 +78,10 @@
     },
     {
       "name": "Latin",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Folk",
-      "count": 19
-    },
-    {
-      "name": "Metal",
       "count": 19
     },
     {
@@ -93,8 +89,12 @@
       "count": 19
     },
     {
+      "name": "Metal",
+      "count": 18
+    },
+    {
       "name": "Jazz",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Blues",
@@ -487,167 +487,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7JpeZ",
-      "artist": "Polo & Pan",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VO6",
-      "artist": "Jackie Greene",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70AFV",
-      "artist": "Taking Back Sunday",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_epX9yGn",
-      "artist": "Bruno Mars",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_k1ywuyI",
-      "artist": "Bonnie Raitt",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uZMoTjB",
-      "artist": "Sons of Legion",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_3K",
-      "artist": "Musiq Soulchild",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZP-b",
-      "artist": "Los Horoscopos De Durango",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kQnKsrV",
-      "artist": "Jacob Collier",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afaxa7",
-      "artist": "Dri",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZeAK",
-      "artist": "Paige Fish — The Midnight Crisis Tour",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQfIvd",
-      "artist": "My Morning Jacket",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70kG-",
-      "artist": "Palace",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ6-v",
-      "artist": "Tinlicker",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8oXR9YF",
-      "artist": "Melvin Seals and JGB",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8i-VIYr",
-      "artist": "Sly & the Family Stone",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2HbZbXk",
-      "artist": "BEAT",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4veqN",
-      "artist": "Dälek",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPaFN",
-      "artist": "Dublon",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2DedeGH",
-      "artist": "Punchis Punchis",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFyFf",
-      "artist": "Electric Feels",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_3f",
-      "artist": "Musiq Soulchild",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vFOK",
-      "artist": "AFROBASHMENT(afrobeats, dancehall, hip-hop & more)",
-      "date": "Sat Oct 10",
-      "localDate": "2026-10-10",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfF7qV",
       "artist": "Mimosas & Motown: Sunday Brunch October 11th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
@@ -6387,7 +6226,28 @@
       "date": "Thu Jan 7",
       "localDate": "2027-01-07",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7Px4t",
+      "artist": "In Conversation with The Sopranos",
+      "date": "Fri Jan 8",
+      "localDate": "2027-01-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77j9",
+      "artist": "Western Standard Time Ska Orchestra",
+      "date": "Fri Jan 8",
+      "localDate": "2027-01-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afa7x7",
+      "artist": "Com Truise",
+      "date": "Fri Jan 8",
+      "localDate": "2027-01-08",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 849
+  "eventCount": 829
 }
