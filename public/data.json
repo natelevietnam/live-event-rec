@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-11T17:54:10.210Z",
+  "generatedAt": "2026-10-12T06:58:23.532Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-11T17:54:10Z",
-      "endDateTime": "2027-01-09T17:54:10Z"
+      "startDateTime": "2026-10-12T06:58:23Z",
+      "endDateTime": "2027-01-10T06:58:23Z"
     },
-    "eventsConsidered": 829,
-    "eventsReported": 829,
+    "eventsConsidered": 817,
+    "eventsReported": 817,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 188
+      "count": 187
     },
     {
       "name": "Rock",
@@ -54,15 +54,15 @@
     },
     {
       "name": "Alternative",
-      "count": 91
+      "count": 90
     },
     {
       "name": "Pop",
-      "count": 81
+      "count": 79
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 50
+      "count": 47
     },
     {
       "name": "Dance/Electronic",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 34
+      "count": 33
     },
     {
       "name": "Country",
@@ -78,15 +78,15 @@
     },
     {
       "name": "Latin",
-      "count": 21
-    },
-    {
-      "name": "Folk",
-      "count": 19
+      "count": 20
     },
     {
       "name": "World",
-      "count": 19
+      "count": 20
+    },
+    {
+      "name": "Folk",
+      "count": 18
     },
     {
       "name": "Metal",
@@ -102,14 +102,14 @@
     },
     {
       "name": "Classical",
-      "count": 9
-    },
-    {
-      "name": "Theatre",
-      "count": 3
+      "count": 8
     },
     {
       "name": "New Age",
+      "count": 2
+    },
+    {
+      "name": "Theatre",
       "count": 2
     },
     {
@@ -160,11 +160,11 @@
       "weekday": "Sunday",
       "venue": "Chase Center",
       "city": "San Francisco",
-      "score": 91,
-      "raw": 77,
+      "score": 98,
+      "raw": 83,
       "scoredOutOf": 85,
       "reason": "Direct match. 14 days out. SF venue, Sunday.",
-      "urgent": false,
+      "urgent": true,
       "breakdown": {
         "taste": {
           "points": 45,
@@ -178,7 +178,7 @@
           "matchedOn": "Doja Cat"
         },
         "urgency": {
-          "points": 12,
+          "points": 18,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -187,7 +187,7 @@
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
           "daysUntilShow": 14,
-          "imminent": false
+          "imminent": true
         },
         "effort": {
           "points": 20,
@@ -253,63 +253,6 @@
           "areaLabel": "SF",
           "weeknight": false,
           "weekday": "Friday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
-    {
-      "id": "G5vYZ_6eBbDWb",
-      "artist": "TLC",
-      "seed": "TLC",
-      "seeds": [
-        "TLC"
-      ],
-      "tier": "direct",
-      "eventName": "TLC & Salt-N-Pepa with En Vogue - IT'S ICONIC",
-      "url": "https://www.ticketmaster.com/tlc-saltnpepa-with-en-vogue-its-concord-california-10-11-2026/event/1C006470BA63BF58",
-      "genre": "Hip-Hop/Rap",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "localTime": "19:30:00",
-      "weekday": "Sunday",
-      "venue": "Toyota Pavilion at Concord",
-      "city": "Concord",
-      "score": 84,
-      "raw": 71,
-      "scoredOutOf": 85,
-      "reason": "Direct match. Tonight. Concord venue, Sunday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "TLC",
-          "seeds": [
-            "TLC"
-          ],
-          "matchedOn": "TLC"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-03-26T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "unknown",
-          "areaLabel": "Concord",
-          "weeknight": false,
-          "weekday": "Sunday",
           "weeknightPenalty": 0
         }
       }
@@ -487,111 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfF7qV",
-      "artist": "Mimosas & Motown: Sunday Brunch October 11th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1Ae0Z_8Gki4oozq",
-      "artist": "Moneyhillcasino",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70s80",
-      "artist": "Kronos Quartet",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A709f8",
-      "artist": "Jackie Greene",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJpod",
-      "artist": "Chingo Bling",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_k9d23or",
-      "artist": "Chayanne",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_3p",
-      "artist": "Musiq Soulchild",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_eEJSDnx",
-      "artist": "Bruno Mars",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG7FV",
-      "artist": "Cross Stich/ Let Them Eat Horses/ Luna Ivy/ Splendor",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PIj7",
-      "artist": "The Rocky Horror Picture Show",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78g",
-      "artist": "Air Supply",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAv0_v",
-      "artist": "Derya Yildirim",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfxKfK",
-      "artist": "Santiago Cruz",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6bQ4bvK",
-      "artist": "My Morning Jacket",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1oP37va",
-      "artist": "Killer Queen",
-      "date": "Sun Oct 11",
-      "localDate": "2026-10-11",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7J74o",
       "artist": "KiNG MALA",
@@ -6247,7 +6085,35 @@
       "date": "Fri Jan 8",
       "localDate": "2027-01-08",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77jb",
+      "artist": "Swirlies",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7-U36",
+      "artist": "Anna von Hausswolff",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7Px4s",
+      "artist": "Home Again",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K1bqhUt",
+      "artist": "Ana Popovic",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 829
+  "eventCount": 817
 }
