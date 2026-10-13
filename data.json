@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-12T21:33:12.642Z",
+  "generatedAt": "2026-10-13T07:21:50.106Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-12T21:33:12Z",
-      "endDateTime": "2027-01-10T21:33:12Z"
+      "startDateTime": "2026-10-13T07:21:50Z",
+      "endDateTime": "2027-01-11T07:21:50Z"
     },
-    "eventsConsidered": 821,
-    "eventsReported": 821,
+    "eventsConsidered": 816,
+    "eventsReported": 816,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 187
+      "count": 186
     },
     {
       "name": "Rock",
@@ -54,11 +54,11 @@
     },
     {
       "name": "Alternative",
-      "count": 90
+      "count": 89
     },
     {
       "name": "Pop",
-      "count": 79
+      "count": 77
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 34
+      "count": 33
     },
     {
       "name": "Country",
@@ -430,41 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7J74o",
-      "artist": "KiNG MALA",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPvAd",
-      "artist": "Love Spells",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFV_V",
-      "artist": "KiNG MALA",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_udNvSDL",
-      "artist": "Love Spells",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbgi4WuoT",
-      "artist": "MARO",
-      "date": "Mon Oct 12",
-      "localDate": "2026-10-12",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7PPv_",
       "artist": "Militarie Gun",
@@ -6143,5 +6108,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 821
+  "eventCount": 816
 }
