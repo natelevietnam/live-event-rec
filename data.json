@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-14T05:49:04.037Z",
+  "generatedAt": "2026-10-14T17:46:48.643Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-14T05:49:04Z",
-      "endDateTime": "2027-01-12T05:49:04Z"
+      "startDateTime": "2026-10-14T17:46:48Z",
+      "endDateTime": "2027-01-12T17:46:48Z"
     },
-    "eventsConsidered": 813,
-    "eventsReported": 813,
+    "eventsConsidered": 820,
+    "eventsReported": 820,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 187
+      "count": 189
     },
     {
       "name": "Rock",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 88
+      "count": 89
     },
     {
       "name": "Pop",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 42
+      "count": 44
     },
     {
       "name": "R&B",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Latin",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Metal",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Jazz",
@@ -163,7 +163,7 @@
       "score": 98,
       "raw": 83,
       "scoredOutOf": 85,
-      "reason": "Direct match. 12 days out. SF venue, Sunday.",
+      "reason": "Direct match. 11 days out. SF venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 12,
+          "daysUntilShow": 11,
           "imminent": true
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 85,
       "raw": 72,
       "scoredOutOf": 85,
-      "reason": "Direct match. SF venue, Friday.",
+      "reason": "Direct match. 30 days out. SF venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 31,
+          "daysUntilShow": 30,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 14 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 13 days out. Concord venue, Tuesday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 14,
+          "daysUntilShow": 13,
           "imminent": true
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 25 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 24 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 25,
+          "daysUntilShow": 24,
           "imminent": false
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 30 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 29 days out. Oakland venue, Thursday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 30,
+          "daysUntilShow": 29,
           "imminent": false
         },
         "effort": {
@@ -2938,7 +2938,7 @@
     },
     {
       "id": "rZ7HnEZ1AfG0u0",
-      "artist": "Fin/ Varulf/ Piss Baptism/ Hellhunter",
+      "artist": "Fin/ Hellhunter/ Varulf/ Piss Baptism",
       "date": "Fri Nov 6",
       "localDate": "2026-11-06",
       "reason": "no taste match"
@@ -3609,6 +3609,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7oPw",
+      "artist": "Eli and Fur",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfJpkd",
       "artist": "TRSH, Adjust The Sails, Dear Maryanne, Dear Cincinnati",
       "date": "Sat Nov 14",
@@ -4057,6 +4064,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7oPg",
+      "artist": "DJ Stingray",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_um1ZJh-",
       "artist": "Pretty Lights",
       "date": "Thu Nov 19",
@@ -4199,6 +4213,13 @@
     {
       "id": "Z7r9jZ1AAZo-8",
       "artist": "Dev Lemons",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZyPM",
+      "artist": "Westend",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -4507,6 +4528,13 @@
     {
       "id": "G5vYZ_33P1hxM",
       "artist": "Los Gemelos De Sinaloa",
+      "date": "Wed Nov 25",
+      "localDate": "2026-11-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7oPU",
+      "artist": "Andy C",
       "date": "Wed Nov 25",
       "localDate": "2026-11-25",
       "reason": "no taste match"
@@ -5814,6 +5842,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfCZZf",
+      "artist": "Ray and Paul",
+      "date": "Wed Dec 23",
+      "localDate": "2026-12-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_oKi3hZh",
       "artist": "San Francisco Gay Men's Chorus",
       "date": "Thu Dec 24",
@@ -6045,6 +6080,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfuIjf",
+      "artist": "Conjurer",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA77jb",
       "artist": "Swirlies",
       "date": "Sat Jan 9",
@@ -6085,7 +6127,14 @@
       "date": "Sun Jan 10",
       "localDate": "2027-01-10",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fSjRxKM",
+      "artist": "LeAnn Rimes",
+      "date": "Sun Jan 10",
+      "localDate": "2027-01-10",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 813
+  "eventCount": 820
 }
