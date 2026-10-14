@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-13T19:45:02.925Z",
+  "generatedAt": "2026-10-14T05:49:04.037Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-13T19:45:02Z",
-      "endDateTime": "2027-01-11T19:45:02Z"
+      "startDateTime": "2026-10-14T05:49:04Z",
+      "endDateTime": "2027-01-12T05:49:04Z"
     },
-    "eventsConsidered": 826,
-    "eventsReported": 826,
+    "eventsConsidered": 813,
+    "eventsReported": 813,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 190
+      "count": 187
     },
     {
       "name": "Rock",
-      "count": 183
+      "count": 182
     },
     {
       "name": "Alternative",
-      "count": 91
+      "count": 88
     },
     {
       "name": "Pop",
-      "count": 77
+      "count": 74
     },
     {
       "name": "Hip-Hop/Rap",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Latin",
@@ -90,7 +90,7 @@
     },
     {
       "name": "Metal",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Jazz",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Classical",
@@ -258,6 +258,63 @@
       }
     },
     {
+      "id": "G5vYZ_5IX0y73",
+      "artist": "Bryson Tiller",
+      "seed": "Chris Brown",
+      "seeds": [
+        "Chris Brown"
+      ],
+      "tier": "adjacent",
+      "eventName": "Bryson Tiller Presents: The Neo Trapsoul Tour",
+      "url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
+      "genre": "Hip-Hop/Rap",
+      "date": "Tue Oct 27",
+      "localDate": "2026-10-27",
+      "localTime": "19:30:00",
+      "weekday": "Tuesday",
+      "venue": "Toyota Pavilion at Concord",
+      "city": "Concord",
+      "score": 47,
+      "raw": 40,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to Chris Brown. 14 days out. Concord venue, Tuesday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "Chris Brown",
+          "seeds": [
+            "Chris Brown"
+          ],
+          "matchedOn": "Bryson Tiller"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "presale",
+          "at": "2026-06-05T19:00:00.000Z",
+          "presaleName": "VIP Package Onsale",
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 14,
+          "imminent": true
+        },
+        "effort": {
+          "points": 2,
+          "max": 20,
+          "area": "unknown",
+          "areaLabel": "Concord",
+          "weeknight": true,
+          "weekday": "Tuesday",
+          "weeknightPenalty": 6
+        }
+      }
+    },
+    {
       "id": "Z7r9jZ1A7PKeb",
       "artist": "Mario",
       "seed": "Usher",
@@ -331,8 +388,8 @@
       "weekday": "Thursday",
       "venue": "Fox Theater - Oakland",
       "city": "Oakland",
-      "score": 41,
-      "raw": 35,
+      "score": 47,
+      "raw": 40,
       "scoredOutOf": 85,
       "reason": "Adjacent to J. Cole. 30 days out. Oakland venue, Thursday.",
       "urgent": false,
@@ -349,7 +406,7 @@
           "matchedOn": "Isaiah Rashad"
         },
         "urgency": {
-          "points": 7,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -370,157 +427,9 @@
           "weeknightPenalty": 6
         }
       }
-    },
-    {
-      "id": "G5vYZ_5IX0y73",
-      "artist": "Bryson Tiller",
-      "seed": "Chris Brown",
-      "seeds": [
-        "Chris Brown"
-      ],
-      "tier": "adjacent",
-      "eventName": "Bryson Tiller Presents: The Neo Trapsoul Tour",
-      "url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
-      "genre": "Hip-Hop/Rap",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "localTime": "19:30:00",
-      "weekday": "Tuesday",
-      "venue": "Toyota Pavilion at Concord",
-      "city": "Concord",
-      "score": 40,
-      "raw": 34,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 14 days out. Concord venue, Tuesday.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "Chris Brown",
-          "seeds": [
-            "Chris Brown"
-          ],
-          "matchedOn": "Bryson Tiller"
-        },
-        "urgency": {
-          "points": 12,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "presale",
-          "at": "2026-06-05T19:00:00.000Z",
-          "presaleName": "VIP Package Onsale",
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 14,
-          "imminent": false
-        },
-        "effort": {
-          "points": 2,
-          "max": 20,
-          "area": "unknown",
-          "areaLabel": "Concord",
-          "weeknight": true,
-          "weekday": "Tuesday",
-          "weeknightPenalty": 6
-        }
-      }
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7PPv_",
-      "artist": "Militarie Gun",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_9",
-      "artist": "Provoker",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFp3f",
-      "artist": "Rin, Sabrina Sterling",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ah_rlf3",
-      "artist": "Loathe",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvb0",
-      "artist": "Acoustic Alchemy",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z7ZS",
-      "artist": "Isabel LaRosa",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFkCf",
-      "artist": "Automatic",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1fP7",
-      "artist": "Dani Offline — Lover's Discourse Live w/ Amanda Magaña",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GFkJFKN",
-      "artist": "Zolita",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70I80",
-      "artist": "MICO",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2rI4css",
-      "artist": "Audrey Hobert",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7OO0F",
-      "artist": "Kim Richey",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEof",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Oct 13",
-      "localDate": "2026-10-13",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_3RlmFN-",
       "artist": "Movie",
@@ -1329,13 +1238,6 @@
     {
       "id": "rZ7HnEZ1A4vvAd",
       "artist": "Big Ass Truck",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afaa_0",
-      "artist": "City of the Sun",
       "date": "Wed Oct 21",
       "localDate": "2026-10-21",
       "reason": "no taste match"
@@ -3247,6 +3149,13 @@
     {
       "id": "Z7r9jZ1A7-6e_",
       "artist": "Leonid & Friends",
+      "date": "Sun Nov 8",
+      "localDate": "2026-11-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afuypf",
+      "artist": "Deathtape/ Salt+/ TBA",
       "date": "Sun Nov 8",
       "localDate": "2026-11-08",
       "reason": "no taste match"
@@ -6178,5 +6087,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 826
+  "eventCount": 813
 }
