@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-14T17:46:48.643Z",
+  "generatedAt": "2026-10-15T05:33:44.120Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-14T17:46:48Z",
-      "endDateTime": "2027-01-12T17:46:48Z"
+      "startDateTime": "2026-10-15T05:33:44Z",
+      "endDateTime": "2027-01-13T05:33:44Z"
     },
-    "eventsConsidered": 820,
-    "eventsReported": 820,
+    "eventsConsidered": 816,
+    "eventsReported": 816,
     "truncated": false
   },
   "genres": [
@@ -50,15 +50,15 @@
     },
     {
       "name": "Rock",
-      "count": 182
+      "count": 177
     },
     {
       "name": "Alternative",
-      "count": 89
+      "count": 88
     },
     {
       "name": "Pop",
-      "count": 74
+      "count": 75
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 44
+      "count": 46
     },
     {
       "name": "R&B",
@@ -77,12 +77,12 @@
       "count": 23
     },
     {
-      "name": "Latin",
+      "name": "World",
       "count": 20
     },
     {
-      "name": "World",
-      "count": 20
+      "name": "Latin",
+      "count": 19
     },
     {
       "name": "Folk",
@@ -217,8 +217,8 @@
       "weekday": "Friday",
       "venue": "Bill Graham Civic Auditorium",
       "city": "San Francisco",
-      "score": 85,
-      "raw": 72,
+      "score": 91,
+      "raw": 77,
       "scoredOutOf": 85,
       "reason": "Direct match. 30 days out. SF venue, Friday.",
       "urgent": false,
@@ -235,7 +235,7 @@
           "matchedOn": "Tyla"
         },
         "urgency": {
-          "points": 7,
+          "points": 12,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -430,62 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_3RlmFN-",
-      "artist": "Movie",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwbV",
-      "artist": "Open Mic Night",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mzo17n",
-      "artist": "Brit Floyd",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aMD-yq7",
-      "artist": "Finn Wolfhard",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afaa_V",
-      "artist": "Juice",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfF9-V",
-      "artist": "FIGHTMASTER",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_7mbC_v-",
-      "artist": "Juanes",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A74-ek",
-      "artist": "Sex Pistols",
-      "date": "Wed Oct 14",
-      "localDate": "2026-10-14",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Af1puV",
       "artist": "​​​​​​​Moral Law/ A Year Ago Today/ A Life Spent/ altar/ xMagdalenex",
@@ -1243,6 +1187,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfuU1f",
+      "artist": "gnash",
+      "date": "Wed Oct 21",
+      "localDate": "2026-10-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afat_0",
       "artist": "Yana",
       "date": "Wed Oct 21",
@@ -1313,6 +1264,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_A5NTXU-",
+      "artist": "gnash",
+      "date": "Thu Oct 22",
+      "localDate": "2026-10-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70Mof",
       "artist": "Justin Nozuka",
       "date": "Thu Oct 22",
@@ -1343,13 +1301,6 @@
     {
       "id": "rZ7HnEZ1Af1vG0",
       "artist": "Broadway",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_A5NTXU-",
-      "artist": "gnash",
       "date": "Thu Oct 22",
       "localDate": "2026-10-22",
       "reason": "no taste match"
@@ -4897,6 +4848,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAekAK",
+      "artist": "Tara Yummy",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af-VjN",
       "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party!",
       "date": "Fri Dec 4",
@@ -5954,6 +5912,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7oJZ",
+      "artist": "Above & Beyond",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAeboU",
       "artist": "Jamie xx",
       "date": "Thu Dec 31",
@@ -6134,7 +6099,14 @@
       "date": "Sun Jan 10",
       "localDate": "2027-01-10",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEC7",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Jan 12",
+      "localDate": "2027-01-12",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 820
+  "eventCount": 816
 }
