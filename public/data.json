@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-16T05:27:05.060Z",
+  "generatedAt": "2026-10-16T17:10:14.590Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-16T05:27:05Z",
-      "endDateTime": "2027-01-14T05:27:05Z"
+      "startDateTime": "2026-10-16T17:10:14Z",
+      "endDateTime": "2027-01-14T17:10:14Z"
     },
-    "eventsConsidered": 804,
-    "eventsReported": 804,
+    "eventsConsidered": 806,
+    "eventsReported": 806,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Rock",
-      "count": 173
+      "count": 174
     },
     {
       "name": "Alternative",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 46
+      "count": 47
     },
     {
       "name": "R&B",
@@ -163,7 +163,7 @@
       "score": 98,
       "raw": 83,
       "scoredOutOf": 85,
-      "reason": "Direct match. 10 days out. SF venue, Sunday.",
+      "reason": "Direct match. 9 days out. SF venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 10,
+          "daysUntilShow": 9,
           "imminent": true
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 29 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 28 days out. Oakland venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 29,
+          "daysUntilShow": 28,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 12 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 11 days out. Concord venue, Tuesday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 12,
+          "daysUntilShow": 11,
           "imminent": true
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 23 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 22 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 23,
+          "daysUntilShow": 22,
           "imminent": false
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 28 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 27 days out. Oakland venue, Thursday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 28,
+          "daysUntilShow": 27,
           "imminent": false
         },
         "effort": {
@@ -1959,6 +1959,13 @@
     {
       "id": "G5vYZ_5K9T5FO",
       "artist": "The Chicks",
+      "date": "Thu Oct 29",
+      "localDate": "2026-10-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7dQ7",
+      "artist": "Coco & Breezy",
       "date": "Thu Oct 29",
       "localDate": "2026-10-29",
       "reason": "no taste match"
@@ -3555,6 +3562,13 @@
     {
       "id": "rZ7HnEZ1Af1da7",
       "artist": "Denise Julia",
+      "date": "Sat Nov 14",
+      "localDate": "2026-11-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfCA_V",
+      "artist": "The Get Down",
       "date": "Sat Nov 14",
       "localDate": "2026-11-14",
       "reason": "no taste match"
@@ -6024,5 +6038,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 804
+  "eventCount": 806
 }
