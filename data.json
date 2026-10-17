@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-16T17:10:14.590Z",
+  "generatedAt": "2026-10-17T05:19:17.326Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-16T17:10:14Z",
-      "endDateTime": "2027-01-14T17:10:14Z"
+      "startDateTime": "2026-10-17T05:19:17Z",
+      "endDateTime": "2027-01-15T05:19:17Z"
     },
-    "eventsConsidered": 806,
-    "eventsReported": 806,
+    "eventsConsidered": 778,
+    "eventsReported": 778,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 185
+      "count": 176
     },
     {
       "name": "Rock",
-      "count": 174
+      "count": 169
     },
     {
       "name": "Alternative",
-      "count": 85
+      "count": 84
     },
     {
       "name": "Pop",
-      "count": 74
+      "count": 71
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Dance/Electronic",
@@ -70,19 +70,15 @@
     },
     {
       "name": "R&B",
-      "count": 34
+      "count": 32
     },
     {
       "name": "Country",
-      "count": 22
+      "count": 21
     },
     {
       "name": "World",
-      "count": 20
-    },
-    {
-      "name": "Folk",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Latin",
@@ -90,7 +86,11 @@
     },
     {
       "name": "Metal",
-      "count": 18
+      "count": 17
+    },
+    {
+      "name": "Folk",
+      "count": 16
     },
     {
       "name": "Jazz",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Classical",
@@ -430,202 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfGbvV",
-      "artist": "Open Mic Night",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dw3o5zd",
-      "artist": "The Rush Tribute Project",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_38",
-      "artist": "Musiq Soulchild",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78U",
-      "artist": "The Wallflowers",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G6SPFxG",
-      "artist": "Sara Bareilles",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JeGd",
-      "artist": "Dom Dolla",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_dDYZQwA",
-      "artist": "Iron and Wine",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaEFV",
-      "artist": "Renny Conti",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_C6BAJNk",
-      "artist": "Neurosis",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P8qK",
-      "artist": "moe.",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_O",
-      "artist": "The Jungle Giants",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJ9qN",
-      "artist": "Tainted Love",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2MJMpSz",
-      "artist": "ScHoolboy Q",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70ybw",
-      "artist": "glaive",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_adKleIW",
-      "artist": "Vulfpeck",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uwoTFkE",
-      "artist": "Ultimate Ozzy Tribute",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_o36xBcN",
-      "artist": "Jackson Dean",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u9rgotm",
-      "artist": "Patrick Droney",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G62EGBmjV",
-      "artist": "Legendary Autumn Night Vietnamese Show",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGd0V",
-      "artist": "Parabellum",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPs7K",
-      "artist": "Allan Rayman",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPsGd",
-      "artist": "Allan Rayman",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0FGd",
-      "artist": "This Is Lorelei",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZvjN",
-      "artist": "Olive Klug + Frail Talk",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFKJ7",
-      "artist": "SISTO:DEVOUR - Sever the Bloodline Tour w/ BLVNKSPVCE + PNTHER",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8jF",
-      "artist": "Petty Theft",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ve4N",
-      "artist": "Blade Rave",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70_34",
-      "artist": "Musiq Soulchild",
-      "date": "Fri Oct 16",
-      "localDate": "2026-10-16",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfPtkd",
       "artist": "Bingo Loco",
@@ -998,6 +802,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_A5NTXU-",
+      "artist": "gnash",
+      "date": "Tue Oct 20",
+      "localDate": "2026-10-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfPwOK",
       "artist": "Sawyer Hill",
       "date": "Tue Oct 20",
@@ -1042,13 +853,6 @@
     {
       "id": "rZ7HnEZ1AfZwO0",
       "artist": "Open Mic Night",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u6P7Ev_",
-      "artist": "Engelbert Humperdinck",
       "date": "Wed Oct 21",
       "localDate": "2026-10-21",
       "reason": "no taste match"
@@ -1140,13 +944,6 @@
     {
       "id": "rZ7HnEZ1A4ZJud",
       "artist": "The Rose Hips with Sun Casino",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_A5NTXU-",
-      "artist": "gnash",
       "date": "Thu Oct 22",
       "localDate": "2026-10-22",
       "reason": "no taste match"
@@ -2931,7 +2728,7 @@
     },
     {
       "id": "rZ7HnEZ1AfGZvV",
-      "artist": "James Ivy",
+      "artist": "James Ivy/ Harry Teardrop",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -2994,7 +2791,7 @@
     },
     {
       "id": "rZ7HnEZ1Afuypf",
-      "artist": "Deathtape/ Salt+/ TBA",
+      "artist": "Deathtape/ Salt+/ A Block/  Secrey Society/ Futile Destiny",
       "date": "Sun Nov 8",
       "localDate": "2026-11-08",
       "reason": "no taste match"
@@ -6036,7 +5833,14 @@
       "date": "Wed Jan 13",
       "localDate": "2027-01-13",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAe4Qo",
+      "artist": "LSD and The Search For God",
+      "date": "Thu Jan 14",
+      "localDate": "2027-01-14",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 806
+  "eventCount": 778
 }
