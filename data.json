@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-17T16:08:30.244Z",
+  "generatedAt": "2026-10-18T05:25:59.834Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,36 +36,36 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-17T16:08:30Z",
-      "endDateTime": "2027-01-15T16:08:30Z"
+      "startDateTime": "2026-10-18T05:25:59Z",
+      "endDateTime": "2027-01-16T05:25:59Z"
     },
-    "eventsConsidered": 778,
-    "eventsReported": 778,
+    "eventsConsidered": 759,
+    "eventsReported": 759,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 176
+      "count": 168
     },
     {
       "name": "Rock",
-      "count": 169
+      "count": 166
     },
     {
       "name": "Alternative",
-      "count": 84
+      "count": 83
     },
     {
       "name": "Pop",
-      "count": 71
-    },
-    {
-      "name": "Hip-Hop/Rap",
-      "count": 50
+      "count": 69
     },
     {
       "name": "Dance/Electronic",
+      "count": 48
+    },
+    {
+      "name": "Hip-Hop/Rap",
       "count": 47
     },
     {
@@ -78,14 +78,10 @@
     },
     {
       "name": "World",
-      "count": 19
-    },
-    {
-      "name": "Latin",
       "count": 18
     },
     {
-      "name": "Metal",
+      "name": "Latin",
       "count": 17
     },
     {
@@ -93,8 +89,12 @@
       "count": 16
     },
     {
+      "name": "Metal",
+      "count": 16
+    },
+    {
       "name": "Jazz",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Blues",
@@ -109,6 +109,10 @@
       "count": 2
     },
     {
+      "name": "Reggae",
+      "count": 2
+    },
+    {
       "name": "Theatre",
       "count": 2
     },
@@ -118,10 +122,6 @@
     },
     {
       "name": "Music",
-      "count": 1
-    },
-    {
-      "name": "Reggae",
       "count": 1
     },
     {
@@ -430,181 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfPtkd",
-      "artist": "Bingo Loco",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Y-f",
-      "artist": "Petty Theft",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4v7Gd",
-      "artist": "Dry Socket",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZZaw",
-      "artist": "San Francisco Symphony",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78M",
-      "artist": "Nelly",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbg9ir1-u",
-      "artist": "RUSH",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G6gOzMm",
-      "artist": "Sara Bareilles",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGxrf",
-      "artist": "Lil Darkie (album release show)",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_C6BkJN8",
-      "artist": "Neurosis",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7AZs",
-      "artist": "Dom Dolla",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ3Gw",
-      "artist": "NOTD",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG907",
-      "artist": "Rob Dehlinger: The Singing Trumpet from the Alpha Rhythm Kings",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6DKxTks",
-      "artist": "Akeem Ali",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0Sbd",
-      "artist": "Lewis OfMan",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZOf3",
-      "artist": "Elephant Revival",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_88fjqsu",
-      "artist": "Altan",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1X60Qim",
-      "artist": "Shakey Graves",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_88Gk5pz",
-      "artist": "Pedro Fernández",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70vOd",
-      "artist": "Jessie Ware",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfagvV",
-      "artist": "Tom Hamilton",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFe80",
-      "artist": "Asha Banks",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJpZN",
-      "artist": "Ella Boh  — Blurry Tour",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PyO3",
-      "artist": "Yheti",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PIC3",
-      "artist": "Last Dinosaurs",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGzG0",
-      "artist": "Desmadre + Psyched! Radio Fest present: RIXXIA w/ Diabbla + BB Cora + Louie El Ser",
-      "date": "Sat Oct 17",
-      "localDate": "2026-10-17",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAZJp7",
       "artist": "Judy Collins",
@@ -4729,6 +4554,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZbg9ir1-u",
+      "artist": "RUSH",
+      "date": "Sun Dec 6",
+      "localDate": "2026-12-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afapj0",
       "artist": "Fireworks",
       "date": "Sun Dec 6",
@@ -5840,7 +5672,42 @@
       "date": "Thu Jan 14",
       "localDate": "2027-01-14",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K60vQat",
+      "artist": "Four Tops",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oEoFtlm",
+      "artist": "STS9",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K5FDpFb",
+      "artist": "ZOSO",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70Iuy",
+      "artist": "Book of Love",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGMjV",
+      "artist": "Sister Nancy",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 778
+  "eventCount": 759
 }
