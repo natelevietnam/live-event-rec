@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-18T16:20:45.205Z",
+  "generatedAt": "2026-10-19T05:44:01.498Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-18T16:20:45Z",
-      "endDateTime": "2027-01-16T16:20:45Z"
+      "startDateTime": "2026-10-19T05:44:01Z",
+      "endDateTime": "2027-01-17T05:44:01Z"
     },
-    "eventsConsidered": 760,
-    "eventsReported": 760,
+    "eventsConsidered": 750,
+    "eventsReported": 750,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Other",
-      "count": 168
+      "name": "Rock",
+      "count": 164
     },
     {
-      "name": "Rock",
-      "count": 167
+      "name": "Other",
+      "count": 163
     },
     {
       "name": "Alternative",
@@ -58,15 +58,15 @@
     },
     {
       "name": "Pop",
-      "count": 69
+      "count": 68
     },
     {
       "name": "Dance/Electronic",
-      "count": 48
+      "count": 49
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 47
+      "count": 46
     },
     {
       "name": "R&B",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 21
+      "count": 20
     },
     {
       "name": "World",
@@ -431,122 +431,10 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1AAZJp7",
-      "artist": "Judy Collins",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA77_E",
-      "artist": "Miko Marks",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ullh3se",
-      "artist": "Dinosaur Jr.",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_-",
-      "artist": "Peaches",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pe1b",
-      "artist": "MUNA",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GGRVjEA",
-      "artist": "EPIK HIGH",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_uk8kyiH",
       "artist": "ROLE MODEL",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-MbK",
-      "artist": "Pertinence",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa0rf",
-      "artist": "Raaginder",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPfoS",
-      "artist": "Jenna Raine",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6JeBJZ6",
-      "artist": "The Wallflowers",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xZPw",
-      "artist": "Sunset Rollercoaster",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pe03",
-      "artist": "Jenna Raine",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70OaI",
-      "artist": "She Wants Revenge",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_3KgDy6X",
-      "artist": "Nice as F**k",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAv6ok",
-      "artist": "Last Dinosaurs",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2LEvHN2",
-      "artist": "Fastball",
-      "date": "Sun Oct 18",
-      "localDate": "2026-10-18",
+      "date": "Mon Oct 19",
+      "localDate": "2026-10-19",
       "reason": "no taste match"
     },
     {
@@ -627,13 +515,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_A5NTXU-",
-      "artist": "gnash",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1AfPwOK",
       "artist": "Sawyer Hill",
       "date": "Tue Oct 20",
@@ -698,6 +579,13 @@
     },
     {
       "id": "rZ7HnEZ1AfuU1f",
+      "artist": "gnash",
+      "date": "Wed Oct 21",
+      "localDate": "2026-10-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_A5NTXU-",
       "artist": "gnash",
       "date": "Wed Oct 21",
       "localDate": "2026-10-21",
@@ -5714,7 +5602,49 @@
       "date": "Fri Jan 15",
       "localDate": "2027-01-15",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afuf37",
+      "artist": "Red NOT Chili Peppers",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oEoatlX",
+      "artist": "STS9",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70Mo_",
+      "artist": "Book of Love",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_4kJo1jE",
+      "artist": "Ultimate Def Leppard Tribute Concert with Def Lepp",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuUp7",
+      "artist": "Taper's Choice",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfF-fV",
+      "artist": "La Reezy —Skiddle Bandana Tour",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 760
+  "eventCount": 750
 }
