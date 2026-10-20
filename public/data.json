@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-19T19:00:20.017Z",
+  "generatedAt": "2026-10-20T05:40:00.732Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,29 +36,29 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-19T19:00:20Z",
-      "endDateTime": "2027-01-17T19:00:20Z"
+      "startDateTime": "2026-10-20T05:40:00Z",
+      "endDateTime": "2027-01-18T05:40:00Z"
     },
-    "eventsConsidered": 752,
-    "eventsReported": 752,
+    "eventsConsidered": 746,
+    "eventsReported": 746,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 164
+      "count": 165
     },
     {
       "name": "Other",
-      "count": 163
+      "count": 161
     },
     {
       "name": "Alternative",
-      "count": 83
+      "count": 82
     },
     {
       "name": "Pop",
-      "count": 68
+      "count": 65
     },
     {
       "name": "Dance/Electronic",
@@ -77,11 +77,11 @@
       "count": 20
     },
     {
-      "name": "World",
-      "count": 18
+      "name": "Latin",
+      "count": 17
     },
     {
-      "name": "Latin",
+      "name": "World",
       "count": 17
     },
     {
@@ -430,69 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_uk8kyiH",
-      "artist": "ROLE MODEL",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_u51HK-Q",
-      "artist": "almost monday",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-z-d",
-      "artist": "Post Sex Nachos",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJfAK",
-      "artist": "Spencer Krug",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MoK",
-      "artist": "Hovvdy",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFIf0",
-      "artist": "Vox Rea",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1MePyYg",
-      "artist": "Bebe Stockwell",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aK_K-GR",
-      "artist": "Geese",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZMfs",
-      "artist": "Dinosaur Jr.",
-      "date": "Mon Oct 19",
-      "localDate": "2026-10-19",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7J47Y",
       "artist": "Jerry Douglas",
@@ -2239,13 +2176,6 @@
     {
       "id": "G5vYZ_oKkjru5",
       "artist": "Jessie Reyez",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_39wnbj8",
-      "artist": "Sidhu Moose Wala",
       "date": "Fri Nov 6",
       "localDate": "2026-11-06",
       "reason": "no taste match"
@@ -5658,7 +5588,35 @@
       "date": "Sat Jan 16",
       "localDate": "2027-01-16",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CUC0Jxp",
+      "artist": "Jesse Cook",
+      "date": "Sun Jan 17",
+      "localDate": "2027-01-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af16_V",
+      "artist": "STS9",
+      "date": "Sun Jan 17",
+      "localDate": "2027-01-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fNGd3J5",
+      "artist": "Dogs In A Pile",
+      "date": "Sun Jan 17",
+      "localDate": "2027-01-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAeFjJ",
+      "artist": "ZOSO",
+      "date": "Sun Jan 17",
+      "localDate": "2027-01-17",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 752
+  "eventCount": 746
 }
