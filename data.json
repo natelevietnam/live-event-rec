@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-20T17:46:23.152Z",
+  "generatedAt": "2026-10-21T05:43:22.022Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-20T17:46:23Z",
-      "endDateTime": "2027-01-18T17:46:23Z"
+      "startDateTime": "2026-10-21T05:43:22Z",
+      "endDateTime": "2027-01-19T05:43:22Z"
     },
-    "eventsConsidered": 749,
-    "eventsReported": 749,
+    "eventsConsidered": 743,
+    "eventsReported": 743,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 168
+      "count": 166
     },
     {
       "name": "Other",
-      "count": 161
+      "count": 160
     },
     {
       "name": "Alternative",
-      "count": 81
+      "count": 80
     },
     {
       "name": "Pop",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 20
+      "count": 19
     },
     {
       "name": "World",
@@ -85,12 +85,12 @@
       "count": 17
     },
     {
-      "name": "Folk",
+      "name": "Metal",
       "count": 16
     },
     {
-      "name": "Metal",
-      "count": 16
+      "name": "Folk",
+      "count": 15
     },
     {
       "name": "Jazz",
@@ -430,55 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7J47Y",
-      "artist": "Jerry Douglas",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1QOs3zd",
-      "artist": "Shakey Graves",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af7xf7",
-      "artist": "Laura Veirs",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfP0Qd",
-      "artist": "Sean Nicholas Savage",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZpqy",
-      "artist": "Allah-Las",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aKhZ-q-",
-      "artist": "Geese",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEA7",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Oct 20",
-      "localDate": "2026-10-20",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_3Rihbis",
       "artist": "Movie",
@@ -1296,7 +1247,7 @@
       "artist": "Felukah — HibisKiss Tour",
       "date": "Wed Oct 28",
       "localDate": "2026-10-28",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_CQ8DMUk",
@@ -2563,7 +2514,7 @@
       "artist": "Soft Cell",
       "date": "Tue Nov 10",
       "localDate": "2026-11-10",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "rZ7HnEZ1AfFE8V",
@@ -2752,7 +2703,7 @@
       "artist": "they are gutting a body of water",
       "date": "Thu Nov 12",
       "localDate": "2026-11-12",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_8Ctecib",
@@ -4974,6 +4925,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1A70_oM",
+      "artist": "Pokey LaFarge",
+      "date": "Wed Dec 16",
+      "localDate": "2026-12-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA7vof",
       "artist": "Kim Petras",
       "date": "Wed Dec 16",
@@ -5639,5 +5597,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 749
+  "eventCount": 743
 }
