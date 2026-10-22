@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-21T17:54:17.291Z",
+  "generatedAt": "2026-10-22T05:45:24.042Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-21T17:54:17Z",
-      "endDateTime": "2027-01-19T17:54:17Z"
+      "startDateTime": "2026-10-22T05:45:24Z",
+      "endDateTime": "2027-01-20T05:45:24Z"
     },
-    "eventsConsidered": 746,
-    "eventsReported": 746,
+    "eventsConsidered": 740,
+    "eventsReported": 740,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 161
+      "count": 159
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Pop",
-      "count": 65
+      "count": 62
     },
     {
       "name": "Dance/Electronic",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 32
+      "count": 31
     },
     {
       "name": "Country",
@@ -182,9 +182,9 @@
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
-          "kind": "presale",
+          "kind": "onsale",
           "at": "2025-10-10T17:00:00.000Z",
-          "presaleName": "VIP Package Onsale",
+          "presaleName": null,
           "daysUntilOnsale": 0,
           "daysUntilShow": 4,
           "imminent": true
@@ -430,76 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_3Rihbis",
-      "artist": "Movie",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwO0",
-      "artist": "Open Mic Night",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CaZ0mnk",
-      "artist": "Todd Rundgren",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vvAd",
-      "artist": "Big Ass Truck",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuU1f",
-      "artist": "gnash",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_A5NTXU-",
-      "artist": "gnash",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afat_0",
-      "artist": "Yana",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAv4FS",
-      "artist": "Ten",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvvGP",
-      "artist": "DIIV",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GFHHYVA",
-      "artist": "Malcolm Todd",
-      "date": "Wed Oct 21",
-      "localDate": "2026-10-21",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAe4_N",
       "artist": "A Split Second",
@@ -2507,7 +2437,7 @@
       "artist": "Louie TheSinger",
       "date": "Tue Nov 10",
       "localDate": "2026-11-10",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_27SdHPE",
@@ -5212,6 +5142,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_4dBauT9",
+      "artist": "Sunami",
+      "date": "Sat Dec 26",
+      "localDate": "2026-12-26",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA77jA",
       "artist": "Chuck Prophet",
       "date": "Sat Dec 26",
@@ -5346,7 +5283,7 @@
     },
     {
       "id": "rZ7HnEZ1AfGKZV",
-      "artist": "Paula West New Year's Eve Concert 7pm",
+      "artist": "Paula West Ring in the New Year Concert 10:30pm",
       "date": "Thu Dec 31",
       "localDate": "2026-12-31",
       "reason": "no taste match"
@@ -5616,7 +5553,28 @@
       "date": "Sun Jan 17",
       "localDate": "2027-01-17",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAe4Q3",
+      "artist": "True Widow",
+      "date": "Tue Jan 19",
+      "localDate": "2027-01-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_CPsSVwE",
+      "artist": "Five for Fighting",
+      "date": "Tue Jan 19",
+      "localDate": "2027-01-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEZf",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Jan 19",
+      "localDate": "2027-01-19",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 746
+  "eventCount": 740
 }
