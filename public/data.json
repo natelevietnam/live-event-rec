@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-23T05:44:06.279Z",
+  "generatedAt": "2026-10-23T17:42:35.035Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-23T05:44:06Z",
-      "endDateTime": "2027-01-21T05:44:06Z"
+      "startDateTime": "2026-10-23T17:42:35Z",
+      "endDateTime": "2027-01-21T17:42:35Z"
     },
-    "eventsConsidered": 728,
-    "eventsReported": 728,
+    "eventsConsidered": 729,
+    "eventsReported": 729,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 163
+      "count": 164
     },
     {
       "name": "Other",
@@ -163,7 +163,7 @@
       "score": 98,
       "raw": 83,
       "scoredOutOf": 85,
-      "reason": "Direct match. 3 days out. SF venue, Sunday.",
+      "reason": "Direct match. 2 days out. SF venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 3,
+          "daysUntilShow": 2,
           "imminent": true
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 22 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 21 days out. Oakland venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 22,
+          "daysUntilShow": 21,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 5 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 4 days out. Concord venue, Tuesday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 16 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 15 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 16,
+          "daysUntilShow": 15,
           "imminent": false
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 21 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 20 days out. Oakland venue, Thursday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 21,
+          "daysUntilShow": 20,
           "imminent": false
         },
         "effort": {
@@ -3494,7 +3494,7 @@
       "artist": "The Residents",
       "date": "Sun Nov 22",
       "localDate": "2026-11-22",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_832SQGl",
@@ -5107,6 +5107,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_fB9sy89",
+      "artist": "Steely Dead",
+      "date": "Wed Dec 30",
+      "localDate": "2026-12-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_KIA6n57",
       "artist": "Primus",
       "date": "Wed Dec 30",
@@ -5492,5 +5499,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 728
+  "eventCount": 729
 }
