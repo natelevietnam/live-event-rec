@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-22T17:50:52.654Z",
+  "generatedAt": "2026-10-23T05:44:06.279Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-22T17:50:52Z",
-      "endDateTime": "2027-01-20T17:50:52Z"
+      "startDateTime": "2026-10-23T05:44:06Z",
+      "endDateTime": "2027-01-21T05:44:06Z"
     },
-    "eventsConsidered": 742,
-    "eventsReported": 742,
+    "eventsConsidered": 728,
+    "eventsReported": 728,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 168
+      "count": 163
     },
     {
       "name": "Other",
-      "count": 159
+      "count": 156
     },
     {
       "name": "Alternative",
-      "count": 80
+      "count": 79
     },
     {
       "name": "Pop",
-      "count": 62
+      "count": 59
     },
     {
       "name": "Dance/Electronic",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Country",
@@ -109,10 +109,6 @@
       "count": 2
     },
     {
-      "name": "Reggae",
-      "count": 2
-    },
-    {
       "name": "Theatre",
       "count": 2
     },
@@ -122,6 +118,10 @@
     },
     {
       "name": "Music",
+      "count": 1
+    },
+    {
+      "name": "Reggae",
       "count": 1
     },
     {
@@ -430,118 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAe4_N",
-      "artist": "A Split Second",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZAap",
-      "artist": "The Aquabats!",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_k9tCFP3",
-      "artist": "Rise Against",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x78y",
-      "artist": "SWITCHFOOT",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2yMkpec",
-      "artist": "George Clanton",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZJud",
-      "artist": "The Rose Hips with Sun Casino",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Mof",
-      "artist": "Justin Nozuka",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0_1d",
-      "artist": "Frankie Cosmos",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-3aS",
-      "artist": "WESLEY JOSEPH",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_F22d3EJ",
-      "artist": "MONSTA X",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1vG0",
-      "artist": "Broadway",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GFWW-6g",
-      "artist": "Malcolm Todd",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvda8",
-      "artist": "Easy Star All-Stars",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xo7U",
-      "artist": "Steely Dead",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VOa",
-      "artist": "Liz Longley",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuSef",
-      "artist": "Stratejacket/ 100% Jennifer/ The Shirley's",
-      "date": "Thu Oct 22",
-      "localDate": "2026-10-22",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAZvQp",
       "artist": "TR/ST",
@@ -3413,6 +3301,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4vKbS",
+      "artist": "BEYOND 30: 80s & 90s Over 30s Daytime Clubbing - OAKLAND",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZo-o",
       "artist": "Surely Tempo",
       "date": "Sat Nov 21",
@@ -4870,7 +4765,7 @@
     },
     {
       "id": "rZ7HnEZ1A4v3jK",
-      "artist": "Rexv2 -  Baby Houston Tour",
+      "artist": "rexv2 — Baby Houston Tour",
       "date": "Wed Dec 16",
       "localDate": "2026-12-16",
       "reason": "no taste match"
@@ -5588,7 +5483,14 @@
       "date": "Tue Jan 19",
       "localDate": "2027-01-19",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3SYlU0T",
+      "artist": "DJ Meredith Marks",
+      "date": "Wed Jan 20",
+      "localDate": "2027-01-20",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 742
+  "eventCount": 728
 }
