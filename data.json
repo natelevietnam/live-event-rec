@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-24T05:23:06.808Z",
+  "generatedAt": "2026-10-24T16:25:53.157Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-24T05:23:06Z",
-      "endDateTime": "2027-01-22T05:23:06Z"
+      "startDateTime": "2026-10-24T16:25:53Z",
+      "endDateTime": "2027-01-22T16:25:53Z"
     },
-    "eventsConsidered": 707,
-    "eventsReported": 707,
+    "eventsConsidered": 706,
+    "eventsReported": 706,
     "truncated": false
   },
   "genres": [
@@ -73,15 +73,15 @@
       "count": 30
     },
     {
-      "name": "World",
-      "count": 17
-    },
-    {
       "name": "Country",
       "count": 16
     },
     {
       "name": "Latin",
+      "count": 16
+    },
+    {
+      "name": "World",
       "count": 16
     },
     {
@@ -163,7 +163,7 @@
       "score": 98,
       "raw": 83,
       "scoredOutOf": 85,
-      "reason": "Direct match. 2 days out. SF venue, Sunday.",
+      "reason": "Direct match. Tomorrow. SF venue, Sunday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2025-10-10T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 2,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 21 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 20 days out. Oakland venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 21,
+          "daysUntilShow": 20,
           "imminent": false
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 4 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. 3 days out. Concord venue, Tuesday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 4,
+          "daysUntilShow": 3,
           "imminent": true
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 15 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 14 days out. San Jose venue, Saturday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 15,
+          "daysUntilShow": 14,
           "imminent": false
         },
         "effort": {
@@ -391,7 +391,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 20 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 19 days out. Oakland venue, Thursday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -414,7 +414,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 20,
+          "daysUntilShow": 19,
           "imminent": false
         },
         "effort": {
@@ -430,13 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1Af040N",
-      "artist": "GEMS x 2000's Party! The Bay's Best Throwback Party w/ Amal + Chef Dre + Kodon & Old School Latin Patio by Her DJ Club",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7Pg_v",
       "artist": "Marc Rebillet",
@@ -5345,5 +5338,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 707
+  "eventCount": 706
 }
