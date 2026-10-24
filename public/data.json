@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-23T17:42:35.035Z",
+  "generatedAt": "2026-10-24T05:23:06.808Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,61 +36,61 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-23T17:42:35Z",
-      "endDateTime": "2027-01-21T17:42:35Z"
+      "startDateTime": "2026-10-24T05:23:06Z",
+      "endDateTime": "2027-01-22T05:23:06Z"
     },
-    "eventsConsidered": 729,
-    "eventsReported": 729,
+    "eventsConsidered": 707,
+    "eventsReported": 707,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 164
+      "count": 160
     },
     {
       "name": "Other",
-      "count": 156
+      "count": 153
     },
     {
       "name": "Alternative",
-      "count": 79
+      "count": 77
     },
     {
       "name": "Pop",
-      "count": 59
+      "count": 57
     },
     {
       "name": "Dance/Electronic",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 49
+      "count": 46
     },
     {
       "name": "R&B",
       "count": 30
     },
     {
-      "name": "Country",
-      "count": 19
-    },
-    {
       "name": "World",
-      "count": 18
-    },
-    {
-      "name": "Latin",
       "count": 17
     },
     {
-      "name": "Metal",
+      "name": "Country",
       "count": 16
     },
     {
-      "name": "Folk",
+      "name": "Latin",
+      "count": 16
+    },
+    {
+      "name": "Metal",
       "count": 15
+    },
+    {
+      "name": "Folk",
+      "count": 14
     },
     {
       "name": "Jazz",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Classical",
-      "count": 8
+      "count": 7
     },
     {
       "name": "New Age",
@@ -296,9 +296,9 @@
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
-          "kind": "presale",
+          "kind": "onsale",
           "at": "2026-06-05T19:00:00.000Z",
-          "presaleName": "VIP Package Onsale",
+          "presaleName": null,
           "daysUntilOnsale": 0,
           "daysUntilShow": 4,
           "imminent": true
@@ -431,202 +431,6 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1AAZvQp",
-      "artist": "TR/ST",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA77QA",
-      "artist": "Frightwig",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GKTQIqt",
-      "artist": "Pouya",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70b3f",
-      "artist": "Basement",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1f5qfAc",
-      "artist": "SWITCHFOOT",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afukj7",
-      "artist": "Etch/ Vicious Cycle/ Wink/ Here at the End/ Sucios",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG4qV",
-      "artist": "Psyched! Radio Present Joey Cash w/ Jade 2008 + Discnogirl + Leakz",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70kkF",
-      "artist": "Kacey Musgraves",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8bceHQn",
-      "artist": "Reo Brothers",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x7oZ",
-      "artist": "UB40",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mXc5_S",
-      "artist": "Julia Jacklin",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afug00",
-      "artist": "FlipABeatClub Presents: WAV Forum 4th Fridays at Neck of the Woods SF",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xKb_",
-      "artist": "Julia Wolf",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGNr7",
-      "artist": "Adam Pascal",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FDrVv2X",
-      "artist": "SLIFT",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_a98gQQQ",
-      "artist": "Shaboozey",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5Y58Ivy",
-      "artist": "Gary Clark Jr.",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ARnjqwj",
-      "artist": "Celtic Thunder",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CA1BrD-",
-      "artist": "Sarah Jarosz",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aDymCGU",
-      "artist": "Bronco",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa7oV",
-      "artist": "Protomartyr",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G62LU1bNx",
-      "artist": "Dustin Lynch",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Jeo6",
-      "artist": "Chief Keef",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfF3PV",
-      "artist": "Frog",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af06CK",
-      "artist": "REZN",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70bf_",
-      "artist": "REZN",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8ja",
-      "artist": "Cheekface",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZI-J",
-      "artist": "CID",
-      "date": "Fri Oct 23",
-      "localDate": "2026-10-23",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1Af040N",
       "artist": "GEMS x 2000's Party! The Bay's Best Throwback Party w/ Amal + Chef Dre + Kodon & Old School Latin Patio by Her DJ Club",
       "date": "Fri Oct 23",
@@ -734,13 +538,6 @@
     {
       "id": "G5vYZ_CCxpQM1",
       "artist": "Protomartyr",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2QPRnJG",
-      "artist": "Jodeci",
       "date": "Sat Oct 24",
       "localDate": "2026-10-24",
       "reason": "no taste match"
@@ -1754,6 +1551,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_4r-9R9C",
+      "artist": "Movie",
+      "date": "Wed Nov 4",
+      "localDate": "2026-11-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfZwj0",
       "artist": "Open Mic Night",
       "date": "Wed Nov 4",
@@ -2115,7 +1919,7 @@
       "artist": "Adam Ant",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_1y7YWsH",
@@ -2169,6 +1973,13 @@
     {
       "id": "Z7r9jZ1AAvFOV",
       "artist": "Azchike",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvz-O",
+      "artist": "Tainted Love",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -2986,6 +2797,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_4r06Yw9",
+      "artist": "Movie",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfZwJf",
       "artist": "Open Mic Night",
       "date": "Wed Nov 18",
@@ -3001,7 +2819,7 @@
     },
     {
       "id": "rZ7HnEZ1Afus77",
-      "artist": "LAYA - Lipstick N Leather",
+      "artist": "Laya",
       "date": "Wed Nov 18",
       "localDate": "2026-11-18",
       "reason": "no taste match"
@@ -3226,6 +3044,13 @@
     {
       "id": "Z7r9jZ1A7-VOo",
       "artist": "Susan Werner",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7PwC4",
+      "artist": "Y&T",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -5254,6 +5079,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_2QPRnJG",
+      "artist": "Jodeci",
+      "date": "Fri Jan 8",
+      "localDate": "2027-01-08",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7Px4t",
       "artist": "In Conversation with The Sopranos",
       "date": "Fri Jan 8",
@@ -5497,7 +5329,21 @@
       "date": "Wed Jan 20",
       "localDate": "2027-01-20",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7F77",
+      "artist": "ALLEYCVT",
+      "date": "Thu Jan 21",
+      "localDate": "2027-01-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_2NiKcTO",
+      "artist": "Beth Hart",
+      "date": "Thu Jan 21",
+      "localDate": "2027-01-21",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 729
+  "eventCount": 707
 }
