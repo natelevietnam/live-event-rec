@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-24T16:25:53.157Z",
+  "generatedAt": "2026-10-25T05:41:22.841Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-24T16:25:53Z",
-      "endDateTime": "2027-01-22T16:25:53Z"
+      "startDateTime": "2026-10-25T05:41:22Z",
+      "endDateTime": "2027-01-23T05:41:22Z"
     },
-    "eventsConsidered": 706,
-    "eventsReported": 706,
+    "eventsConsidered": 688,
+    "eventsReported": 688,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 160
+      "count": 158
     },
     {
       "name": "Other",
-      "count": 153
+      "count": 148
     },
     {
       "name": "Alternative",
-      "count": 77
+      "count": 74
     },
     {
       "name": "Pop",
-      "count": 57
+      "count": 55
     },
     {
       "name": "Dance/Electronic",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Hip-Hop/Rap",
@@ -74,15 +74,15 @@
     },
     {
       "name": "Country",
-      "count": 16
-    },
-    {
-      "name": "Latin",
-      "count": 16
+      "count": 17
     },
     {
       "name": "World",
       "count": 16
+    },
+    {
+      "name": "Latin",
+      "count": 15
     },
     {
       "name": "Metal",
@@ -90,11 +90,11 @@
     },
     {
       "name": "Folk",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Jazz",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Blues",
@@ -102,7 +102,7 @@
     },
     {
       "name": "Classical",
-      "count": 7
+      "count": 6
     },
     {
       "name": "New Age",
@@ -258,6 +258,63 @@
       }
     },
     {
+      "id": "Z7r9jZ1A7PKeb",
+      "artist": "Mario",
+      "seed": "Usher",
+      "seeds": [
+        "Usher"
+      ],
+      "tier": "adjacent",
+      "eventName": "Total Vibez Live",
+      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKeb",
+      "genre": null,
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
+      "localTime": "14:00:00",
+      "weekday": "Saturday",
+      "venue": "Lake Cunningham Regional Park",
+      "city": "San Jose",
+      "score": 54,
+      "raw": 46,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to Usher. 14 days out. San Jose venue, Saturday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "Usher",
+          "seeds": [
+            "Usher"
+          ],
+          "matchedOn": "Mario"
+        },
+        "urgency": {
+          "points": 18,
+          "max": 20,
+          "driver": "proximity",
+          "state": "onSaleNow",
+          "kind": "onsale",
+          "at": "1900-01-01T18:00:00.000Z",
+          "presaleName": null,
+          "daysUntilOnsale": 0,
+          "daysUntilShow": 14,
+          "imminent": true
+        },
+        "effort": {
+          "points": 8,
+          "max": 20,
+          "area": "peninsulaSouthBay",
+          "areaLabel": "San Jose",
+          "weeknight": false,
+          "weekday": "Saturday",
+          "weeknightPenalty": 0
+        }
+      }
+    },
+    {
       "id": "G5vYZ_5IX0y73",
       "artist": "Bryson Tiller",
       "seed": "Chris Brown",
@@ -311,63 +368,6 @@
           "weeknight": true,
           "weekday": "Tuesday",
           "weeknightPenalty": 6
-        }
-      }
-    },
-    {
-      "id": "Z7r9jZ1A7PKeb",
-      "artist": "Mario",
-      "seed": "Usher",
-      "seeds": [
-        "Usher"
-      ],
-      "tier": "adjacent",
-      "eventName": "Total Vibez Live",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKeb",
-      "genre": null,
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "localTime": "14:00:00",
-      "weekday": "Saturday",
-      "venue": "Lake Cunningham Regional Park",
-      "city": "San Jose",
-      "score": 47,
-      "raw": 40,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 14 days out. San Jose venue, Saturday.",
-      "urgent": false,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "Usher",
-          "seeds": [
-            "Usher"
-          ],
-          "matchedOn": "Mario"
-        },
-        "urgency": {
-          "points": 12,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "1900-01-01T18:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 14,
-          "imminent": false
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "San Jose",
-          "weeknight": false,
-          "weekday": "Saturday",
-          "weeknightPenalty": 0
         }
       }
     },
@@ -430,167 +430,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A7Pg_v",
-      "artist": "Marc Rebillet",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af14u0",
-      "artist": "Mistah Fab",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PJ83",
-      "artist": "Basement",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_AjvOiV1",
-      "artist": "Boney James",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa8j7",
-      "artist": "Blitzkid",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J4Gw",
-      "artist": "illuminati hotties",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_3UXZlzg",
-      "artist": "Gabby Concepcion",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FTZ_iUu",
-      "artist": "SOFI TUKKER",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mThhPU",
-      "artist": "Julia Jacklin",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaYv0",
-      "artist": "Camp Blu",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afagof",
-      "artist": "Kelsey Kindall",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GnTwbU0",
-      "artist": "Amble",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PzO7",
-      "artist": "Jai Wolf",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGNqV",
-      "artist": "Adam Pascal",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CCxpQM1",
-      "artist": "Protomartyr",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uEGAPVq",
-      "artist": "William Black",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_4QKpnnt",
-      "artist": "Super Diamond",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5pUwTms",
-      "artist": "Super Diamond",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FcAyxrz",
-      "artist": "Black Flag",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1A9ZkfpGkdVYqDp",
-      "artist": "Bronco",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af00jd",
-      "artist": "Everclear",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa8-0",
-      "artist": "she's green",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGtk7",
-      "artist": "¡DESMADRE! w/ Jae Coca + Wockie + DJ Romi & Latin Goth Patio by Digital KitKat",
-      "date": "Sat Oct 24",
-      "localDate": "2026-10-24",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A70s8E",
       "artist": "Rob Kapilow",
@@ -5336,7 +5175,42 @@
       "date": "Thu Jan 21",
       "localDate": "2027-01-21",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fLa0mLR",
+      "artist": "Earlybirds Club",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oK4pKbl",
+      "artist": "fakemink",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KM9ZwwU",
+      "artist": "Our House: The Music Of Crosby, Stills, Nash & Young",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv3Fo",
+      "artist": "Fruition",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfCk40",
+      "artist": "The Brothers Comatose",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 706
+  "eventCount": 688
 }
