@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-26T05:46:23.930Z",
+  "generatedAt": "2026-10-26T19:01:08.484Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-26T05:46:23Z",
-      "endDateTime": "2027-01-24T05:46:23Z"
+      "startDateTime": "2026-10-26T19:01:08Z",
+      "endDateTime": "2027-01-24T19:01:08Z"
     },
-    "eventsConsidered": 681,
-    "eventsReported": 681,
+    "eventsConsidered": 687,
+    "eventsReported": 687,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 149
+      "count": 152
     },
     {
       "name": "Alternative",
@@ -62,11 +62,11 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 45
+      "count": 46
     },
     {
       "name": "R&B",
@@ -85,12 +85,12 @@
       "count": 15
     },
     {
-      "name": "Latin",
+      "name": "Folk",
       "count": 14
     },
     {
-      "name": "Folk",
-      "count": 13
+      "name": "Latin",
+      "count": 14
     },
     {
       "name": "Jazz",
@@ -163,7 +163,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 19 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 18 days out. Oakland venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 19,
+          "daysUntilShow": 18,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 13 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 12 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 13,
+          "daysUntilShow": 12,
           "imminent": true
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. 2 days out. Concord venue, Tuesday.",
+      "reason": "Adjacent to Chris Brown. Tomorrow. Concord venue, Tuesday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-06-05T19:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 2,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -334,7 +334,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 18 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 17 days out. Oakland venue, Thursday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -357,7 +357,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 18,
+          "daysUntilShow": 17,
           "imminent": false
         },
         "effort": {
@@ -563,13 +563,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1AAZp7N",
-      "artist": "Shyne",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1AAe4_E",
       "artist": "Pixel Grip",
       "date": "Wed Oct 28",
@@ -600,6 +593,13 @@
     {
       "id": "rZ7HnEZ1Af1Kf7",
       "artist": "Mdou Moctar",
+      "date": "Thu Oct 29",
+      "localDate": "2026-10-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8eCf",
+      "artist": "The Bridge City Sinners",
       "date": "Thu Oct 29",
       "localDate": "2026-10-29",
       "reason": "no taste match"
@@ -2586,6 +2586,13 @@
       "reason": "cancelled"
     },
     {
+      "id": "rZ7HnEZ1Af8ek7",
+      "artist": "Yo! And The Electric/ Mr. Vale's Math Class/ I Am The Octopus",
+      "date": "Thu Nov 19",
+      "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1A4Z8kd",
       "artist": "Internet Girl",
       "date": "Thu Nov 19",
@@ -3650,6 +3657,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7E46",
+      "artist": "Zingara",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A70s8N",
       "artist": "Helene Grimaud",
       "date": "Sun Dec 6",
@@ -3981,6 +3995,13 @@
     {
       "id": "rZ7HnEZ1A4veaK",
       "artist": "The Slackers",
+      "date": "Fri Dec 11",
+      "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8eGV",
+      "artist": "Pig City",
       "date": "Fri Dec 11",
       "localDate": "2026-12-11",
       "reason": "no taste match"
@@ -4434,6 +4455,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8eFV",
+      "artist": "The Richie Cunning & DJBADDJ Holiday Special Year 2",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAvI0z",
       "artist": "The Mother Hips",
       "date": "Sat Dec 19",
@@ -4721,6 +4749,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_KUqZNDV",
+      "artist": "ILLENIUM",
+      "date": "Fri Jan 1",
+      "localDate": "2027-01-01",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAeZC_",
       "artist": "Fresh Start",
       "date": "Sat Jan 2",
@@ -4945,6 +4980,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_4h7SFmw",
+      "artist": "Tainted Love",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfuUp7",
       "artist": "Taper's Choice",
       "date": "Sat Jan 16",
@@ -5113,5 +5155,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 681
+  "eventCount": 687
 }
