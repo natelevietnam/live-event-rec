@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-25T16:57:34.299Z",
+  "generatedAt": "2026-10-26T05:46:23.930Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-25T16:57:34Z",
-      "endDateTime": "2027-01-23T16:57:34Z"
+      "startDateTime": "2026-10-26T05:46:23Z",
+      "endDateTime": "2027-01-24T05:46:23Z"
     },
-    "eventsConsidered": 688,
-    "eventsReported": 688,
+    "eventsConsidered": 681,
+    "eventsReported": 681,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 158
+      "count": 157
     },
     {
       "name": "Other",
-      "count": 148
+      "count": 149
     },
     {
       "name": "Alternative",
-      "count": 74
+      "count": 71
     },
     {
       "name": "Pop",
@@ -62,31 +62,31 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 46
+      "count": 45
     },
     {
       "name": "R&B",
-      "count": 30
+      "count": 29
     },
     {
       "name": "Country",
-      "count": 17
+      "count": 16
     },
     {
       "name": "World",
       "count": 16
     },
     {
-      "name": "Latin",
+      "name": "Metal",
       "count": 15
     },
     {
-      "name": "Metal",
-      "count": 15
+      "name": "Latin",
+      "count": 14
     },
     {
       "name": "Folk",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Blues",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Classical",
@@ -143,63 +143,6 @@
     "travel": "all"
   },
   "shows": [
-    {
-      "id": "G5vYZbS0uA9TW",
-      "artist": "Doja Cat",
-      "seed": "Doja Cat",
-      "seeds": [
-        "Doja Cat"
-      ],
-      "tier": "direct",
-      "eventName": "Doja Cat - Tour Ma Vie World Tour",
-      "url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-25-2026/event/1C0063390D157FFD",
-      "genre": "Hip-Hop/Rap",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "localTime": "19:30:00",
-      "weekday": "Sunday",
-      "venue": "Chase Center",
-      "city": "San Francisco",
-      "score": 98,
-      "raw": 83,
-      "scoredOutOf": 85,
-      "reason": "Direct match. Tonight. SF venue, Sunday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "Doja Cat",
-          "seeds": [
-            "Doja Cat"
-          ],
-          "matchedOn": "Doja Cat"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2025-10-10T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 20,
-          "max": 20,
-          "area": "sf",
-          "areaLabel": "SF",
-          "weeknight": false,
-          "weekday": "Sunday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
     {
       "id": "G5vYZ_2fIMqin",
       "artist": "Tyla",
@@ -430,97 +373,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A70s8E",
-      "artist": "Rob Kapilow",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2LtquF2",
-      "artist": "Joy Oladokun",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvb4",
-      "artist": "Marion Meadows",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_fGZpeRN",
-      "artist": "Cornelio Vega",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1A4Zz_S",
-      "artist": "Nekromantix",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x7ov",
-      "artist": "Everclear",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGd4V",
-      "artist": "Smush/ Sofia & The Afterglow/ Brother M",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afaxvf",
-      "artist": "Blessing Offor",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPg0d",
-      "artist": "BALTHVS",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfatbV",
-      "artist": "natalie jinju, Chiabiee",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6dE8OLN",
-      "artist": "Kishi Bashi",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_o2ail3S",
-      "artist": "Lil Pete",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CtWDpVD",
-      "artist": "Los Hermanos Mendoza",
-      "date": "Sun Oct 25",
-      "localDate": "2026-10-25",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAe4_P",
       "artist": "Inner Wave",
@@ -5210,7 +5062,56 @@
       "date": "Fri Jan 22",
       "localDate": "2027-01-22",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fBN-By4",
+      "artist": "THE LEGEND OF KORRA IN CONCERT",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KxWsAtF",
+      "artist": "Paco Versailles",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAv67S",
+      "artist": "fakemink",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_F7J_a_8",
+      "artist": "Rudy Colombini",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfCKb0",
+      "artist": "The Brothers Comatose",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuM70",
+      "artist": "44phantom",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZo-f",
+      "artist": "Don Carlos",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 688
+  "eventCount": 681
 }
