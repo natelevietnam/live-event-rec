@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-27T18:33:05.649Z",
+  "generatedAt": "2026-10-28T06:37:30.633Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-27T18:33:05Z",
-      "endDateTime": "2027-01-25T18:33:05Z"
+      "startDateTime": "2026-10-28T06:37:30Z",
+      "endDateTime": "2027-01-26T06:37:30Z"
     },
-    "eventsConsidered": 689,
-    "eventsReported": 689,
+    "eventsConsidered": 684,
+    "eventsReported": 684,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 160
+      "count": 159
     },
     {
       "name": "Other",
@@ -54,35 +54,35 @@
     },
     {
       "name": "Alternative",
-      "count": 70
-    },
-    {
-      "name": "Pop",
-      "count": 55
+      "count": 69
     },
     {
       "name": "Dance/Electronic",
-      "count": 54
+      "count": 55
+    },
+    {
+      "name": "Pop",
+      "count": 53
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 44
+      "count": 42
     },
     {
       "name": "R&B",
-      "count": 29
+      "count": 30
     },
     {
       "name": "Country",
       "count": 17
     },
     {
-      "name": "Metal",
+      "name": "World",
       "count": 16
     },
     {
-      "name": "World",
-      "count": 16
+      "name": "Metal",
+      "count": 15
     },
     {
       "name": "Folk",
@@ -258,63 +258,6 @@
       }
     },
     {
-      "id": "G5vYZ_5IX0y73",
-      "artist": "Bryson Tiller",
-      "seed": "Chris Brown",
-      "seeds": [
-        "Chris Brown"
-      ],
-      "tier": "adjacent",
-      "eventName": "Bryson Tiller Presents: The Neo Trapsoul Tour",
-      "url": "https://www.ticketmaster.com/bryson-tiller-presents-the-neo-trapsoul-concord-california-10-27-2026/event/1C0064BA3E939112",
-      "genre": "Hip-Hop/Rap",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "localTime": "19:30:00",
-      "weekday": "Tuesday",
-      "venue": "Toyota Pavilion at Concord",
-      "city": "Concord",
-      "score": 47,
-      "raw": 40,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to Chris Brown. Tonight. Concord venue, Tuesday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "Chris Brown",
-          "seeds": [
-            "Chris Brown"
-          ],
-          "matchedOn": "Bryson Tiller"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-06-05T19:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 2,
-          "max": 20,
-          "area": "unknown",
-          "areaLabel": "Concord",
-          "weeknight": true,
-          "weekday": "Tuesday",
-          "weeknightPenalty": 6
-        }
-      }
-    },
-    {
       "id": "G5vYZ_32iy6Gx",
       "artist": "Isaiah Rashad",
       "seed": "J. Cole",
@@ -373,76 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_GlTz9wI",
-      "artist": "Lenny Pearce",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5EhIC8T",
-      "artist": "Phoebe Bridgers",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFe40",
-      "artist": "Landon Conrath",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_13KOBrX",
-      "artist": "Slow Pulp",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_J",
-      "artist": "Wand",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1BWWz5C",
-      "artist": "Grace Enger",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_5QObDmm",
-      "artist": "6LACK",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1AAvvee",
-      "artist": "Havok",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_73JO5lB",
-      "artist": "W.A.S.P.",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEuf",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Oct 27",
-      "localDate": "2026-10-27",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_AllHHol",
       "artist": "Gorillaz",
@@ -2236,6 +2109,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAvyPP",
+      "artist": "Reggaeton Rave",
+      "date": "Sat Nov 14",
+      "localDate": "2026-11-14",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfCA_V",
       "artist": "The Get Down",
       "date": "Sat Nov 14",
@@ -2756,6 +2636,20 @@
     {
       "id": "rZ7HnEZ1Af-f_K",
       "artist": "Bayonne",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvtv7",
+      "artist": "Hans Glader",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8A47",
+      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -3617,6 +3511,13 @@
     {
       "id": "Z7r9jZ1AA7E46",
       "artist": "Zingara",
+      "date": "Sat Dec 5",
+      "localDate": "2026-12-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvtvd",
+      "artist": "Midnight Tyrannosaurus",
       "date": "Sat Dec 5",
       "localDate": "2026-12-05",
       "reason": "no taste match"
@@ -5155,6 +5056,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7Jad",
+      "artist": "Klangkarussell",
+      "date": "Sun Jan 24",
+      "localDate": "2027-01-24",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_f13Dqog",
       "artist": "TesseracT",
       "date": "Sun Jan 24",
@@ -5167,7 +5075,14 @@
       "date": "Sun Jan 24",
       "localDate": "2027-01-24",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KSG-6ey",
+      "artist": "Bad Suns",
+      "date": "Mon Jan 25",
+      "localDate": "2027-01-25",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 689
+  "eventCount": 684
 }
