@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-28T06:37:30.633Z",
+  "generatedAt": "2026-10-28T18:39:22.801Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-28T06:37:30Z",
-      "endDateTime": "2027-01-26T06:37:30Z"
+      "startDateTime": "2026-10-28T18:39:22Z",
+      "endDateTime": "2027-01-26T18:39:22Z"
     },
-    "eventsConsidered": 684,
-    "eventsReported": 684,
+    "eventsConsidered": 689,
+    "eventsReported": 689,
     "truncated": false
   },
   "genres": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 69
+      "count": 71
     },
     {
       "name": "Dance/Electronic",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 42
+      "count": 43
     },
     {
       "name": "R&B",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 17
+      "count": 18
     },
     {
       "name": "World",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Jazz",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Blues",
@@ -163,7 +163,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 17 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 16 days out. Oakland venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 17,
+          "daysUntilShow": 16,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 11 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 10 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 11,
+          "daysUntilShow": 10,
           "imminent": true
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 47,
       "raw": 40,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 16 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 15 days out. Oakland venue, Thursday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 16,
+          "daysUntilShow": 15,
           "imminent": false
         },
         "effort": {
@@ -3649,6 +3649,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af87OV",
+      "artist": "Lazer Dim 700",
+      "date": "Mon Dec 7",
+      "localDate": "2026-12-07",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_5mq0w7N",
       "artist": "Gracie Abrams",
       "date": "Mon Dec 7",
@@ -4384,6 +4391,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8eP0",
+      "artist": "Nueve Lio",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_okloqsV",
       "artist": "A John Prine Christmas with The Jenner Fox Band",
       "date": "Sun Dec 20",
@@ -4564,6 +4578,13 @@
       "date": "Thu Dec 31",
       "localDate": "2026-12-31",
       "reason": "cancelled"
+    },
+    {
+      "id": "rZ7HnEZ1Af8dAf",
+      "artist": "Thievery Corporation",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
     },
     {
       "id": "LvZ18Qne5lsTUPHFklPn7",
@@ -4783,6 +4804,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8eJf",
+      "artist": "The Briefs",
+      "date": "Thu Jan 14",
+      "localDate": "2027-01-14",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4Qo",
       "artist": "LSD and The Search For God",
       "date": "Thu Jan 14",
@@ -4869,6 +4897,13 @@
     {
       "id": "G5vYZ_4h7SFmw",
       "artist": "Tainted Love",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_4R2fa1V",
+      "artist": "Straight Tequila Night",
       "date": "Sat Jan 16",
       "localDate": "2027-01-16",
       "reason": "no taste match"
@@ -5084,5 +5119,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 684
+  "eventCount": 689
 }
