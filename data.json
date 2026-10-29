@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-28T18:39:22.801Z",
+  "generatedAt": "2026-10-29T06:45:08.719Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-28T18:39:22Z",
-      "endDateTime": "2027-01-26T18:39:22Z"
+      "startDateTime": "2026-10-29T06:45:08Z",
+      "endDateTime": "2027-01-27T06:45:08Z"
     },
-    "eventsConsidered": 689,
-    "eventsReported": 689,
+    "eventsConsidered": 684,
+    "eventsReported": 684,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 159
+      "count": 156
     },
     {
       "name": "Other",
-      "count": 150
+      "count": 151
     },
     {
       "name": "Alternative",
-      "count": 71
+      "count": 70
     },
     {
       "name": "Dance/Electronic",
@@ -62,15 +62,15 @@
     },
     {
       "name": "Pop",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 43
+      "count": 42
     },
     {
       "name": "R&B",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Country",
@@ -85,12 +85,12 @@
       "count": 15
     },
     {
-      "name": "Folk",
+      "name": "Latin",
       "count": 14
     },
     {
-      "name": "Latin",
-      "count": 14
+      "name": "Folk",
+      "count": 13
     },
     {
       "name": "Jazz",
@@ -316,111 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_AllHHol",
-      "artist": "Gorillaz",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_a9251k2",
-      "artist": "G-Eazy",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwP0",
-      "artist": "Open Mic Night",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GpQJTlc",
-      "artist": "Phoebe Bridgers",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7xd7-",
-      "artist": "Foreigner",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PNJf",
-      "artist": "Great Lake Swimmers",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afk44V",
-      "artist": "Great Lake Swimmers",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Mo4",
-      "artist": "Theo Katzman",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFV4V",
-      "artist": "Freak Slug",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vZOK",
-      "artist": "Felukah — HibisKiss Tour",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_CQ8DMUk",
-      "artist": "Slow Pulp",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_E",
-      "artist": "Pixel Grip",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1mcGTKW",
-      "artist": "Ax and the Hatchetmen",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PYrb",
-      "artist": "Mumiy Troll",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2h9Xe1b",
-      "artist": "Inner Wave",
-      "date": "Wed Oct 28",
-      "localDate": "2026-10-28",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Af1Kf7",
       "artist": "Mdou Moctar",
@@ -891,15 +786,15 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1Afukjf",
-      "artist": "The Undying/ Kink Shamer/ Deliria/ Broken Glass Sanctuary/ 13 Thrones",
+      "id": "G5vYZ_2W76wIc",
+      "artist": "La Santa Cecilia",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_2W76wIc",
-      "artist": "La Santa Cecilia",
+      "id": "rZ7HnEZ1Afukjf",
+      "artist": "The Undying/ Kink Shamer/ Deliria/ Broken Glass Sanctuary/ 13 Thrones",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
@@ -1067,7 +962,7 @@
     },
     {
       "id": "rZ7HnEZ1Afusj7",
-      "artist": "Roman Candle/ Postdrome/ TBA",
+      "artist": "Roman Candle/ Postdrome/ The American Dream",
       "date": "Wed Nov 4",
       "localDate": "2026-11-04",
       "reason": "no taste match"
@@ -2368,6 +2263,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_8pVx7Pk",
+      "artist": "Jamila Woods",
+      "date": "Wed Nov 18",
+      "localDate": "2026-11-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4_y",
       "artist": "Sueco",
       "date": "Wed Nov 18",
@@ -2377,13 +2279,6 @@
     {
       "id": "Z7r9jZ1AAeojx",
       "artist": "Ninajirachi",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8pVx7Pk",
-      "artist": "Jamila Woods",
       "date": "Wed Nov 18",
       "localDate": "2026-11-18",
       "reason": "no taste match"
@@ -4202,6 +4097,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA79aJ",
+      "artist": "Miles Minnick",
+      "date": "Thu Dec 17",
+      "localDate": "2026-12-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfuIO7",
       "artist": "The Polish Ambassador",
       "date": "Thu Dec 17",
@@ -4615,6 +4517,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA79aY",
+      "artist": "Mustache Harbor",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGKZV",
       "artist": "Paula West Ring in the New Year Concert 10:30pm",
       "date": "Thu Dec 31",
@@ -4736,13 +4645,6 @@
     {
       "id": "G5vYZ_K1bqhUt",
       "artist": "Ana Popovic",
-      "date": "Sat Jan 9",
-      "localDate": "2027-01-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_fBqa1Zf",
-      "artist": "Careless Whisper",
       "date": "Sat Jan 9",
       "localDate": "2027-01-09",
       "reason": "no taste match"
@@ -4923,6 +4825,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA79aS",
+      "artist": "The Rock and Roll Playhouse",
+      "date": "Sun Jan 17",
+      "localDate": "2027-01-17",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_CUC0Jxp",
       "artist": "Jesse Cook",
       "date": "Sun Jan 17",
@@ -5000,6 +4909,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA79aV",
+      "artist": "Bingo Loco",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_oK4pKbl",
       "artist": "fakemink",
       "date": "Fri Jan 22",
@@ -5025,6 +4941,13 @@
       "artist": "The Brothers Comatose",
       "date": "Fri Jan 22",
       "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7J_w",
+      "artist": "Koo Koo",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
       "reason": "no taste match"
     },
     {
@@ -5117,7 +5040,49 @@
       "date": "Mon Jan 25",
       "localDate": "2027-01-25",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGe40",
+      "artist": "Youth Fountain",
+      "date": "Tue Jan 26",
+      "localDate": "2027-01-26",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuU_V",
+      "artist": "The Flatliners",
+      "date": "Tue Jan 26",
+      "localDate": "2027-01-26",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_30jAtQd",
+      "artist": "Bad Suns",
+      "date": "Tue Jan 26",
+      "localDate": "2027-01-26",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KSKaboL",
+      "artist": "FLO",
+      "date": "Tue Jan 26",
+      "localDate": "2027-01-26",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7K8V",
+      "artist": "The Flatliners",
+      "date": "Tue Jan 26",
+      "localDate": "2027-01-26",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEQf",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Jan 26",
+      "localDate": "2027-01-26",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 689
+  "eventCount": 684
 }
