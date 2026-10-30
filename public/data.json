@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-30T06:48:28.669Z",
+  "generatedAt": "2026-10-30T18:24:42.191Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-30T06:48:28Z",
-      "endDateTime": "2027-01-28T06:48:28Z"
+      "startDateTime": "2026-10-30T18:24:42Z",
+      "endDateTime": "2027-01-28T18:24:42Z"
     },
     "eventsConsidered": 673,
     "eventsReported": 673,
@@ -46,7 +46,7 @@
   "genres": [
     {
       "name": "Rock",
-      "count": 154
+      "count": 153
     },
     {
       "name": "Other",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 42
+      "count": 43
     },
     {
       "name": "R&B",
@@ -163,7 +163,7 @@
       "score": 84,
       "raw": 71,
       "scoredOutOf": 85,
-      "reason": "Direct match. 15 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 14 days out. Oakland venue, Friday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 15,
+          "daysUntilShow": 14,
           "imminent": false
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 9 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 8 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 9,
+          "daysUntilShow": 8,
           "imminent": true
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 14 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 13 days out. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 14,
+          "daysUntilShow": 13,
           "imminent": true
         },
         "effort": {
@@ -711,13 +711,6 @@
     {
       "id": "G5vYZ_KFJEcR2",
       "artist": "Baby Smoove",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5d9skQu",
-      "artist": "Tom Jones",
       "date": "Sun Nov 1",
       "localDate": "2026-11-01",
       "reason": "no taste match"
@@ -1759,6 +1752,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af88G7",
+      "artist": "BABY SLAPS - ALL STARS TURN UP EDITION w/ Thow Wow + Buku FM + Nastia & PATIO TAKEOVER by Family Not a Group",
+      "date": "Fri Nov 13",
+      "localDate": "2026-11-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_fD80sy7",
       "artist": "Tyla",
       "date": "Fri Nov 13",
@@ -2410,13 +2410,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1Af8A47",
-      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1AAZo-8",
       "artist": "Dev Lemons",
       "date": "Fri Nov 20",
@@ -2426,6 +2419,13 @@
     {
       "id": "Z7r9jZ1AAZyPM",
       "artist": "Westend",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8A47",
+      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
