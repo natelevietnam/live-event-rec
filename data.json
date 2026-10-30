@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-29T18:47:41.633Z",
+  "generatedAt": "2026-10-30T06:48:28.669Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-29T18:47:41Z",
-      "endDateTime": "2027-01-27T18:47:41Z"
+      "startDateTime": "2026-10-30T06:48:28Z",
+      "endDateTime": "2027-01-28T06:48:28Z"
     },
-    "eventsConsidered": 683,
-    "eventsReported": 683,
+    "eventsConsidered": 673,
+    "eventsReported": 673,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 156
+      "count": 154
     },
     {
       "name": "Other",
@@ -54,11 +54,11 @@
     },
     {
       "name": "Alternative",
-      "count": 70
+      "count": 68
     },
     {
       "name": "Dance/Electronic",
-      "count": 55
+      "count": 54
     },
     {
       "name": "Pop",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Country",
-      "count": 18
+      "count": 16
     },
     {
       "name": "World",
@@ -86,11 +86,11 @@
     },
     {
       "name": "Latin",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Folk",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Jazz",
@@ -274,11 +274,11 @@
       "weekday": "Thursday",
       "venue": "Fox Theater - Oakland",
       "city": "Oakland",
-      "score": 47,
-      "raw": 40,
+      "score": 54,
+      "raw": 46,
       "scoredOutOf": 85,
       "reason": "Adjacent to J. Cole. 14 days out. Oakland venue, Thursday.",
-      "urgent": false,
+      "urgent": true,
       "breakdown": {
         "taste": {
           "points": 20,
@@ -292,7 +292,7 @@
           "matchedOn": "Isaiah Rashad"
         },
         "urgency": {
-          "points": 12,
+          "points": 18,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -301,7 +301,7 @@
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
           "daysUntilShow": 14,
-          "imminent": false
+          "imminent": true
         },
         "effort": {
           "points": 8,
@@ -316,125 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1Af1Kf7",
-      "artist": "Mdou Moctar",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af8eCf",
-      "artist": "The Bridge City Sinners",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PvjZ",
-      "artist": "Lyle Lovett",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6Qc4_8y",
-      "artist": "Daði Freyr",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-_PK",
-      "artist": "Francis of Delirium",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PPvN",
-      "artist": "Katie Pruitt",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJKqd",
-      "artist": "Patrick Wolf",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZYbS",
-      "artist": "Hayden Everett",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FX4gzvS",
-      "artist": "Dilated Peoples",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5K9T5FO",
-      "artist": "The Chicks",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7dQ7",
-      "artist": "Coco & Breezy",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZaoY",
-      "artist": "Bridge City Sinners",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pgjb",
-      "artist": "Blues Traveler",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_C5epmwQ",
-      "artist": "38 Special",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u8xotre",
-      "artist": "Stanley Simmons",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1VmbffL",
-      "artist": "Caifanes",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZI-E",
-      "artist": "Rossi.",
-      "date": "Thu Oct 29",
-      "localDate": "2026-10-29",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAZk-s",
       "artist": "Lost In Dreams Festival",
@@ -1049,7 +930,7 @@
       "artist": "Gnarls Barkley",
       "date": "Thu Nov 5",
       "localDate": "2026-11-05",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "rZ7HnEZ1Af16o0",
@@ -2718,6 +2599,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8a4V",
+      "artist": "bbymutha",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_59foVWT",
       "artist": "Boston Manor",
       "date": "Sun Nov 22",
@@ -2956,6 +2844,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7SG7",
+      "artist": "Porter Robinson",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4Qd",
       "artist": "Zepparella",
       "date": "Sat Nov 28",
@@ -3009,6 +2904,13 @@
       "artist": "Vessbroz",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7sP7",
+      "artist": "Porter Robinson",
+      "date": "Sun Nov 29",
+      "localDate": "2026-11-29",
       "reason": "no taste match"
     },
     {
@@ -5075,7 +4977,35 @@
       "date": "Tue Jan 26",
       "localDate": "2027-01-26",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_4ulT7xO",
+      "artist": "Pure Prairie League",
+      "date": "Wed Jan 27",
+      "localDate": "2027-01-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfCA_0",
+      "artist": "The Harbour Tour - Jon Bryant",
+      "date": "Wed Jan 27",
+      "localDate": "2027-01-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afuz07",
+      "artist": "Mollie Elizabeth",
+      "date": "Wed Jan 27",
+      "localDate": "2027-01-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_GwN1r12",
+      "artist": "Ibeyi",
+      "date": "Wed Jan 27",
+      "localDate": "2027-01-27",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 683
+  "eventCount": 673
 }
