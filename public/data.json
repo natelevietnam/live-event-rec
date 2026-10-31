@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-30T18:24:42.191Z",
+  "generatedAt": "2026-10-31T06:37:26.933Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,57 +36,53 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-30T18:24:42Z",
-      "endDateTime": "2027-01-28T18:24:42Z"
+      "startDateTime": "2026-10-31T06:37:26Z",
+      "endDateTime": "2027-01-29T06:37:26Z"
     },
-    "eventsConsidered": 673,
-    "eventsReported": 673,
+    "eventsConsidered": 648,
+    "eventsReported": 648,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 153
+      "count": 150
     },
     {
       "name": "Other",
-      "count": 151
+      "count": 144
     },
     {
       "name": "Alternative",
-      "count": 68
+      "count": 64
     },
     {
       "name": "Dance/Electronic",
-      "count": 54
+      "count": 52
     },
     {
       "name": "Pop",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 43
+      "count": 42
     },
     {
       "name": "R&B",
-      "count": 31
+      "count": 29
     },
     {
       "name": "Country",
-      "count": 16
-    },
-    {
-      "name": "World",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Metal",
       "count": 15
     },
     {
-      "name": "Latin",
-      "count": 13
+      "name": "World",
+      "count": 15
     },
     {
       "name": "Folk",
@@ -97,8 +93,12 @@
       "count": 11
     },
     {
+      "name": "Latin",
+      "count": 11
+    },
+    {
       "name": "Blues",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Classical",
@@ -160,11 +160,11 @@
       "weekday": "Friday",
       "venue": "Fox Theater - Oakland",
       "city": "Oakland",
-      "score": 84,
-      "raw": 71,
+      "score": 91,
+      "raw": 77,
       "scoredOutOf": 85,
       "reason": "Direct match. 14 days out. Oakland venue, Friday.",
-      "urgent": false,
+      "urgent": true,
       "breakdown": {
         "taste": {
           "points": 45,
@@ -178,7 +178,7 @@
           "matchedOn": "Tyla"
         },
         "urgency": {
-          "points": 12,
+          "points": 18,
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
@@ -187,7 +187,7 @@
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
           "daysUntilShow": 14,
-          "imminent": false
+          "imminent": true
         },
         "effort": {
           "points": 14,
@@ -316,188 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAZk-s",
-      "artist": "Lost In Dreams Festival",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J4GV",
-      "artist": "Cold Cave",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8Dg4vS8",
-      "artist": "Montell Fish",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJped",
-      "artist": "60 juno",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuYG7",
-      "artist": "Modern Monsters",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afrv7S",
-      "artist": "Lime Garden",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CkR2HOF",
-      "artist": "Galactic",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe_7N",
-      "artist": "Monolink",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJfuN",
-      "artist": "Richard Skipper Celebrates! Life Lessons from Legends",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0_8S",
-      "artist": "Grace Enger",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Epk",
-      "artist": "Stella Lefty",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6E75qN1",
-      "artist": "Shpongle",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2pp1FoO",
-      "artist": "Rahat Fateh Ali Khan",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8lTm1zL",
-      "artist": "Surprise Chef",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_3KvU2fu",
-      "artist": "The Whitney Houston Experience",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_604_bVA",
-      "artist": "ZZ Top Experience – Fuzz Top",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1A7PsG3",
-      "artist": "Blues Traveler",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_AulUJn5",
-      "artist": "The Psychedelic Furs",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G5-D-Za",
-      "artist": "Moenia",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afu8ZV",
-      "artist": "The Emo Night Tour",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA77Qa",
-      "artist": "Lebo",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5KbZ5Fl",
-      "artist": "The Chicks",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFef0",
-      "artist": "High Step Society",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afufqf",
-      "artist": "Coral 9, Bazooka, Dogwater, DJ Kalamansi",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_F2jtp2r",
-      "artist": "Parra for Cuva",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vF-N",
-      "artist": "BITE ME: MISCHIEF COSTUME PARTY w/ Drew Banga + Red Corvette + Limo & Playah's Club Patio (LaPlayah x DJ Mark)",
-      "date": "Fri Oct 30",
-      "localDate": "2026-10-30",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A70AvU",
       "artist": "ZHU",
@@ -1166,13 +984,6 @@
     {
       "id": "G5vYZ_26ddNV7",
       "artist": "Moneybagg Yo",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_fjJpL_I",
-      "artist": "Los Nuevos Aventureros",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -3506,7 +3317,7 @@
       "artist": "Triumph",
       "date": "Tue Dec 8",
       "localDate": "2026-12-08",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1AAvyZt",
@@ -3863,6 +3674,13 @@
       "artist": "Hunxho",
       "date": "Mon Dec 14",
       "localDate": "2026-12-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8au0",
+      "artist": "Soos + benten",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
       "reason": "no taste match"
     },
     {
@@ -5005,7 +4823,14 @@
       "date": "Wed Jan 27",
       "localDate": "2027-01-27",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C6wKPtg",
+      "artist": "The California Honeydrops",
+      "date": "Thu Jan 28",
+      "localDate": "2027-01-28",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 673
+  "eventCount": 648
 }
