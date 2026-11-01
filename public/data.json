@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-10-31T17:29:59.610Z",
+  "generatedAt": "2026-11-01T07:08:01.676Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-10-31T17:29:59Z",
-      "endDateTime": "2027-01-29T17:29:59Z"
+      "startDateTime": "2026-11-01T07:08:01Z",
+      "endDateTime": "2027-01-30T07:08:01Z"
     },
-    "eventsConsidered": 649,
-    "eventsReported": 649,
+    "eventsConsidered": 632,
+    "eventsReported": 632,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 150
+      "count": 147
     },
     {
       "name": "Other",
-      "count": 144
+      "count": 137
     },
     {
       "name": "Alternative",
-      "count": 64
-    },
-    {
-      "name": "Dance/Electronic",
-      "count": 52
+      "count": 62
     },
     {
       "name": "Pop",
       "count": 50
+    },
+    {
+      "name": "Dance/Electronic",
+      "count": 49
     },
     {
       "name": "Hip-Hop/Rap",
@@ -74,19 +74,23 @@
     },
     {
       "name": "Country",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Metal",
-      "count": 15
+      "count": 14
     },
     {
       "name": "World",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Folk",
       "count": 12
+    },
+    {
+      "name": "Blues",
+      "count": 11
     },
     {
       "name": "Jazz",
@@ -94,10 +98,6 @@
     },
     {
       "name": "Latin",
-      "count": 11
-    },
-    {
-      "name": "Blues",
       "count": 10
     },
     {
@@ -106,10 +106,6 @@
     },
     {
       "name": "New Age",
-      "count": 2
-    },
-    {
-      "name": "Theatre",
       "count": 2
     },
     {
@@ -126,6 +122,10 @@
     },
     {
       "name": "Religious",
+      "count": 1
+    },
+    {
+      "name": "Theatre",
       "count": 1
     }
   ],
@@ -316,146 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A70AvU",
-      "artist": "ZHU",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZxo3",
-      "artist": "RL Grime",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGAGV",
-      "artist": "Queer Mischief - A Queer Magic Halloween Party w/ Sucia + Black Woman + Kurren$i",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5mDVnwZ",
-      "artist": "Knocked Loose",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1KOf",
-      "artist": "Halloween Show!",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8Ed3wRn",
-      "artist": "DJ Mandy",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CkRCHOe",
-      "artist": "Galactic",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PV4I",
-      "artist": "Medium Build",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6EAVWcY",
-      "artist": "Shpongle",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZaoN",
-      "artist": "The Rocky Horror Picture Show",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MGJ",
-      "artist": "Pride & Joy",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GNuNKV4",
-      "artist": "Oingo Boingo Former Members",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_o-cBAqj",
-      "artist": "Blood Orange Liqueur with Hella Doubtful",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GKogGHE",
-      "artist": "Jorge Medina",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1kAYvPvtGA2jH9o",
-      "artist": "Teresa Cheung",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGdf7",
-      "artist": "The Emo Night Tour",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa7xf",
-      "artist": "Improvement Movement",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_t",
-      "artist": "Gasolina Party",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGtjf",
-      "artist": "Halloween Costume Party",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afu0b7",
-      "artist": "HYPHY HALLOWEEN w/ J. Jaxx + Seanny Seann + Marchante B2B Deesco + Hosted by West Coast",
-      "date": "Sat Oct 31",
-      "localDate": "2026-10-31",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A70OaE",
       "artist": "The Musical Box",
@@ -4837,7 +4697,28 @@
       "date": "Thu Jan 28",
       "localDate": "2027-01-28",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C6wf4nb",
+      "artist": "The California Honeydrops",
+      "date": "Fri Jan 29",
+      "localDate": "2027-01-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvwjP",
+      "artist": "Brandy Clark",
+      "date": "Fri Jan 29",
+      "localDate": "2027-01-29",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7Kfw",
+      "artist": "Ty Segall",
+      "date": "Fri Jan 29",
+      "localDate": "2027-01-29",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 649
+  "eventCount": 632
 }
