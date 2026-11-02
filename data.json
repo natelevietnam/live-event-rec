@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-01T18:15:35.934Z",
+  "generatedAt": "2026-11-02T07:13:17.519Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-01T18:15:35Z",
-      "endDateTime": "2027-01-30T18:15:35Z"
+      "startDateTime": "2026-11-02T07:13:17Z",
+      "endDateTime": "2027-01-31T07:13:17Z"
     },
-    "eventsConsidered": 632,
-    "eventsReported": 632,
+    "eventsConsidered": 625,
+    "eventsReported": 625,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 147
+      "count": 145
     },
     {
       "name": "Other",
-      "count": 137
+      "count": 136
     },
     {
       "name": "Alternative",
-      "count": 62
+      "count": 61
     },
     {
       "name": "Pop",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 42
+      "count": 40
     },
     {
       "name": "R&B",
@@ -77,20 +77,20 @@
       "count": 16
     },
     {
-      "name": "Metal",
-      "count": 14
-    },
-    {
       "name": "World",
       "count": 14
     },
     {
       "name": "Folk",
-      "count": 12
+      "count": 13
+    },
+    {
+      "name": "Metal",
+      "count": 13
     },
     {
       "name": "Blues",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Jazz",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Latin",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Classical",
@@ -316,90 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1A70OaE",
-      "artist": "The Musical Box",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZdq7",
-      "artist": "Ja Ronn",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PfZb",
-      "artist": "Pigeons Playing Ping Pong",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2W76wIc",
-      "artist": "La Santa Cecilia",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afukjf",
-      "artist": "The Undying/ Kink Shamer/ Deliria/ Broken Glass Sanctuary/ 13 Thrones",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa8_V",
-      "artist": "Token",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa807",
-      "artist": "SIX60",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFaaf",
-      "artist": "Cardinal Bloom",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uku9zNY",
-      "artist": "José Madero",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_Y",
-      "artist": "Frankie and the Witch Fingers",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_KFJEcR2",
-      "artist": "Baby Smoove",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P90y",
-      "artist": "The Psychedelic Furs",
-      "date": "Sun Nov 1",
-      "localDate": "2026-11-01",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1Af1aq7",
       "artist": "Lexi Jayde",
@@ -4718,7 +4634,42 @@
       "date": "Fri Jan 29",
       "localDate": "2027-01-29",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C6w44n-",
+      "artist": "The California Honeydrops",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZoqs",
+      "artist": "Madds Buckley",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7p4v",
+      "artist": "Ty Segall",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afufvf",
+      "artist": "Zach Seabaugh",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuFPf",
+      "artist": "The Arcadian Wild",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 632
+  "eventCount": 625
 }
