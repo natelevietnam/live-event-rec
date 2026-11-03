@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-03T07:33:55.107Z",
+  "generatedAt": "2026-11-03T19:57:20.131Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-03T07:33:55Z",
-      "endDateTime": "2027-02-01T07:33:55Z"
+      "startDateTime": "2026-11-03T19:57:20Z",
+      "endDateTime": "2027-02-01T19:57:20Z"
     },
-    "eventsConsidered": 630,
-    "eventsReported": 630,
+    "eventsConsidered": 631,
+    "eventsReported": 631,
     "truncated": false
   },
   "genres": [
@@ -57,12 +57,12 @@
       "count": 62
     },
     {
-      "name": "Pop",
+      "name": "Dance/Electronic",
       "count": 50
     },
     {
-      "name": "Dance/Electronic",
-      "count": 49
+      "name": "Pop",
+      "count": 50
     },
     {
       "name": "Hip-Hop/Rap",
@@ -163,7 +163,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 11 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 10 days out. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -186,7 +186,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 11,
+          "daysUntilShow": 10,
           "imminent": true
         },
         "effort": {
@@ -220,7 +220,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 5 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. 4 days out. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -243,7 +243,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
@@ -277,7 +277,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 10 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 9 days out. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -300,7 +300,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 10,
+          "daysUntilShow": 9,
           "imminent": true
         },
         "effort": {
@@ -4671,6 +4671,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8aqV",
+      "artist": "Kawaii Rave",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA7p4v",
       "artist": "Ty Segall",
       "date": "Sat Jan 30",
@@ -4706,5 +4713,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 630
+  "eventCount": 631
 }
