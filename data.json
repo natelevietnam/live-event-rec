@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-02T22:09:10.322Z",
+  "generatedAt": "2026-11-03T07:33:55.107Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-02T22:09:10Z",
-      "endDateTime": "2027-01-31T22:09:10Z"
+      "startDateTime": "2026-11-03T07:33:55Z",
+      "endDateTime": "2027-02-01T07:33:55Z"
     },
     "eventsConsidered": 630,
     "eventsReported": 630,
@@ -46,7 +46,7 @@
   "genres": [
     {
       "name": "Rock",
-      "count": 146
+      "count": 147
     },
     {
       "name": "Other",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 63
+      "count": 62
     },
     {
       "name": "Pop",
@@ -316,20 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1Af1aq7",
-      "artist": "Lexi Jayde",
-      "date": "Mon Nov 2",
-      "localDate": "2026-11-02",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P9Pd",
-      "artist": "The Psychedelic Furs",
-      "date": "Mon Nov 2",
-      "localDate": "2026-11-02",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1A4Zeqd",
       "artist": "Prince Daddy and The Hyena, Combat, Walter Etc., Friendship Games",
@@ -4703,6 +4689,20 @@
       "artist": "The Arcadian Wild",
       "date": "Sat Jan 30",
       "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7KQA",
+      "artist": "Winona Fighter",
+      "date": "Sun Jan 31",
+      "localDate": "2027-01-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afuso0",
+      "artist": "Winona Fighter",
+      "date": "Sun Jan 31",
+      "localDate": "2027-01-31",
       "reason": "no taste match"
     }
   ],
