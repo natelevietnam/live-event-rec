@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-03T19:57:20.131Z",
+  "generatedAt": "2026-11-04T07:14:36.652Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-03T19:57:20Z",
-      "endDateTime": "2027-02-01T19:57:20Z"
+      "startDateTime": "2026-11-04T07:14:36Z",
+      "endDateTime": "2027-02-02T07:14:36Z"
     },
-    "eventsConsidered": 631,
-    "eventsReported": 631,
+    "eventsConsidered": 624,
+    "eventsReported": 624,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 147
+      "count": 144
     },
     {
       "name": "Other",
-      "count": 138
+      "count": 136
     },
     {
       "name": "Alternative",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Pop",
-      "count": 50
+      "count": 47
     },
     {
       "name": "Hip-Hop/Rap",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Latin",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Classical",
@@ -316,76 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1A4Zeqd",
-      "artist": "Prince Daddy and The Hyena, Combat, Walter Etc., Friendship Games",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CzyZjvK",
-      "artist": "Rebecca Black",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZgZS",
-      "artist": "Sobs",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPv4K",
-      "artist": "Gilla Band",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_52JFoxZ",
-      "artist": "Olivia O'Brien",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70wFs",
-      "artist": "XG",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1Ae0Z_8GkIQZv3c",
-      "artist": "Missio",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZsFN",
-      "artist": "Missio",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZJa_",
-      "artist": "Missio",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFEa0",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Nov 3",
-      "localDate": "2026-11-03",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_k9n_zYt",
       "artist": "Josh Garrels",
@@ -4496,6 +4426,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "16vjZ_puUG7zSRI",
+      "artist": "Christian Nodal",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfCKb0",
       "artist": "The Brothers Comatose",
       "date": "Sat Jan 23",
@@ -4615,6 +4552,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afaa_0",
+      "artist": "City of the Sun",
+      "date": "Thu Jan 28",
+      "localDate": "2027-01-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_C6wKPtg",
       "artist": "The California Honeydrops",
       "date": "Thu Jan 28",
@@ -4711,7 +4655,14 @@
       "date": "Sun Jan 31",
       "localDate": "2027-01-31",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfaU47",
+      "artist": "Eliza McLamb",
+      "date": "Mon Feb 1",
+      "localDate": "2027-02-01",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 631
+  "eventCount": 624
 }
