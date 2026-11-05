@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-04T20:16:50.691Z",
+  "generatedAt": "2026-11-05T07:42:23.097Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-04T20:16:50Z",
-      "endDateTime": "2027-02-02T20:16:50Z"
+      "startDateTime": "2026-11-05T07:42:23Z",
+      "endDateTime": "2027-02-03T07:42:23Z"
     },
-    "eventsConsidered": 631,
-    "eventsReported": 631,
+    "eventsConsidered": 622,
+    "eventsReported": 622,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 145
+      "count": 140
     },
     {
       "name": "Other",
@@ -54,11 +54,11 @@
     },
     {
       "name": "Alternative",
-      "count": 63
+      "count": 62
     },
     {
       "name": "Dance/Electronic",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Pop",
@@ -66,11 +66,11 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 41
+      "count": 40
     },
     {
       "name": "R&B",
-      "count": 29
+      "count": 28
     },
     {
       "name": "Country",
@@ -81,10 +81,6 @@
       "count": 14
     },
     {
-      "name": "Folk",
-      "count": 13
-    },
-    {
       "name": "Metal",
       "count": 13
     },
@@ -93,12 +89,16 @@
       "count": 12
     },
     {
+      "name": "Folk",
+      "count": 12
+    },
+    {
       "name": "Jazz",
       "count": 11
     },
     {
       "name": "Latin",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Classical",
@@ -316,76 +316,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_k9n_zYt",
-      "artist": "Josh Garrels",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8uFAlWq",
-      "artist": "Ms. Lauryn Hill",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_4r-9R9C",
-      "artist": "Movie",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwj0",
-      "artist": "Open Mic Night",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afusj7",
-      "artist": "Roman Candle/ Postdrome/ The American Dream",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PSZ8",
-      "artist": "INOHA",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0Fvd",
-      "artist": "DICE",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x3vO",
-      "artist": "The Limiñanas",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFFOV",
-      "artist": "INOHA",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPIfK",
-      "artist": "Sassy 009",
-      "date": "Wed Nov 4",
-      "localDate": "2026-11-04",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_o9y4oMN",
       "artist": "Moby",
@@ -669,13 +599,6 @@
     {
       "id": "G5vYZ_K55sUmI",
       "artist": "Brandi Carlile",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_26ddNV7",
-      "artist": "Moneybagg Yo",
       "date": "Sat Nov 7",
       "localDate": "2026-11-07",
       "reason": "no taste match"
@@ -4711,7 +4634,21 @@
       "date": "Mon Feb 1",
       "localDate": "2027-02-01",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZb9KZz0fW",
+      "artist": "Christine D'Clario",
+      "date": "Tue Feb 2",
+      "localDate": "2027-02-02",
+      "reason": "cancelled"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEvf",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Feb 2",
+      "localDate": "2027-02-02",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 631
+  "eventCount": 622
 }
