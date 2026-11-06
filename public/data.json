@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-05T20:28:03.940Z",
+  "generatedAt": "2026-11-06T07:39:18.844Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-05T20:28:03Z",
-      "endDateTime": "2027-02-03T20:28:03Z"
+      "startDateTime": "2026-11-06T07:39:18Z",
+      "endDateTime": "2027-02-04T07:39:18Z"
     },
-    "eventsConsidered": 624,
-    "eventsReported": 624,
+    "eventsConsidered": 612,
+    "eventsReported": 612,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 140
-    },
-    {
-      "name": "Other",
       "count": 138
     },
     {
+      "name": "Other",
+      "count": 136
+    },
+    {
       "name": "Alternative",
-      "count": 63
+      "count": 60
     },
     {
       "name": "Dance/Electronic",
-      "count": 50
+      "count": 49
     },
     {
       "name": "Pop",
-      "count": 50
+      "count": 49
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 40
+      "count": 38
     },
     {
       "name": "R&B",
@@ -312,90 +312,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_o9y4oMN",
-      "artist": "Moby",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afx68K",
-      "artist": "Dave Hause & The Mermaid",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Mop",
-      "artist": "Squirrel Flower",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfapqV",
-      "artist": "Greg Freeman",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af16j0",
-      "artist": "AZ Chike",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7x9k7",
-      "artist": "The Black Angels",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_3TCSeIv",
-      "artist": "Gnarls Barkley",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1Af16o0",
-      "artist": "Mystery Skulls",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZUZg",
-      "artist": "Shwayze",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZI_A",
-      "artist": "Thomas Dolby",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1MqembE",
-      "artist": "Don Omar",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aLgyc2N",
-      "artist": "Tusk",
-      "date": "Thu Nov 5",
-      "localDate": "2026-11-05",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1A7PKe_",
       "artist": "Good Vibez",
@@ -1175,7 +1091,7 @@
     },
     {
       "id": "rZ7HnEZ1Af88G7",
-      "artist": "BABY SLAPS - ALL STARS TURN UP EDITION w/ Thow Wow + Buku FM + Nastia & PATIO TAKEOVER by Family Not a Group",
+      "artist": "BABY SLAPS - ALL STARS TURN UP EDITION w/ Thow Wow + Buku FM + Nastia",
       "date": "Fri Nov 13",
       "localDate": "2026-11-13",
       "reason": "no taste match"
@@ -4660,5 +4576,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 624
+  "eventCount": 612
 }
