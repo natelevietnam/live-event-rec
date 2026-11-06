@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-06T07:39:18.844Z",
+  "generatedAt": "2026-11-06T19:50:42.808Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-06T07:39:18Z",
-      "endDateTime": "2027-02-04T07:39:18Z"
+      "startDateTime": "2026-11-06T19:50:42Z",
+      "endDateTime": "2027-02-04T19:50:42Z"
     },
-    "eventsConsidered": 612,
-    "eventsReported": 612,
+    "eventsConsidered": 615,
+    "eventsReported": 615,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 136
+      "count": 137
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Pop",
@@ -78,7 +78,7 @@
     },
     {
       "name": "World",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Metal",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 8 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 7 days out. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": "VIP Packages Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 8,
+          "daysUntilShow": 7,
           "imminent": true
         },
         "effort": {
@@ -216,7 +216,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. 2 days out. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. Tomorrow. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -239,7 +239,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 2,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -273,7 +273,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 7 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 6 days out. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -296,7 +296,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 7,
+          "daysUntilShow": 6,
           "imminent": true
         },
         "effort": {
@@ -1605,6 +1605,13 @@
       "artist": "Pretty Lights",
       "date": "Thu Nov 19",
       "localDate": "2026-11-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7yJa",
+      "artist": "Carl Cox",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
       "reason": "no taste match"
     },
     {
@@ -3841,6 +3848,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAAZ_N",
+      "artist": "Four Tet",
+      "date": "Sat Jan 2",
+      "localDate": "2027-01-02",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af88Z7",
       "artist": "SHĀHERI",
       "date": "Sat Jan 2",
@@ -4046,6 +4060,13 @@
     {
       "id": "G5vYZ_oEoFtlm",
       "artist": "STS9",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7zGd",
+      "artist": "Pepper",
       "date": "Fri Jan 15",
       "localDate": "2027-01-15",
       "reason": "no taste match"
@@ -4576,5 +4597,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 612
+  "eventCount": 615
 }
