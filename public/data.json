@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-07T06:49:43.642Z",
+  "generatedAt": "2026-11-07T17:56:27.884Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-07T06:49:43Z",
-      "endDateTime": "2027-02-05T06:49:43Z"
+      "startDateTime": "2026-11-07T17:56:27Z",
+      "endDateTime": "2027-02-05T17:56:27Z"
     },
     "eventsConsidered": 603,
     "eventsReported": 603,
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 7 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 6 days out. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 7,
+          "daysUntilShow": 6,
           "imminent": true
         },
         "effort": {
@@ -216,7 +216,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. Tomorrow. San Jose venue, Saturday.",
+      "reason": "Adjacent to Usher. Tonight. San Jose venue, Saturday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -239,7 +239,7 @@
           "at": "1900-01-01T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -273,7 +273,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 6 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 5 days out. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -296,7 +296,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 6,
+          "daysUntilShow": 5,
           "imminent": true
         },
         "effort": {
