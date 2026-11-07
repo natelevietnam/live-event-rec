@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-06T19:50:42.808Z",
+  "generatedAt": "2026-11-07T06:49:43.642Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-06T19:50:42Z",
-      "endDateTime": "2027-02-04T19:50:42Z"
+      "startDateTime": "2026-11-07T06:49:43Z",
+      "endDateTime": "2027-02-05T06:49:43Z"
     },
-    "eventsConsidered": 615,
-    "eventsReported": 615,
+    "eventsConsidered": 603,
+    "eventsReported": 603,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Rock",
-      "count": 138
-    },
-    {
       "name": "Other",
       "count": 137
+    },
+    {
+      "name": "Rock",
+      "count": 136
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Pop",
@@ -66,22 +66,18 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 38
+      "count": 37
     },
     {
       "name": "R&B",
-      "count": 28
+      "count": 25
     },
     {
       "name": "Country",
-      "count": 16
+      "count": 14
     },
     {
       "name": "World",
-      "count": 15
-    },
-    {
-      "name": "Metal",
       "count": 13
     },
     {
@@ -89,8 +85,12 @@
       "count": 12
     },
     {
-      "name": "Folk",
+      "name": "Metal",
       "count": 12
+    },
+    {
+      "name": "Folk",
+      "count": 11
     },
     {
       "name": "Jazz",
@@ -178,9 +178,9 @@
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
-          "kind": "presale",
+          "kind": "onsale",
           "at": "2026-07-31T17:00:00.000Z",
-          "presaleName": "VIP Packages Onsale",
+          "presaleName": null,
           "daysUntilOnsale": 0,
           "daysUntilShow": 7,
           "imminent": true
@@ -313,143 +313,10 @@
   ],
   "cut": [
     {
-      "id": "Z7r9jZ1A7PKe_",
-      "artist": "Good Vibez",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pkqx",
-      "artist": "Plini",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGof7",
-      "artist": "Strikeforce",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_oX6GEdb",
-      "artist": "Weekend Youth with Top Secret Robot Alliance and Zak Fennie & Friends",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FBhhauY",
-      "artist": "SYML",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-o-d",
-      "artist": "Ian Sweet",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1LZwizo",
-      "artist": "Thee Sinseers",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70p_y",
-      "artist": "Buena Vista Orchestra",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kKoOgLV",
-      "artist": "Bahamas",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_oKkjru5",
-      "artist": "Jessie Reyez",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZo-a",
-      "artist": "Y&T",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZgPb",
-      "artist": "Grant Lee Phillips",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_kmf8y1D",
-      "artist": "Mon Laferte",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "1A9Zkf7GkeIKnMN",
-      "artist": "Patti LaBelle",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG0u0",
-      "artist": "Fin/ Hellhunter/ Varulf/ Piss Baptism",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0PfS",
-      "artist": "King Buffalo",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa7jf",
-      "artist": "Clay Street Unit, Maxwell Oaks",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZsO6",
-      "artist": "Adriatique",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZtQK",
-      "artist": "ROCK EN ESPANOL NIGHT",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-VjK",
-      "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party! w/ Edel + Mattyagi + Ari B & Booty Bass Patio by Discnogirl",
-      "date": "Fri Nov 6",
-      "localDate": "2026-11-06",
+      "id": "Z7r9jZ1AA7obZ",
+      "artist": "Day Dreams",
+      "date": "Sat Nov 7",
+      "localDate": "2026-11-07",
       "reason": "no taste match"
     },
     {
@@ -3911,6 +3778,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8Yv0",
+      "artist": "Full Circle Boys",
+      "date": "Fri Jan 8",
+      "localDate": "2027-01-08",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_2QPRnJG",
       "artist": "Jodeci",
       "date": "Fri Jan 8",
@@ -4595,7 +4469,49 @@
       "date": "Tue Feb 2",
       "localDate": "2027-02-02",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7a0w",
+      "artist": "Ballyhoo!",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7K8S",
+      "artist": "Lotus",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfCKu0",
+      "artist": "Where's West?",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfusfV",
+      "artist": "Lotus",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAe4QK",
+      "artist": "AJJ",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fhQd0-P",
+      "artist": "Kenshi Yonezu",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 615
+  "eventCount": 603
 }
