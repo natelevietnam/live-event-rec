@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-07T17:56:27.884Z",
+  "generatedAt": "2026-11-08T06:55:50.877Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,33 +36,33 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-07T17:56:27Z",
-      "endDateTime": "2027-02-05T17:56:27Z"
+      "startDateTime": "2026-11-08T06:55:50Z",
+      "endDateTime": "2027-02-06T06:55:50Z"
     },
-    "eventsConsidered": 603,
-    "eventsReported": 603,
+    "eventsConsidered": 584,
+    "eventsReported": 584,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 137
+      "count": 132
     },
     {
       "name": "Rock",
-      "count": 136
+      "count": 131
     },
     {
       "name": "Alternative",
-      "count": 60
+      "count": 58
     },
     {
       "name": "Dance/Electronic",
-      "count": 51
+      "count": 49
     },
     {
       "name": "Pop",
-      "count": 49
+      "count": 48
     },
     {
       "name": "Hip-Hop/Rap",
@@ -70,14 +70,10 @@
     },
     {
       "name": "R&B",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Country",
-      "count": 14
-    },
-    {
-      "name": "World",
       "count": 13
     },
     {
@@ -86,6 +82,10 @@
     },
     {
       "name": "Metal",
+      "count": 12
+    },
+    {
+      "name": "World",
       "count": 12
     },
     {
@@ -197,63 +197,6 @@
       }
     },
     {
-      "id": "Z7r9jZ1A7PKeb",
-      "artist": "Mario",
-      "seed": "Usher",
-      "seeds": [
-        "Usher"
-      ],
-      "tier": "adjacent",
-      "eventName": "Total Vibez Live",
-      "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PKeb",
-      "genre": null,
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "localTime": "14:00:00",
-      "weekday": "Saturday",
-      "venue": "Lake Cunningham Regional Park",
-      "city": "San Jose",
-      "score": 54,
-      "raw": 46,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to Usher. Tonight. San Jose venue, Saturday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "Usher",
-          "seeds": [
-            "Usher"
-          ],
-          "matchedOn": "Mario"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "1900-01-01T18:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "peninsulaSouthBay",
-          "areaLabel": "San Jose",
-          "weeknight": false,
-          "weekday": "Saturday",
-          "weeknightPenalty": 0
-        }
-      }
-    },
-    {
       "id": "G5vYZ_32iy6Gx",
       "artist": "Isaiah Rashad",
       "seed": "J. Cole",
@@ -312,160 +255,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AA7obZ",
-      "artist": "Day Dreams",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_5VOavXh",
-      "artist": "Hugel",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4v7oS",
-      "artist": "Earlybirds Club",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1Wl9AH6",
-      "artist": "Dan + Shay",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1K-7",
-      "artist": "Conspiracy of Beards",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FDHUg4t",
-      "artist": "PJ Morton",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2M8ldQe",
-      "artist": "Big Star",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe_Af",
-      "artist": "Armin van Buuren",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_51O6DrC",
-      "artist": "Pinhead Gunpowder",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_K55sUmI",
-      "artist": "Brandi Carlile",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P87M",
-      "artist": "Fitz and The Tantrums",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_KpNxjb1",
-      "artist": "Adam Ant",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_1y7YWsH",
-      "artist": "Valerie - A Tribute to Amy Winehouse",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GC885OL",
-      "artist": "Alvaro Diaz",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G6G6wUgRb",
-      "artist": "Bachman-Turner Overdrive",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1AfGZvV",
-      "artist": "James Ivy/ Harry Teardrop",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Mo9",
-      "artist": "Alex Cameron",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFeoV",
-      "artist": "Karina Rykman",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa7f0",
-      "artist": "Supertaste + 3kelves",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvFOV",
-      "artist": "Azchike",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvz-O",
-      "artist": "Tainted Love",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfC3Zf",
-      "artist": "¡DESMADRE! w/ La Gata + Mars Kasei + Vickyybaybeeh & A Toda Maquina Patio Takeover by Yari",
-      "date": "Sat Nov 7",
-      "localDate": "2026-11-07",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfF7r7",
       "artist": "SOLD OUT! Mimosas & Motown: Sunday Brunch November 8th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
@@ -4511,7 +4300,35 @@
       "date": "Thu Feb 4",
       "localDate": "2027-02-04",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuM4N",
+      "artist": "Odezenne",
+      "date": "Fri Feb 5",
+      "localDate": "2027-02-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvgPd",
+      "artist": "Twinsick",
+      "date": "Fri Feb 5",
+      "localDate": "2027-02-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8fe7",
+      "artist": "rum.gold",
+      "date": "Fri Feb 5",
+      "localDate": "2027-02-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77-o",
+      "artist": "Twin Fin",
+      "date": "Fri Feb 5",
+      "localDate": "2027-02-05",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 603
+  "eventCount": 584
 }
