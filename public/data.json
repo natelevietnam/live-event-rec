@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-08T06:55:50.877Z",
+  "generatedAt": "2026-11-08T18:13:19.783Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-08T06:55:50Z",
-      "endDateTime": "2027-02-06T06:55:50Z"
+      "startDateTime": "2026-11-08T18:13:19Z",
+      "endDateTime": "2027-02-06T18:13:19Z"
     },
     "eventsConsidered": 584,
     "eventsReported": 584,
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 6 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 5 days out. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 6,
+          "daysUntilShow": 5,
           "imminent": true
         },
         "effort": {
@@ -216,7 +216,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 5 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 4 days out. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -239,7 +239,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": "VIP Package Onsale",
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
