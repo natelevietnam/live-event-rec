@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-08T18:13:19.783Z",
+  "generatedAt": "2026-11-09T07:40:04.311Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-08T18:13:19Z",
-      "endDateTime": "2027-02-06T18:13:19Z"
+      "startDateTime": "2026-11-09T07:40:04Z",
+      "endDateTime": "2027-02-07T07:40:04Z"
     },
-    "eventsConsidered": 584,
-    "eventsReported": 584,
+    "eventsConsidered": 578,
+    "eventsReported": 578,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 132
+      "count": 130
     },
     {
       "name": "Rock",
-      "count": 131
+      "count": 129
     },
     {
       "name": "Alternative",
-      "count": 58
+      "count": 57
     },
     {
       "name": "Dance/Electronic",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Pop",
-      "count": 48
+      "count": 47
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 37
+      "count": 36
     },
     {
       "name": "R&B",
@@ -235,9 +235,9 @@
           "max": 20,
           "driver": "proximity",
           "state": "onSaleNow",
-          "kind": "presale",
+          "kind": "onsale",
           "at": "2026-09-11T17:00:00.000Z",
-          "presaleName": "VIP Package Onsale",
+          "presaleName": null,
           "daysUntilOnsale": 0,
           "daysUntilShow": 4,
           "imminent": true
@@ -255,83 +255,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfF7r7",
-      "artist": "SOLD OUT! Mimosas & Motown: Sunday Brunch November 8th Brunch in Anzu at 11:30 AM / Show at 12:45 PM",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_V",
-      "artist": "Foy Vance",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_AeKr67a",
-      "artist": "Leonid & Friends",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-6e_",
-      "artist": "Leonid & Friends",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afuypf",
-      "artist": "Deathtape/ Salt+/ A Block/  Secrey Society/ Futile Destiny",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuoaV",
-      "artist": "454",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJ4oS",
-      "artist": "THAO",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfaSrf",
-      "artist": "Triptides + Loco Tranquilo",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_KEqmXqN",
-      "artist": "Forrest Nolan",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1DHczIz",
-      "artist": "The Smashing Pumpkins",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GnJfN19",
-      "artist": "Daughtry",
-      "date": "Sun Nov 8",
-      "localDate": "2026-11-08",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_GKW-EWe",
       "artist": "SIENNA SPIRO",
@@ -4328,7 +4251,42 @@
       "date": "Fri Feb 5",
       "localDate": "2027-02-05",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_4nuFzmg",
+      "artist": "Grahame Lesh",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afu0P0",
+      "artist": "The Sways",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A7Px4Y",
+      "artist": "LP and The Vinyl",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGY_7",
+      "artist": "Romare",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuKv0",
+      "artist": "PRATT & MOODY",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 584
+  "eventCount": 578
 }
