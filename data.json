@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-09T07:40:04.311Z",
+  "generatedAt": "2026-11-09T22:52:04.354Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-09T07:40:04Z",
-      "endDateTime": "2027-02-07T07:40:04Z"
+      "startDateTime": "2026-11-09T22:52:04Z",
+      "endDateTime": "2027-02-07T22:52:04Z"
     },
-    "eventsConsidered": 578,
-    "eventsReported": 578,
+    "eventsConsidered": 581,
+    "eventsReported": 581,
     "truncated": false
   },
   "genres": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Rock",
-      "count": 129
+      "count": 130
     },
     {
       "name": "Alternative",
-      "count": 57
+      "count": 58
     },
     {
       "name": "Dance/Electronic",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Pop",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Hip-Hop/Rap",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 5 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 4 days out. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 5,
+          "daysUntilShow": 4,
           "imminent": true
         },
         "effort": {
@@ -216,7 +216,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 4 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. 3 days out. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -239,7 +239,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 4,
+          "daysUntilShow": 3,
           "imminent": true
         },
         "effort": {
@@ -2818,13 +2818,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1Af8au0",
-      "artist": "Soos + benten",
-      "date": "Tue Dec 15",
-      "localDate": "2026-12-15",
-      "reason": "no taste match"
-    },
-    {
       "id": "Z7r9jZ1A7JF8_",
       "artist": "Bernadette Peters",
       "date": "Tue Dec 15",
@@ -2876,6 +2869,13 @@
     {
       "id": "rZ7HnEZ1AfFEG7",
       "artist": "Karaoke Tuesday",
+      "date": "Tue Dec 15",
+      "localDate": "2026-12-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8au0",
+      "artist": "Soos + benten",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
       "reason": "no taste match"
@@ -3812,6 +3812,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfCKo0",
+      "artist": "Trestles",
+      "date": "Thu Jan 21",
+      "localDate": "2027-01-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af8ok7",
       "artist": "The Stinkfoot Orchestra",
       "date": "Thu Jan 21",
@@ -3940,6 +3947,13 @@
     {
       "id": "rZ7HnEZ1AfuM70",
       "artist": "44phantom",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pqyRdco",
+      "artist": "Club 90s",
       "date": "Sat Jan 23",
       "localDate": "2027-01-23",
       "reason": "no taste match"
@@ -4225,6 +4239,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8tpf",
+      "artist": "Teenage Wrist",
+      "date": "Fri Feb 5",
+      "localDate": "2027-02-05",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfuM4N",
       "artist": "Odezenne",
       "date": "Fri Feb 5",
@@ -4288,5 +4309,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 578
+  "eventCount": 581
 }
