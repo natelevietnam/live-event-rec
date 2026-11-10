@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-09T22:52:04.354Z",
+  "generatedAt": "2026-11-10T07:59:35.074Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-09T22:52:04Z",
-      "endDateTime": "2027-02-07T22:52:04Z"
+      "startDateTime": "2026-11-10T07:59:35Z",
+      "endDateTime": "2027-02-08T07:59:35Z"
     },
-    "eventsConsidered": 581,
-    "eventsReported": 581,
+    "eventsConsidered": 579,
+    "eventsReported": 579,
     "truncated": false
   },
   "genres": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 58
+      "count": 57
     },
     {
       "name": "Dance/Electronic",
@@ -62,15 +62,15 @@
     },
     {
       "name": "Pop",
-      "count": 48
+      "count": 46
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 36
+      "count": 35
     },
     {
       "name": "R&B",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Country",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Latin",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Classical",
@@ -255,34 +255,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_GKW-EWe",
-      "artist": "SIENNA SPIRO",
-      "date": "Mon Nov 9",
-      "localDate": "2026-11-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG8kf",
-      "artist": "Weston Estate",
-      "date": "Mon Nov 9",
-      "localDate": "2026-11-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vFaK",
-      "artist": "Past Self, Creux Lies, Hot Goth GF ",
-      "date": "Mon Nov 9",
-      "localDate": "2026-11-09",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_23uAJMr",
-      "artist": "Quadeca",
-      "date": "Mon Nov 9",
-      "localDate": "2026-11-09",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_FnHI2eZ",
       "artist": "Teddy Swims",
@@ -4307,7 +4279,21 @@
       "date": "Sat Feb 6",
       "localDate": "2027-02-06",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oXVXYmL",
+      "artist": "Yuridia",
+      "date": "Sun Feb 7",
+      "localDate": "2027-02-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fQ5Sl9U",
+      "artist": "The Temptations",
+      "date": "Sun Feb 7",
+      "localDate": "2027-02-07",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 581
+  "eventCount": 579
 }
