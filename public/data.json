@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-10T20:12:43.024Z",
+  "generatedAt": "2026-11-11T07:29:20.957Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-10T20:12:43Z",
-      "endDateTime": "2027-02-08T20:12:43Z"
+      "startDateTime": "2026-11-11T07:29:20Z",
+      "endDateTime": "2027-02-09T07:29:20Z"
     },
-    "eventsConsidered": 603,
-    "eventsReported": 603,
+    "eventsConsidered": 595,
+    "eventsReported": 595,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 144
+      "count": 142
     },
     {
       "name": "Rock",
-      "count": 132
+      "count": 131
     },
     {
       "name": "Alternative",
-      "count": 57
+      "count": 55
     },
     {
       "name": "Dance/Electronic",
@@ -62,11 +62,11 @@
     },
     {
       "name": "Pop",
-      "count": 45
+      "count": 43
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 36
+      "count": 37
     },
     {
       "name": "R&B",
@@ -78,10 +78,6 @@
     },
     {
       "name": "Country",
-      "count": 13
-    },
-    {
-      "name": "Metal",
       "count": 12
     },
     {
@@ -98,6 +94,10 @@
     },
     {
       "name": "Latin",
+      "count": 11
+    },
+    {
+      "name": "Metal",
       "count": 11
     },
     {
@@ -256,69 +256,6 @@
   ],
   "cut": [
     {
-      "id": "G5vYZ_FnHI2eZ",
-      "artist": "Teddy Swims",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Zz4d",
-      "artist": "Sparta",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8M-41QC",
-      "artist": "Claudio Simonetti's Goblin",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MJa",
-      "artist": "The Tallest Man On Earth",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA77QK",
-      "artist": "Buzzcocks",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZVZd",
-      "artist": "Weston Estate",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_KPCUhIT",
-      "artist": "Louie TheSinger",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_27SdHPE",
-      "artist": "Soft Cell",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1AfFE8V",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Nov 10",
-      "localDate": "2026-11-10",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1AfGAvf",
       "artist": "Boltcutter/ Misery Whip/ Forced To Suffer/ Iron Front",
       "date": "Wed Nov 11",
@@ -356,13 +293,6 @@
     {
       "id": "rZ7HnEZ1AfFKaf",
       "artist": "Mad Tsai",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_FD8KCxT",
-      "artist": "The Damned",
       "date": "Wed Nov 11",
       "localDate": "2026-11-11",
       "reason": "no taste match"
@@ -1936,6 +1866,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "1Ae0Z_pGkI2EZ-e",
+      "artist": "Gorilla Glue & Lil Nakur",
+      "date": "Tue Dec 1",
+      "localDate": "2026-12-01",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_G1_Rsak",
       "artist": "Jalen Ngonda",
       "date": "Tue Dec 1",
@@ -2092,6 +2029,13 @@
     {
       "id": "Z7r9jZ1AAZVvP",
       "artist": "Ambrose Akinmusire",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8yf0",
+      "artist": "Buzzed Lightbeer, Blood Sugar, Leer, For Horses",
       "date": "Fri Dec 4",
       "localDate": "2026-12-04",
       "reason": "no taste match"
@@ -4463,5 +4407,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 603
+  "eventCount": 595
 }
