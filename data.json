@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-11T07:29:20.957Z",
+  "generatedAt": "2026-11-11T19:59:52.317Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-11T07:29:20Z",
-      "endDateTime": "2027-02-09T07:29:20Z"
+      "startDateTime": "2026-11-11T19:59:52Z",
+      "endDateTime": "2027-02-09T19:59:52Z"
     },
-    "eventsConsidered": 595,
-    "eventsReported": 595,
+    "eventsConsidered": 600,
+    "eventsReported": 600,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 142
+      "count": 145
     },
     {
       "name": "Rock",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 55
+      "count": 57
     },
     {
       "name": "Dance/Electronic",
@@ -77,11 +77,11 @@
       "count": 15
     },
     {
-      "name": "Country",
-      "count": 12
+      "name": "World",
+      "count": 13
     },
     {
-      "name": "World",
+      "name": "Country",
       "count": 12
     },
     {
@@ -93,12 +93,12 @@
       "count": 11
     },
     {
-      "name": "Latin",
+      "name": "Metal",
       "count": 11
     },
     {
-      "name": "Metal",
-      "count": 11
+      "name": "Latin",
+      "count": 10
     },
     {
       "name": "Classical",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 3 days out. Oakland venue, Friday.",
+      "reason": "Direct match. 2 days out. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 3,
+          "daysUntilShow": 2,
           "imminent": true
         },
         "effort": {
@@ -216,7 +216,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. 2 days out. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. Tomorrow. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -239,7 +239,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 2,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -790,13 +790,6 @@
     {
       "id": "G5vYZ_G85xh2y",
       "artist": "The Mountain Goats",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_53Hc4X1",
-      "artist": "Francisca Valenzuela",
       "date": "Sun Nov 15",
       "localDate": "2026-11-15",
       "reason": "no taste match"
@@ -1747,6 +1740,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8yjf",
+      "artist": "Cartoon Hearts/ Amity St./ Trip Drive/ Zacc & The Scissorlips",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfuMP0",
       "artist": "Thus Spoke Zarathustra/ Destroy All! Humans/ What I Bleed Is Yours/ Fall of the King",
       "date": "Sat Nov 28",
@@ -2034,8 +2034,8 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1Af8yf0",
-      "artist": "Buzzed Lightbeer, Blood Sugar, Leer, For Horses",
+      "id": "rZ7HnEZ1Af8yj0",
+      "artist": "Buzzed Lightbeer/ Bloodsugar/ Leer/ For Horses",
       "date": "Fri Dec 4",
       "localDate": "2026-12-04",
       "reason": "no taste match"
@@ -3217,6 +3217,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA748F",
+      "artist": "Robert Glasper",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8n0hnDQ",
       "artist": "The Allman Betts Family Revival",
       "date": "Sun Dec 20",
@@ -3686,6 +3693,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8UZ0",
+      "artist": "An Evening With Karl Denson's AfroSonic",
+      "date": "Wed Jan 13",
+      "localDate": "2027-01-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_KVSzURN",
       "artist": "AJ McLean",
       "date": "Wed Jan 13",
@@ -3872,6 +3886,13 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Jan 19",
       "localDate": "2027-01-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7488",
+      "artist": "Andy McKee",
+      "date": "Wed Jan 20",
+      "localDate": "2027-01-20",
       "reason": "no taste match"
     },
     {
@@ -4141,6 +4162,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_pId0URl",
+      "artist": "Dynamic Duo",
+      "date": "Thu Jan 28",
+      "localDate": "2027-01-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afaa_0",
       "artist": "City of the Sun",
       "date": "Thu Jan 28",
@@ -4159,6 +4187,13 @@
       "artist": "The California Honeydrops",
       "date": "Thu Jan 28",
       "localDate": "2027-01-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70_-t",
+      "artist": "Mitsuko Uchida",
+      "date": "Fri Jan 29",
+      "localDate": "2027-01-29",
       "reason": "no taste match"
     },
     {
@@ -4407,5 +4442,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 595
+  "eventCount": 600
 }
