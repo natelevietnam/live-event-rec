@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-11T19:59:52.317Z",
+  "generatedAt": "2026-11-12T07:57:26.450Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-11T19:59:52Z",
-      "endDateTime": "2027-02-09T19:59:52Z"
+      "startDateTime": "2026-11-12T07:57:26Z",
+      "endDateTime": "2027-02-10T07:57:26Z"
     },
-    "eventsConsidered": 600,
-    "eventsReported": 600,
+    "eventsConsidered": 595,
+    "eventsReported": 595,
     "truncated": false
   },
   "genres": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Rock",
-      "count": 131
+      "count": 129
     },
     {
       "name": "Alternative",
-      "count": 57
+      "count": 55
     },
     {
       "name": "Dance/Electronic",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Pop",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Hip-Hop/Rap",
@@ -77,32 +77,32 @@
       "count": 15
     },
     {
-      "name": "World",
+      "name": "Country",
       "count": 13
     },
     {
-      "name": "Country",
+      "name": "World",
       "count": 12
-    },
-    {
-      "name": "Folk",
-      "count": 11
     },
     {
       "name": "Jazz",
       "count": 11
     },
     {
-      "name": "Metal",
-      "count": 11
-    },
-    {
-      "name": "Latin",
+      "name": "Folk",
       "count": 10
     },
     {
+      "name": "Metal",
+      "count": 10
+    },
+    {
+      "name": "Latin",
+      "count": 9
+    },
+    {
       "name": "Classical",
-      "count": 7
+      "count": 8
     },
     {
       "name": "New Age",
@@ -255,97 +255,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfGAvf",
-      "artist": "Boltcutter/ Misery Whip/ Forced To Suffer/ Iron Front",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZw-7",
-      "artist": "Open Mic Night",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAv3kK",
-      "artist": "Herlin Riley",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J3p3",
-      "artist": "Buzzcocks",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af0U4d",
-      "artist": "Stop Light Observations",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFKaf",
-      "artist": "Mad Tsai",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GHzwHnZ",
-      "artist": "Brand New",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PtAU",
-      "artist": "Mad Tsai",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ8C6",
-      "artist": "Soft Cell",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_U",
-      "artist": "Jake Xerxes Fussell",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ38J",
-      "artist": "Aterciopelados",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbFw_Rd9G",
-      "artist": "Pancho Barraza",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_avuA4X_",
-      "artist": "Roger Clyne",
-      "date": "Wed Nov 11",
-      "localDate": "2026-11-11",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAv0ZO",
       "artist": "Ezra Collective",
@@ -1474,6 +1383,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1AfoZk7",
+      "artist": "Ariana Grande Night",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAvo_s",
       "artist": "Gerald Albright",
       "date": "Sat Nov 21",
@@ -1727,7 +1643,7 @@
     },
     {
       "id": "rZ7HnEZ1Af04Pd",
-      "artist": "GEMS! The Bay's Best Throwback Party",
+      "artist": "GEMS x 2000's Party! The Bay's Best Throwback Party w/ Nate Rioz + XJEEZY + Mattyagi & Patio Takeover: 4DHILA B2B Ms. Organic ",
       "date": "Fri Nov 27",
       "localDate": "2026-11-27",
       "reason": "no taste match"
@@ -1819,6 +1735,13 @@
     {
       "id": "G5vYZ_KLQ1qwG",
       "artist": "Vessbroz",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afoef0",
+      "artist": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more)",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
       "reason": "no taste match"
@@ -3462,6 +3385,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7e0d",
+      "artist": "Snakehips",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA79aY",
       "artist": "Mustache Harbor",
       "date": "Thu Dec 31",
@@ -4440,7 +4370,42 @@
       "date": "Sun Feb 7",
       "localDate": "2027-02-07",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAZY06",
+      "artist": "Rebirth Brass Band",
+      "date": "Tue Feb 9",
+      "localDate": "2027-02-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8oZf",
+      "artist": "Two Gallants",
+      "date": "Tue Feb 9",
+      "localDate": "2027-02-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_kQ5Ey-u",
+      "artist": "Rhiannon Giddens",
+      "date": "Tue Feb 9",
+      "localDate": "2027-02-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_oK5HLNw",
+      "artist": "Stella Lefty",
+      "date": "Tue Feb 9",
+      "localDate": "2027-02-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEbf",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Feb 9",
+      "localDate": "2027-02-09",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 600
+  "eventCount": 595
 }
