@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-12T07:57:26.450Z",
+  "generatedAt": "2026-11-12T20:38:37.600Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-12T07:57:26Z",
-      "endDateTime": "2027-02-10T07:57:26Z"
+      "startDateTime": "2026-11-12T20:38:37Z",
+      "endDateTime": "2027-02-10T20:38:37Z"
     },
-    "eventsConsidered": 595,
-    "eventsReported": 595,
+    "eventsConsidered": 596,
+    "eventsReported": 596,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 145
+      "count": 146
     },
     {
       "name": "Rock",
@@ -159,7 +159,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. 2 days out. Oakland venue, Friday.",
+      "reason": "Direct match. Tomorrow. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 2,
+          "daysUntilShow": 1,
           "imminent": true
         },
         "effort": {
@@ -216,7 +216,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. Tomorrow. Oakland venue, Thursday.",
+      "reason": "Adjacent to J. Cole. Tonight. Oakland venue, Thursday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -239,7 +239,7 @@
           "at": "2026-09-11T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -2038,7 +2038,7 @@
       "artist": "LIFE OF THE PARTY - Oakland's Top First Friday Party!",
       "date": "Fri Dec 4",
       "localDate": "2026-12-04",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "169ZkfsotZAuadak",
@@ -3903,6 +3903,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afod87",
+      "artist": "Dumb Nathan Fielder Rave",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA7J_w",
       "artist": "Koo Koo",
       "date": "Sat Jan 23",
@@ -4407,5 +4414,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 595
+  "eventCount": 596
 }
