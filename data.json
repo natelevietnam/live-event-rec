@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-13T07:36:24.062Z",
+  "generatedAt": "2026-11-13T20:19:14.146Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-13T07:36:24Z",
-      "endDateTime": "2027-02-11T07:36:24Z"
+      "startDateTime": "2026-11-13T20:19:14Z",
+      "endDateTime": "2027-02-11T20:19:14Z"
     },
-    "eventsConsidered": 586,
-    "eventsReported": 586,
+    "eventsConsidered": 589,
+    "eventsReported": 589,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 143
+      "count": 144
     },
     {
       "name": "Rock",
-      "count": 131
+      "count": 133
     },
     {
       "name": "Alternative",
@@ -155,7 +155,7 @@
       "score": 91,
       "raw": 77,
       "scoredOutOf": 85,
-      "reason": "Direct match. Tomorrow. Oakland venue, Friday.",
+      "reason": "Direct match. Tonight. Oakland venue, Friday.",
       "urgent": true,
       "breakdown": {
         "taste": {
@@ -178,7 +178,7 @@
           "at": "2026-07-31T17:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 1,
+          "daysUntilShow": 0,
           "imminent": true
         },
         "effort": {
@@ -1728,6 +1728,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afok-f",
+      "artist": "2th/ A Brief Memoir/ A Mourning In Heaven/ Softsnag/ County Fair",
+      "date": "Thu Dec 3",
+      "localDate": "2026-12-03",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8EbEMOl",
       "artist": "Rod Stewart Tribute",
       "date": "Thu Dec 3",
@@ -1753,7 +1760,7 @@
       "artist": "Sunshine Benzie",
       "date": "Thu Dec 3",
       "localDate": "2026-12-03",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_1N8zXfr",
@@ -2278,6 +2285,13 @@
       "artist": "Karaoke Tuesday",
       "date": "Tue Dec 8",
       "localDate": "2026-12-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pYOxWoe",
+      "artist": "Movie",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
       "reason": "no taste match"
     },
     {
@@ -3786,6 +3800,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afok_7",
+      "artist": "Juicebox - The Strokes Tribute Band, Public Pervert - Interpol Tribute Band",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_4LcExZE",
       "artist": "Portugal. The Man",
       "date": "Sat Jan 23",
@@ -4290,5 +4311,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 586
+  "eventCount": 589
 }
