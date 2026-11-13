@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-12T20:38:37.600Z",
+  "generatedAt": "2026-11-13T07:36:24.062Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-12T20:38:37Z",
-      "endDateTime": "2027-02-10T20:38:37Z"
+      "startDateTime": "2026-11-13T07:36:24Z",
+      "endDateTime": "2027-02-11T07:36:24Z"
     },
-    "eventsConsidered": 596,
-    "eventsReported": 596,
+    "eventsConsidered": 586,
+    "eventsReported": 586,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 146
+      "count": 143
     },
     {
       "name": "Rock",
-      "count": 129
+      "count": 131
     },
     {
       "name": "Alternative",
-      "count": 55
+      "count": 53
     },
     {
       "name": "Dance/Electronic",
@@ -62,15 +62,15 @@
     },
     {
       "name": "Pop",
-      "count": 44
+      "count": 41
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 37
+      "count": 36
     },
     {
       "name": "R&B",
-      "count": 27
+      "count": 26
     },
     {
       "name": "Blues",
@@ -85,11 +85,11 @@
       "count": 12
     },
     {
-      "name": "Jazz",
-      "count": 11
+      "name": "Folk",
+      "count": 10
     },
     {
-      "name": "Folk",
+      "name": "Jazz",
       "count": 10
     },
     {
@@ -118,10 +118,6 @@
     },
     {
       "name": "Reggae",
-      "count": 1
-    },
-    {
-      "name": "Religious",
       "count": 1
     }
   ],
@@ -195,164 +191,9 @@
           "weeknightPenalty": 0
         }
       }
-    },
-    {
-      "id": "G5vYZ_32iy6Gx",
-      "artist": "Isaiah Rashad",
-      "seed": "J. Cole",
-      "seeds": [
-        "J. Cole"
-      ],
-      "tier": "adjacent",
-      "eventName": "ISAIAH RASHAD: Lil Sunny's Awful Road Trip",
-      "url": "https://www.ticketmaster.com/isaiah-rashad-lil-sunnys-awful-road-oakland-california-11-12-2026/event/1C006523ECE47322",
-      "genre": "Hip-Hop/Rap",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "localTime": "20:00:00",
-      "weekday": "Thursday",
-      "venue": "Fox Theater - Oakland",
-      "city": "Oakland",
-      "score": 54,
-      "raw": 46,
-      "scoredOutOf": 85,
-      "reason": "Adjacent to J. Cole. Tonight. Oakland venue, Thursday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 20,
-          "max": 45,
-          "tier": "adjacent",
-          "exact": true,
-          "seed": "J. Cole",
-          "seeds": [
-            "J. Cole"
-          ],
-          "matchedOn": "Isaiah Rashad"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-09-11T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 8,
-          "max": 20,
-          "area": "eastBay",
-          "areaLabel": "Oakland",
-          "weeknight": true,
-          "weekday": "Thursday",
-          "weeknightPenalty": 6
-        }
-      }
     }
   ],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAv0ZO",
-      "artist": "Ezra Collective",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFw00",
-      "artist": "Tauren Wells",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZvbN",
-      "artist": "Jackiem Joyner",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pt7-",
-      "artist": "Turnover",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuM0V",
-      "artist": "Meadow/ Hoarse/ Skiptrace/ Traceback",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J3pK",
-      "artist": "Marc Broussard",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPgPN",
-      "artist": "Stephen Day",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJZfS",
-      "artist": "Natanya",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_162pnlP",
-      "artist": "Gene",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70E19",
-      "artist": "Band of Horses",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Pwp3",
-      "artist": "Russian Circles",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1D8lhz4",
-      "artist": "they are gutting a body of water",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_8Ctecib",
-      "artist": "Michael Feinstein",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFAuV",
-      "artist": "Ezra Collective",
-      "date": "Thu Nov 12",
-      "localDate": "2026-11-12",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_4l_1Irx",
       "artist": "Sammy Virji",
@@ -1397,6 +1238,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7E1A",
+      "artist": "San Francisco Symphony Youth Orchestra",
+      "date": "Sun Nov 22",
+      "localDate": "2026-11-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af8Ub7",
       "artist": "Concision, As My Ashes Blur The Sky, A November Morning, State of Reliance, Wallie",
       "date": "Sun Nov 22",
@@ -1812,6 +1660,13 @@
     {
       "id": "G5vYZ_A2KV6-_",
       "artist": "The Neighbourhood",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pYjxiwL",
+      "artist": "Movie",
       "date": "Wed Dec 2",
       "localDate": "2026-12-02",
       "reason": "no taste match"
@@ -4412,7 +4267,28 @@
       "date": "Tue Feb 9",
       "localDate": "2027-02-09",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8d77",
+      "artist": "Two Gallants",
+      "date": "Wed Feb 10",
+      "localDate": "2027-02-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8eP7",
+      "artist": "Two Gallants",
+      "date": "Wed Feb 10",
+      "localDate": "2027-02-10",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8obf",
+      "artist": "3l3d3p",
+      "date": "Wed Feb 10",
+      "localDate": "2027-02-10",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 596
+  "eventCount": 586
 }
