@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-13T20:19:14.146Z",
+  "generatedAt": "2026-11-14T07:20:39.383Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-13T20:19:14Z",
-      "endDateTime": "2027-02-11T20:19:14Z"
+      "startDateTime": "2026-11-14T07:20:39Z",
+      "endDateTime": "2027-02-12T07:20:39Z"
     },
-    "eventsConsidered": 589,
-    "eventsReported": 589,
+    "eventsConsidered": 568,
+    "eventsReported": 568,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 144
+      "count": 137
     },
     {
       "name": "Rock",
@@ -54,23 +54,23 @@
     },
     {
       "name": "Alternative",
-      "count": 53
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
-      "count": 52
+      "count": 50
     },
     {
       "name": "Pop",
-      "count": 41
+      "count": 38
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 36
+      "count": 32
     },
     {
       "name": "R&B",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Blues",
@@ -93,11 +93,11 @@
       "count": 10
     },
     {
-      "name": "Metal",
-      "count": 10
+      "name": "Latin",
+      "count": 9
     },
     {
-      "name": "Latin",
+      "name": "Metal",
       "count": 9
     },
     {
@@ -134,220 +134,8 @@
     "genres": [],
     "travel": "all"
   },
-  "shows": [
-    {
-      "id": "G5vYZ_2fIMqin",
-      "artist": "Tyla",
-      "seed": "Tyla",
-      "seeds": [
-        "Tyla"
-      ],
-      "tier": "direct",
-      "eventName": "TYLA - THE A*POP WORLD TOUR (MOVED TO FOX THEATER)",
-      "url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-moved-oakland-california-11-13-2026/event/1C0064F528DDDB2A",
-      "genre": "Pop",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "localTime": "20:00:00",
-      "weekday": "Friday",
-      "venue": "Fox Theater - Oakland",
-      "city": "Oakland",
-      "score": 91,
-      "raw": 77,
-      "scoredOutOf": 85,
-      "reason": "Direct match. Tonight. Oakland venue, Friday.",
-      "urgent": true,
-      "breakdown": {
-        "taste": {
-          "points": 45,
-          "max": 45,
-          "tier": "direct",
-          "exact": true,
-          "seed": "Tyla",
-          "seeds": [
-            "Tyla"
-          ],
-          "matchedOn": "Tyla"
-        },
-        "urgency": {
-          "points": 18,
-          "max": 20,
-          "driver": "proximity",
-          "state": "onSaleNow",
-          "kind": "onsale",
-          "at": "2026-07-31T17:00:00.000Z",
-          "presaleName": null,
-          "daysUntilOnsale": 0,
-          "daysUntilShow": 0,
-          "imminent": true
-        },
-        "effort": {
-          "points": 14,
-          "max": 20,
-          "area": "eastBay",
-          "areaLabel": "Oakland",
-          "weeknight": false,
-          "weekday": "Friday",
-          "weeknightPenalty": 0
-        }
-      }
-    }
-  ],
+  "shows": [],
   "cut": [
-    {
-      "id": "G5vYZ_4l_1Irx",
-      "artist": "Sammy Virji",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZzjK",
-      "artist": "Oso Oso",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1vq0",
-      "artist": "LOCKED SHUT",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7POjM",
-      "artist": "Sammy Virji",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuP_7",
-      "artist": "Sutekh Hexen/ Sin Pavilion/ Home Is The Void/ Silakbo",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZUZK",
-      "artist": "Whitmer Thomas",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GXumpVZ",
-      "artist": "Ceremony",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70O4f",
-      "artist": "L7",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGb77",
-      "artist": "It's Raining Queens: Martha Wash and Marsha Warfield",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_65LofpP",
-      "artist": "Tank and the Bangas",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfG3O0",
-      "artist": "Mustache Harbor",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZ_Z8",
-      "artist": "Robby Krieger",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZgP_",
-      "artist": "Craig Finn",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "15e0Z_3GYjoAw",
-      "artist": "Deante' Hitchcock",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGdC7",
-      "artist": "Deante' Hitchcock",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfP3FS",
-      "artist": "MARIS",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70Mob",
-      "artist": "Other Lives",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7KfE",
-      "artist": "KRS-One",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7Povx",
-      "artist": "Valentino Khan",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7oPw",
-      "artist": "Eli and Fur",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af88G7",
-      "artist": "BABY SLAPS - ALL STARS TURN UP EDITION w/ Thow Wow + Buku FM + Nastia",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_fD80sy7",
-      "artist": "Tyla",
-      "date": "Fri Nov 13",
-      "localDate": "2026-11-13",
-      "reason": "later date for Tyla, higher-scoring night already listed"
-    },
     {
       "id": "rZ7HnEZ1AfJpkd",
       "artist": "TRSH, Adjust The Sails, Dear Maryanne, Dear Cincinnati",
@@ -3955,7 +3743,7 @@
     },
     {
       "id": "rZ7HnEZ1AfCA_0",
-      "artist": "The Harbour Tour - Jon Bryant",
+      "artist": "Jon Bryant",
       "date": "Wed Jan 27",
       "localDate": "2027-01-27",
       "reason": "no taste match"
@@ -4309,7 +4097,21 @@
       "date": "Wed Feb 10",
       "localDate": "2027-02-10",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8de7",
+      "artist": "Two Gallants",
+      "date": "Thu Feb 11",
+      "localDate": "2027-02-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KFrbG76",
+      "artist": "Death From Above 1979",
+      "date": "Thu Feb 11",
+      "localDate": "2027-02-11",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 589
+  "eventCount": 568
 }
