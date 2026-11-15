@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-15T07:33:26.736Z",
+  "generatedAt": "2026-11-15T19:14:02.231Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-15T07:33:26Z",
-      "endDateTime": "2027-02-13T07:33:26Z"
+      "startDateTime": "2026-11-15T19:14:02Z",
+      "endDateTime": "2027-02-13T19:14:02Z"
     },
-    "eventsConsidered": 558,
-    "eventsReported": 558,
+    "eventsConsidered": 559,
+    "eventsReported": 559,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Rock",
-      "count": 130
+      "count": 131
     },
     {
       "name": "Alternative",
@@ -4041,7 +4041,14 @@
       "date": "Fri Feb 12",
       "localDate": "2027-02-12",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K0525-J",
+      "artist": "Dark Star Orchestra",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 558
+  "eventCount": 559
 }
