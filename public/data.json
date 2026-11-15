@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-14T07:20:39.383Z",
+  "generatedAt": "2026-11-15T07:33:26.736Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,53 +36,53 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-14T07:20:39Z",
-      "endDateTime": "2027-02-12T07:20:39Z"
+      "startDateTime": "2026-11-15T07:33:26Z",
+      "endDateTime": "2027-02-13T07:33:26Z"
     },
-    "eventsConsidered": 568,
-    "eventsReported": 568,
+    "eventsConsidered": 558,
+    "eventsReported": 558,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 137
+      "count": 135
     },
     {
       "name": "Rock",
-      "count": 133
+      "count": 130
     },
     {
       "name": "Alternative",
-      "count": 51
-    },
-    {
-      "name": "Dance/Electronic",
       "count": 50
     },
     {
+      "name": "Dance/Electronic",
+      "count": 47
+    },
+    {
       "name": "Pop",
-      "count": 38
+      "count": 37
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 32
+      "count": 33
     },
     {
       "name": "R&B",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Blues",
-      "count": 15
-    },
-    {
-      "name": "Country",
-      "count": 13
+      "count": 14
     },
     {
       "name": "World",
       "count": 12
+    },
+    {
+      "name": "Country",
+      "count": 11
     },
     {
       "name": "Folk",
@@ -109,15 +109,15 @@
       "count": 2
     },
     {
+      "name": "Reggae",
+      "count": 2
+    },
+    {
       "name": "Children's Music",
       "count": 1
     },
     {
       "name": "Music",
-      "count": 1
-    },
-    {
-      "name": "Reggae",
       "count": 1
     }
   ],
@@ -136,146 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfJpkd",
-      "artist": "TRSH, Adjust The Sails, Dear Maryanne, Dear Cincinnati",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G5awjUE",
-      "artist": "Underoath",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_u5pn4Zl",
-      "artist": "WORSHIP",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1K00",
-      "artist": "Kraus",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8QLfqro",
-      "artist": "Allison Russell",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvoQF",
-      "artist": "Day26",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uN8wANP",
-      "artist": "Paul Cauthen",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7POPa",
-      "artist": "Rhye",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7y_S",
-      "artist": "Sara Landry",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_72uumwI",
-      "artist": "INNA",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_GGM6cmY",
-      "artist": "Bonobo",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8I9xX8y",
-      "artist": "ABBA Tribute",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2rb7nN9",
-      "artist": "The California Honeydrops",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "17AYv0G62SpDKYL",
-      "artist": "Loverboy",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1A7J3pf",
-      "artist": "The Cactus Blossoms",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfPzfN",
-      "artist": "Sean Hayes",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1da7",
-      "artist": "Denise Julia",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvyPP",
-      "artist": "Reggaeton Rave",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfCA_V",
-      "artist": "The Get Down",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvoQ6",
-      "artist": "Day26",
-      "date": "Sat Nov 14",
-      "localDate": "2026-11-14",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_GCYD7ew",
       "artist": "Rodrigo y Gabriela",
@@ -4111,7 +3971,77 @@
       "date": "Thu Feb 11",
       "localDate": "2027-02-11",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGYjf",
+      "artist": "The Templars",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_C1OYB0O",
+      "artist": "MANIA: The ABBA Tribute",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K0kD1GQ",
+      "artist": "Dark Star Orchestra",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_fE3pPfU",
+      "artist": "The Hip Abduction",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGPOf",
+      "artist": "jackzebra — Zhuang Zhuang 2026 Tour",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KNr5HpR",
+      "artist": "Michael Shannon & Jason Narducy",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_4nIuq-B",
+      "artist": "Motown Review",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KQV9wUY",
+      "artist": "Liberace & Liza: A Tribute",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGVbV",
+      "artist": "Ely Oaks",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA77-4",
+      "artist": "Don Trip",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 568
+  "eventCount": 558
 }
