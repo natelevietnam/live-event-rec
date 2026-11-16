@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-16T07:39:16.875Z",
+  "generatedAt": "2026-11-16T22:44:03.115Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,20 +36,20 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-16T07:39:16Z",
-      "endDateTime": "2027-02-14T07:39:16Z"
+      "startDateTime": "2026-11-16T22:44:03Z",
+      "endDateTime": "2027-02-14T22:44:03Z"
     },
-    "eventsConsidered": 553,
-    "eventsReported": 553,
+    "eventsConsidered": 554,
+    "eventsReported": 554,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Rock",
-      "count": 132
+      "name": "Other",
+      "count": 131
     },
     {
-      "name": "Other",
+      "name": "Rock",
       "count": 131
     },
     {
@@ -77,12 +77,12 @@
       "count": 13
     },
     {
-      "name": "World",
+      "name": "Country",
       "count": 12
     },
     {
-      "name": "Country",
-      "count": 11
+      "name": "World",
+      "count": 12
     },
     {
       "name": "Folk",
@@ -93,15 +93,15 @@
       "count": 10
     },
     {
+      "name": "Latin",
+      "count": 9
+    },
+    {
       "name": "Metal",
       "count": 9
     },
     {
       "name": "Classical",
-      "count": 8
-    },
-    {
-      "name": "Latin",
       "count": 8
     },
     {
@@ -136,13 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "G5vYZ_G85IhoF",
-      "artist": "The Mountain Goats",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAvMoF",
       "artist": "Comeback Kid",
@@ -3462,10 +3455,24 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_pDd8hK1",
+      "artist": "Los Terricolas De Nestor Daniel",
+      "date": "Sun Jan 24",
+      "localDate": "2027-01-24",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_35qnxnx",
       "artist": "Three Dog Night",
       "date": "Sun Jan 24",
       "localDate": "2027-01-24",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfaF17",
+      "artist": "Madeline Edwards",
+      "date": "Mon Jan 25",
+      "localDate": "2027-01-25",
       "reason": "no taste match"
     },
     {
@@ -4008,5 +4015,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 553
+  "eventCount": 554
 }
