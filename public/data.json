@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-15T19:14:02.231Z",
+  "generatedAt": "2026-11-16T07:39:16.875Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-15T19:14:02Z",
-      "endDateTime": "2027-02-13T19:14:02Z"
+      "startDateTime": "2026-11-16T07:39:16Z",
+      "endDateTime": "2027-02-14T07:39:16Z"
     },
-    "eventsConsidered": 559,
-    "eventsReported": 559,
+    "eventsConsidered": 553,
+    "eventsReported": 553,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Other",
-      "count": 135
+      "name": "Rock",
+      "count": 132
     },
     {
-      "name": "Rock",
+      "name": "Other",
       "count": 131
     },
     {
       "name": "Alternative",
-      "count": 50
+      "count": 49
     },
     {
       "name": "Dance/Electronic",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Blues",
-      "count": 14
+      "count": 13
     },
     {
       "name": "World",
@@ -86,15 +86,11 @@
     },
     {
       "name": "Folk",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Jazz",
       "count": 10
-    },
-    {
-      "name": "Latin",
-      "count": 9
     },
     {
       "name": "Metal",
@@ -102,6 +98,10 @@
     },
     {
       "name": "Classical",
+      "count": 8
+    },
+    {
+      "name": "Latin",
       "count": 8
     },
     {
@@ -136,76 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "G5vYZ_GCYD7ew",
-      "artist": "Rodrigo y Gabriela",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvo_g",
-      "artist": "Brian Simpson",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_oL-BPz-",
-      "artist": "Marisela",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afukj0",
-      "artist": "Machina: Inharm/ Copalm/ Swagbaby/ Eclipse.XIV/ Mars Kumari",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGKGf",
-      "artist": "Kate Nash",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PPv0",
-      "artist": "Craig Finn",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-pPN",
-      "artist": "OCT,  Billy Marchiafava",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85xh2y",
-      "artist": "The Mountain Goats",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PE8g",
-      "artist": "Vince Staples",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZJqE",
-      "artist": "Allison Russell",
-      "date": "Sun Nov 15",
-      "localDate": "2026-11-15",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_G85IhoF",
       "artist": "The Mountain Goats",
@@ -855,7 +785,7 @@
       "artist": "veggi",
       "date": "Sat Nov 21",
       "localDate": "2026-11-21",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1AAvak7",
@@ -4048,7 +3978,35 @@
       "date": "Fri Feb 12",
       "localDate": "2027-02-12",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K0Fc1ij",
+      "artist": "Dark Star Orchestra",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_f0dNi8_",
+      "artist": "Richard Thompson",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KNrGHpT",
+      "artist": "Michael Shannon & Jason Narducy",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGP70",
+      "artist": "Aubory Bugg",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 559
+  "eventCount": 553
 }
