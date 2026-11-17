@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-16T22:44:03.115Z",
+  "generatedAt": "2026-11-17T08:48:19.705Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-16T22:44:03Z",
-      "endDateTime": "2027-02-14T22:44:03Z"
+      "startDateTime": "2026-11-17T08:48:19Z",
+      "endDateTime": "2027-02-15T08:48:19Z"
     },
-    "eventsConsidered": 554,
-    "eventsReported": 554,
+    "eventsConsidered": 552,
+    "eventsReported": 552,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 131
+      "count": 130
     },
     {
       "name": "Rock",
-      "count": 131
+      "count": 130
     },
     {
       "name": "Alternative",
@@ -70,31 +70,31 @@
     },
     {
       "name": "R&B",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Blues",
       "count": 13
     },
     {
-      "name": "Country",
+      "name": "World",
       "count": 12
     },
     {
-      "name": "World",
-      "count": 12
+      "name": "Country",
+      "count": 11
     },
     {
       "name": "Folk",
       "count": 11
     },
     {
-      "name": "Jazz",
-      "count": 10
+      "name": "Latin",
+      "count": 11
     },
     {
-      "name": "Latin",
-      "count": 9
+      "name": "Jazz",
+      "count": 10
     },
     {
       "name": "Metal",
@@ -136,55 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAvMoF",
-      "artist": "Comeback Kid",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_z",
-      "artist": "Prayers",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_2H97zto",
-      "artist": "Jorja Smith",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PPvP",
-      "artist": "Margaret Glaspy",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85Nh2X",
-      "artist": "The Mountain Goats",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70zfg",
-      "artist": "Manic Street Preachers",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70K_w",
-      "artist": "Son Volt",
-      "date": "Mon Nov 16",
-      "localDate": "2026-11-16",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AAe7-y",
       "artist": "Armored Saint",
@@ -2734,6 +2685,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAAKoP",
+      "artist": "Kali Uchis",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGKZ0",
       "artist": "Paula West New Year's Eve Concert 7pm",
       "date": "Thu Dec 31",
@@ -4013,7 +3971,35 @@
       "date": "Sat Feb 13",
       "localDate": "2027-02-13",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pQX7WJV",
+      "artist": "Natalia Jimenez",
+      "date": "Sun Feb 14",
+      "localDate": "2027-02-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_GRA3gjR",
+      "artist": "Polyphia",
+      "date": "Sun Feb 14",
+      "localDate": "2027-02-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGN-7",
+      "artist": "Ikkimel",
+      "date": "Sun Feb 14",
+      "localDate": "2027-02-14",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pOcKncF",
+      "artist": "Pancho Barraza",
+      "date": "Sun Feb 14",
+      "localDate": "2027-02-14",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 554
+  "eventCount": 552
 }
