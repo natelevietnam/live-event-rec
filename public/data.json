@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-17T08:48:19.705Z",
+  "generatedAt": "2026-11-17T21:29:45.985Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-17T08:48:19Z",
-      "endDateTime": "2027-02-15T08:48:19Z"
+      "startDateTime": "2026-11-17T21:29:45Z",
+      "endDateTime": "2027-02-15T21:29:45Z"
     },
-    "eventsConsidered": 552,
-    "eventsReported": 552,
+    "eventsConsidered": 558,
+    "eventsReported": 558,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Other",
-      "count": 130
+      "name": "Rock",
+      "count": 132
     },
     {
-      "name": "Rock",
-      "count": 130
+      "name": "Other",
+      "count": 131
     },
     {
       "name": "Alternative",
-      "count": 49
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 33
+      "count": 34
     },
     {
       "name": "R&B",
@@ -1385,6 +1385,13 @@
     {
       "id": "rZ7HnEZ1Afu8fV",
       "artist": "Gimme Gimme Disco",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afo3u0",
+      "artist": "Sleepyhead",
       "date": "Fri Dec 4",
       "localDate": "2026-12-04",
       "reason": "no taste match"
@@ -2734,6 +2741,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_pgFj_vL",
+      "artist": "horsegiirL",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AKP64V",
       "artist": "Taba Chake (POSTPONED)",
       "date": "Thu Dec 31",
@@ -3042,6 +3056,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Af8tPf",
+      "artist": "mayday mae!",
+      "date": "Thu Jan 14",
+      "localDate": "2027-01-14",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4Qo",
       "artist": "LSD and The Search For God",
       "date": "Thu Jan 14",
@@ -3226,6 +3247,13 @@
     {
       "id": "G5vYZ_3SYlU0T",
       "artist": "DJ Meredith Marks",
+      "date": "Wed Jan 20",
+      "localDate": "2027-01-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8zJ7",
+      "artist": "josh conway",
       "date": "Wed Jan 20",
       "localDate": "2027-01-20",
       "reason": "no taste match"
@@ -3693,6 +3721,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1Afoox7",
+      "artist": "Montana 700 — The Reminiscing Tour",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4QK",
       "artist": "AJJ",
       "date": "Thu Feb 4",
@@ -3945,6 +3980,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_pEoEvQ1",
+      "artist": "Sweet Relief Musicians Fund",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_K0Fc1ij",
       "artist": "Dark Star Orchestra",
       "date": "Sat Feb 13",
@@ -4001,5 +4043,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 552
+  "eventCount": 558
 }
