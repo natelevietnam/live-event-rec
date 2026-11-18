@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-18T08:12:36.982Z",
+  "generatedAt": "2026-11-18T21:05:29.201Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,17 +36,17 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-18T08:12:36Z",
-      "endDateTime": "2027-02-16T08:12:36Z"
+      "startDateTime": "2026-11-18T21:05:29Z",
+      "endDateTime": "2027-02-16T21:05:29Z"
     },
-    "eventsConsidered": 550,
-    "eventsReported": 550,
+    "eventsConsidered": 555,
+    "eventsReported": 555,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 130
+      "count": 133
     },
     {
       "name": "Other",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Pop",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 35
+      "count": 36
     },
     {
       "name": "R&B",
@@ -2300,6 +2300,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v4_S",
+      "artist": "Big Bad Bitchfest 3 (Night 1)",
+      "date": "Fri Dec 18",
+      "localDate": "2026-12-18",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAZkP9",
       "artist": "Elf in Concert",
       "date": "Fri Dec 18",
@@ -2456,6 +2463,13 @@
     {
       "id": "rZ7HnEZ1AfCZof",
       "artist": "Nueve Lio",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afofo0",
+      "artist": "Divorced Dad Rock Night",
       "date": "Sat Dec 19",
       "localDate": "2026-12-19",
       "reason": "no taste match"
@@ -3273,6 +3287,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v4Od",
+      "artist": "Lightris & Ekebabyy",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afod87",
       "artist": "Dumb Nathan Fielder Rave",
       "date": "Fri Jan 22",
@@ -3491,7 +3512,7 @@
     },
     {
       "id": "G5vYZ_pId0URl",
-      "artist": "Dynamic Duo",
+      "artist": "Dynamicduo",
       "date": "Thu Jan 28",
       "localDate": "2027-01-28",
       "reason": "no taste match"
@@ -3693,6 +3714,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_pHVC7sM",
+      "artist": "Fleetmac Wood",
+      "date": "Fri Feb 5",
+      "localDate": "2027-02-05",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfuM4N",
       "artist": "Odezenne",
       "date": "Fri Feb 5",
@@ -3718,6 +3746,13 @@
       "artist": "Twin Fin",
       "date": "Fri Feb 5",
       "localDate": "2027-02-05",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7zQb",
+      "artist": "Mau P",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
       "reason": "no taste match"
     },
     {
@@ -3987,5 +4022,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 550
+  "eventCount": 555
 }
