@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-17T21:29:45.985Z",
+  "generatedAt": "2026-11-18T08:12:36.982Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-17T21:29:45Z",
-      "endDateTime": "2027-02-15T21:29:45Z"
+      "startDateTime": "2026-11-18T08:12:36Z",
+      "endDateTime": "2027-02-16T08:12:36Z"
     },
-    "eventsConsidered": 558,
-    "eventsReported": 558,
+    "eventsConsidered": 550,
+    "eventsReported": 550,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 132
+      "count": 130
     },
     {
       "name": "Other",
-      "count": 131
+      "count": 129
     },
     {
       "name": "Alternative",
@@ -66,11 +66,11 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 34
+      "count": 35
     },
     {
       "name": "R&B",
-      "count": 23
+      "count": 21
     },
     {
       "name": "Blues",
@@ -79,10 +79,6 @@
     {
       "name": "World",
       "count": 12
-    },
-    {
-      "name": "Country",
-      "count": 11
     },
     {
       "name": "Folk",
@@ -97,11 +93,15 @@
       "count": 10
     },
     {
-      "name": "Metal",
+      "name": "Country",
       "count": 9
     },
     {
       "name": "Classical",
+      "count": 8
+    },
+    {
+      "name": "Metal",
       "count": 8
     },
     {
@@ -136,62 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "Z7r9jZ1AAe7-y",
-      "artist": "Armored Saint",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1sHw6pW",
-      "artist": "Straight No Chaser",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af1670",
-      "artist": "Jammy Buffet",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfJA4d",
-      "artist": "Silverada",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afuwo0",
-      "artist": "Brokencyde",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aMJj0IJ",
-      "artist": "Son Volt",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_C0rMvam",
-      "artist": "Thundercat",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFE4V",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Nov 17",
-      "localDate": "2026-11-17",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfGYJ7",
       "artist": "Leanna Firestone",
@@ -425,7 +369,7 @@
     },
     {
       "id": "rZ7HnEZ1Afu0bf",
-      "artist": "Dead Butterflies",
+      "artist": "awakebutstillinbed",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -565,7 +509,7 @@
     },
     {
       "id": "rZ7HnEZ1Af8A47",
-      "artist": "CUFFING SEASON - The Bay's Best R&B Party!",
+      "artist": "CUFFING SEASON - The Bay's Best R&B Party! w/ J Espinosa + Salenie + Blesst B2B ARV & PATIO TAKEOVER by Club Maquina",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -1111,7 +1055,7 @@
     },
     {
       "id": "rZ7HnEZ1Afoef0",
-      "artist": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more)",
+      "artist": "AFROBASHMENT(Afrobeats, Dancehall, Hip-hop & more) w/ Daghe + Ignacia + Doc Limo",
       "date": "Sat Nov 28",
       "localDate": "2026-11-28",
       "reason": "no taste match"
@@ -4043,5 +3987,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 558
+  "eventCount": 550
 }
