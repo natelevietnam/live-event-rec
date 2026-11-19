@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-19T08:23:49.550Z",
+  "generatedAt": "2026-11-19T21:10:30.698Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,25 +36,25 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-19T08:23:49Z",
-      "endDateTime": "2027-02-17T08:23:49Z"
+      "startDateTime": "2026-11-19T21:10:30Z",
+      "endDateTime": "2027-02-17T21:10:30Z"
     },
-    "eventsConsidered": 543,
-    "eventsReported": 543,
+    "eventsConsidered": 546,
+    "eventsReported": 546,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Other",
-      "count": 128
+      "name": "Rock",
+      "count": 129
     },
     {
-      "name": "Rock",
-      "count": 128
+      "name": "Other",
+      "count": 127
     },
     {
       "name": "Alternative",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 36
+      "count": 38
     },
     {
       "name": "Pop",
@@ -159,7 +159,7 @@
     },
     {
       "id": "rZ7HnEZ1Af8ek7",
-      "artist": "Yo! And The Electric/ Mr. Vale's Math Class/ I Am The Octopus",
+      "artist": "Cardboard People/ Mr. Vale's Math Class/ I Am The Octopus",
       "date": "Thu Nov 19",
       "localDate": "2026-11-19",
       "reason": "no taste match"
@@ -1440,7 +1440,7 @@
     },
     {
       "id": "rZ7HnEZ1AfCoPV",
-      "artist": "Slow Joy, aWannabe",
+      "artist": "Slow Joy, aWannabe, Casino Youth",
       "date": "Sun Dec 6",
       "localDate": "2026-12-06",
       "reason": "no taste match"
@@ -1863,6 +1863,13 @@
       "artist": "ConFunkShun",
       "date": "Fri Dec 11",
       "localDate": "2026-12-11",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vpfK",
+      "artist": "The Official Santa Con SF Bar Crawl",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
       "reason": "no taste match"
     },
     {
@@ -3546,6 +3553,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4vbqK",
+      "artist": "Tony Jupiter",
+      "date": "Sun Jan 31",
+      "localDate": "2027-01-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfaU47",
       "artist": "Eliza McLamb",
       "date": "Mon Feb 1",
@@ -3718,6 +3732,13 @@
       "artist": "The Temptations",
       "date": "Sun Feb 7",
       "localDate": "2027-02-07",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vb7K",
+      "artist": "BabyTron",
+      "date": "Mon Feb 8",
+      "localDate": "2027-02-08",
       "reason": "no taste match"
     },
     {
@@ -3938,5 +3959,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 543
+  "eventCount": 546
 }
