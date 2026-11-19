@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-18T21:05:29.201Z",
+  "generatedAt": "2026-11-19T08:23:49.550Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,41 +36,41 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-18T21:05:29Z",
-      "endDateTime": "2027-02-16T21:05:29Z"
+      "startDateTime": "2026-11-19T08:23:49Z",
+      "endDateTime": "2027-02-17T08:23:49Z"
     },
-    "eventsConsidered": 555,
-    "eventsReported": 555,
+    "eventsConsidered": 543,
+    "eventsReported": 543,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Rock",
-      "count": 133
+      "name": "Other",
+      "count": 128
     },
     {
-      "name": "Other",
-      "count": 129
+      "name": "Rock",
+      "count": 128
     },
     {
       "name": "Alternative",
-      "count": 51
+      "count": 50
     },
     {
       "name": "Dance/Electronic",
-      "count": 48
-    },
-    {
-      "name": "Pop",
-      "count": 37
+      "count": 47
     },
     {
       "name": "Hip-Hop/Rap",
       "count": 36
     },
     {
+      "name": "Pop",
+      "count": 36
+    },
+    {
       "name": "R&B",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Blues",
@@ -97,12 +97,12 @@
       "count": 9
     },
     {
-      "name": "Classical",
+      "name": "Metal",
       "count": 8
     },
     {
-      "name": "Metal",
-      "count": 8
+      "name": "Classical",
+      "count": 7
     },
     {
       "name": "New Age",
@@ -136,104 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfGYJ7",
-      "artist": "Leanna Firestone",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZbU3R_nwH",
-      "artist": "Three Days Grace",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_4r06Yw9",
-      "artist": "Movie",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZwJf",
-      "artist": "Open Mic Night",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_3YKIRgT",
-      "artist": "Hamilton Leithauser",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afus77",
-      "artist": "Laya",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4v6ZN",
-      "artist": "Icona Pop",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afat_f",
-      "artist": "untitled (halo)",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "cancelled"
-    },
-    {
-      "id": "G5vYZ_G850l8_",
-      "artist": "The Mountain Goats",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8pVx7Pk",
-      "artist": "Jamila Woods",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4_y",
-      "artist": "Sueco",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAeojx",
-      "artist": "Ninajirachi",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvyPN",
-      "artist": "Kabaka Pyramid",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CFd56Zl",
-      "artist": "Alice Cooper",
-      "date": "Wed Nov 18",
-      "localDate": "2026-11-18",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_umaWJha",
       "artist": "Pretty Lights",
@@ -333,15 +235,15 @@
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1AA7yJa",
-      "artist": "Carl Cox",
+      "id": "G5vYZ_35P5NtU",
+      "artist": "Shoreline Mafia",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_35P5NtU",
-      "artist": "Shoreline Mafia",
+      "id": "Z7r9jZ1AA7yJa",
+      "artist": "Carl Cox",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -3553,6 +3455,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v9AN",
+      "artist": "Super Diamond",
+      "date": "Fri Jan 29",
+      "localDate": "2027-01-29",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAvwjP",
       "artist": "Brandy Clark",
       "date": "Fri Jan 29",
@@ -3715,7 +3624,7 @@
     },
     {
       "id": "G5vYZ_pHVC7sM",
-      "artist": "Fleetmac Wood",
+      "artist": "Fleetmac Wood presents Rumours Rave: 50 Years of Rotation",
       "date": "Fri Feb 5",
       "localDate": "2027-02-05",
       "reason": "no taste match"
@@ -4020,7 +3929,14 @@
       "date": "Sun Feb 14",
       "localDate": "2027-02-14",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFE17",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Feb 16",
+      "localDate": "2027-02-16",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 555
+  "eventCount": 543
 }
