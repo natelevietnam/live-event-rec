@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-19T21:10:30.698Z",
+  "generatedAt": "2026-11-20T08:04:57.250Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-19T21:10:30Z",
-      "endDateTime": "2027-02-17T21:10:30Z"
+      "startDateTime": "2026-11-20T08:04:57Z",
+      "endDateTime": "2027-02-18T08:04:57Z"
     },
-    "eventsConsidered": 546,
-    "eventsReported": 546,
+    "eventsConsidered": 548,
+    "eventsReported": 548,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Rock",
-      "count": 129
+      "name": "Other",
+      "count": 135
     },
     {
-      "name": "Other",
-      "count": 127
+      "name": "Rock",
+      "count": 128
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 47
+      "count": 43
     },
     {
       "name": "Hip-Hop/Rap",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Pop",
-      "count": 36
+      "count": 34
     },
     {
       "name": "R&B",
@@ -98,7 +98,7 @@
     },
     {
       "name": "Metal",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Classical",
@@ -136,104 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "G5vYZ_umaWJha",
-      "artist": "Pretty Lights",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70A8s",
-      "artist": "GWAR",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_359mevz",
-      "artist": "Prateek Kuhad",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1Af8ek7",
-      "artist": "Cardboard People/ Mr. Vale's Math Class/ I Am The Octopus",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z8kd",
-      "artist": "Internet Girl",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZYZS",
-      "artist": "Pretty Sick",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afu0o7",
-      "artist": "Brothel In Belize — Machine Machine Fall 2026",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85Pl8-",
-      "artist": "The Mountain Goats",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZgPU",
-      "artist": "Røz",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1m-eW1q",
-      "artist": "KATSEYE",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A70MGt",
-      "artist": "Fred Eaglesmith",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1yavCof",
-      "artist": "Joanne Shaw Taylor",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7oPg",
-      "artist": "DJ Stingray",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_um1ZJh-",
-      "artist": "Pretty Lights",
-      "date": "Thu Nov 19",
-      "localDate": "2026-11-19",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_35P5NtU",
       "artist": "Shoreline Mafia",
@@ -340,13 +242,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfGJZ0",
-      "artist": "2000's Night",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
       "id": "rZ7HnEZ1Afa_q7",
       "artist": "Memphis LK",
       "date": "Fri Nov 20",
@@ -391,6 +286,13 @@
     {
       "id": "Z7r9jZ1AAZo-8",
       "artist": "Dev Lemons",
+      "date": "Fri Nov 20",
+      "localDate": "2026-11-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGJZ0",
+      "artist": "2000's Night",
       "date": "Fri Nov 20",
       "localDate": "2026-11-20",
       "reason": "no taste match"
@@ -517,6 +419,13 @@
     {
       "id": "G5vYZ_80C7UaF",
       "artist": "Timex Social Club",
+      "date": "Sat Nov 21",
+      "localDate": "2026-11-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAb0g",
+      "artist": "Tainted Love",
       "date": "Sat Nov 21",
       "localDate": "2026-11-21",
       "reason": "no taste match"
@@ -914,6 +823,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAAb0M",
+      "artist": "Mustache Harbor",
+      "date": "Sat Nov 28",
+      "localDate": "2026-11-28",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGvZ7",
       "artist": "Broadway Rave",
       "date": "Sat Nov 28",
@@ -1096,6 +1012,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAAbPb",
+      "artist": "Rita Wilson",
+      "date": "Wed Dec 2",
+      "localDate": "2026-12-02",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afok-f",
       "artist": "2th/ A Brief Memoir/ A Mourning In Heaven/ Softsnag/ County Fair",
       "date": "Thu Dec 3",
@@ -1203,6 +1126,13 @@
     {
       "id": "Z7r9jZ1AAvJGo",
       "artist": "Amorphis",
+      "date": "Fri Dec 4",
+      "localDate": "2026-12-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAbP-",
+      "artist": "Melvin Seals and JGB",
       "date": "Fri Dec 4",
       "localDate": "2026-12-04",
       "reason": "no taste match"
@@ -1714,6 +1644,13 @@
     {
       "id": "G5vYZ_FljpPHE",
       "artist": "The Pineapple Thief",
+      "date": "Wed Dec 9",
+      "localDate": "2026-12-09",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAbPN",
+      "artist": "Mondo Cozmo",
       "date": "Wed Dec 9",
       "localDate": "2026-12-09",
       "reason": "no taste match"
@@ -2356,6 +2293,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAAbPI",
+      "artist": "Missing Persons",
+      "date": "Sat Dec 19",
+      "localDate": "2026-12-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_8KPzcMP",
       "artist": "Wang Leehom",
       "date": "Sat Dec 19",
@@ -2430,6 +2374,13 @@
       "artist": "A John Prine Christmas with The Jenner Fox Band",
       "date": "Sun Dec 20",
       "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAbPS",
+      "artist": "Molly Tuttle",
+      "date": "Tue Dec 22",
+      "localDate": "2026-12-22",
       "reason": "no taste match"
     },
     {
@@ -2596,6 +2547,13 @@
     {
       "id": "Z7r9jZ1AAvMaM",
       "artist": "Boney James",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7EGE",
+      "artist": "Molly Tuttle",
       "date": "Thu Dec 31",
       "localDate": "2026-12-31",
       "reason": "no taste match"
@@ -2808,6 +2766,13 @@
       "artist": "Com Truise",
       "date": "Fri Jan 8",
       "localDate": "2027-01-08",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAbPV",
+      "artist": "L.A. Guns",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
       "reason": "no taste match"
     },
     {
@@ -3511,6 +3476,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAA3ab",
+      "artist": "North Mississippi Allstars",
+      "date": "Sat Jan 30",
+      "localDate": "2027-01-30",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Af8aqV",
       "artist": "Kawaii Rave",
       "date": "Sat Jan 30",
@@ -3625,6 +3597,13 @@
     {
       "id": "G5vYZ_fhQd0-P",
       "artist": "Kenshi Yonezu",
+      "date": "Thu Feb 4",
+      "localDate": "2027-02-04",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAbJd",
+      "artist": "Fred Tackett",
       "date": "Thu Feb 4",
       "localDate": "2027-02-04",
       "reason": "no taste match"
@@ -3861,6 +3840,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAA_vv",
+      "artist": "Strangelove: The Depeche Mode Experience",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_KQV9wUY",
       "artist": "Liberace & Liza: A Tribute",
       "date": "Fri Feb 12",
@@ -3917,6 +3903,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAA_ve",
+      "artist": "Strangelove: The Depeche Mode Experience",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGP70",
       "artist": "Aubory Bugg",
       "date": "Sat Feb 13",
@@ -3957,7 +3950,28 @@
       "date": "Tue Feb 16",
       "localDate": "2027-02-16",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70o1d",
+      "artist": "The Bouncing Souls",
+      "date": "Wed Feb 17",
+      "localDate": "2027-02-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfGf4V",
+      "artist": "L.A.B.",
+      "date": "Wed Feb 17",
+      "localDate": "2027-02-17",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8AGf",
+      "artist": "Codefendants",
+      "date": "Wed Feb 17",
+      "localDate": "2027-02-17",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 546
+  "eventCount": 548
 }
