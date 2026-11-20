@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-20T08:04:57.250Z",
+  "generatedAt": "2026-11-20T20:54:57.370Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-20T08:04:57Z",
-      "endDateTime": "2027-02-18T08:04:57Z"
+      "startDateTime": "2026-11-20T20:54:57Z",
+      "endDateTime": "2027-02-18T20:54:57Z"
     },
-    "eventsConsidered": 548,
-    "eventsReported": 548,
+    "eventsConsidered": 549,
+    "eventsReported": 549,
     "truncated": false
   },
   "genres": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 51
+      "count": 53
     },
     {
       "name": "Dance/Electronic",
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Blues",
@@ -1476,13 +1476,6 @@
     {
       "id": "G5vYZ_1xEneit",
       "artist": "Angine de Poitrine",
-      "date": "Mon Dec 7",
-      "localDate": "2026-12-07",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGt80",
-      "artist": "Keenan TreVon",
       "date": "Mon Dec 7",
       "localDate": "2026-12-07",
       "reason": "no taste match"
@@ -3049,6 +3042,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v__N",
+      "artist": "Rin",
+      "date": "Tue Jan 19",
+      "localDate": "2027-01-19",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAe4Q3",
       "artist": "True Widow",
       "date": "Tue Jan 19",
@@ -3854,6 +3854,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v9rd",
+      "artist": "In The End - Linkin Park Experience, Blaze Francisco, Diamond Lane",
+      "date": "Fri Feb 12",
+      "localDate": "2027-02-12",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGVbV",
       "artist": "Ely Oaks",
       "date": "Fri Feb 12",
@@ -3973,5 +3980,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 548
+  "eventCount": 549
 }
