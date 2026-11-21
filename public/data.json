@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-20T20:54:57.370Z",
+  "generatedAt": "2026-11-21T07:59:03.885Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-20T20:54:57Z",
-      "endDateTime": "2027-02-18T20:54:57Z"
+      "startDateTime": "2026-11-21T07:59:03Z",
+      "endDateTime": "2027-02-19T07:59:03Z"
     },
-    "eventsConsidered": 549,
-    "eventsReported": 549,
+    "eventsConsidered": 529,
+    "eventsReported": 529,
     "truncated": false
   },
   "genres": [
     {
       "name": "Other",
-      "count": 135
+      "count": 129
     },
     {
       "name": "Rock",
-      "count": 128
+      "count": 125
     },
     {
       "name": "Alternative",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Dance/Electronic",
-      "count": 43
+      "count": 41
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 38
+      "count": 35
     },
     {
       "name": "Pop",
-      "count": 34
+      "count": 32
     },
     {
       "name": "R&B",
@@ -85,28 +85,24 @@
       "count": 11
     },
     {
-      "name": "Latin",
-      "count": 11
-    },
-    {
-      "name": "Jazz",
+      "name": "Country",
       "count": 10
     },
     {
-      "name": "Country",
+      "name": "Latin",
+      "count": 10
+    },
+    {
+      "name": "Classical",
+      "count": 9
+    },
+    {
+      "name": "Jazz",
       "count": 9
     },
     {
       "name": "Metal",
       "count": 9
-    },
-    {
-      "name": "Classical",
-      "count": 7
-    },
-    {
-      "name": "New Age",
-      "count": 2
     },
     {
       "name": "Reggae",
@@ -118,6 +114,10 @@
     },
     {
       "name": "Music",
+      "count": 1
+    },
+    {
+      "name": "New Age",
       "count": 1
     }
   ],
@@ -136,188 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "G5vYZ_35P5NtU",
-      "artist": "Shoreline Mafia",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7yJa",
-      "artist": "Carl Cox",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_6eSo5Cw",
-      "artist": "The Fab Four",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_umaXJh8",
-      "artist": "Pretty Lights",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_oS_F5V2",
-      "artist": "DANNA",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afu0bf",
-      "artist": "awakebutstillinbed",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85Jl8S",
-      "artist": "The Mountain Goats",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4QZ",
-      "artist": "Jayski",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z_PS",
-      "artist": "Spencer Day",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_aLF2qt-",
-      "artist": "Eivør",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFVbV",
-      "artist": "Hug",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VOo",
-      "artist": "Susan Werner",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PwC4",
-      "artist": "Y&T",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_82JOnp9",
-      "artist": "Super Diamond",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_27EJQDO",
-      "artist": "The English Beat",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afa_q7",
-      "artist": "Memphis LK",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7PK7b",
-      "artist": "Maddie Zahm",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-OZK",
-      "artist": "Dan Whitlam",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "cancelled"
-    },
-    {
-      "id": "rZ7HnEZ1Af16F0",
-      "artist": "@NICKCHEO the *TOUR* the *MOVIE*",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af-f_K",
-      "artist": "Bayonne",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvtv7",
-      "artist": "Hans Glader",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZo-8",
-      "artist": "Dev Lemons",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGJZ0",
-      "artist": "2000's Night",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvo_w",
-      "artist": "Gerald Albright",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZyPM",
-      "artist": "Westend",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af8A47",
-      "artist": "CUFFING SEASON - The Bay's Best R&B Party! w/ J Espinosa + Salenie + Blesst B2B ARV & PATIO TAKEOVER by Club Maquina",
-      "date": "Fri Nov 20",
-      "localDate": "2026-11-20",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1A4vKbS",
       "artist": "BEYOND 30: 80s & 90s Over 30s Daytime Clubbing - OAKLAND",
@@ -2545,6 +2363,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "1A9Zk4VGkeUWipY",
+      "artist": "The Country Countdown",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AA7EGE",
       "artist": "Molly Tuttle",
       "date": "Thu Dec 31",
@@ -2895,6 +2720,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v08N",
+      "artist": "Bongfather, Band of coyotes, Liam Miller band, Niantic",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_K60vQat",
       "artist": "Four Tops",
       "date": "Fri Jan 15",
@@ -2904,6 +2736,13 @@
     {
       "id": "G5vYZ_oEoFtlm",
       "artist": "STS9",
+      "date": "Fri Jan 15",
+      "localDate": "2027-01-15",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v08d",
+      "artist": "Faith Prince",
       "date": "Fri Jan 15",
       "localDate": "2027-01-15",
       "reason": "no taste match"
@@ -2967,6 +2806,13 @@
     {
       "id": "Z7r9jZ1A70Mo_",
       "artist": "Book of Love",
+      "date": "Sat Jan 16",
+      "localDate": "2027-01-16",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v08K",
+      "artist": "Faith Prince",
       "date": "Sat Jan 16",
       "localDate": "2027-01-16",
       "reason": "no taste match"
@@ -3978,7 +3824,21 @@
       "date": "Wed Feb 17",
       "localDate": "2027-02-17",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pHcc7uX",
+      "artist": "Nu Genea",
+      "date": "Thu Feb 18",
+      "localDate": "2027-02-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1A70_4z",
+      "artist": "Blue October",
+      "date": "Thu Feb 18",
+      "localDate": "2027-02-18",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 549
+  "eventCount": 529
 }
