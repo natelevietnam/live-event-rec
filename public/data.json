@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-22T07:45:17.571Z",
+  "generatedAt": "2026-11-22T20:08:22.707Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-22T07:45:17Z",
-      "endDateTime": "2027-02-20T07:45:17Z"
+      "startDateTime": "2026-11-22T20:08:22Z",
+      "endDateTime": "2027-02-20T20:08:22Z"
     },
-    "eventsConsidered": 506,
-    "eventsReported": 506,
+    "eventsConsidered": 507,
+    "eventsReported": 507,
     "truncated": false
   },
   "genres": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Other",
-      "count": 122
+      "count": 123
     },
     {
       "name": "Alternative",
@@ -1525,6 +1525,13 @@
     {
       "id": "G5vYZ_GXupJw-",
       "artist": "Yaelokre",
+      "date": "Sun Dec 13",
+      "localDate": "2026-12-13",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vPvS",
+      "artist": "Bay Area Bands Winter Showcase",
       "date": "Sun Dec 13",
       "localDate": "2026-12-13",
       "reason": "no taste match"
@@ -3679,5 +3686,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 506
+  "eventCount": 507
 }
