@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-21T07:59:03.885Z",
+  "generatedAt": "2026-11-22T07:45:17.571Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,37 +36,37 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-21T07:59:03Z",
-      "endDateTime": "2027-02-19T07:59:03Z"
+      "startDateTime": "2026-11-22T07:45:17Z",
+      "endDateTime": "2027-02-20T07:45:17Z"
     },
-    "eventsConsidered": 529,
-    "eventsReported": 529,
+    "eventsConsidered": 506,
+    "eventsReported": 506,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Other",
-      "count": 129
+      "name": "Rock",
+      "count": 124
     },
     {
-      "name": "Rock",
-      "count": 125
+      "name": "Other",
+      "count": 122
     },
     {
       "name": "Alternative",
-      "count": 52
+      "count": 51
     },
     {
       "name": "Dance/Electronic",
-      "count": 41
+      "count": 40
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 35
+      "count": 32
     },
     {
       "name": "Pop",
-      "count": 32
+      "count": 28
     },
     {
       "name": "R&B",
@@ -74,15 +74,11 @@
     },
     {
       "name": "Blues",
-      "count": 13
-    },
-    {
-      "name": "World",
       "count": 12
     },
     {
       "name": "Folk",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Country",
@@ -97,12 +93,20 @@
       "count": 9
     },
     {
-      "name": "Jazz",
+      "name": "World",
       "count": 9
     },
     {
+      "name": "Jazz",
+      "count": 8
+    },
+    {
       "name": "Metal",
-      "count": 9
+      "count": 8
+    },
+    {
+      "name": "New Age",
+      "count": 2
     },
     {
       "name": "Reggae",
@@ -114,10 +118,6 @@
     },
     {
       "name": "Music",
-      "count": 1
-    },
-    {
-      "name": "New Age",
       "count": 1
     }
   ],
@@ -136,202 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "rZ7HnEZ1A4vKbS",
-      "artist": "BEYOND 30: 80s & 90s Over 30s Daytime Clubbing - OAKLAND",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZo-o",
-      "artist": "Surely Tempo",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7P4Fo",
-      "artist": "Andrew McMahon",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuOF0",
-      "artist": "Danny Ali/ Pyro KP/ Quincy ISO/ Griffen",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7JpJa",
-      "artist": "The Residents",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8SbxulZ",
-      "artist": "Jonas Brothers",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_umaTJhb",
-      "artist": "Pretty Lights",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZVvJ",
-      "artist": "Jason Moran",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1he3H24",
-      "artist": "BERTHA: Grateful Drag",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_G85Eh8W",
-      "artist": "The Mountain Goats",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvoaM",
-      "artist": "Brutalismus 3000",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4Z_Jd",
-      "artist": "Spencer Day",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_uN0bIPf",
-      "artist": "Agriculture",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvkaM",
-      "artist": "Ozomatli",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_80C7UaF",
-      "artist": "Timex Social Club",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAAb0g",
-      "artist": "Tainted Love",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7-VO3",
-      "artist": "Susan Werner",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1Y5Zd_I",
-      "artist": "Who's Bad",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_1S5eJmh",
-      "artist": "Arcángel",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "169Zk4kPfZAG1ua8",
-      "artist": "Sharon Cuneta",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfuvP7",
-      "artist": "Frances Whitney",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA77Qp",
-      "artist": "Poi Dog Pondering",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZOGS",
-      "artist": "Q Marsden",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afusef",
-      "artist": "veggi",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1AAvak7",
-      "artist": "Wuki",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af8a4V",
-      "artist": "bbymutha",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfoZk7",
-      "artist": "Ariana Grande Night",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvo_s",
-      "artist": "Gerald Albright",
-      "date": "Sat Nov 21",
-      "localDate": "2026-11-21",
-      "reason": "no taste match"
-    },
     {
       "id": "Z7r9jZ1AA7E1A",
       "artist": "San Francisco Symphony Youth Orchestra",
@@ -3838,7 +3642,42 @@
       "date": "Thu Feb 18",
       "localDate": "2027-02-18",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afudo7",
+      "artist": "Devvy Dub",
+      "date": "Fri Feb 19",
+      "localDate": "2027-02-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pByF1oz",
+      "artist": "Gabriel Jacoby",
+      "date": "Fri Feb 19",
+      "localDate": "2027-02-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_9k0wuOY",
+      "artist": "Ottmar Liebert",
+      "date": "Fri Feb 19",
+      "localDate": "2027-02-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "1AvjZ_KGkYvUp2Z",
+      "artist": "David Foster",
+      "date": "Fri Feb 19",
+      "localDate": "2027-02-19",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1dO0",
+      "artist": "Fink",
+      "date": "Fri Feb 19",
+      "localDate": "2027-02-19",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 529
+  "eventCount": 506
 }
