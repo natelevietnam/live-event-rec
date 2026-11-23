@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-22T20:08:22.707Z",
+  "generatedAt": "2026-11-23T08:34:57.191Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-22T20:08:22Z",
-      "endDateTime": "2027-02-20T20:08:22Z"
+      "startDateTime": "2026-11-23T08:34:57Z",
+      "endDateTime": "2027-02-21T08:34:57Z"
     },
-    "eventsConsidered": 507,
-    "eventsReported": 507,
+    "eventsConsidered": 506,
+    "eventsReported": 506,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 124
+      "count": 125
     },
     {
       "name": "Other",
-      "count": 123
+      "count": 120
     },
     {
       "name": "Alternative",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 32
+      "count": 31
     },
     {
       "name": "Pop",
@@ -81,11 +81,11 @@
       "count": 12
     },
     {
-      "name": "Country",
-      "count": 10
+      "name": "Latin",
+      "count": 12
     },
     {
-      "name": "Latin",
+      "name": "Country",
       "count": 10
     },
     {
@@ -136,55 +136,6 @@
   },
   "shows": [],
   "cut": [
-    {
-      "id": "Z7r9jZ1AA7E1A",
-      "artist": "San Francisco Symphony Youth Orchestra",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af8Ub7",
-      "artist": "Concision, As My Ashes Blur The Sky, A November Morning, State of Reliance, Wallie",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7ej8",
-      "artist": "Oz Noy",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_59foVWT",
-      "artist": "Boston Manor",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfasAV",
-      "artist": "Mark William Lewis",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAeFj_",
-      "artist": "ezcodylee",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_CMqs-Mt",
-      "artist": "The Residents",
-      "date": "Sun Nov 22",
-      "localDate": "2026-11-22",
-      "reason": "cancelled"
-    },
     {
       "id": "G5vYZ_832SQGl",
       "artist": "Rishab Rikhiram Sharma",
@@ -3684,7 +3635,49 @@
       "date": "Fri Feb 19",
       "localDate": "2027-02-19",
       "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KrM2Pgs",
+      "artist": "La Roux",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pK00s0_",
+      "artist": "Railroad Earth",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_K6cIDVV",
+      "artist": "Los Tigres del Norte",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3cWVgCj",
+      "artist": "Joan Osborne",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afuw3f",
+      "artist": "Powerplant",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_4ROwG0c",
+      "artist": "Elefante",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 507
+  "eventCount": 506
 }
