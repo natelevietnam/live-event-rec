@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-24T00:35:02.232Z",
+  "generatedAt": "2026-11-24T10:40:29.304Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-24T00:35:02Z",
-      "endDateTime": "2027-02-22T00:35:02Z"
+      "startDateTime": "2026-11-24T10:40:29Z",
+      "endDateTime": "2027-02-22T10:40:29Z"
     },
     "eventsConsidered": 512,
     "eventsReported": 512,
@@ -46,19 +46,19 @@
   "genres": [
     {
       "name": "Rock",
-      "count": 126
+      "count": 125
     },
     {
       "name": "Other",
-      "count": 122
+      "count": 123
     },
     {
       "name": "Alternative",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Dance/Electronic",
-      "count": 42
+      "count": 41
     },
     {
       "name": "Hip-Hop/Rap",
@@ -86,14 +86,10 @@
     },
     {
       "name": "Country",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Classical",
-      "count": 9
-    },
-    {
-      "name": "World",
       "count": 9
     },
     {
@@ -102,6 +98,10 @@
     },
     {
       "name": "Metal",
+      "count": 8
+    },
+    {
+      "name": "World",
       "count": 8
     },
     {
@@ -177,7 +177,7 @@
           "kind": "onsale",
           "at": "2026-11-24T18:00:00.000Z",
           "presaleName": null,
-          "daysUntilOnsale": 1,
+          "daysUntilOnsale": 0,
           "daysUntilShow": 27,
           "imminent": true
         },
@@ -194,27 +194,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_832SQGl",
-      "artist": "Rishab Rikhiram Sharma",
-      "date": "Mon Nov 23",
-      "localDate": "2026-11-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_okBBScK",
-      "artist": "CocoRosie",
-      "date": "Mon Nov 23",
-      "localDate": "2026-11-23",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A708Fp",
-      "artist": "Gary Numan",
-      "date": "Mon Nov 23",
-      "localDate": "2026-11-23",
-      "reason": "no taste match"
-    },
     {
       "id": "rZ7HnEZ1AfaYPf",
       "artist": "Psycroptic",
@@ -3767,6 +3746,27 @@
     {
       "id": "Z7r9jZ1AAvwQ_",
       "artist": "Chamber Music Series",
+      "date": "Sun Feb 21",
+      "localDate": "2027-02-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfuOk7",
+      "artist": "Bella Poarch",
+      "date": "Sun Feb 21",
+      "localDate": "2027-02-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAA_vd",
+      "artist": "Dumpstaphunk",
+      "date": "Sun Feb 21",
+      "localDate": "2027-02-21",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_KsYyVh4",
+      "artist": "The Mavericks",
       "date": "Sun Feb 21",
       "localDate": "2027-02-21",
       "reason": "no taste match"
