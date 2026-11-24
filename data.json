@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-23T08:34:57.191Z",
+  "generatedAt": "2026-11-24T00:35:02.232Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-23T08:34:57Z",
-      "endDateTime": "2027-02-21T08:34:57Z"
+      "startDateTime": "2026-11-24T00:35:02Z",
+      "endDateTime": "2027-02-22T00:35:02Z"
     },
-    "eventsConsidered": 506,
-    "eventsReported": 506,
+    "eventsConsidered": 512,
+    "eventsReported": 512,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 125
+      "count": 126
     },
     {
       "name": "Other",
-      "count": 120
+      "count": 122
     },
     {
       "name": "Alternative",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 40
+      "count": 42
     },
     {
       "name": "Hip-Hop/Rap",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Pop",
@@ -134,7 +134,65 @@
     "genres": [],
     "travel": "all"
   },
-  "shows": [],
+  "shows": [
+    {
+      "id": "G5vYZ_9fnqUMU",
+      "artist": "E-40",
+      "seed": "Snoop Dogg",
+      "seeds": [
+        "Snoop Dogg"
+      ],
+      "tier": "adjacent",
+      "eventName": "THE RAP SHOW LIVE - CELEBRATING 30 YEARS OF WEST COAST HIP-HOP",
+      "url": "https://www.ticketmaster.com/the-rap-show-live-celebrating-30-oakland-california-12-20-2026/event/1C0065752A776DF6",
+      "genre": "Hip-Hop/Rap",
+      "date": "Sun Dec 20",
+      "localDate": "2026-12-20",
+      "localTime": "19:00:00",
+      "weekday": "Sunday",
+      "venue": "Fox Theater - Oakland",
+      "city": "Oakland",
+      "score": 64,
+      "raw": 54,
+      "scoredOutOf": 85,
+      "reason": "Adjacent to Snoop Dogg. Onsale opens Tue Nov 24. Oakland venue, Sunday.",
+      "urgent": true,
+      "breakdown": {
+        "taste": {
+          "points": 20,
+          "max": 45,
+          "tier": "adjacent",
+          "exact": true,
+          "seed": "Snoop Dogg",
+          "seeds": [
+            "Snoop Dogg"
+          ],
+          "matchedOn": "E-40"
+        },
+        "urgency": {
+          "points": 20,
+          "max": 20,
+          "driver": "onsale",
+          "state": "opens",
+          "kind": "onsale",
+          "at": "2026-11-24T18:00:00.000Z",
+          "presaleName": null,
+          "daysUntilOnsale": 1,
+          "daysUntilShow": 27,
+          "imminent": true
+        },
+        "effort": {
+          "points": 14,
+          "max": 20,
+          "area": "eastBay",
+          "areaLabel": "Oakland",
+          "weeknight": false,
+          "weekday": "Sunday",
+          "weeknightPenalty": 0
+        }
+      }
+    }
+  ],
   "cut": [
     {
       "id": "G5vYZ_832SQGl",
@@ -1467,6 +1525,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4vE1K",
+      "artist": "AFTER PARTY FOR DAINE",
+      "date": "Sat Dec 12",
+      "localDate": "2026-12-12",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGbu7",
       "artist": "Brown, Sturgis & Brown",
       "date": "Sun Dec 13",
@@ -1742,6 +1807,13 @@
     {
       "id": "G5vYZ_8oC-HnX",
       "artist": "Venna",
+      "date": "Fri Dec 18",
+      "localDate": "2026-12-18",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4v0AK",
+      "artist": "CONCISION/ Almost November/ State of Reliance/ Swanblood/ Paper Cranes",
       "date": "Fri Dec 18",
       "localDate": "2026-12-18",
       "reason": "no taste match"
@@ -2197,6 +2269,13 @@
     {
       "id": "Z7r9jZ1AAv8ob",
       "artist": "Steel Pulse",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vPPS",
+      "artist": "The Emo Night Tour",
       "date": "Thu Dec 31",
       "localDate": "2026-12-31",
       "reason": "no taste match"
@@ -3301,6 +3380,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4v_4K",
+      "artist": "Shrek Rave",
+      "date": "Sat Feb 6",
+      "localDate": "2027-02-06",
+      "reason": "no taste match"
+    },
+    {
       "id": "G5vYZ_prUJ1x_",
       "artist": "Wolf Parade",
       "date": "Sun Feb 7",
@@ -3677,7 +3763,14 @@
       "date": "Sat Feb 20",
       "localDate": "2027-02-20",
       "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAvwQ_",
+      "artist": "Chamber Music Series",
+      "date": "Sun Feb 21",
+      "localDate": "2027-02-21",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 506
+  "eventCount": 512
 }
