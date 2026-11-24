@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-24T10:40:29.304Z",
+  "generatedAt": "2026-11-24T22:54:21.989Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-24T10:40:29Z",
-      "endDateTime": "2027-02-22T10:40:29Z"
+      "startDateTime": "2026-11-24T22:54:21Z",
+      "endDateTime": "2027-02-22T22:54:21Z"
     },
-    "eventsConsidered": 512,
-    "eventsReported": 512,
+    "eventsConsidered": 514,
+    "eventsReported": 514,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Rock",
-      "count": 125
+      "name": "Other",
+      "count": 124
     },
     {
-      "name": "Other",
-      "count": 123
+      "name": "Rock",
+      "count": 124
     },
     {
       "name": "Alternative",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Dance/Electronic",
-      "count": 41
+      "count": 42
     },
     {
       "name": "Hip-Hop/Rap",
@@ -119,6 +119,10 @@
     {
       "name": "Music",
       "count": 1
+    },
+    {
+      "name": "Theatre",
+      "count": 1
     }
   ],
   "defaults": {
@@ -152,11 +156,11 @@
       "weekday": "Sunday",
       "venue": "Fox Theater - Oakland",
       "city": "Oakland",
-      "score": 64,
-      "raw": 54,
+      "score": 54,
+      "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Snoop Dogg. Onsale opens Tue Nov 24. Oakland venue, Sunday.",
-      "urgent": true,
+      "reason": "Adjacent to Snoop Dogg. 26 days out. Oakland venue, Sunday.",
+      "urgent": false,
       "breakdown": {
         "taste": {
           "points": 20,
@@ -170,16 +174,16 @@
           "matchedOn": "E-40"
         },
         "urgency": {
-          "points": 20,
+          "points": 12,
           "max": 20,
-          "driver": "onsale",
-          "state": "opens",
+          "driver": "proximity",
+          "state": "onSaleNow",
           "kind": "onsale",
           "at": "2026-11-24T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 27,
-          "imminent": true
+          "daysUntilShow": 26,
+          "imminent": false
         },
         "effort": {
           "points": 14,
@@ -211,13 +215,6 @@
     {
       "id": "G5vYZ_8boYp-M",
       "artist": "Steve Lacy",
-      "date": "Tue Nov 24",
-      "localDate": "2026-11-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1A7J31_",
-      "artist": "The Amity Affliction",
       "date": "Tue Nov 24",
       "localDate": "2026-11-24",
       "reason": "no taste match"
@@ -2274,6 +2271,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_9rHdu7q",
+      "artist": "Gimme Gimme Disco",
+      "date": "Thu Dec 31",
+      "localDate": "2026-12-31",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1AfGKZV",
       "artist": "Paula West Ring in the New Year Concert 10:30pm",
       "date": "Thu Dec 31",
@@ -3583,6 +3587,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AAAxOV",
+      "artist": "The Rocky Horror Picture Show",
+      "date": "Sat Feb 13",
+      "localDate": "2027-02-13",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAA_ve",
       "artist": "Strangelove: The Depeche Mode Experience",
       "date": "Sat Feb 13",
@@ -3744,6 +3755,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "rZ7HnEZ1A4vEZd",
+      "artist": "Video Game Rave",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1AAvwQ_",
       "artist": "Chamber Music Series",
       "date": "Sun Feb 21",
@@ -3772,5 +3790,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 512
+  "eventCount": 514
 }
