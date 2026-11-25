@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-24T22:54:21.989Z",
+  "generatedAt": "2026-11-25T09:32:52.672Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,20 +36,20 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-24T22:54:21Z",
-      "endDateTime": "2027-02-22T22:54:21Z"
+      "startDateTime": "2026-11-25T09:32:52Z",
+      "endDateTime": "2027-02-23T09:32:52Z"
     },
-    "eventsConsidered": 514,
-    "eventsReported": 514,
+    "eventsConsidered": 513,
+    "eventsReported": 513,
     "truncated": false
   },
   "genres": [
     {
-      "name": "Other",
-      "count": 124
+      "name": "Rock",
+      "count": 126
     },
     {
-      "name": "Rock",
+      "name": "Other",
       "count": 124
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "name": "R&B",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Blues",
@@ -90,19 +90,19 @@
     },
     {
       "name": "Classical",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Jazz",
       "count": 8
     },
     {
-      "name": "Metal",
+      "name": "World",
       "count": 8
     },
     {
-      "name": "World",
-      "count": 8
+      "name": "Metal",
+      "count": 7
     },
     {
       "name": "New Age",
@@ -198,34 +198,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "rZ7HnEZ1AfaYPf",
-      "artist": "Psycroptic",
-      "date": "Tue Nov 24",
-      "localDate": "2026-11-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8WCEwy0",
-      "artist": "The Music of Hey Arnold",
-      "date": "Tue Nov 24",
-      "localDate": "2026-11-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8boYp-M",
-      "artist": "Steve Lacy",
-      "date": "Tue Nov 24",
-      "localDate": "2026-11-24",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfFE80",
-      "artist": "Karaoke Tuesday",
-      "date": "Tue Nov 24",
-      "localDate": "2026-11-24",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_CHogt-I",
       "artist": "DJ Raphi",
@@ -1099,7 +1071,7 @@
       "artist": "Lazer Dim 700",
       "date": "Mon Dec 7",
       "localDate": "2026-12-07",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_5mq0w7N",
@@ -1659,7 +1631,7 @@
       "artist": "Soos + benten",
       "date": "Tue Dec 15",
       "localDate": "2026-12-15",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_p1OY9B-",
@@ -3788,7 +3760,28 @@
       "date": "Sun Feb 21",
       "localDate": "2027-02-21",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Afuyv7",
+      "artist": "Cut Worms",
+      "date": "Mon Feb 22",
+      "localDate": "2027-02-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfC3af",
+      "artist": "Lady Radiator",
+      "date": "Mon Feb 22",
+      "localDate": "2027-02-22",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAA_vA",
+      "artist": "Uriah Heep",
+      "date": "Mon Feb 22",
+      "localDate": "2027-02-22",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 514
+  "eventCount": 513
 }
