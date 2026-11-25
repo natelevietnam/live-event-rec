@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-25T09:32:52.672Z",
+  "generatedAt": "2026-11-25T22:08:02.543Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-25T09:32:52Z",
-      "endDateTime": "2027-02-23T09:32:52Z"
+      "startDateTime": "2026-11-25T22:08:02Z",
+      "endDateTime": "2027-02-23T22:08:02Z"
     },
-    "eventsConsidered": 513,
-    "eventsReported": 513,
+    "eventsConsidered": 515,
+    "eventsReported": 515,
     "truncated": false
   },
   "genres": [
@@ -54,7 +54,7 @@
     },
     {
       "name": "Alternative",
-      "count": 52
+      "count": 53
     },
     {
       "name": "Dance/Electronic",
@@ -73,15 +73,15 @@
       "count": 18
     },
     {
+      "name": "Latin",
+      "count": 13
+    },
+    {
       "name": "Blues",
       "count": 12
     },
     {
       "name": "Folk",
-      "count": 12
-    },
-    {
-      "name": "Latin",
       "count": 12
     },
     {
@@ -159,7 +159,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Snoop Dogg. 26 days out. Oakland venue, Sunday.",
+      "reason": "Adjacent to Snoop Dogg. 25 days out. Oakland venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -182,7 +182,7 @@
           "at": "2026-11-24T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 26,
+          "daysUntilShow": 25,
           "imminent": false
         },
         "effort": {
@@ -304,13 +304,6 @@
       "reason": "no taste match"
     },
     {
-      "id": "Z7r9jZ1AAve8b",
-      "artist": "Amtrac",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
       "id": "G5vYZ_A0KFfCq",
       "artist": "Mariachi Vargas de Tecalitlán",
       "date": "Fri Nov 27",
@@ -341,6 +334,13 @@
     {
       "id": "rZ7HnEZ1AfC7f7",
       "artist": "Satori vs Cyb3r: Goth, Industrial, Darkwave, Cybergoth, Cyberpunk Dance Night",
+      "date": "Fri Nov 27",
+      "localDate": "2026-11-27",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAve8b",
+      "artist": "Amtrac",
       "date": "Fri Nov 27",
       "localDate": "2026-11-27",
       "reason": "no taste match"
@@ -1666,7 +1666,7 @@
       "artist": "rexv2 — Baby Houston Tour",
       "date": "Wed Dec 16",
       "localDate": "2026-12-16",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "G5vYZ_o9gbWzH",
@@ -1718,15 +1718,15 @@
       "reason": "no taste match"
     },
     {
-      "id": "G5vYZ_320sgVQ",
-      "artist": "Victoria Monét",
+      "id": "rZ7HnEZ1AfuErf",
+      "artist": "Ignite",
       "date": "Thu Dec 17",
       "localDate": "2026-12-17",
       "reason": "no taste match"
     },
     {
-      "id": "rZ7HnEZ1AfuErf",
-      "artist": "Ignite",
+      "id": "G5vYZ_320sgVQ",
+      "artist": "Victoria Monét",
       "date": "Thu Dec 17",
       "localDate": "2026-12-17",
       "reason": "no taste match"
@@ -1967,6 +1967,13 @@
       "artist": "A John Prine Christmas with The Jenner Fox Band",
       "date": "Sun Dec 20",
       "localDate": "2026-12-20",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1A4vEPS",
+      "artist": "Torpedo Wharf, Otoliths, Send for Help",
+      "date": "Tue Dec 22",
+      "localDate": "2026-12-22",
       "reason": "no taste match"
     },
     {
@@ -3713,6 +3720,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_9N0u-4p",
+      "artist": "Grupo Pesado",
+      "date": "Sat Feb 20",
+      "localDate": "2027-02-20",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afuw3f",
       "artist": "Powerplant",
       "date": "Sat Feb 20",
@@ -3783,5 +3797,5 @@
       "reason": "no taste match"
     }
   ],
-  "eventCount": 513
+  "eventCount": 515
 }
