@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-25T22:08:02.543Z",
+  "generatedAt": "2026-11-26T09:10:00.239Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,11 +36,11 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-25T22:08:02Z",
-      "endDateTime": "2027-02-23T22:08:02Z"
+      "startDateTime": "2026-11-26T09:10:00Z",
+      "endDateTime": "2027-02-24T09:10:00Z"
     },
-    "eventsConsidered": 515,
-    "eventsReported": 515,
+    "eventsConsidered": 514,
+    "eventsReported": 514,
     "truncated": false
   },
   "genres": [
@@ -50,11 +50,11 @@
     },
     {
       "name": "Other",
-      "count": 124
+      "count": 122
     },
     {
       "name": "Alternative",
-      "count": 53
+      "count": 54
     },
     {
       "name": "Dance/Electronic",
@@ -66,14 +66,14 @@
     },
     {
       "name": "Pop",
-      "count": 28
+      "count": 29
     },
     {
       "name": "R&B",
       "count": 18
     },
     {
-      "name": "Latin",
+      "name": "Folk",
       "count": 13
     },
     {
@@ -81,16 +81,12 @@
       "count": 12
     },
     {
-      "name": "Folk",
+      "name": "Latin",
       "count": 12
     },
     {
       "name": "Country",
       "count": 11
-    },
-    {
-      "name": "Classical",
-      "count": 8
     },
     {
       "name": "Jazz",
@@ -99,6 +95,10 @@
     {
       "name": "World",
       "count": 8
+    },
+    {
+      "name": "Classical",
+      "count": 7
     },
     {
       "name": "Metal",
@@ -111,10 +111,6 @@
     {
       "name": "Reggae",
       "count": 2
-    },
-    {
-      "name": "Children's Music",
-      "count": 1
     },
     {
       "name": "Music",
@@ -198,83 +194,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_CHogt-I",
-      "artist": "DJ Raphi",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1A7PUFI",
-      "artist": "The Wrecks",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfZw-0",
-      "artist": "Open Mic Night",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAvIxA",
-      "artist": "Irish Christmas in America",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_ol0Jepa",
-      "artist": "The Music of Hey Arnold",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGpbf",
-      "artist": "1 Umbrella",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Afud77",
-      "artist": "Ovrkast",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_8bK7kMe",
-      "artist": "Steve Lacy",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAe4Qv",
-      "artist": "Andre Nickatina",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_33P1hxM",
-      "artist": "Los Gemelos De Sinaloa",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AA7oPU",
-      "artist": "Andy C",
-      "date": "Wed Nov 25",
-      "localDate": "2026-11-25",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_C6rSSPp",
       "artist": "The Carpenters Songbook - A Live Celebration",
@@ -2418,6 +2337,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "G5vYZ_9E2gcAr",
+      "artist": "Crossroads - Eric Clapton Tribute Band",
+      "date": "Sat Jan 9",
+      "localDate": "2027-01-09",
+      "reason": "no taste match"
+    },
+    {
       "id": "Z7r9jZ1A7Px4s",
       "artist": "Home Again",
       "date": "Sat Jan 9",
@@ -2817,6 +2743,13 @@
       "reason": "no taste match"
     },
     {
+      "id": "Z7r9jZ1AA7b-k",
+      "artist": "Swimming Paul",
+      "date": "Fri Jan 22",
+      "localDate": "2027-01-22",
+      "reason": "no taste match"
+    },
+    {
       "id": "rZ7HnEZ1Afod87",
       "artist": "Dumb Nathan Fielder Rave",
       "date": "Fri Jan 22",
@@ -2896,6 +2829,13 @@
     {
       "id": "rZ7HnEZ1AfuM70",
       "artist": "44phantom",
+      "date": "Sat Jan 23",
+      "localDate": "2027-01-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAAF8d",
+      "artist": "Club 90s",
       "date": "Sat Jan 23",
       "localDate": "2027-01-23",
       "reason": "no taste match"
@@ -3795,7 +3735,56 @@
       "date": "Mon Feb 22",
       "localDate": "2027-02-22",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfCeO0",
+      "artist": "Starbenders",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfC7o7",
+      "artist": "Alt Bloom",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfoAu0",
+      "artist": "Amira Elfeky",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8Mxf",
+      "artist": "Westwood & pryme!",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_p524GIV",
+      "artist": "Trampled By Turtles",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_prqUMLW",
+      "artist": "Joyce Wrice",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfFEfV",
+      "artist": "Karaoke Tuesday",
+      "date": "Tue Feb 23",
+      "localDate": "2027-02-23",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 515
+  "eventCount": 514
 }
