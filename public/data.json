@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-27T09:25:36.882Z",
+  "generatedAt": "2026-11-27T21:48:26.817Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,8 +36,8 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-27T09:25:36Z",
-      "endDateTime": "2027-02-25T09:25:36Z"
+      "startDateTime": "2026-11-27T21:48:26Z",
+      "endDateTime": "2027-02-25T21:48:26Z"
     },
     "eventsConsidered": 518,
     "eventsReported": 518,
@@ -155,7 +155,7 @@
       "score": 54,
       "raw": 46,
       "scoredOutOf": 85,
-      "reason": "Adjacent to Snoop Dogg. 24 days out. Oakland venue, Sunday.",
+      "reason": "Adjacent to Snoop Dogg. 23 days out. Oakland venue, Sunday.",
       "urgent": false,
       "breakdown": {
         "taste": {
@@ -178,7 +178,7 @@
           "at": "2026-11-24T18:00:00.000Z",
           "presaleName": null,
           "daysUntilOnsale": 0,
-          "daysUntilShow": 24,
+          "daysUntilShow": 23,
           "imminent": false
         },
         "effort": {
@@ -213,7 +213,7 @@
       "artist": "Thoughts on Bowling",
       "date": "Fri Nov 27",
       "localDate": "2026-11-27",
-      "reason": "no taste match"
+      "reason": "cancelled"
     },
     {
       "id": "Z7r9jZ1AAe4Qe",
