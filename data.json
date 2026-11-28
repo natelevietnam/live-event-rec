@@ -1,6 +1,6 @@
 {
   "built": true,
-  "generatedAt": "2026-11-27T21:48:26.817Z",
+  "generatedAt": "2026-11-28T08:40:20.623Z",
   "horizonDays": 90,
   "weights": {
     "taste": {
@@ -36,21 +36,21 @@
     "name": "Ticketmaster Discovery API v2",
     "locality": "geoPoint=9q8y r=50mi",
     "window": {
-      "startDateTime": "2026-11-27T21:48:26Z",
-      "endDateTime": "2027-02-25T21:48:26Z"
+      "startDateTime": "2026-11-28T08:40:20Z",
+      "endDateTime": "2027-02-26T08:40:20Z"
     },
-    "eventsConsidered": 518,
-    "eventsReported": 518,
+    "eventsConsidered": 516,
+    "eventsReported": 516,
     "truncated": false
   },
   "genres": [
     {
       "name": "Rock",
-      "count": 126
+      "count": 127
     },
     {
       "name": "Other",
-      "count": 123
+      "count": 120
     },
     {
       "name": "Alternative",
@@ -61,12 +61,12 @@
       "count": 42
     },
     {
-      "name": "Hip-Hop/Rap",
+      "name": "Pop",
       "count": 32
     },
     {
-      "name": "Pop",
-      "count": 30
+      "name": "Hip-Hop/Rap",
+      "count": 31
     },
     {
       "name": "R&B",
@@ -81,11 +81,11 @@
       "count": 12
     },
     {
-      "name": "Latin",
-      "count": 12
+      "name": "Country",
+      "count": 11
     },
     {
-      "name": "Country",
+      "name": "Latin",
       "count": 11
     },
     {
@@ -194,83 +194,6 @@
     }
   ],
   "cut": [
-    {
-      "id": "G5vYZ_C6rSSPp",
-      "artist": "The Carpenters Songbook - A Live Celebration",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af8-Z0",
-      "artist": "FlipABeatClub Presents: WAV Forum 4th Fridays at Neck of the Woods SF",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4ZwfN",
-      "artist": "Thoughts on Bowling",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "cancelled"
-    },
-    {
-      "id": "Z7r9jZ1AAe4Qe",
-      "artist": "Emma Ruth Rundle",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "G5vYZ_A0KFfCq",
-      "artist": "Mariachi Vargas de Tecalitlán",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfGPqV",
-      "artist": "Wonderbread 5",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1A4vdbS",
-      "artist": "O'Flynn",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAZo-K",
-      "artist": "The English Beat",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1AfC7f7",
-      "artist": "Satori vs Cyb3r: Goth, Industrial, Darkwave, Cybergoth, Cyberpunk Dance Night",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "Z7r9jZ1AAve8b",
-      "artist": "Amtrac",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
-    {
-      "id": "rZ7HnEZ1Af04Pd",
-      "artist": "GEMS x 2000's Party! The Bay's Best Throwback Party w/ Nate Rioz + XJEEZY + Mattyagi & Patio Takeover: 4DHILA B2B Ms. Organic ",
-      "date": "Fri Nov 27",
-      "localDate": "2026-11-27",
-      "reason": "no taste match"
-    },
     {
       "id": "G5vYZ_aEOcK9c",
       "artist": "Journey",
@@ -3812,7 +3735,70 @@
       "date": "Wed Feb 24",
       "localDate": "2027-02-24",
       "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af8t_f",
+      "artist": "Fire From the Gods",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AA7p4J",
+      "artist": "San Francisco Symphony",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1Af1F07",
+      "artist": "Brooke Alexx",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfC9qV",
+      "artist": "Asaf Avidan",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "rZ7HnEZ1AfG0aV",
+      "artist": "Anna Shoemaker",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_pUhZl3H",
+      "artist": "Santana",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "Z7r9jZ1AAeZa7",
+      "artist": "Anna Shoemaker",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_Gf0ezoV",
+      "artist": "Sylvan Esso",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
+    },
+    {
+      "id": "G5vYZ_3EdAxnR",
+      "artist": "Spin Doctors",
+      "date": "Thu Feb 25",
+      "localDate": "2027-02-25",
+      "reason": "no taste match"
     }
   ],
-  "eventCount": 518
+  "eventCount": 516
 }
